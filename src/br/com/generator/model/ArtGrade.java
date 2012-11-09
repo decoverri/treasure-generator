@@ -1,0 +1,32 @@
+package br.com.generator.model;
+
+public class ArtGrade {
+
+	private int number;
+	private String description;
+	private Interval chanceInterval;
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public Interval getChanceInterval() {
+		return chanceInterval;
+	}
+
+	public void setChanceInterval(Interval chanceInterval) {
+		this.chanceInterval = chanceInterval;
+	}
+}
