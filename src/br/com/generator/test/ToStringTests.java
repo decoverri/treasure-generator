@@ -1,8 +1,10 @@
 package br.com.generator.test;
 
+import static br.com.generator.enums.Currency.PP;
 import br.com.generator.enums.Size;
 import br.com.generator.enums.SpecialMaterial;
 import br.com.generator.model.Armor;
+import br.com.generator.model.Money;
 
 public class ToStringTests {
 
@@ -20,5 +22,9 @@ public class ToStringTests {
 
 		armor.setSpecialMaterial(SpecialMaterial.ADAMANTINE);
 		System.out.println(armor);
+		
+		System.out.println(new Money());
+		System.out.println(new Money(42));
+		System.out.println(new Money(3, PP));
 	}
 }
