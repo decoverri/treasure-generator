@@ -1,10 +1,10 @@
-package br.com.generator.test;
+package tests;
 
-import static br.com.generator.enums.Currency.PP;
-import br.com.generator.enums.Size;
-import br.com.generator.enums.SpecialMaterial;
-import br.com.generator.model.Armor;
-import br.com.generator.model.Money;
+import static enums.Currency.PP;
+import model.Armor;
+import model.Coins;
+import enums.Size;
+import enums.SpecialMaterial;
 
 public class ToStringTests {
 
@@ -23,8 +23,8 @@ public class ToStringTests {
 		armor.setSpecialMaterial(SpecialMaterial.ADAMANTINE);
 		System.out.println(armor);
 		
-		System.out.println(new Money());
-		System.out.println(new Money(42));
-		System.out.println(new Money(3, PP));
+		System.out.println(new Coins());
+		System.out.println(new Coins(42));
+		System.out.println(new Coins(3, PP));
 	}
 }

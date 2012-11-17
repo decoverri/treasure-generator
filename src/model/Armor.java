@@ -1,9 +1,10 @@
-package br.com.generator.model;
+package model;
 
-import br.com.generator.enums.Size;
-import br.com.generator.enums.SpecialMaterial;
+import interfaces.Treasure;
+import enums.Size;
+import enums.SpecialMaterial;
 
-public class Armor {
+public class Armor implements Treasure {
 
 	private String nome;
 	private boolean masterwork;

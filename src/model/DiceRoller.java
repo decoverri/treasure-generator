@@ -1,23 +1,23 @@
-package br.com.generator.model;
+package model;
 
-import br.com.generator.interfaces.DiceGenerated;
+import interfaces.DiceGenerated;
 
 public class DiceRoller {
 
 	public int roll(DiceGenerated diceRoll) {
-		return roll(diceRoll.getNumberOfDice(), diceRoll.getBaseDice(), diceRoll.getBonus());
+		return roll(diceRoll.getBaseValue(), diceRoll.getNumberOfDice(), diceRoll.getBaseDice());
 	}
 
 	public int roll(int numberOfDice, Dice die) {
-		return roll(numberOfDice, die, 0);
+		return roll(0, numberOfDice, die);
 	}
 	
-	public int roll(int numberOfDice, Dice die, double bonus) {
+	public int roll(double baseValue, int numberOfDice, Dice die) {
 
 		int singleRoll;
 		int total = 0;
 
-		System.out.println("Rolando " + numberOfDice + die + (bonus == 0 ? "" : " + " + bonus));
+		System.out.println("Rolling " + numberOfDice + die + "...");
 
 		for (int i = 0; i < numberOfDice; i++) {
 			singleRoll = die.roll();
@@ -27,7 +27,7 @@ public class DiceRoller {
 		}
 		System.out.println("");
 
-		total += bonus;
+		total += baseValue;
 		
 		return total;
 	}

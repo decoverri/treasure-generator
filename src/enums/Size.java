@@ -1,4 +1,4 @@
-package br.com.generator.enums;
+package enums;
 
 public enum Size {
 

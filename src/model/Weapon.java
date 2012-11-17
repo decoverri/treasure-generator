@@ -1,9 +1,9 @@
-package br.com.generator.model;
+package model;
 
-import br.com.generator.enums.Size;
-import br.com.generator.enums.SpecialMaterial;
+import enums.Size;
+import enums.SpecialMaterial;
 
-public class Shield {
+public class Weapon {
 
 	private String nome;
 	private boolean masterwork;

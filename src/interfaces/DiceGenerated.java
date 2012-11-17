@@ -1,6 +1,6 @@
-package br.com.generator.interfaces;
+package interfaces;
 
-import br.com.generator.model.Dice;
+import model.Dice;
 
 public interface DiceGenerated {
 
@@ -8,6 +8,6 @@ public interface DiceGenerated {
 
 	public int getNumberOfDice();
 
-	public double getBonus();
+	public double getBaseValue();
 
 }

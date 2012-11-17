@@ -1,10 +1,10 @@
-package br.com.generator.model;
+package model;
 
-import br.com.generator.interfaces.DiceGenerated;
+import interfaces.DiceGenerated;
 
 public class GemValue implements DiceGenerated {
 
-	Money base;
+	Coins base;
 	int numberOfDice;
 	Dice die;
 
@@ -19,8 +19,8 @@ public class GemValue implements DiceGenerated {
 	}
 
 	@Override
-	public double getBonus() {
-		return base.getValue();
+	public double getBaseValue() {
+		return base.getAmount();
 	}
 
 }

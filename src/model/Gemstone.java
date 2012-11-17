@@ -1,6 +1,8 @@
-package br.com.generator.model;
+package model;
 
-public class Gemstone {
+import interfaces.Treasure;
+
+public class Gemstone implements Treasure {
 
 	private String name;
 	private GemGrade grade;

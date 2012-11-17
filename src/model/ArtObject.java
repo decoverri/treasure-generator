@@ -1,10 +1,12 @@
-package br.com.generator.model;
+package model;
 
-public class ArtObject {
+import interfaces.Treasure;
+
+public class ArtObject implements Treasure {
 
 	private String name;
 	private ArtGrade grade;
-	private Money price;
+	private Coins price;
 
 	public String getName() {
 		return name;
@@ -22,11 +24,11 @@ public class ArtObject {
 		this.grade = grade;
 	}
 
-	public Money getPrice() {
+	public Coins getPrice() {
 		return price;
 	}
 
-	public void setPrice(Money price) {
+	public void setPrice(Coins price) {
 		this.price = price;
 	}
 

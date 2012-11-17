@@ -1,4 +1,4 @@
-package br.com.generator.model;
+package model;
 
 public class GemGrade {
 
