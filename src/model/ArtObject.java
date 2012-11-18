@@ -32,4 +32,8 @@ public class ArtObject implements Treasure {
 		this.price = price;
 	}
 
+	@Override
+	public String toString() {
+		return name;
+	}
 }

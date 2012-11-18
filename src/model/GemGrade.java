@@ -30,4 +30,9 @@ public class GemGrade {
 		this.value = value;
 	}
 
+	@Override
+	public String toString() {
+		return "Grade " + number + " gem";
+	}
+	
 }

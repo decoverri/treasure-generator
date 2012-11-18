@@ -32,4 +32,8 @@ public class Gemstone implements Treasure {
 		this.chanceInterval = chanceInterval;
 	}
 
+	@Override
+	public String toString() {
+		return name;
+	}
 }

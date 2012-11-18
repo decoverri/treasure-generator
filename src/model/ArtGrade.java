@@ -29,4 +29,9 @@ public class ArtGrade {
 	public void setChanceInterval(Interval chanceInterval) {
 		this.chanceInterval = chanceInterval;
 	}
+
+	@Override
+	public String toString() {
+		return "Grade " + number + " art object";
+	}
 }
