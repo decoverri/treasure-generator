@@ -4,94 +4,61 @@ import static enums.Currency.CP;
 import static enums.Currency.GP;
 import static enums.Currency.PP;
 import static enums.Currency.SP;
-
 import interfaces.Treasure;
 import interfaces.TreasureType;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
+import org.hibernate.Session;
+import org.hibernate.util.HibernateUtil;
+
+import dao.CoinRewardDao;
+import enums.Currency;
 
 public class TreasureTypeA implements TreasureType {
 
+	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	
 	DiceRoller roller = new DiceRoller();
 
 	@Override
 	public List<Treasure> reward(int value) {
 
-		ArrayList<Treasure> treasures = new ArrayList<Treasure>();
-		TreasureTypeATable tables = new TreasureTypeATable();
-		HashMap<Integer, HashMap<String, Integer>> treasureTypeAMap = tables.getMap();
+		List<Treasure> treasures = new ArrayList<Treasure>();
 
-		HashMap<String, Integer> tableLine = treasureTypeAMap.get(value);
+		CoinRewardDao dao = new CoinRewardDao(session);
+		CoinReward coinReward = dao.findByValue(value);
 
-		int cpNumberOfDice = 0;
-		if (tableLine.containsKey("CPNumberOfDice")) {
-			cpNumberOfDice = tableLine.get("CPNumberOfDice");
+		if (coinReward.getCpNumberOfDice() != 0) {
+			Dice baseDice = new Dice(coinReward.getCpBaseDiceSize());
+			Coins copperPieces = generatePieces(CP, coinReward.getCpNumberOfDice(), baseDice, coinReward.getCpMultiplier());
+			treasures.add(copperPieces);
 		}
-		int CPBaseDice = tableLine.get("CPBaseDice");
-		int CPMultiplier = tableLine.get("CPMultiplier");
-
-		int SPNumberOfDice = tableLine.get("SPNumberOfDice");
-		int SPBaseDice = tableLine.get("SPBaseDice");
-		int SPMultiplier = tableLine.get("SPMultiplier");
-
-		int GPNumberOfDice = tableLine.get("GPNumberOfDice");
-		int GPBaseDice = tableLine.get("GPBaseDice");
-		int GPMultiplier = tableLine.get("GPMultiplier");
-
-		int PPNumberOfDice = tableLine.get("PPNumberOfDice");
-		int PPBaseDice = tableLine.get("PPBaseDice");
-		int PPMultiplier = tableLine.get("PPMultiplier");
-
-		if (cpNumberOfDice != 0) {
-			treasures.add(generateCopperPieces(cpNumberOfDice, new Dice(
-					CPBaseDice), CPMultiplier));
-
+		if (coinReward.getSpNumberOfDice() != 0) {
+			Dice baseDice = new Dice(coinReward.getSpBaseDiceSize());
+			Coins silverPieces = generatePieces(SP, coinReward.getSpNumberOfDice(), baseDice, coinReward.getSpMultiplier());
+			treasures.add(silverPieces);
 		}
-		if (SPNumberOfDice != 0) {
-			treasures.add(generateSilverPieces(SPNumberOfDice, new Dice(
-					SPBaseDice), SPMultiplier));
+		if (coinReward.getGpNumberOfDice() != 0) {
+			Dice baseDice = new Dice(coinReward.getGpBaseDiceSize());
+			Coins goldPieces = generatePieces(GP, coinReward.getGpNumberOfDice(), baseDice, coinReward.getGpMultiplier());
+			treasures.add(goldPieces);
 		}
-		if (GPNumberOfDice != 0) {
-			treasures.add(generateGoldPieces(GPNumberOfDice, new Dice(
-					GPBaseDice), GPMultiplier));
-		}
-		if (PPNumberOfDice != 0) {
-			treasures.add(generatePlatinumPieces(PPNumberOfDice, new Dice(
-					PPBaseDice), PPMultiplier));
+		if (coinReward.getPpNumberOfDice() != 0) {
+			Dice baseDice = new Dice(coinReward.getPpBaseDiceSize());
+			Coins platinumPieces = generatePieces(PP, coinReward.getPpNumberOfDice(), baseDice, coinReward.getPpMultiplier());
+			treasures.add(platinumPieces);
 		}
 
 		return treasures;
 	}
 
-	private Coins generateCopperPieces(int numberOfDice, Dice baseDice, int multiplier) {
-		System.out.println("-Generating copper pieces");
+	private Coins generatePieces(Currency currency, int numberOfDice, Dice baseDice, int multiplier) {
+		System.out.println("-Generating " + currency);
 		int result = roller.roll(numberOfDice, baseDice) * multiplier;
 		System.out.println("result: " + result + "\n");
-		return new Coins(result, CP);
-	}
-
-	private Coins generateSilverPieces(int numberOfDice, Dice baseDice, int multiplier) {
-		System.out.println("-Generating silver pieces");
-		int result = roller.roll(numberOfDice, baseDice) * multiplier;
-		System.out.println("result: " + result + "\n");
-		return new Coins(result, SP);
-	}
-
-	private Coins generateGoldPieces(int numberOfDice, Dice baseDice, int multiplier) {
-		System.out.println("-Generating gold pieces");
-		int result = roller.roll(numberOfDice, baseDice) * multiplier;
-		System.out.println("result: " + result + "\n");
-		return new Coins(result, GP);
-	}
-
-	private Coins generatePlatinumPieces(int numberOfDice, Dice baseDice, int multiplier) {
-		System.out.println("-Generating platinum pieces");
-		int result = roller.roll(numberOfDice, baseDice) * multiplier;
-		System.out.println("result: " + result + "\n");
-		return new Coins(result, PP);
+		return new Coins(result, currency);
 	}
 
 	@Override

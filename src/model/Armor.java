@@ -6,10 +6,28 @@ import enums.SpecialMaterial;
 
 public class Armor implements Treasure {
 
+	private long id;
+
 	private String nome;
+
 	private boolean masterwork;
+
+//	@Enumerated(EnumType.STRING)
 	private Size size;
+
 	private SpecialMaterial specialMaterial;
+
+	private int intervalMin;
+
+	private int intervalMax;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public String getNome() {
 		return nome;
@@ -41,6 +59,22 @@ public class Armor implements Treasure {
 
 	public void setSpecialMaterial(SpecialMaterial specialmaterial) {
 		this.specialMaterial = specialmaterial;
+	}
+
+	public int getIntervalMin() {
+		return intervalMin;
+	}
+
+	public void setIntervalMin(int intervalMin) {
+		this.intervalMin = intervalMin;
+	}
+
+	public int getIntervalMax() {
+		return intervalMax;
+	}
+
+	public void setIntervalMax(int intervalMax) {
+		this.intervalMax = intervalMax;
 	}
 
 	@Override

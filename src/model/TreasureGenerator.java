@@ -5,10 +5,9 @@ import interfaces.TreasureType;
 
 import java.util.List;
 
+public class TreasureGenerator {
 
-public class Generator {
-
-	public List<Treasure> genarate(TreasureType type, int value){
+	public List<Treasure> genarate(int value, TreasureType type) {
 
 		System.out.println("Generating " + value + "gp worth of " + type + " treasure:\n");
 		return type.reward(value);

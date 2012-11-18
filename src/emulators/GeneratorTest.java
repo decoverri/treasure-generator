@@ -1,10 +1,10 @@
-package tests;
+package emulators;
 
 import interfaces.Treasure;
 
 import java.util.List;
 
-import model.Generator;
+import model.TreasureGenerator;
 import model.TreasureTypeA;
 
 
@@ -12,9 +12,9 @@ public class GeneratorTest {
 
 	public static void main(String[] args) {
 		
-		Generator generator = new Generator();
+		TreasureGenerator generator = new TreasureGenerator();
 		
-		List<Treasure> treasures = generator.genarate(new TreasureTypeA(), 1);
+		List<Treasure> treasures = generator.genarate(1, new TreasureTypeA());
 		
 		System.out.println("Finished!\n");
 		System.out.println("Treasure List:");

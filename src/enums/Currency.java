@@ -2,8 +2,19 @@ package enums;
 
 public enum Currency {
 
-	CP,
-	SP,
-	GP,
-	PP;
+	CP("copper pieces"),
+	SP("silver pieces"),
+	GP("gold pieces"),
+	PP("platinum pieces");
+	
+	private final String name;
+
+	private Currency (String name){
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return name;
+	}
 }
