@@ -1,4 +1,4 @@
-package emulators;
+package simulators;
 
 import interfaces.Treasure;
 

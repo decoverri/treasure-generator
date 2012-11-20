@@ -1,4 +1,4 @@
-package emulators;
+package simulators;
 
 import static enums.Currency.PP;
 import model.Armor;

@@ -24,4 +24,5 @@ public class Interval {
 	public void setMaxValue(int maxValue) {
 		this.maxValue = maxValue;
 	}
+	
 }
