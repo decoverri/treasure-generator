@@ -2,10 +2,11 @@ package unit;
 
 import static org.junit.Assert.*;
 
-import model.Dice;
-import model.DiceRoller;
 
 import org.junit.Test;
+
+import br.com.metalgames.treasureGenerator.model.Dice;
+import br.com.metalgames.treasureGenerator.model.DiceRoller;
 
 
 public class DiceRollerTest {
