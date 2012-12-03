@@ -1,12 +1,18 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class CoinReward {
 
 	@Id
+	@GeneratedValue
+	private long id;
+	
+	@Column(unique=true)
 	private int value;
 
 	private int cpNumberOfDice;
@@ -24,6 +30,14 @@ public class CoinReward {
 	private int ppNumberOfDice;
 	private int ppBaseDiceSize;
 	private int ppMultiplier;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public int getValue() {
 		return value;

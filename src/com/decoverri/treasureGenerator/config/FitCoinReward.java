@@ -35,7 +35,10 @@ public class FitCoinReward {
 			coinReward.setPpMultiplier(scanner.nextInt());
 
 			CoinRewardDao dao = new CoinRewardDao(HibernateUtil.getSessionFactory().getCurrentSession());
-			dao.save(coinReward);
+			if (dao.findByValue(coinReward.getValue()) == null) {
+				dao = new CoinRewardDao(HibernateUtil.getSessionFactory().getCurrentSession());
+				dao.save(coinReward);
+			}
 
 		}
 

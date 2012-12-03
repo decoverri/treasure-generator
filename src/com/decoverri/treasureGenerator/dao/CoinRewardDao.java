@@ -1,5 +1,7 @@
 package com.decoverri.treasureGenerator.dao;
 
+import java.util.List;
+
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -23,17 +25,18 @@ public class CoinRewardDao {
 		transaction.commit();
 	}
 
-	public CoinReward findByValue(int value) {
+	@SuppressWarnings("unchecked")
+	public CoinReward findByValue(int value){
 		CoinReward reward = new CoinReward();
-		try {
-			transaction.begin();
-			Criteria criteria = session.createCriteria(CoinReward.class);
-			criteria.add(Restrictions.eq("value", value));
-			reward = (CoinReward) criteria.list().get(0);
-			transaction.commit();
-		} catch (IndexOutOfBoundsException e) {
-			System.out.println("Sorry, but this treasure type has no reward estimated for the required value\n");
+		transaction.begin();
+		Criteria criteria = session.createCriteria(CoinReward.class);
+		criteria.add(Restrictions.eq("value", value));
+		List<CoinReward> list = criteria.list();
+		transaction.commit();
+		if (list.isEmpty()) {
+			return null;
 		}
+		reward = list.get(0);
 		return reward;
 	}
 

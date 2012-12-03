@@ -32,7 +32,7 @@ public class TreasureTypeA implements TreasureType {
 
 		CoinRewardDao dao = new CoinRewardDao(session);
 		CoinReward coinReward = dao.findByValue(value);
-
+		
 		if (coinReward.getCpNumberOfDice() != 0) {
 			Dice baseDice = new Dice(coinReward.getCpBaseDiceSize());
 			Coins copperPieces = generatePieces(CP, coinReward.getCpNumberOfDice(), baseDice, coinReward.getCpMultiplier());
