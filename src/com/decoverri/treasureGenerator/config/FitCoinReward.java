@@ -4,14 +4,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
-
 import com.decoverri.treasureGenerator.dao.CoinRewardDao;
 import com.decoverri.treasureGenerator.model.CoinReward;
 
 public class FitCoinReward {
-
-	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
 	public void fitCoinReward() throws IOException {
 
@@ -38,7 +34,7 @@ public class FitCoinReward {
 			coinReward.setPpBaseDiceSize(scanner.nextInt());
 			coinReward.setPpMultiplier(scanner.nextInt());
 
-			CoinRewardDao dao = new CoinRewardDao(session);
+			CoinRewardDao dao = new CoinRewardDao(HibernateUtil.getSessionFactory().getCurrentSession());
 			dao.save(coinReward);
 
 		}

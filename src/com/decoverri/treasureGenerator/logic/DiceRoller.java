@@ -1,6 +1,7 @@
-package com.decoverri.treasureGenerator.model;
+package com.decoverri.treasureGenerator.logic;
 
 import com.decoverri.treasureGenerator.interfaces.DiceGenerated;
+import com.decoverri.treasureGenerator.model.Dice;
 
 public class DiceRoller {
 
@@ -17,7 +18,7 @@ public class DiceRoller {
 		int singleRoll;
 		int total = 0;
 
-		System.out.println("Rolling " + numberOfDice + die + "...");
+		System.out.println("Rolling " + numberOfDice + die);
 
 		for (int i = 0; i < numberOfDice; i++) {
 			singleRoll = die.roll();

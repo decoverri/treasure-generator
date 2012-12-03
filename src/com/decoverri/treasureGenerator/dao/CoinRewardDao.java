@@ -24,11 +24,16 @@ public class CoinRewardDao {
 	}
 
 	public CoinReward findByValue(int value) {
-		transaction.begin();
-		Criteria criteria = session.createCriteria(CoinReward.class);
-		criteria.add(Restrictions.eq("value", value));
-		CoinReward reward = (CoinReward) criteria.list().get(0);
-		transaction.commit();
+		CoinReward reward = new CoinReward();
+		try {
+			transaction.begin();
+			Criteria criteria = session.createCriteria(CoinReward.class);
+			criteria.add(Restrictions.eq("value", value));
+			reward = (CoinReward) criteria.list().get(0);
+			transaction.commit();
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("Sorry, but this treasure type has no reward estimated for the required value\n");
+		}
 		return reward;
 	}
 

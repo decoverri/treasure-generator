@@ -15,6 +15,7 @@ import com.decoverri.treasureGenerator.dao.CoinRewardDao;
 import com.decoverri.treasureGenerator.enums.Currency;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
+import com.decoverri.treasureGenerator.logic.DiceRoller;
 
 
 
@@ -57,7 +58,7 @@ public class TreasureTypeA implements TreasureType {
 	}
 
 	private Coins generatePieces(Currency currency, int numberOfDice, Dice baseDice, int multiplier) {
-		System.out.println("-Generating " + currency);
+		System.out.println("Generating " + currency);
 		int result = roller.roll(numberOfDice, baseDice) * multiplier;
 		System.out.println("result: " + result + "\n");
 		return new Coins(result, currency);

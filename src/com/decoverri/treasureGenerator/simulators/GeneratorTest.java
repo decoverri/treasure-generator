@@ -13,7 +13,7 @@ public class GeneratorTest {
 
 		TreasureGenerator generator = new TreasureGenerator();
 
-		List<Treasure> treasures = generator.genarate(1, new TreasureTypeA());
+		List<Treasure> treasures = generator.genarate(200, new TreasureTypeA());
 
 		System.out.println("Finished!\n");
 		System.out.println("Treasure List:");
