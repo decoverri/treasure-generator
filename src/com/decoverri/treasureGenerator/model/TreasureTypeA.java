@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.CoinRewardDao;
@@ -31,29 +32,15 @@ public class TreasureTypeA implements TreasureType {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
 		CoinRewardDao dao = new CoinRewardDao(session);
+		Transaction transaction = session.beginTransaction();
 		CoinReward coinReward = dao.findByValue(value);
 		
-		if (coinReward.getCpNumberOfDice() != 0) {
-			Dice baseDice = new Dice(coinReward.getCpBaseDiceSize());
-			Coins copperPieces = generatePieces(CP, coinReward.getCpNumberOfDice(), baseDice, coinReward.getCpMultiplier());
-			treasures.add(copperPieces);
-		}
-		if (coinReward.getSpNumberOfDice() != 0) {
-			Dice baseDice = new Dice(coinReward.getSpBaseDiceSize());
-			Coins silverPieces = generatePieces(SP, coinReward.getSpNumberOfDice(), baseDice, coinReward.getSpMultiplier());
-			treasures.add(silverPieces);
-		}
-		if (coinReward.getGpNumberOfDice() != 0) {
-			Dice baseDice = new Dice(coinReward.getGpBaseDiceSize());
-			Coins goldPieces = generatePieces(GP, coinReward.getGpNumberOfDice(), baseDice, coinReward.getGpMultiplier());
-			treasures.add(goldPieces);
-		}
-		if (coinReward.getPpNumberOfDice() != 0) {
-			Dice baseDice = new Dice(coinReward.getPpBaseDiceSize());
-			Coins platinumPieces = generatePieces(PP, coinReward.getPpNumberOfDice(), baseDice, coinReward.getPpMultiplier());
-			treasures.add(platinumPieces);
+		for (CoinGenerator coinGenerator : coinReward.getCoins()) {
+			Coins coins = generatePieces(coinGenerator.getCurrency(), coinGenerator.getNumberOfDice(), coinGenerator.getDice(), coinGenerator.getMultiplier());
+			treasures.add(coins);
 		}
 
+		transaction.commit();
 		return treasures;
 	}
 
