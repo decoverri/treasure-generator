@@ -4,20 +4,13 @@ import com.decoverri.treasureGenerator.interfaces.DiceGenerated;
 
 public class GemValue implements DiceGenerated {
 
-	Coins base;
-	int numberOfDice;
-	Dice die;
+	private Coins base;
+	private Dice dice;
 
 	@Override
-	public Dice getBaseDice() {
-		return die;
+	public Dice getDice() {
+		return dice;
 	}
-
-	@Override
-	public int getNumberOfDice() {
-		return numberOfDice;
-	}
-
 	@Override
 	public double getBaseValue() {
 		return base.getAmount();

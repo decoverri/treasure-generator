@@ -24,6 +24,12 @@ public class FitCoinReward {
 			CoinReward coinReward = new CoinReward();
 
 			coinReward.setValue(scanner.nextInt());
+			
+			int nextInt = scanner.nextInt();
+			if (nextInt == 0) {
+				continue;
+			}
+
 //
 //			coinReward.setCpNumberOfDice(scanner.nextInt());
 //			coinReward.setCpBaseDiceSize(scanner.nextInt());

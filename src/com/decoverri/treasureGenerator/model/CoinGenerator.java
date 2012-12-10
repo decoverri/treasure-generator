@@ -17,8 +17,6 @@ public class CoinGenerator {
 
 	private Dice dice;
 	
-	private int numberOfDice;
-	
 	private int multiplier;
 	
 	@Enumerated(EnumType.STRING)
@@ -38,14 +36,6 @@ public class CoinGenerator {
 
 	public void setDice(Dice dice) {
 		this.dice = dice;
-	}
-
-	public int getNumberOfDice() {
-		return numberOfDice;
-	}
-
-	public void setNumberOfDice(int numberOfDice) {
-		this.numberOfDice = numberOfDice;
 	}
 
 	public int getMultiplier() {

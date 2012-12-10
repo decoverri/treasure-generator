@@ -1,7 +1,6 @@
 package com.decoverri.treasureGenerator.enums;
 
 public enum Currency {
-
 	CP("copper pieces"),
 	SP("silver pieces"),
 	GP("gold pieces"),

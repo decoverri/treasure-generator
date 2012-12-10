@@ -4,9 +4,7 @@ import com.decoverri.treasureGenerator.model.Dice;
 
 public interface DiceGenerated {
 
-	public Dice getBaseDice();
-
-	public int getNumberOfDice();
+	public Dice getDice();
 
 	public double getBaseValue();
 
