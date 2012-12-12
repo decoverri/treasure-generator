@@ -8,7 +8,11 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.dao.CoinRewardDao;
+import com.decoverri.treasureGenerator.model.CoinGenerator;
 import com.decoverri.treasureGenerator.model.CoinReward;
+import com.decoverri.treasureGenerator.model.Dice;
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitCoinReward {
 
@@ -16,42 +20,18 @@ public class FitCoinReward {
 
 	public void fitCoinReward() throws IOException {
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/coinReward.txt"));
+		XStream xstream = new XStream(new JettisonMappedXmlDriver());
+		xstream.alias("CoinReward", CoinReward.class);
+		xstream.alias("coins", CoinGenerator.class);
+		xstream.alias("dice", Dice.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/coinRewardJson.txt"));
+		CoinReward coinReward = (CoinReward) xstream.fromXML(scanner.nextLine());
+
 		CoinRewardDao dao = new CoinRewardDao(session);
 		Transaction transaction = session.beginTransaction();
 
-		while (scanner.hasNextLine()) {
-			CoinReward coinReward = new CoinReward();
-
-			coinReward.setValue(scanner.nextInt());
-			
-			int nextInt = scanner.nextInt();
-			if (nextInt == 0) {
-				continue;
-			}
-
-//
-//			coinReward.setCpNumberOfDice(scanner.nextInt());
-//			coinReward.setCpBaseDiceSize(scanner.nextInt());
-//			coinReward.setCpMultiplier(scanner.nextInt());
-//
-//			coinReward.setSpNumberOfDice(scanner.nextInt());
-//			coinReward.setSpBaseDiceSize(scanner.nextInt());
-//			coinReward.setSpMultiplier(scanner.nextInt());
-//
-//			coinReward.setGpNumberOfDice(scanner.nextInt());
-//			coinReward.setGpBaseDiceSize(scanner.nextInt());
-//			coinReward.setGpMultiplier(scanner.nextInt());
-//
-//			coinReward.setPpNumberOfDice(scanner.nextInt());
-//			coinReward.setPpBaseDiceSize(scanner.nextInt());
-//			coinReward.setPpMultiplier(scanner.nextInt());
-
-			if (dao.findByValue(coinReward.getValue()) == null) {
-				dao.save(coinReward);
-			}
-
-		}
+		dao.save(coinReward);
 
 		transaction.commit();
 		scanner.close();

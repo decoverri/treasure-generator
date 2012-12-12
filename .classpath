@@ -22,5 +22,8 @@
 	<classpathentry kind="lib" path="build/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
 	<classpathentry kind="lib" path="build/lib/mysql-connector-java-5.1.22-bin.jar"/>
 	<classpathentry kind="lib" path="build/lib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="build/lib/xstream-1.4.3.jar"/>
+	<classpathentry kind="lib" path="build/lib/xstream-benchmark-1.4.3.jar"/>
+	<classpathentry kind="lib" path="build/lib/xstream-hibernate-1.4.3.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
