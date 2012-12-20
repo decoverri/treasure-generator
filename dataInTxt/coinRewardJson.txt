@@ -1,1 +1,1 @@
-{"CoinReward":{"value":"1","coins":[{"Dice":{"numberOfDice":"5","numberOfSides":"10"},"multiplier":"1","currency":"CP"},{"Dice":{"numberOfDice":"3","numberOfSides":"4"},"multiplier":"1","currency":"SP"}]}
+{"coinreward":{"value":1,"coins":{"coingenerator":[{"dice":{"numberOfDice":5,"numberOfSides":10},"multiplier":1,"currency":"CP"},{"dice":{"numberOfDice":"3","numberOfSides":"4"},"multiplier":1,"currency":"SP"}]}}}

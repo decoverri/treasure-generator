@@ -6,6 +6,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class CoinReward {
@@ -17,6 +18,7 @@ public class CoinReward {
 	@Column(unique = true)
 	private int value;
 
+	@OneToMany
 	private List<CoinGenerator> coins;
 
 	public long getId() {

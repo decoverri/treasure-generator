@@ -1,5 +1,6 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -15,6 +16,7 @@ public class CoinGenerator {
 	@GeneratedValue
 	private long id;
 
+	@Embedded
 	private Dice dice;
 	
 	private int multiplier;

@@ -25,5 +25,6 @@
 	<classpathentry kind="lib" path="build/lib/xstream-1.4.3.jar"/>
 	<classpathentry kind="lib" path="build/lib/xstream-benchmark-1.4.3.jar"/>
 	<classpathentry kind="lib" path="build/lib/xstream-hibernate-1.4.3.jar"/>
+	<classpathentry kind="lib" path="build/lib/jettison-1.0.1_1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

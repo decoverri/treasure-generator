@@ -15,6 +15,8 @@ public class HibernateUtil {
 	    Configuration cfg = new Configuration();
 	    
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CoinReward.class);
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CoinGenerator.class);
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Dice.class);
 	    
 	    cfg.configure();
 	    serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();        

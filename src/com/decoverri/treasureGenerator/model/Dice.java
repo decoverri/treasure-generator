@@ -1,11 +1,19 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Dice {
 
 	private int numberOfDice;
 
 	private int numberOfSides;
 
+	public Dice() {
+		this.numberOfDice = 1;
+		this.numberOfSides = 6;
+	}
+	
 	public Dice(int numberOfSides) {
 		this.numberOfDice = 1;
 		this.numberOfSides = numberOfSides;
