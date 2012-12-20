@@ -39,7 +39,7 @@ public class TreasureTypeA implements TreasureType {
 		
 		System.out.println("Generating " + currency);
 		int result = new DiceRoller().roll(dice) * multiplier;
-		System.out.println("result: " + result + "\n");
+		System.out.println("Result: " + result + "\n");
 		return new Coins(result, currency);
 	}
 

@@ -23,19 +23,24 @@ public class FitCoinReward {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("coinreward", CoinReward.class);
 		xstream.alias("coingenerator", CoinGenerator.class);
-		
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/coinRewardJson.txt"));
-		CoinReward coinReward = (CoinReward) xstream.fromXML(scanner.nextLine());
-		
-		CoinGeneratorDao generatorDao = new CoinGeneratorDao(session);
-		CoinRewardDao rewardDao = new CoinRewardDao(session);
 
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/coinRewardJson.txt"));
 		Transaction transaction = session.beginTransaction();
 
-		for (CoinGenerator coinGen : coinReward.getCoins()) {
-			generatorDao.save(coinGen);
+		while (scanner.hasNextLine()) {
+			CoinReward coinReward = (CoinReward) xstream.fromXML(scanner.nextLine());
+
+			CoinGeneratorDao generatorDao = new CoinGeneratorDao(session);
+			CoinRewardDao rewardDao = new CoinRewardDao(session);
+
+			if (rewardDao.findByValue(coinReward.getValue()) == null) {
+				for (CoinGenerator coinGen : coinReward.getCoins()) {
+					generatorDao.save(coinGen);
+				}
+				rewardDao.save(coinReward);
+			}
+
 		}
-		rewardDao.save(coinReward);
 
 		transaction.commit();
 		scanner.close();

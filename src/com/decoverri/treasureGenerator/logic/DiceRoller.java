@@ -9,6 +9,7 @@ public class DiceRoller {
 	private static final Random RANDOM = new Random();
 
 	public int roll(Dice dice) {
+		System.out.println("Rolling " + dice.getNumberOfDice() + "d" + dice.getNumberOfSides());
 		int singleRoll;
 		int result = 0;
 
