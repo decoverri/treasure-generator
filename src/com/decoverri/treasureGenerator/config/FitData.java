@@ -5,6 +5,6 @@ import java.io.IOException;
 public class FitData {
 
 	public static void main(String[] args) throws IOException {
-		new FitCoinReward().fitCoinReward();
+		new FitTreasureA().fitTreasureA();
 	}
 }

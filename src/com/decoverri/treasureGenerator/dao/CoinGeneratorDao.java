@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.CoinGenerator;
+import com.decoverri.treasureGenerator.model.CoinGeneratorData;
 
 public class CoinGeneratorDao {
 
@@ -12,7 +12,7 @@ public class CoinGeneratorDao {
 		this.session = session;
 	}
 
-	public void save(CoinGenerator coinGen) {
+	public void save(CoinGeneratorData coinGen) {
 		session.save(coinGen);
 	}
 
