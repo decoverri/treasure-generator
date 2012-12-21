@@ -22,7 +22,7 @@ public class BTreasureReward {
 	private List<CoinGeneratorData> coins;
 
 	@OneToMany
-	private List<Gemstone> gems;
+	private List<GemstoneGeneratorData> gems;
 
 	public long getId() {
 		return id;
@@ -48,11 +48,11 @@ public class BTreasureReward {
 		this.coins = coins;
 	}
 
-	public List<Gemstone> getGems() {
+	public List<GemstoneGeneratorData> getGems() {
 		return gems;
 	}
 
-	public void setGems(List<Gemstone> gems) {
+	public void setGems(List<GemstoneGeneratorData> gems) {
 		this.gems = gems;
 	}
 

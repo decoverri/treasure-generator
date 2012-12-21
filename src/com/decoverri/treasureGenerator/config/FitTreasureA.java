@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.decoverri.treasureGenerator.dao.CoinGeneratorDao;
+import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.ATreasureRewardDao;
 import com.decoverri.treasureGenerator.model.CoinGeneratorData;
 import com.decoverri.treasureGenerator.model.ATreasureReward;
@@ -18,19 +18,19 @@ public class FitTreasureA {
 
 	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
-	public void fitTreasureA() throws IOException {
+	public void fit() throws IOException {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("coinreward", ATreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/coinRewardJson.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/AtreasureReward.txt"));
 		Transaction transaction = session.beginTransaction();
 
 		while (scanner.hasNextLine()) {
 			ATreasureReward reward = (ATreasureReward) xstream.fromXML(scanner.nextLine());
 
-			CoinGeneratorDao generatorDao = new CoinGeneratorDao(session);
+			CoinGeneratorDataDao generatorDao = new CoinGeneratorDataDao(session);
 			ATreasureRewardDao rewardDao = new ATreasureRewardDao(session);
 
 			if (rewardDao.findByValue(reward.getValue()) == null) {

@@ -1,17 +1,20 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class GemGrade {
 
-	private int number;
+	private int grade;
 	private String description;
 	private GemValue value;
 
-	public int getNumber() {
-		return number;
+	public int getGrade() {
+		return grade;
 	}
 
-	public void setNumber(int number) {
-		this.number = number;
+	public void setGrade(int number) {
+		this.grade = number;
 	}
 
 	public String getDescription() {
@@ -32,7 +35,7 @@ public class GemGrade {
 
 	@Override
 	public String toString() {
-		return "Grade " + number + " gem";
+		return "Grade " + grade + " gem";
 	}
 	
 }

@@ -1,12 +1,34 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 public class Gemstone implements Treasure {
 
+	@Id
+	@GeneratedValue
+	private long id;
+
+	@Column(unique=true)
 	private String name;
+
+	@Embedded
 	private GemGrade grade;
+
+	@Embedded
 	private Interval chanceInterval;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public String getName() {
 		return name;
@@ -36,4 +58,5 @@ public class Gemstone implements Treasure {
 	public String toString() {
 		return name;
 	}
+
 }

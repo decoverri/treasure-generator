@@ -12,6 +12,7 @@ import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
 import com.decoverri.treasureGenerator.model.BTreasureReward;
 import com.decoverri.treasureGenerator.model.Coins;
+import com.decoverri.treasureGenerator.model.Gemstone;
 
 public class TreasureTypeB implements TreasureType {
 
@@ -25,12 +26,13 @@ public class TreasureTypeB implements TreasureType {
 		Transaction transaction = session.beginTransaction();
 		BTreasureReward treasureB = dao.findByValue(value);
 
-		CoinGenerator generator = new CoinGenerator();
-
-		List<Coins> coins = generator.generate(treasureB.getCoins());
+		CoinGenerator coinGenerator = new CoinGenerator();
+		List<Coins> coins = coinGenerator.generate(treasureB.getCoins());
 		treasures.addAll(coins);
 
-		//TODO: generate gems!
+		GemGenerator gemGenerator = new GemGenerator(session);
+		List<Gemstone> gems = gemGenerator.generate(treasureB.getGems());
+		treasures.addAll(gems);
 		
 		transaction.commit();
 		return treasures;

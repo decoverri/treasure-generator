@@ -22,14 +22,13 @@ public class ATreasureRewardDao {
 
 	@SuppressWarnings("unchecked")
 	public ATreasureReward findByValue(int value){
-		ATreasureReward reward = new ATreasureReward();
 		Criteria criteria = session.createCriteria(ATreasureReward.class);
 		criteria.add(Restrictions.eq("value", value));
 		List<ATreasureReward> list = criteria.list();
 		if (list.isEmpty()) {
 			return null;
 		}
-		reward = list.get(0);
+		ATreasureReward reward = list.get(0);
 		return reward;
 	}
 

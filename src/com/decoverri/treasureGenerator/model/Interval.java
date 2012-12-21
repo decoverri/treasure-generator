@@ -1,5 +1,8 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Interval {
 
 	private int minValue;
