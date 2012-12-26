@@ -19,16 +19,14 @@ public class TreasureTypeA implements TreasureType {
 
 	@Override
 	public List<Treasure> reward(int value) {
-
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
 		ATreasureRewardDao dao = new ATreasureRewardDao(session);
 		Transaction transaction = session.beginTransaction();
 		ATreasureReward treasureA = dao.findByValue(value);
 
-		CoinGenerator generator = new CoinGenerator();
-
-		List<Coins> coins = generator.generate(treasureA.getCoins());
+		CoinGenerator coinGenerator = new CoinGenerator();
+		List<Coins> coins = coinGenerator.generate(treasureA.getCoins());
 		treasures.addAll(coins);
 
 		transaction.commit();

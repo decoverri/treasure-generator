@@ -21,7 +21,9 @@ public class DiceRoller {
 
 		}
 		System.out.println("");
-		System.out.println("Sum: " + result);
+		if (dice.getNumberOfDice() > 1) {
+			System.out.println("Sum: " + result);
+		}
 		return result;
 
 	}

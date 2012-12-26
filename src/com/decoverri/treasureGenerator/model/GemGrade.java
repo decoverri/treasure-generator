@@ -1,16 +1,36 @@
 package com.decoverri.treasureGenerator.model;
 
-import javax.persistence.Embeddable;
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
-@Embeddable
+@Entity
 public class GemGrade {
 
+	@Id
+	@GeneratedValue
+	private long id;
+
+	@Column(unique = true)
 	private int grade;
+
 	private String description;
+
+	@Embedded
 	private GemValue value;
 
 	public int getGrade() {
 		return grade;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 
 	public void setGrade(int number) {
@@ -37,5 +57,5 @@ public class GemGrade {
 	public String toString() {
 		return "Grade " + grade + " gem";
 	}
-	
+
 }

@@ -9,9 +9,10 @@ import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.dao.BTreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.GemstoneGeneratorDataDao;
 import com.decoverri.treasureGenerator.model.BTreasureReward;
 import com.decoverri.treasureGenerator.model.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.Gemstone;
+import com.decoverri.treasureGenerator.model.GemstoneGeneratorData;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -24,23 +25,25 @@ public class FitTreasureB {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("coinreward", BTreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
-		xstream.alias("gem", Gemstone.class);
+		xstream.alias("gemgenerator", GemstoneGeneratorData.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/BtreasureReward.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/BTreasureReward.txt"));
 		Transaction transaction = session.beginTransaction();
 
 		while (scanner.hasNextLine()) {
 			BTreasureReward reward = (BTreasureReward) xstream.fromXML(scanner.nextLine());
 
-			CoinGeneratorDataDao generatorDao = new CoinGeneratorDataDao(session);
+			CoinGeneratorDataDao coinGenDao = new CoinGeneratorDataDao(session);
+			GemstoneGeneratorDataDao gemGenDao = new GemstoneGeneratorDataDao(session);
 			BTreasureRewardDao rewardDao = new BTreasureRewardDao(session);
 
-			if (rewardDao.findByValue(reward.getValue()) == null) {
-				for (CoinGeneratorData coinGen : reward.getCoins()) {
-					generatorDao.save(coinGen);
-				}
-				rewardDao.save(reward);
+			for (CoinGeneratorData coinGen : reward.getCoins()) {
+				coinGenDao.save(coinGen);
 			}
+			for (GemstoneGeneratorData gemGen : reward.getGems()) {
+				gemGenDao.save(gemGen);
+			}
+			rewardDao.save(reward);
 
 		}
 

@@ -2,7 +2,6 @@ package com.decoverri.treasureGenerator.model;
 
 import java.util.List;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -15,7 +14,6 @@ public class BTreasureReward {
 	@GeneratedValue
 	private long id;
 
-	@Column(unique = true)
 	private int value;
 
 	@OneToMany

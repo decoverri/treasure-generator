@@ -1,9 +1,26 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class GemstoneGeneratorData {
+
+	@Id
+	@GeneratedValue
+	private long id;
 
 	private int quantity;
 	private int grade;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public int getQuantity() {
 		return quantity;

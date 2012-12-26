@@ -15,8 +15,14 @@ public class HibernateUtil {
 	    Configuration cfg = new Configuration();
 	    
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ATreasureReward.class);
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.BTreasureReward.class);
+	    
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CoinGeneratorData.class);
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Dice.class);
+
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GemstoneGeneratorData.class);
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Gemstone.class);
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GemGrade.class);
 	    
 	    cfg.configure();
 	    serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();        

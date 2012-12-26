@@ -3,10 +3,10 @@ package com.decoverri.treasureGenerator.dao;
 import java.util.List;
 
 import org.hibernate.Criteria;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import com.decoverri.treasureGenerator.model.ATreasureReward;
 import com.decoverri.treasureGenerator.model.Gemstone;
 
 public class GemstoneDao {
@@ -27,11 +27,11 @@ public class GemstoneDao {
 
 	@SuppressWarnings("unchecked")
 	public Gemstone getGem(int grade, int roll) {
-		Criteria criteria = session.createCriteria(Gemstone.class);
-		criteria.add(Restrictions.eq("grade", grade));
-		criteria.add(Restrictions.ge("minValue", roll));
-		criteria.add(Restrictions.le("maxValue", roll));
-		List<Gemstone> list = criteria.list();
+		Query query = session.createQuery("select gs from Gemstone gs join gs.grade gg " +
+										  "where gg.grade = :grade and :roll >= gs.chanceInterval.bottomValue and :roll <= gs.chanceInterval.topValue")
+										  .setParameter("grade", grade)
+										  .setParameter("roll", roll);
+		List<Gemstone> list = query.list();
 		if (list.isEmpty()) {
 			return null;
 		}
@@ -43,7 +43,7 @@ public class GemstoneDao {
 	public boolean exists(String name) {
 		Criteria criteria = session.createCriteria(Gemstone.class);
 		criteria.add(Restrictions.eq("name", name));
-		List<ATreasureReward> list = criteria.list();
+		List<Gemstone> list = criteria.list();
 		if (list.isEmpty()) {
 			return false;
 		}

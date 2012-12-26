@@ -5,27 +5,27 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class Interval {
 
-	private int minValue;
-	private int maxValue;
+	private int bottomValue;
+	private int topValue;
 
 	public boolean contains(int number) {
-		return (number >= minValue && number <= maxValue);
+		return (number >= bottomValue && number <= topValue);
 	}
 
-	public int getMinValue() {
-		return minValue;
+	public int getBottomValue() {
+		return bottomValue;
 	}
 
-	public void setMinValue(int minValue) {
-		this.minValue = minValue;
+	public void setBottomValue(int minValue) {
+		this.bottomValue = minValue;
 	}
 
-	public int getMaxValue() {
-		return maxValue;
+	public int getTopValue() {
+		return topValue;
 	}
 
-	public void setMaxValue(int maxValue) {
-		this.maxValue = maxValue;
+	public void setTopValue(int maxValue) {
+		this.topValue = maxValue;
 	}
 	
 }

@@ -1,6 +1,7 @@
 package com.decoverri.treasureGenerator.dao;
 
 import java.util.List;
+import java.util.Random;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -29,7 +30,8 @@ public class BTreasureRewardDao {
 		if (list.isEmpty()) {
 			return null;
 		}
-		reward = list.get(0);
+		int choice = new Random().nextInt(list.size());
+		reward = list.get(choice);
 		return reward;
 	}
 

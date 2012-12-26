@@ -2,10 +2,12 @@ package com.decoverri.treasureGenerator.model;
 
 import static com.decoverri.treasureGenerator.enums.Currency.GP;
 
+import javax.persistence.Embeddable;
+
 import com.decoverri.treasureGenerator.enums.Currency;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 
-
+@Embeddable
 public class Coins implements Treasure {
 
 	private double amount;

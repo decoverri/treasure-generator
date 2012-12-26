@@ -24,7 +24,7 @@ public class FitTreasureA {
 		xstream.alias("coinreward", ATreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/AtreasureReward.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/ATreasureReward.txt"));
 		Transaction transaction = session.beginTransaction();
 
 		while (scanner.hasNextLine()) {

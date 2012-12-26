@@ -10,14 +10,14 @@ public class GeneratorTest {
 
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 
-		int worth = 500;
-		String tipo = "TreasureTypeA";
+		int worth = 50000;
+		String type = "TreasureTypeB";
 
-		String tipoCompleto = "com.decoverri.treasureGenerator.logic." + tipo;
+		String fullType = "com.decoverri.treasureGenerator.logic." + type;
 
 		TreasureGenerator generator = new TreasureGenerator();
 
-		List<Treasure> treasures = generator.genarate(worth, (TreasureType) Class.forName(tipoCompleto).newInstance());
+		List<Treasure> treasures = generator.genarate(worth, (TreasureType) Class.forName(fullType).newInstance());
 
 		System.out.println("Finished!\n");
 		System.out.println("Treasure List:");
