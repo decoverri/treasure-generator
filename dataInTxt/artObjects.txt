@@ -1,0 +1,130 @@
+{"art":{"name":"Bronze statuette of a warrior","grade":1,"price":15,"chanceInterval":{"bottomValue":1,"topValue":5}}}
+{"art":{"name":"Elaborate copper wind chimes","grade":1,"price":20,"chanceInterval":{"bottomValue":6,"topValue":6}}}
+{"art":{"name":"Painted paper fan with silver slats","grade":1,"price":20,"chanceInterval":{"bottomValue":7,"topValue":7}}}
+{"art":{"name":"Copper and glass decanter","grade":1,"price":25,"chanceInterval":{"bottomValue":8,"topValue":9}}}
+{"art":{"name":"Silver holy symbol","grade":1,"price":25,"chanceInterval":{"bottomValue":10,"topValue":17}}}
+{"art":{"name":"Carved stone idol","grade":1,"price":30,"chanceInterval":{"bottomValue":18,"topValue":21}}}
+{"art":{"name":"Set of six ivory dice","grade":1,"price":30,"chanceInterval":{"bottomValue":22,"topValue":25}}}
+{"art":{"name":"Ivory bowl with animal carvings","grade":1,"price":40,"chanceInterval":{"bottomValue":26,"topValue":29}}}
+{"art":{"name":"Porcelain doll with silk clothing","grade":1,"price":40,"chanceInterval":{"bottomValue":30,"topValue":30}}}
+{"art":{"name":"Porcelain mask","grade":1,"price":40,"chanceInterval":{"bottomValue":31,"topValue":32}}}
+{"art":{"name":"Bronze flagon with warrior images","grade":1,"price":50,"chanceInterval":{"bottomValue":33,"topValue":36}}}
+{"art":{"name":"Copper brazier with religious markings","grade":1,"price":50,"chanceInterval":{"bottomValue":37,"topValue":39}}}
+{"art":{"name":"Copper scepter with gold inlay","grade":1,"price":50,"chanceInterval":{"bottomValue":40,"topValue":42}}}
+{"art":{"name":"Crystal egg with silver stand","grade":1,"price":50,"chanceInterval":{"bottomValue":43,"topValue":44}}}
+{"art":{"name":"Painting of a noblewoman","grade":1,"price":50,"chanceInterval":{"bottomValue":45,"topValue":46}}}
+{"art":{"name":"Polished darkwood chalice","grade":1,"price":50,"chanceInterval":{"bottomValue":47,"topValue":51}}}
+{"art":{"name":"Silver baby rattle","grade":1,"price":50,"chanceInterval":{"bottomValue":52,"topValue":52}}}
+{"art":{"name":"Silver chess set","grade":1,"price":50,"chanceInterval":{"bottomValue":53,"topValue":55}}}
+{"art":{"name":"Carved ivory scroll case","grade":1,"price":60,"chanceInterval":{"bottomValue":56,"topValue":60}}}
+{"art":{"name":"Decorated silver plate","grade":1,"price":60,"chanceInterval":{"bottomValue":61,"topValue":66}}}
+{"art":{"name":"Ivory drinking horn with copper ends","grade":1,"price":60,"chanceInterval":{"bottomValue":67,"topValue":71}}}
+{"art":{"name":"Silver noble family seal","grade":1,"price":60,"chanceInterval":{"bottomValue":72,"topValue":74}}}
+{"art":{"name":"Silver statue of a dragon","grade":1,"price":65,"chanceInterval":{"bottomValue":75,"topValue":80}}}
+{"art":{"name":"Electrum censer with silver filigree","grade":1,"price":70,"chanceInterval":{"bottomValue":81,"topValue":83}}}
+{"art":{"name":"Silver candelabra with holy symbol","grade":1,"price":75,"chanceInterval":{"bottomValue":84,"topValue":87}}}
+{"art":{"name":"Silver comb with ornate handle","grade":1,"price":75,"chanceInterval":{"bottomValue":88,"topValue":90}}}
+{"art":{"name":"Silver hand mirror","grade":1,"price":75,"chanceInterval":{"bottomValue":91,"topValue":93}}}
+{"art":{"name":"Crystal skull","grade":1,"price":80,"chanceInterval":{"bottomValue":94,"topValue":96}}}
+{"art":{"name":"Ornate silver flute","grade":1,"price":80,"chanceInterval":{"bottomValue":97,"topValue":97}}}
+{"art":{"name":"Engraved jade scarab","grade":1,"price":85,"chanceInterval":{"bottomValue":98,"topValue":100}}}
+{"art":{"name":"Elaborate silver wind chimes","grade":2,"price":60,"chanceInterval":{"bottomValue":1,"topValue":2}}}
+{"art":{"name":"Engraved gold scarab","grade":2,"price":75,"chanceInterval":{"bottomValue":3,"topValue":8}}}
+{"art":{"name":"Painted silk fan with electrum slats","grade":2,"price":75,"chanceInterval":{"bottomValue":9,"topValue":10}}}
+{"art":{"name":"Preserved beast head on a plaque","grade":2,"price":75,"chanceInterval":{"bottomValue":11,"topValue":12}}}
+{"art":{"name":"Set of six silver dice","grade":2,"price":75,"chanceInterval":{"bottomValue":13,"topValue":17}}}
+{"art":{"name":"Silver and glass decanter","grade":2,"price":75,"chanceInterval":{"bottomValue":18,"topValue":20}}}
+{"art":{"name":"Silver bowl with lion engravings","grade":2,"price":75,"chanceInterval":{"bottomValue":21,"topValue":22}}}
+{"art":{"name":"Silver mask","grade":2,"price":75,"chanceInterval":{"bottomValue":23,"topValue":26}}}
+{"art":{"name":"Carved jade idol","grade":2,"price":80,"chanceInterval":{"bottomValue":27,"topValue":30}}}
+{"art":{"name":"Porcelain doll with furs and jewelry","grade":2,"price":80,"chanceInterval":{"bottomValue":31,"topValue":31}}}
+{"art":{"name":"Silver brazier with religious markings","grade":2,"price":80,"chanceInterval":{"bottomValue":32,"topValue":35}}}
+{"art":{"name":"Silver flagon with religious markings","grade":2,"price":80,"chanceInterval":{"bottomValue":36,"topValue":38}}}
+{"art":{"name":"Gold censer with silver filigree","grade":2,"price":90,"chanceInterval":{"bottomValue":39,"topValue":41}}}
+{"art":{"name":"Gold and silver chess set","grade":2,"price":100,"chanceInterval":{"bottomValue":42,"topValue":44}}}
+{"art":{"name":"Gold baby rattle","grade":2,"price":100,"chanceInterval":{"bottomValue":45,"topValue":45}}}
+{"art":{"name":"Gold holy symbol","grade":2,"price":100,"chanceInterval":{"bottomValue":46,"topValue":53}}}
+{"art":{"name":"Masterwork lyre","grade":2,"price":100,"chanceInterval":{"bottomValue":54,"topValue":56}}}
+{"art":{"name":"Painting of a princess","grade":2,"price":100,"chanceInterval":{"bottomValue":57,"topValue":58}}}
+{"art":{"name":"Silver cup with royal crest","grade":2,"price":100,"chanceInterval":{"bottomValue":59,"topValue":61}}}
+{"art":{"name":"Decorated electrum plate","grade":2,"price":110,"chanceInterval":{"bottomValue":62,"topValue":65}}}
+{"art":{"name":"Gold statue of a dragon","grade":2,"price":110,"chanceInterval":{"bottomValue":66,"topValue":69}}}
+{"art":{"name":"Gold statue of a lion","grade":2,"price":110,"chanceInterval":{"bottomValue":70,"topValue":72}}}
+{"art":{"name":"Ivory drinking horn with silver ends","grade":2,"price":110,"chanceInterval":{"bottomValue":73,"topValue":77}}}
+{"art":{"name":"Gold and silver hand mirror","grade":2,"price":120,"chanceInterval":{"bottomValue":78,"topValue":81}}}
+{"art":{"name":"Silver cauldron with animal symbols","grade":2,"price":120,"chanceInterval":{"bottomValue":82,"topValue":85}}}
+{"art":{"name":"Silver comb with gold handle","grade":2,"price":125,"chanceInterval":{"bottomValue":86,"topValue":88}}}
+{"art":{"name":"Silver egg with dragon figurine","grade":2,"price":125,"chanceInterval":{"bottomValue":89,"topValue":90}}}
+{"art":{"name":"Silver scepter with eagle symbols","grade":2,"price":125,"chanceInterval":{"bottomValue":91,"topValue":92}}}
+{"art":{"name":"Silver chalice with dragon carvings","grade":2,"price":150,"chanceInterval":{"bottomValue":93,"topValue":97}}}
+{"art":{"name":"Gold candelabra with holy symbol","grade":2,"price":200,"chanceInterval":{"bottomValue":98,"topValue":100}}}
+{"art":{"name":"Gilded demon skull","grade":3,"price":300,"chanceInterval":{"bottomValue":1,"topValue":3}}}
+{"art":{"name":"Marble idol","grade":3,"price":300,"chanceInterval":{"bottomValue":4,"topValue":13}}}
+{"art":{"name":"Masterwork darkwood lute","grade":3,"price":300,"chanceInterval":{"bottomValue":14,"topValue":19}}}
+{"art":{"name":"Engraved mithral scarab","grade":3,"price":400,"chanceInterval":{"bottomValue":20,"topValue":24}}}
+{"art":{"name":"Gold and ivory decanter","grade":3,"price":400,"chanceInterval":{"bottomValue":25,"topValue":28}}}
+{"art":{"name":"Gold bowl with dragon engravings","grade":3,"price":400,"chanceInterval":{"bottomValue":29,"topValue":32}}}
+{"art":{"name":"Gold censer with platinum inlay","grade":3,"price":400,"chanceInterval":{"bottomValue":33,"topValue":35}}}
+{"art":{"name":"Gold mask","grade":3,"price":450,"chanceInterval":{"bottomValue":36,"topValue":41}}}
+{"art":{"name":"Gold and mithral baby rattle","grade":3,"price":500,"chanceInterval":{"bottomValue":42,"topValue":42}}}
+{"art":{"name":"Gold chess set","grade":3,"price":500,"chanceInterval":{"bottomValue":43,"topValue":48}}}
+{"art":{"name":"Gold flagon with religious markings","grade":3,"price":500,"chanceInterval":{"bottomValue":49,"topValue":51}}}
+{"art":{"name":"Gold puzzle box","grade":3,"price":500,"chanceInterval":{"bottomValue":52,"topValue":56}}}
+{"art":{"name":"Platinum holy symbol","grade":3,"price":500,"chanceInterval":{"bottomValue":57,"topValue":65}}}
+{"art":{"name":"Gold cup with royal crest","grade":3,"price":550,"chanceInterval":{"bottomValue":66,"topValue":69}}}
+{"art":{"name":"Gold chalice with griffon carvings","grade":3,"price":600,"chanceInterval":{"bottomValue":70,"topValue":77}}}
+{"art":{"name":"Mithral scepter with gold inlay","grade":3,"price":600,"chanceInterval":{"bottomValue":78,"topValue":81}}}
+{"art":{"name":"Decorated gold plate","grade":3,"price":700,"chanceInterval":{"bottomValue":82,"topValue":88}}}
+{"art":{"name":"Gold and platinum statuette of a deity","grade":3,"price":750,"chanceInterval":{"bottomValue":89,"topValue":93}}}
+{"art":{"name":"Gold cauldron with alchemical symbols","grade":3,"price":750,"chanceInterval":{"bottomValue":94,"topValue":96}}}
+{"art":{"name":"Painting of a queen","grade":3,"price":750,"chanceInterval":{"bottomValue":97,"topValue":100}}}
+{"art":{"name":"Engraved platinum scarab","grade":4,"price":700,"chanceInterval":{"bottomValue":1,"topValue":5}}}
+{"art":{"name":"Gilded dragon skull","grade":4,"price":800,"chanceInterval":{"bottomValue":6,"topValue":11}}}
+{"art":{"name":"Platinum bowl with arcane engravings","grade":4,"price":800,"chanceInterval":{"bottomValue":12,"topValue":18}}}
+{"art":{"name":"Platinum censer with ornate markings","grade":4,"price":800,"chanceInterval":{"bottomValue":19,"topValue":22}}}
+{"art":{"name":"Gold decanter with grape vine patterns","grade":4,"price":850,"chanceInterval":{"bottomValue":23,"topValue":26}}}
+{"art":{"name":"Platinum mask","grade":4,"price":900,"chanceInterval":{"bottomValue":27,"topValue":31}}}
+{"art":{"name":"Gold and mithral chess set","grade":4,"price":1000,"chanceInterval":{"bottomValue":32,"topValue":36}}}
+{"art":{"name":"Gold and platinum orrery","grade":4,"price":1000,"chanceInterval":{"bottomValue":37,"topValue":41}}}
+{"art":{"name":"Gold flute","grade":4,"price":1000,"chanceInterval":{"bottomValue":42,"topValue":46}}}
+{"art":{"name":"Gold idol with strange carvings","grade":4,"price":1000,"chanceInterval":{"bottomValue":47,"topValue":51}}}
+{"art":{"name":"Platinum baby rattle","grade":4,"price":1000,"chanceInterval":{"bottomValue":52,"topValue":52}}}
+{"art":{"name":"Platinum holy symbol of a famous priest","grade":4,"price":1000,"chanceInterval":{"bottomValue":53,"topValue":55}}}
+{"art":{"name":"Decorated platinum plate","grade":4,"price":1100,"chanceInterval":{"bottomValue":56,"topValue":64}}}
+{"art":{"name":"Platinum cauldron with odd symbols","grade":4,"price":1100,"chanceInterval":{"bottomValue":65,"topValue":68}}}
+{"art":{"name":"Platinum flagon with religious markings","grade":4,"price":1100,"chanceInterval":{"bottomValue":69,"topValue":71}}}
+{"art":{"name":"Platinum cup with royal crest","grade":4,"price":1200,"chanceInterval":{"bottomValue":72,"topValue":77}}}
+{"art":{"name":"Platinum scepter with gold inlay","grade":4,"price":1200,"chanceInterval":{"bottomValue":78,"topValue":81}}}
+{"art":{"name":"Platinum chalice with angel carvings","grade":4,"price":1250,"chanceInterval":{"bottomValue":82,"topValue":87}}}
+{"art":{"name":"Platinum statuette of a deity","grade":4,"price":1300,"chanceInterval":{"bottomValue":88,"topValue":93}}}
+{"art":{"name":"Painting of a queen by a master","grade":4,"price":1500,"chanceInterval":{"bottomValue":94,"topValue":100}}}
+{"art":{"name":"Book of lost songs by a famous bard","grade":5,"price":3000,"chanceInterval":{"bottomValue":1,"topValue":8}}}
+{"art":{"name":"Darkwood and platinum music box","grade":5,"price":4000,"chanceInterval":{"bottomValue":9,"topValue":16}}}
+{"art":{"name":"Mithral hourglass with diamond dust","grade":5,"price":4000,"chanceInterval":{"bottomValue":17,"topValue":26}}}
+{"art":{"name":"Jeweled egg with epic sorcerer’s blood","grade":5,"price":4500,"chanceInterval":{"bottomValue":27,"topValue":34}}}
+{"art":{"name":"Gold urn containing hero’s ashes","grade":5,"price":5000,"chanceInterval":{"bottomValue":35,"topValue":37}}}
+{"art":{"name":"Helm carved from a pit fiend skull","grade":5,"price":5000,"chanceInterval":{"bottomValue":38,"topValue":45}}}
+{"art":{"name":"Holy text penned by a saint","grade":5,"price":5000,"chanceInterval":{"bottomValue":46,"topValue":55}}}
+{"art":{"name":"Painting of a beloved queen by a master","grade":5,"price":5000,"chanceInterval":{"bottomValue":56,"topValue":65}}}
+{"art":{"name":"Platinum idol with mysterious markings","grade":5,"price":5000,"chanceInterval":{"bottomValue":66,"topValue":74}}}
+{"art":{"name":"Bejeweled sword of state","grade":5,"price":6000,"chanceInterval":{"bottomValue":75,"topValue":77}}}
+{"art":{"name":"Carved saint’s femur","grade":5,"price":6000,"chanceInterval":{"bottomValue":78,"topValue":83}}}
+{"art":{"name":"Platinum chalice blessed by a saint","grade":5,"price":6000,"chanceInterval":{"bottomValue":84,"topValue":88}}}
+{"art":{"name":"Glowing metallic meteor","grade":5,"price":6500,"chanceInterval":{"bottomValue":89,"topValue":91}}}
+{"art":{"name":"Gold bejeweled royal orb","grade":5,"price":7000,"chanceInterval":{"bottomValue":92,"topValue":97}}}
+{"art":{"name":"Crystallized dragon heart","grade":5,"price":7500,"chanceInterval":{"bottomValue":98,"topValue":100}}}
+{"art":{"name":"Frozen vampire soul","grade":6,"price":7000,"chanceInterval":{"bottomValue":1,"topValue":6}}}
+{"art":{"name":"Mithral-inlaid unicorn horn","grade":6,"price":7000,"chanceInterval":{"bottomValue":7,"topValue":13}}}
+{"art":{"name":"Crystallized god breath","grade":6,"price":10000,"chanceInterval":{"bottomValue":14,"topValue":16}}}
+{"art":{"name":"Essence of truth","grade":6,"price":10000,"chanceInterval":{"bottomValue":17,"topValue":22}}}
+{"art":{"name":"Globe of pristine air","grade":6,"price":10000,"chanceInterval":{"bottomValue":23,"topValue":31}}}
+{"art":{"name":"Heart of the mountain","grade":6,"price":10000,"chanceInterval":{"bottomValue":32,"topValue":40}}}
+{"art":{"name":"Inverted soul gem","grade":6,"price":10000,"chanceInterval":{"bottomValue":41,"topValue":46}}}
+{"art":{"name":"Orb of living water","grade":6,"price":10000,"chanceInterval":{"bottomValue":47,"topValue":55}}}
+{"art":{"name":"Shard of pure fire","grade":6,"price":10000,"chanceInterval":{"bottomValue":56,"topValue":64}}}
+{"art":{"name":"Unmelting ice","grade":6,"price":10000,"chanceInterval":{"bottomValue":65,"topValue":72}}}
+{"art":{"name":"Time jewel","grade":6,"price":11000,"chanceInterval":{"bottomValue":73,"topValue":79}}}
+{"art":{"name":"Adamantine poiuyt","grade":6,"price":12000,"chanceInterval":{"bottomValue":80,"topValue":83}}}
+{"art":{"name":"Holy text written in saint’s blood","grade":6,"price":12000,"chanceInterval":{"bottomValue":84,"topValue":89}}}
+{"art":{"name":"Mithral tribar","grade":6,"price":12000,"chanceInterval":{"bottomValue":90,"topValue":93}}}
+{"art":{"name":"Ethereal tapestry","grade":6,"price":13000,"chanceInterval":{"bottomValue":94,"topValue":100}}}

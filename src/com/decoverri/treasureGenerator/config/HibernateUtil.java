@@ -23,7 +23,9 @@ public class HibernateUtil {
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GemstoneGeneratorData.class);
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Gemstone.class);
 	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GemGrade.class);
-	    
+
+	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ArtObject.class);
+
 	    cfg.configure();
 	    serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();        
 	    sessionFactory = cfg.buildSessionFactory(serviceRegistry);

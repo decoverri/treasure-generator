@@ -7,6 +7,7 @@ public class FitData {
 	public static void main(String[] args) throws IOException {
 
 		new FitGems().fit();
+		new FitArtObjects().fit();
 		
 		new FitTreasureA().fit();
 		new FitTreasureB().fit();
