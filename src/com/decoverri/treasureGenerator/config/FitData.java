@@ -8,6 +8,7 @@ public class FitData {
 
 		new FitGems().fit();
 		new FitArtObjects().fit();
+		new FitPotions().fit();
 		
 		new FitTreasureA().fit();
 		new FitTreasureB().fit();
