@@ -1,0 +1,15 @@
+{"potionlevel":{"spellLevel":0,"strength":"LESSER_MINOR","interval":{"bottomValue":0,"topValue":40}}}
+{"potionlevel":{"spellLevel":1,"strength":"LESSER_MINOR","interval":{"bottomValue":41,"topValue":100}}}
+{"potionlevel":{"spellLevel":0,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":10}}}
+{"potionlevel":{"spellLevel":1,"strength":"GREATER_MINOR","interval":{"bottomValue":11,"topValue":60}}}
+{"potionlevel":{"spellLevel":2,"strength":"GREATER_MINOR","interval":{"bottomValue":61,"topValue":100}}}
+{"potionlevel":{"spellLevel":1,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":25}}}
+{"potionlevel":{"spellLevel":2,"strength":"LESSER_MEDIUM","interval":{"bottomValue":26,"topValue":85}}}
+{"potionlevel":{"spellLevel":3,"strength":"LESSER_MEDIUM","interval":{"bottomValue":86,"topValue":100}}}
+{"potionlevel":{"spellLevel":1,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":10}}}
+{"potionlevel":{"spellLevel":2,"strength":"GREATER_MEDIUM","interval":{"bottomValue":11,"topValue":50}}}
+{"potionlevel":{"spellLevel":3,"strength":"GREATER_MEDIUM","interval":{"bottomValue":51,"topValue":100}}}
+{"potionlevel":{"spellLevel":2,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":35}}}
+{"potionlevel":{"spellLevel":3,"strength":"LESSER_MAJOR","interval":{"bottomValue":36,"topValue":100}}}
+{"potionlevel":{"spellLevel":2,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":10}}}
+{"potionlevel":{"spellLevel":3,"strength":"GREATER_MAJOR","interval":{"bottomValue":11,"topValue":100}}}

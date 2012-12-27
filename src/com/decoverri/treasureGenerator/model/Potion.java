@@ -19,7 +19,7 @@ public class Potion {
 	private String spell;
 	private int spellLevel;
 	private int casterLevel;
-	private double preco;
+	private double price;
 
 	@Enumerated(EnumType.STRING)
 	private MagicItemRarity rarity;
@@ -59,12 +59,12 @@ public class Potion {
 		this.casterLevel = casterLevel;
 	}
 
-	public double getPreco() {
-		return preco;
+	public double getPrice() {
+		return price;
 	}
 
-	public void setPreco(double preco) {
-		this.preco = preco;
+	public void setPrice(double preco) {
+		this.price = preco;
 	}
 
 	public MagicItemRarity getRarity() {
@@ -83,4 +83,8 @@ public class Potion {
 		this.interval = interval;
 	}
 
+	@Override
+	public String toString() {
+		return "Potion of " + spell.toLowerCase() + " (CL: " + casterLevel + ", " + price + "gp)";
+	}
 }

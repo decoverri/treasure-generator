@@ -28,6 +28,8 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ArtObjectGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ArtObject.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.PotionGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.PotionLevel.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Potion.class);
 
 	    cfg.configure();

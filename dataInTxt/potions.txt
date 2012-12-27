@@ -1,116 +1,116 @@
-{"potion":{"spell":"Arcane Mark","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":14}}}
-{"potion":{"spell":"Guidance","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":28}}}
-{"potion":{"spell":"Light","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":29,"topValue":44}}}
-{"potion":{"spell":"Purify food and drink","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":58}}}
-{"potion":{"spell":"Resistance","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":59,"topValue":72}}}
-{"potion":{"spell":"Stabilize","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":73,"topValue":86}}}
-{"potion":{"spell":"Virtue","spellLevel":0,"casterLevel":1,"preco":25,"rarity":"COMMON","interval":{"bottomValue":87,"topValue":100}}}
-{"potion":{"spell":"Bless weapon","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":4}}}
-{"potion":{"spell":"Cure light wounds","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":5,"topValue":14}}}
-{"potion":{"spell":"Endure elements","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":19}}}
-{"potion":{"spell":"Enlarge person","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":20,"topValue":27}}}
-{"potion":{"spell":"Jump","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":28,"topValue":33}}}
-{"potion":{"spell":"Mage armor","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":34,"topValue":41}}}
-{"potion":{"spell":"Magic fang","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":42,"topValue":47}}}
-{"potion":{"spell":"Magic weapon","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":48,"topValue":55}}}
-{"potion":{"spell":"Pass without trace","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":56,"topValue":60}}}
-{"potion":{"spell":"Protection from chaos","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":61,"topValue":64}}}
-{"potion":{"spell":"Protection from evil","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":65,"topValue":68}}}
-{"potion":{"spell":"Protection from good","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":69,"topValue":72}}}
-{"potion":{"spell":"Protection from law","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":73,"topValue":76}}}
-{"potion":{"spell":"Reduce person","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":77,"topValue":81}}}
-{"potion":{"spell":"Remove fear","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":82,"topValue":87}}}
-{"potion":{"spell":"Sanctuary","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":88,"topValue":92}}}
-{"potion":{"spell":"Shield of faith","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"COMMON","interval":{"bottomValue":93,"topValue":100}}}
-{"potion":{"spell":"Animate rope","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":4}}}
-{"potion":{"spell":"Ant haul","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":5,"topValue":11}}}
-{"potion":{"spell":"Cloak of the shade","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":12,"topValue":16}}}
-{"potion":{"spell":"Erase","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":17,"topValue":20}}}
-{"potion":{"spell":"Feather step","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":21,"topValue":26}}}
-{"potion":{"spell":"Goodberry","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":27,"topValue":30}}}
-{"potion":{"spell":"Grease","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":31,"topValue":34}}}
-{"potion":{"spell":"Hide from animals","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":35,"topValue":41}}}
-{"potion":{"spell":"Hide from undead","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":42,"topValue":49}}}
-{"potion":{"spell":"Hold portal","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":50,"topValue":53}}}
-{"potion":{"spell":"Invigorate","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":54,"topValue":58}}}
-{"potion":{"spell":"Keen senses","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":59,"topValue":64}}}
-{"potion":{"spell":"Magic stone","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":65,"topValue":68}}}
-{"potion":{"spell":"Remove sickness","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":69,"topValue":75}}}
-{"potion":{"spell":"Sanctify corpse","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":76,"topValue":80}}}
-{"potion":{"spell":"Shillelagh","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":81,"topValue":84}}}
-{"potion":{"spell":"Touch of the sea","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":85,"topValue":92}}}
-{"potion":{"spell":"Vanish","spellLevel":1,"casterLevel":1,"preco":50,"rarity":"UNCOMMON","interval":{"bottomValue":93,"topValue":100}}}
-{"potion":{"spell":"Aid","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":4}}}
-{"potion":{"spell":"Align weapon","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":5,"topValue":7}}}
-{"potion":{"spell":"Barkskin","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":8,"topValue":11}}}
-{"potion":{"spell":"Bear’s endurance","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":12,"topValue":16}}}
-{"potion":{"spell":"Blur","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":17,"topValue":20}}}
-{"potion":{"spell":"Bull’s strength","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":25}}}
-{"potion":{"spell":"Cat’s grace","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":26,"topValue":30}}}
-{"potion":{"spell":"Cure moderate wounds","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":31,"topValue":37}}}
-{"potion":{"spell":"Darkvision","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":38,"topValue":41}}}
-{"potion":{"spell":"Delay poison","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":42,"topValue":44}}}
-{"potion":{"spell":"Eagle’s splendor","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":49}}}
-{"potion":{"spell":"Fox’s cunning","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":50,"topValue":54}}}
-{"potion":{"spell":"Invisibility","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":55,"topValue":61}}}
-{"potion":{"spell":"Levitate","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":62,"topValue":66}}}
-{"potion":{"spell":"Owl’s wisdom","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":71}}}
-{"potion":{"spell":"Protection from arrows","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":72,"topValue":73}}}
-{"potion":{"spell":"Remove paralysis","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":74,"topValue":76}}}
-{"potion":{"spell":"Resist energy, acid","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":77,"topValue":80}}}
-{"potion":{"spell":"Resist energy, cold","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":81,"topValue":84}}}
-{"potion":{"spell":"Resist energy, electricity","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":85,"topValue":88}}}
-{"potion":{"spell":"Resist energy, fire","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":89,"topValue":92}}}
-{"potion":{"spell":"Resist energy, sonic","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":93,"topValue":94}}}
-{"potion":{"spell":"Spider climb","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":95,"topValue":98}}}
-{"potion":{"spell":"Undetectable alignment","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"COMMON","interval":{"bottomValue":99,"topValue":100}}}
-{"potion":{"spell":"Ablative barrier","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":6}}}
-{"potion":{"spell":"Acute senses","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":7,"topValue":14}}}
-{"potion":{"spell":"Arcane lock","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":15,"topValue":19}}}
-{"potion":{"spell":"Bullet shield","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":20,"topValue":24}}}
-{"potion":{"spell":"Certain grip","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":25,"topValue":30}}}
-{"potion":{"spell":"Continual flame","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":31,"topValue":35}}}
-{"potion":{"spell":"Corruption resistance","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":36,"topValue":40}}}
-{"potion":{"spell":"Disguise other","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":41,"topValue":48}}}
-{"potion":{"spell":"Gentle repose","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":49,"topValue":56}}}
-{"potion":{"spell":"Make whole","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":57,"topValue":61}}}
-{"potion":{"spell":"Obscure object","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":62,"topValue":67}}}
-{"potion":{"spell":"Reduce animal","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":68,"topValue":72}}}
-{"potion":{"spell":"Rope trick","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":73,"topValue":76}}}
-{"potion":{"spell":"Slipstream","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":77,"topValue":82}}}
-{"potion":{"spell":"Status","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":83,"topValue":90}}}
-{"potion":{"spell":"Warp wood","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":91,"topValue":95}}}
-{"potion":{"spell":"Wood shape","spellLevel":2,"casterLevel":3,"preco":300,"rarity":"UNCOMMON","interval":{"bottomValue":96,"topValue":100}}}
-{"potion":{"spell":"Cure serious wounds","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":6}}}
-{"potion":{"spell":"Dispel magic","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":7,"topValue":10}}}
-{"potion":{"spell":"Displacement","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":11,"topValue":14}}}
-{"potion":{"spell":"Fly","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":20}}}
-{"potion":{"spell":"Gaseous form","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":25}}}
-{"potion":{"spell":"Good hope","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":26,"topValue":29}}}
-{"potion":{"spell":"Haste","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":30,"topValue":35}}}
-{"potion":{"spell":"Heroism","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":36,"topValue":40}}}
-{"potion":{"spell":"Keen edge","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":41,"topValue":44}}}
-{"potion":{"spell":"Magic fang, greater","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":48}}}
-{"potion":{"spell":"Magic vestment","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":49,"topValue":52}}}
-{"potion":{"spell":"Neutralize poison","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":53,"topValue":57}}}
-{"potion":{"spell":"Protection from energy, acid","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":58,"topValue":60}}}
-{"potion":{"spell":"Protection from energy, cold","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":61,"topValue":63}}}
-{"potion":{"spell":"Protection from energy, electricity","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":64,"topValue":66}}}
-{"potion":{"spell":"Protection from energy, fire","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":69}}}
-{"potion":{"spell":"Protection from energy, sonic","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":70,"topValue":71}}}
-{"potion":{"spell":"Rage","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":72,"topValue":74}}}
-{"potion":{"spell":"Remove blindness/deafness","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":75,"topValue":77}}}
-{"potion":{"spell":"Remove curse","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":78,"topValue":81}}}
-{"potion":{"spell":"Remove disease","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":82,"topValue":86}}}
-{"potion":{"spell":"Tongues","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":87,"topValue":91}}}
-{"potion":{"spell":"Water breathing","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":92,"topValue":96}}}
-{"potion":{"spell":"Water walk","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"COMMON","interval":{"bottomValue":97,"topValue":100}}}
-{"potion":{"spell":"Burrow","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":11}}}
-{"potion":{"spell":"Countless eyes","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":12,"topValue":22}}}
-{"potion":{"spell":"Daylight","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":23,"topValue":34}}}
-{"potion":{"spell":"Draconic reservoir","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":35,"topValue":49}}}
-{"potion":{"spell":"Flame arrow","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":50,"topValue":58}}}
-{"potion":{"spell":"Shrink item","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":59,"topValue":67}}}
-{"potion":{"spell":"Stone shape","spellLevel":3,"casterLevel":5,"preco":750,"rarity":"UNCOMMON","interval":{"bottomValue":68,"topValue":77}}}
-{"potion":{"spell":"Fire trap","spellLevel":3,"casterLevel":5,"preco":775,"rarity":"UNCOMMON","interval":{"bottomValue":78,"topValue":87}}}
-{"potion":{"spell":"Nondetection","spellLevel":3,"casterLevel":5,"preco":800,"rarity":"UNCOMMON","interval":{"bottomValue":88,"topValue":100}}}
+{"potion":{"spell":"Arcane Mark","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":14}}}
+{"potion":{"spell":"Guidance","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":28}}}
+{"potion":{"spell":"Light","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":29,"topValue":44}}}
+{"potion":{"spell":"Purify food and drink","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":58}}}
+{"potion":{"spell":"Resistance","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":59,"topValue":72}}}
+{"potion":{"spell":"Stabilize","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":73,"topValue":86}}}
+{"potion":{"spell":"Virtue","spellLevel":0,"casterLevel":1,"price":25,"rarity":"COMMON","interval":{"bottomValue":87,"topValue":100}}}
+{"potion":{"spell":"Bless weapon","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":4}}}
+{"potion":{"spell":"Cure light wounds","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":5,"topValue":14}}}
+{"potion":{"spell":"Endure elements","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":19}}}
+{"potion":{"spell":"Enlarge person","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":20,"topValue":27}}}
+{"potion":{"spell":"Jump","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":28,"topValue":33}}}
+{"potion":{"spell":"Mage armor","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":34,"topValue":41}}}
+{"potion":{"spell":"Magic fang","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":42,"topValue":47}}}
+{"potion":{"spell":"Magic weapon","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":48,"topValue":55}}}
+{"potion":{"spell":"Pass without trace","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":56,"topValue":60}}}
+{"potion":{"spell":"Protection from chaos","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":61,"topValue":64}}}
+{"potion":{"spell":"Protection from evil","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":65,"topValue":68}}}
+{"potion":{"spell":"Protection from good","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":69,"topValue":72}}}
+{"potion":{"spell":"Protection from law","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":73,"topValue":76}}}
+{"potion":{"spell":"Reduce person","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":77,"topValue":81}}}
+{"potion":{"spell":"Remove fear","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":82,"topValue":87}}}
+{"potion":{"spell":"Sanctuary","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":88,"topValue":92}}}
+{"potion":{"spell":"Shield of faith","spellLevel":1,"casterLevel":1,"price":50,"rarity":"COMMON","interval":{"bottomValue":93,"topValue":100}}}
+{"potion":{"spell":"Animate rope","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":4}}}
+{"potion":{"spell":"Ant haul","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":5,"topValue":11}}}
+{"potion":{"spell":"Cloak of the shade","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":12,"topValue":16}}}
+{"potion":{"spell":"Erase","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":17,"topValue":20}}}
+{"potion":{"spell":"Feather step","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":21,"topValue":26}}}
+{"potion":{"spell":"Goodberry","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":27,"topValue":30}}}
+{"potion":{"spell":"Grease","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":31,"topValue":34}}}
+{"potion":{"spell":"Hide from animals","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":35,"topValue":41}}}
+{"potion":{"spell":"Hide from undead","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":42,"topValue":49}}}
+{"potion":{"spell":"Hold portal","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":50,"topValue":53}}}
+{"potion":{"spell":"Invigorate","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":54,"topValue":58}}}
+{"potion":{"spell":"Keen senses","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":59,"topValue":64}}}
+{"potion":{"spell":"Magic stone","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":65,"topValue":68}}}
+{"potion":{"spell":"Remove sickness","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":69,"topValue":75}}}
+{"potion":{"spell":"Sanctify corpse","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":76,"topValue":80}}}
+{"potion":{"spell":"Shillelagh","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":81,"topValue":84}}}
+{"potion":{"spell":"Touch of the sea","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":85,"topValue":92}}}
+{"potion":{"spell":"Vanish","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","interval":{"bottomValue":93,"topValue":100}}}
+{"potion":{"spell":"Aid","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":4}}}
+{"potion":{"spell":"Align weapon","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":5,"topValue":7}}}
+{"potion":{"spell":"Barkskin","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":8,"topValue":11}}}
+{"potion":{"spell":"Bear’s endurance","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":12,"topValue":16}}}
+{"potion":{"spell":"Blur","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":17,"topValue":20}}}
+{"potion":{"spell":"Bull’s strength","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":25}}}
+{"potion":{"spell":"Cat’s grace","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":26,"topValue":30}}}
+{"potion":{"spell":"Cure moderate wounds","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":31,"topValue":37}}}
+{"potion":{"spell":"Darkvision","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":38,"topValue":41}}}
+{"potion":{"spell":"Delay poison","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":42,"topValue":44}}}
+{"potion":{"spell":"Eagle’s splendor","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":49}}}
+{"potion":{"spell":"Fox’s cunning","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":50,"topValue":54}}}
+{"potion":{"spell":"Invisibility","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":55,"topValue":61}}}
+{"potion":{"spell":"Levitate","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":62,"topValue":66}}}
+{"potion":{"spell":"Owl’s wisdom","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":71}}}
+{"potion":{"spell":"Protection from arrows","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":72,"topValue":73}}}
+{"potion":{"spell":"Remove paralysis","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":74,"topValue":76}}}
+{"potion":{"spell":"Resist energy, acid","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":77,"topValue":80}}}
+{"potion":{"spell":"Resist energy, cold","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":81,"topValue":84}}}
+{"potion":{"spell":"Resist energy, electricity","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":85,"topValue":88}}}
+{"potion":{"spell":"Resist energy, fire","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":89,"topValue":92}}}
+{"potion":{"spell":"Resist energy, sonic","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":93,"topValue":94}}}
+{"potion":{"spell":"Spider climb","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":95,"topValue":98}}}
+{"potion":{"spell":"Undetectable alignment","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":99,"topValue":100}}}
+{"potion":{"spell":"Ablative barrier","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":6}}}
+{"potion":{"spell":"Acute senses","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":7,"topValue":14}}}
+{"potion":{"spell":"Arcane lock","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":15,"topValue":19}}}
+{"potion":{"spell":"Bullet shield","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":20,"topValue":24}}}
+{"potion":{"spell":"Certain grip","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":25,"topValue":30}}}
+{"potion":{"spell":"Continual flame","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":31,"topValue":35}}}
+{"potion":{"spell":"Corruption resistance","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":36,"topValue":40}}}
+{"potion":{"spell":"Disguise other","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":41,"topValue":48}}}
+{"potion":{"spell":"Gentle repose","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":49,"topValue":56}}}
+{"potion":{"spell":"Make whole","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":57,"topValue":61}}}
+{"potion":{"spell":"Obscure object","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":62,"topValue":67}}}
+{"potion":{"spell":"Reduce animal","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":68,"topValue":72}}}
+{"potion":{"spell":"Rope trick","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":73,"topValue":76}}}
+{"potion":{"spell":"Slipstream","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":77,"topValue":82}}}
+{"potion":{"spell":"Status","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":83,"topValue":90}}}
+{"potion":{"spell":"Warp wood","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":91,"topValue":95}}}
+{"potion":{"spell":"Wood shape","spellLevel":2,"casterLevel":3,"price":300,"rarity":"UNCOMMON","interval":{"bottomValue":96,"topValue":100}}}
+{"potion":{"spell":"Cure serious wounds","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":6}}}
+{"potion":{"spell":"Dispel magic","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":7,"topValue":10}}}
+{"potion":{"spell":"Displacement","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":11,"topValue":14}}}
+{"potion":{"spell":"Fly","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":20}}}
+{"potion":{"spell":"Gaseous form","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":25}}}
+{"potion":{"spell":"Good hope","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":26,"topValue":29}}}
+{"potion":{"spell":"Haste","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":30,"topValue":35}}}
+{"potion":{"spell":"Heroism","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":36,"topValue":40}}}
+{"potion":{"spell":"Keen edge","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":41,"topValue":44}}}
+{"potion":{"spell":"Magic fang, greater","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":48}}}
+{"potion":{"spell":"Magic vestment","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":49,"topValue":52}}}
+{"potion":{"spell":"Neutralize poison","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":53,"topValue":57}}}
+{"potion":{"spell":"Protection from energy, acid","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":58,"topValue":60}}}
+{"potion":{"spell":"Protection from energy, cold","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":61,"topValue":63}}}
+{"potion":{"spell":"Protection from energy, electricity","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":64,"topValue":66}}}
+{"potion":{"spell":"Protection from energy, fire","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":69}}}
+{"potion":{"spell":"Protection from energy, sonic","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":70,"topValue":71}}}
+{"potion":{"spell":"Rage","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":72,"topValue":74}}}
+{"potion":{"spell":"Remove blindness/deafness","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":75,"topValue":77}}}
+{"potion":{"spell":"Remove curse","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":78,"topValue":81}}}
+{"potion":{"spell":"Remove disease","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":82,"topValue":86}}}
+{"potion":{"spell":"Tongues","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":87,"topValue":91}}}
+{"potion":{"spell":"Water breathing","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":92,"topValue":96}}}
+{"potion":{"spell":"Water walk","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":97,"topValue":100}}}
+{"potion":{"spell":"Burrow","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":11}}}
+{"potion":{"spell":"Countless eyes","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":12,"topValue":22}}}
+{"potion":{"spell":"Daylight","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":23,"topValue":34}}}
+{"potion":{"spell":"Draconic reservoir","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":35,"topValue":49}}}
+{"potion":{"spell":"Flame arrow","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":50,"topValue":58}}}
+{"potion":{"spell":"Shrink item","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":59,"topValue":67}}}
+{"potion":{"spell":"Stone shape","spellLevel":3,"casterLevel":5,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":68,"topValue":77}}}
+{"potion":{"spell":"Fire trap","spellLevel":3,"casterLevel":5,"price":775,"rarity":"UNCOMMON","interval":{"bottomValue":78,"topValue":87}}}
+{"potion":{"spell":"Nondetection","spellLevel":3,"casterLevel":5,"price":800,"rarity":"UNCOMMON","interval":{"bottomValue":88,"topValue":100}}}
