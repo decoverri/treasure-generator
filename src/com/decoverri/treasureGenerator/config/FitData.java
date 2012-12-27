@@ -11,5 +11,6 @@ public class FitData {
 		
 		new FitTreasureA().fit();
 		new FitTreasureB().fit();
+		new FitTreasureC().fit();
 	}
 }

@@ -3,6 +3,7 @@ package com.decoverri.treasureGenerator.dao;
 import java.util.List;
 
 import org.hibernate.Criteria;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
@@ -33,6 +34,19 @@ public class ArtObjectDao {
 			return false;
 		}
 		return true;
+	}
+
+	@SuppressWarnings("unchecked")
+	public ArtObject getArt(int grade, int roll) {
+		Query query = session.createQuery("select ao from ArtObject ao " +
+										  "where ao.grade = :grade and :roll >= ao.chanceInterval.bottomValue and :roll <= ao.chanceInterval.topValue")
+				.setParameter("grade", grade).setParameter("roll", roll);
+		List<ArtObject> list = query.list();
+		if (list.isEmpty()) {
+			return null;
+		}
+		ArtObject art = list.get(0);
+		return art;
 	}
 
 }

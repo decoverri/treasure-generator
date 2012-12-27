@@ -21,7 +21,7 @@ public class FitTreasureA {
 	public void fit() throws IOException {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
-		xstream.alias("coinreward", ATreasureReward.class);
+		xstream.alias("reward", ATreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
 
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/ATreasureReward.txt"));

@@ -23,7 +23,7 @@ public class FitTreasureB {
 	public void fit() throws IOException {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
-		xstream.alias("coinreward", BTreasureReward.class);
+		xstream.alias("reward", BTreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
 		xstream.alias("gemgenerator", GemstoneGeneratorData.class);
 
@@ -50,5 +50,4 @@ public class FitTreasureB {
 		transaction.commit();
 		scanner.close();
 	}
-
 }
