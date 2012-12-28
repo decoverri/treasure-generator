@@ -385,3 +385,53 @@
 {"scroll":{"spell":"Programmed image","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":93,"topValue":95}}}
 {"scroll":{"spell":"Undeath to death","spellLevel":6,"casterLevel":11,"price":2150,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":96,"topValue":98}}}
 {"scroll":{"spell":"Symbol of persuasion","spellLevel":6,"casterLevel":11,"price":6650,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":99,"topValue":100}}}
+{"scroll":{"spell":"Arcane sight, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":4}}}
+{"scroll":{"spell":"Banishment","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":5,"topValue":7}}}
+{"scroll":{"spell":"Delayed blast fireball","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":8,"topValue":13}}}
+{"scroll":{"spell":"Ethereal jaunt","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":14,"topValue":17}}}
+{"scroll":{"spell":"Finger of death","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":18,"topValue":22}}}
+{"scroll":{"spell":"Form of the dragon II","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":23,"topValue":27}}}
+{"scroll":{"spell":"Hold person, mass","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":28,"topValue":30}}}
+{"scroll":{"spell":"Invisibility, mass","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":31,"topValue":35}}}
+{"scroll":{"spell":"Mage’s sword","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":36,"topValue":39}}}
+{"scroll":{"spell":"Phase door","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":40,"topValue":42}}}
+{"scroll":{"spell":"Plane shift","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":43,"topValue":48}}}
+{"scroll":{"spell":"Polymorph, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":49,"topValue":53}}}
+{"scroll":{"spell":"Power word blind","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":54,"topValue":57}}}
+{"scroll":{"spell":"Prismatic spray","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":58,"topValue":62}}}
+{"scroll":{"spell":"Reverse gravity","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":63,"topValue":66}}}
+{"scroll":{"spell":"Scrying, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":67,"topValue":70}}}
+{"scroll":{"spell":"Shadow conjuration, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":71,"topValue":73}}}
+{"scroll":{"spell":"Spell turning","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":74,"topValue":78}}}
+{"scroll":{"spell":"Summon monster VII","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":79,"topValue":81}}}
+{"scroll":{"spell":"Teleport, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":82,"topValue":87}}}
+{"scroll":{"spell":"Waves of exhaustion","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":88,"topValue":90}}}
+{"scroll":{"spell":"Project image","spellLevel":7,"casterLevel":13,"price":2280,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":91,"topValue":93}}}
+{"scroll":{"spell":"Forcecage","spellLevel":7,"casterLevel":13,"price":2775,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":94,"topValue":97}}}
+{"scroll":{"spell":"Limited wish","spellLevel":7,"casterLevel":13,"price":3775,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":98,"topValue":100}}}
+{"scroll":{"spell":"Control undead","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":3}}}
+{"scroll":{"spell":"Control weather","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":4,"topValue":7}}}
+{"scroll":{"spell":"Create demiplane, lesser","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":8,"topValue":10}}}
+{"scroll":{"spell":"Deflection","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":11,"topValue":14}}}
+{"scroll":{"spell":"Elemental body IV","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":15,"topValue":19}}}
+{"scroll":{"spell":"Firebrand","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":20,"topValue":23}}}
+{"scroll":{"spell":"Fly, mass","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":24,"topValue":29}}}
+{"scroll":{"spell":"Giant form I","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":30,"topValue":34}}}
+{"scroll":{"spell":"Grasping hand","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":35,"topValue":40}}}
+{"scroll":{"spell":"Hostile juxtaposition, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":41,"topValue":44}}}
+{"scroll":{"spell":"Ice body","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":45,"topValue":49}}}
+{"scroll":{"spell":"Insanity","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":50,"topValue":53}}}
+{"scroll":{"spell":"Mage’s magnificent mansion","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":54,"topValue":56}}}
+{"scroll":{"spell":"Phantasmal revenge","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":57,"topValue":61}}}
+{"scroll":{"spell":"Plague storm","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":62,"topValue":65}}}
+{"scroll":{"spell":"Plant shape III","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":66,"topValue":70}}}
+{"scroll":{"spell":"Resonating word","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":71,"topValue":74}}}
+{"scroll":{"spell":"Sequester","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":75,"topValue":78}}}
+{"scroll":{"spell":"Statue","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":79,"topValue":81}}}
+{"scroll":{"spell":"Teleport object","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":82,"topValue":84}}}
+{"scroll":{"spell":"Walk through space","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":85,"topValue":88}}}
+{"scroll":{"spell":"Vision","spellLevel":7,"casterLevel":13,"price":2575,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":89,"topValue":91}}}
+{"scroll":{"spell":"Instant summons","spellLevel":7,"casterLevel":13,"price":3275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":92,"topValue":93}}}
+{"scroll":{"spell":"Symbol of stunning","spellLevel":7,"casterLevel":13,"price":7275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":94,"topValue":96}}}
+{"scroll":{"spell":"Symbol of weakness","spellLevel":7,"casterLevel":13,"price":7275,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":97,"topValue":98}}}
+{"scroll":{"spell":"Simulacrum","spellLevel":7,"casterLevel":13,"price":8775,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":99,"topValue":100}}}
