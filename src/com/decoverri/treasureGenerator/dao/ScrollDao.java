@@ -1,12 +1,14 @@
 package com.decoverri.treasureGenerator.dao;
 
 import java.util.List;
+import java.util.Random;
 
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
+import com.decoverri.treasureGenerator.enums.HallowAdditionalSpell;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicType;
 import com.decoverri.treasureGenerator.model.Scroll;
@@ -46,7 +48,12 @@ public class ScrollDao {
 							.setParameter("rarity", rarity)
 							.setParameter("type", type)
 							.setParameter("roll", roll);
-		return (Scroll) query.list().get(0);
+		Scroll scroll = (Scroll) query.list().get(0);
+		if (roll > 98) {
+			int i = new Random().nextInt(HallowAdditionalSpell.values().length);
+			scroll.setSpell(scroll.getSpell() + " " + HallowAdditionalSpell.values()[i]);
+		}
+		return scroll;
 	}
 
 }
