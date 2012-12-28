@@ -28,9 +28,10 @@ public class ScrollDao {
 	}
 
 	@SuppressWarnings("unchecked")
-	public boolean exists(String spell) {
+	public boolean exists(Scroll scroll) {
 		Criteria criteria = session.createCriteria(Scroll.class);
-		criteria.add(Restrictions.eq("spell", spell));
+		criteria.add(Restrictions.eq("spell", scroll.getSpell()));
+		criteria.add(Restrictions.eq("type", scroll.getType()));
 		List<Scroll> list = criteria.list();
 		if (list.isEmpty()) {
 			return false;

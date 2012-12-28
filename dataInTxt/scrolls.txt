@@ -1,1 +1,23 @@
 {"scroll":{"spell":"Acid Splash","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":9}}}
+{"scroll":{"spell":"Daze","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":10,"topValue":17}}}
+{"scroll":{"spell":"Detect magic","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":18,"topValue":27}}}
+{"scroll":{"spell":"Flare","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":28,"topValue":35}}}
+{"scroll":{"spell":"Light","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":36,"topValue":45}}}
+{"scroll":{"spell":"Mage hand","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":46,"topValue":55}}}
+{"scroll":{"spell":"Mending","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":56,"topValue":63}}}
+{"scroll":{"spell":"Prestidigitation","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":64,"topValue":72}}}
+{"scroll":{"spell":"Ray of frost","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":73,"topValue":81}}}
+{"scroll":{"spell":"Read magic","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":82,"topValue":91}}}
+{"scroll":{"spell":"Touch of fatigue","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":92,"topValue":100}}}
+{"scroll":{"spell":"Arcane Mark","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":7}}}
+{"scroll":{"spell":"Bleed","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":8,"topValue":17}}}
+{"scroll":{"spell":"Dancing lights","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":18,"topValue":25}}}
+{"scroll":{"spell":"Detect poison","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":26,"topValue":35}}}
+{"scroll":{"spell":"Disrupt undead","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":36,"topValue":42}}}
+{"scroll":{"spell":"Ghost sound","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":43,"topValue":51}}}
+{"scroll":{"spell":"Message","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":52,"topValue":61}}}
+{"scroll":{"spell":"Open/close","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":62,"topValue":68}}}
+{"scroll":{"spell":"Resistance","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":69,"topValue":75}}}
+{"scroll":{"spell":"Sift","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":76,"topValue":83}}}
+{"scroll":{"spell":"Spark","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":34,"topValue":92}}}
+{"scroll":{"spell":"Unwitting ally","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":93,"topValue":100}}}
