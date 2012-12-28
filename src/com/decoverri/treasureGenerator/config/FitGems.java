@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.dao.GemGradeDao;
 import com.decoverri.treasureGenerator.dao.GemstoneDao;
@@ -16,7 +15,11 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitGems {
 
-	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	private Session session;
+
+	public FitGems(Session session) {
+		this.session = session;
+	}
 
 	public void fit() throws IOException {
 
@@ -24,8 +27,6 @@ public class FitGems {
 		xstream.alias("gem", Gemstone.class);
 
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/gems.txt"));
-		Transaction transaction = session.beginTransaction();
-
 		while (scanner.hasNextLine()) {
 			Gemstone gem = (Gemstone) xstream.fromXML(scanner.nextLine());
 			GemstoneDao gemDao = new GemstoneDao(session);
@@ -34,14 +35,12 @@ public class FitGems {
 				GemGrade gradeSearch = gradeDao.searchByGradeNumber(gem.getGrade());
 				if (gradeSearch == null) {
 					gradeDao.save(gem.getGrade());
-				}else {
+				} else {
 					gem.setGrade(gradeSearch);
 				}
 				gemDao.saveOrUpdate(gem);
 			}
 		}
-
-		transaction.commit();
 		scanner.close();
 	}
 

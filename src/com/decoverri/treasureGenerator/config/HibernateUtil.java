@@ -32,6 +32,9 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.PotionLevel.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Potion.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ScrollLevel.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Scroll.class);
+		
 	    cfg.configure();
 	    serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();        
 	    sessionFactory = cfg.buildSessionFactory(serviceRegistry);

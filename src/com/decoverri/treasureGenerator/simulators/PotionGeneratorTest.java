@@ -21,7 +21,7 @@ public class PotionGeneratorTest {
 		PotionGenerator generator = new PotionGenerator(session);
 		PotionGeneratorData data = new PotionGeneratorData();
 		data.setQuantity(3);
-		data.setStrength(MagicItemStrength.GREATER_MINOR);
+		data.setStrength(MagicItemStrength.GREATER_MAJOR);
 		List<Potion> potions = generator.generate(Arrays.asList(data));
 		for (Potion potion : potions) {
 			System.out.println(potion);

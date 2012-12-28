@@ -6,30 +6,30 @@ import java.util.Scanner;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.ArtObjectDao;
-import com.decoverri.treasureGenerator.model.ArtObject;
+import com.decoverri.treasureGenerator.dao.ScrollDao;
+import com.decoverri.treasureGenerator.model.Scroll;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
-public class FitArtObjects {
+public class FitScrolls {
 
 	private Session session;
 
-	public FitArtObjects(Session session) {
+	public FitScrolls(Session session) {
 		this.session = session;
 	}
 
 	public void fit() throws IOException {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
-		xstream.alias("art", ArtObject.class);
+		xstream.alias("scroll", Scroll.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/artObjects.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrolls.txt"));
 		while (scanner.hasNextLine()) {
-			ArtObject art = (ArtObject) xstream.fromXML(scanner.nextLine());
-			ArtObjectDao artDao = new ArtObjectDao(session);
-			if (!artDao.exists(art.getName())) {
-				artDao.saveOrUpdate(art);
+			Scroll scroll = (Scroll) xstream.fromXML(scanner.nextLine());
+			ScrollDao scrollDao = new ScrollDao(session);
+			if (!scrollDao.exists(scroll.getSpell())) {
+				scrollDao.saveOrUpdate(scroll);
 			}
 		}
 		scanner.close();

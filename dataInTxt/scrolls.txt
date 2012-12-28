@@ -1,0 +1,1 @@
+{"scroll":{"spell":"Acid Splash","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":9}}}

@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.dao.BTreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
@@ -18,7 +17,11 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitTreasureB {
 
-	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	private Session session;
+
+	public FitTreasureB(Session session) {
+		this.session = session;
+	}
 
 	public void fit() throws IOException {
 
@@ -28,8 +31,6 @@ public class FitTreasureB {
 		xstream.alias("gemgenerator", GemstoneGeneratorData.class);
 
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/BTreasureReward.txt"));
-		Transaction transaction = session.beginTransaction();
-
 		while (scanner.hasNextLine()) {
 			BTreasureReward reward = (BTreasureReward) xstream.fromXML(scanner.nextLine());
 
@@ -46,8 +47,6 @@ public class FitTreasureB {
 			rewardDao.save(reward);
 
 		}
-
-		transaction.commit();
 		scanner.close();
 	}
 }

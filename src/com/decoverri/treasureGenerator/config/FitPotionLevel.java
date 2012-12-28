@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.dao.PotionLevelDao;
 import com.decoverri.treasureGenerator.model.PotionLevel;
@@ -14,7 +13,11 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitPotionLevel {
 
-	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	private Session session;
+
+	public FitPotionLevel(Session session) {
+		this.session = session;
+	}
 
 	public void fit() throws IOException {
 
@@ -22,17 +25,12 @@ public class FitPotionLevel {
 		xstream.alias("potionlevel", PotionLevel.class);
 
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potionLevel.txt"));
-		Transaction transaction = session.beginTransaction();
-
 		while (scanner.hasNextLine()) {
 			PotionLevel potionLevel = (PotionLevel) xstream.fromXML(scanner.nextLine());
 			PotionLevelDao potionDao = new PotionLevelDao(session);
 			potionDao.saveOrUpdate(potionLevel);
 		}
-
-		transaction.commit();
 		scanner.close();
 	}
-
 
 }

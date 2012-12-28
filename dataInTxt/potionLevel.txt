@@ -1,4 +1,4 @@
-{"potionlevel":{"spellLevel":0,"strength":"LESSER_MINOR","interval":{"bottomValue":0,"topValue":40}}}
+{"potionlevel":{"spellLevel":0,"strength":"LESSER_MINOR","interval":{"bottomValue":1,"topValue":40}}}
 {"potionlevel":{"spellLevel":1,"strength":"LESSER_MINOR","interval":{"bottomValue":41,"topValue":100}}}
 {"potionlevel":{"spellLevel":0,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":10}}}
 {"potionlevel":{"spellLevel":1,"strength":"GREATER_MINOR","interval":{"bottomValue":11,"topValue":60}}}
