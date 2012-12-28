@@ -821,3 +821,80 @@
 {"scroll":{"spell":"Unhallow","spellLevel":5,"casterLevel":9,"price":2125,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":97,"topValue":98}}}
 {"scroll":{"spell":"Hallow with","spellLevel":5,"casterLevel":9,"price":6125,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":99,"topValue":99}}}
 {"scroll":{"spell":"Unhallow with","spellLevel":5,"casterLevel":9,"price":6125,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":100,"topValue":100}}}
+{"scroll":{"spell":"Bear’s endurance, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":5}}}
+{"scroll":{"spell":"Blade barrier","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":6,"topValue":11}}}
+{"scroll":{"spell":"Bull’s strength, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":12,"topValue":16}}}
+{"scroll":{"spell":"Cat’s grace, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":17,"topValue":21}}}
+{"scroll":{"spell":"Cure moderate wounds, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":22,"topValue":27}}}
+{"scroll":{"spell":"Dispel magic, greater","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":28,"topValue":32}}}
+{"scroll":{"spell":"Eagle’s splendor, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":33,"topValue":37}}}
+{"scroll":{"spell":"Find the path","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":38,"topValue":43}}}
+{"scroll":{"spell":"Fire seeds","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":44,"topValue":47}}}
+{"scroll":{"spell":"Harm","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":48,"topValue":55}}}
+{"scroll":{"spell":"Heal","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":56,"topValue":63}}}
+{"scroll":{"spell":"Heroes’ feast","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":64,"topValue":69}}}
+{"scroll":{"spell":"Inflict moderate wounds, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":70,"topValue":74}}}
+{"scroll":{"spell":"Liveoak","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":75,"topValue":78}}}
+{"scroll":{"spell":"Owl’s wisdom, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":79,"topValue":83}}}
+{"scroll":{"spell":"Summon monster VI","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":84,"topValue":87}}}
+{"scroll":{"spell":"Summon nature’s ally VI","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":88,"topValue":91}}}
+{"scroll":{"spell":"Word of recall","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":92,"topValue":96}}}
+{"scroll":{"spell":"Planar ally","spellLevel":6,"casterLevel":11,"price":2900,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":97,"topValue":100}}}
+{"scroll":{"spell":"Animate objects","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":5}}}
+{"scroll":{"spell":"Antilife shell","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":6,"topValue":9}}}
+{"scroll":{"spell":"Banishment","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":10,"topValue":15}}}
+{"scroll":{"spell":"Cold ice strike","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":16,"topValue":19}}}
+{"scroll":{"spell":"Dust form","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":20,"topValue":23}}}
+{"scroll":{"spell":"Geas/quest","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":24,"topValue":29}}}
+{"scroll":{"spell":"Ironwood","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":30,"topValue":33}}}
+{"scroll":{"spell":"Joyful rapture","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":34,"topValue":37}}}
+{"scroll":{"spell":"Move earth","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":38,"topValue":42}}}
+{"scroll":{"spell":"Plague storm","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":43,"topValue":46}}}
+{"scroll":{"spell":"Planar adaptation, mass","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":47,"topValue":51}}}
+{"scroll":{"spell":"Repel wood","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":52,"topValue":54}}}
+{"scroll":{"spell":"Sirocco","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":55,"topValue":59}}}
+{"scroll":{"spell":"Spellstaff","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":60,"topValue":63}}}
+{"scroll":{"spell":"Stone tell","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":64,"topValue":67}}}
+{"scroll":{"spell":"Swarm skin","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":68,"topValue":70}}}
+{"scroll":{"spell":"Tar pool","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":71,"topValue":74}}}
+{"scroll":{"spell":"Transport via plants","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":75,"topValue":77}}}
+{"scroll":{"spell":"Wind walk","spellLevel":6,"casterLevel":11,"price":1650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":78,"topValue":83}}}
+{"scroll":{"spell":"Create undead","spellLevel":6,"casterLevel":11,"price":1750,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":84,"topValue":86}}}
+{"scroll":{"spell":"Glyph of warding, greater","spellLevel":6,"casterLevel":11,"price":2050,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":87,"topValue":90}}}
+{"scroll":{"spell":"Undeath to death","spellLevel":6,"casterLevel":11,"price":2150,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":91,"topValue":92}}}
+{"scroll":{"spell":"Symbol of fear","spellLevel":6,"casterLevel":11,"price":2650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":93,"topValue":95}}}
+{"scroll":{"spell":"Forbiddance","spellLevel":6,"casterLevel":11,"price":4650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":96,"topValue":98}}}
+{"scroll":{"spell":"Symbol of persuasion","spellLevel":6,"casterLevel":11,"price":6650,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":99,"topValue":100}}}
+{"scroll":{"spell":"Blasphemy","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":4}}}
+{"scroll":{"spell":"Control weather","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":5,"topValue":10}}}
+{"scroll":{"spell":"Creeping doom","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":11,"topValue":17}}}
+{"scroll":{"spell":"Cure serious wounds, mass","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":18,"topValue":24}}}
+{"scroll":{"spell":"Dictum","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":25,"topValue":28}}}
+{"scroll":{"spell":"Ethereal jaunt","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":29,"topValue":33}}}
+{"scroll":{"spell":"Fire storm","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":34,"topValue":40}}}
+{"scroll":{"spell":"Holy word","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":41,"topValue":44}}}
+{"scroll":{"spell":"Inflict serious wounds, mass","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":45,"topValue":50}}}
+{"scroll":{"spell":"Regenerate","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":51,"topValue":55}}}
+{"scroll":{"spell":"Repulsion","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":56,"topValue":60}}}
+{"scroll":{"spell":"Scrying, greater","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":61,"topValue":65}}}
+{"scroll":{"spell":"Summon monster VII","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":66,"topValue":69}}}
+{"scroll":{"spell":"Summon nature’s ally VII","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":70,"topValue":73}}}
+{"scroll":{"spell":"Sunbeam","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":74,"topValue":78}}}
+{"scroll":{"spell":"Word of chaos","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":79,"topValue":82}}}
+{"scroll":{"spell":"Destruction","spellLevel":7,"casterLevel":13,"price":2775,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":83,"topValue":89}}}
+{"scroll":{"spell":"Restoration, greater","spellLevel":7,"casterLevel":13,"price":7275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":90,"topValue":94}}}
+{"scroll":{"spell":"Resurrection","spellLevel":7,"casterLevel":13,"price":12275,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":95,"topValue":100}}}
+{"scroll":{"spell":"Animate plants","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":8}}}
+{"scroll":{"spell":"Changestaff","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":9,"topValue":17}}}
+{"scroll":{"spell":"Circle of clarity","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":18,"topValue":24}}}
+{"scroll":{"spell":"Create demiplane, lesser","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":25,"topValue":30}}}
+{"scroll":{"spell":"Jolting portent","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":31,"topValue":38}}}
+{"scroll":{"spell":"Rampart","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":39,"topValue":45}}}
+{"scroll":{"spell":"Scouring winds","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":46,"topValue":53}}}
+{"scroll":{"spell":"Siege of trees","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":54,"topValue":60}}}
+{"scroll":{"spell":"Transmute metal to wood","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":61,"topValue":67}}}
+{"scroll":{"spell":"Vortex","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":68,"topValue":76}}}
+{"scroll":{"spell":"Waves of ecstasy","spellLevel":7,"casterLevel":13,"price":2275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":77,"topValue":83}}}
+{"scroll":{"spell":"Refuge","spellLevel":7,"casterLevel":13,"price":3775,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":84,"topValue":89}}}
+{"scroll":{"spell":"Symbol of stunning","spellLevel":7,"casterLevel":13,"price":7275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":90,"topValue":95}}}
+{"scroll":{"spell":"Symbol of weakness","spellLevel":7,"casterLevel":13,"price":7275,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":96,"topValue":100}}}
