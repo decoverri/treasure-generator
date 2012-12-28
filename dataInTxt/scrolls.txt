@@ -21,3 +21,62 @@
 {"scroll":{"spell":"Sift","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":76,"topValue":83}}}
 {"scroll":{"spell":"Spark","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":34,"topValue":92}}}
 {"scroll":{"spell":"Unwitting ally","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":93,"topValue":100}}}
+{"scroll":{"spell":"Burning hands","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":5}}}
+{"scroll":{"spell":"Cause fear","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":6,"topValue":9}}}
+{"scroll":{"spell":"Charm person","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":10,"topValue":14}}}
+{"scroll":{"spell":"Chill touch","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":15,"topValue":17}}}
+{"scroll":{"spell":"Disguise self","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":18,"topValue":21}}}
+{"scroll":{"spell":"Endure elements","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":22,"topValue":24}}}
+{"scroll":{"spell":"Enlarge person","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":25,"topValue":28}}}
+{"scroll":{"spell":"Expeditious retreat","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":29,"topValue":32}}}
+{"scroll":{"spell":"Grease","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":33,"topValue":36}}}
+{"scroll":{"spell":"Hypnotism","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":37,"topValue":39}}}
+{"scroll":{"spell":"Identify","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":40,"topValue":42}}}
+{"scroll":{"spell":"Mage armor","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":43,"topValue":48}}}
+{"scroll":{"spell":"Magic missile","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":49,"topValue":54}}}
+{"scroll":{"spell":"Magic weapon","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":55,"topValue":58}}}
+{"scroll":{"spell":"Obscuring mist","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":59,"topValue":62}}}
+{"scroll":{"spell":"Protection from chaos","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":63,"topValue":64}}}
+{"scroll":{"spell":"Protection from evil","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":65,"topValue":67}}}
+{"scroll":{"spell":"Protection from good","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":68,"topValue":69}}}
+{"scroll":{"spell":"Protection from law","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":70,"topValue":71}}}
+{"scroll":{"spell":"Ray of enfeeblement","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":72,"topValue":75}}}
+{"scroll":{"spell":"Shield","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":76,"topValue":80}}}
+{"scroll":{"spell":"Shocking grasp","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":81,"topValue":84}}}
+{"scroll":{"spell":"Silent image","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":85,"topValue":88}}}
+{"scroll":{"spell":"Sleep","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":89,"topValue":93}}}
+{"scroll":{"spell":"Summon monster I","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":94,"topValue":96}}}
+{"scroll":{"spell":"True strike","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"ARCANE","interval":{"bottomValue":97,"topValue":100}}}
+{"scroll":{"spell":"Air bubble","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":1,"topValue":2}}}
+{"scroll":{"spell":"Alarm","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":3,"topValue":6}}}
+{"scroll":{"spell":"Animate rope","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":7,"topValue":8}}}
+{"scroll":{"spell":"Ant haul","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":9,"topValue":12}}}
+{"scroll":{"spell":"Blend","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":13,"topValue":15}}}
+{"scroll":{"spell":"Break","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":16,"topValue":18}}}
+{"scroll":{"spell":"Color spray","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":19,"topValue":23}}}
+{"scroll":{"spell":"Comprehend languages","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":24,"topValue":26}}}
+{"scroll":{"spell":"Corrosive touch","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":27,"topValue":30}}}
+{"scroll":{"spell":"Detect secret doors","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":31,"topValue":33}}}
+{"scroll":{"spell":"Detect undead","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":34,"topValue":36}}}
+{"scroll":{"spell":"Erase","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":37,"topValue":38}}}
+{"scroll":{"spell":"Flare burst","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":39,"topValue":40}}}
+{"scroll":{"spell":"Floating disk","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":41,"topValue":43}}}
+{"scroll":{"spell":"Hold portal","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":44,"topValue":46}}}
+{"scroll":{"spell":"Hydraulic push","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":47,"topValue":48}}}
+{"scroll":{"spell":"Icicle dagger","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":49,"topValue":51}}}
+{"scroll":{"spell":"Illusion of calm","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":52,"topValue":54}}}
+{"scroll":{"spell":"Jump","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":55,"topValue":58}}}
+{"scroll":{"spell":"Magic aura","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":59,"topValue":60}}}
+{"scroll":{"spell":"Mirror strike","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":61,"topValue":63}}}
+{"scroll":{"spell":"Mount","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":64,"topValue":66}}}
+{"scroll":{"spell":"Ray of sickening","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":67,"topValue":69}}}
+{"scroll":{"spell":"Reduce person","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":70,"topValue":71}}}
+{"scroll":{"spell":"Shadow weapon","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":72,"topValue":74}}}
+{"scroll":{"spell":"Shock shield","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":75,"topValue":77}}}
+{"scroll":{"spell":"Stone fist","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":78,"topValue":80}}}
+{"scroll":{"spell":"Touch of the sea","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":81,"topValue":84}}}
+{"scroll":{"spell":"Unseen servant","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":85,"topValue":88}}}
+{"scroll":{"spell":"Urban grace","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":89,"topValue":91}}}
+{"scroll":{"spell":"Vanish","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":92,"topValue":96}}}
+{"scroll":{"spell":"Ventriloquism","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":97,"topValue":98}}}
+{"scroll":{"spell":"Voice alteration","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":99,"topValue":100}}}
