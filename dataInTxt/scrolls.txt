@@ -510,3 +510,80 @@
 {"scroll":{"spell":"Wail of the banshee","spellLevel":9,"casterLevel":17,"price":3825,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":80,"topValue":88}}}
 {"scroll":{"spell":"Winds of vengeance","spellLevel":9,"casterLevel":17,"price":3825,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":89,"topValue":95}}}
 {"scroll":{"spell":"Refuge","spellLevel":9,"casterLevel":17,"price":3825,"rarity":"UNCOMMON","type":"ARCANE","interval":{"bottomValue":96,"topValue":100}}}
+{"scroll":{"spell":"Bleed","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":11}}}
+{"scroll":{"spell":"Create water","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":12,"topValue":21}}}
+{"scroll":{"spell":"Detect magic","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":22,"topValue":34}}}
+{"scroll":{"spell":"Know direction","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":35,"topValue":44}}}
+{"scroll":{"spell":"Light","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":45,"topValue":55}}}
+{"scroll":{"spell":"Mending","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":56,"topValue":65}}}
+{"scroll":{"spell":"Purify food and drink","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":66,"topValue":75}}}
+{"scroll":{"spell":"Read magic","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":76,"topValue":88}}}
+{"scroll":{"spell":"Stabilize","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":89,"topValue":100}}}
+{"scroll":{"spell":"Detect poison","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":15}}}
+{"scroll":{"spell":"Flare","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":16,"topValue":33}}}
+{"scroll":{"spell":"Guidance","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":34,"topValue":50}}}
+{"scroll":{"spell":"Resistance","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":51,"topValue":68}}}
+{"scroll":{"spell":"Spark","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":69,"topValue":85}}}
+{"scroll":{"spell":"Virtue","spellLevel":0,"casterLevel":1,"price":12.5,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":86,"topValue":100}}}
+{"scroll":{"spell":"Bane","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":4}}}
+{"scroll":{"spell":"Bless","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":5,"topValue":10}}}
+{"scroll":{"spell":"Cause fear","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":11,"topValue":15}}}
+{"scroll":{"spell":"Command","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":16,"topValue":19}}}
+{"scroll":{"spell":"Comprehend languages","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":20,"topValue":22}}}
+{"scroll":{"spell":"Cure light wounds","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":23,"topValue":28}}}
+{"scroll":{"spell":"Detect chaos","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":29,"topValue":30}}}
+{"scroll":{"spell":"Detect evil","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":31,"topValue":32}}}
+{"scroll":{"spell":"Detect good","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":33,"topValue":34}}}
+{"scroll":{"spell":"Detect law","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":35,"topValue":36}}}
+{"scroll":{"spell":"Detect undead","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":37,"topValue":39}}}
+{"scroll":{"spell":"Divine favor","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":40,"topValue":45}}}
+{"scroll":{"spell":"Doom","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":46,"topValue":48}}}
+{"scroll":{"spell":"Entangle","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":49,"topValue":52}}}
+{"scroll":{"spell":"Inflict light wounds","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":53,"topValue":57}}}
+{"scroll":{"spell":"Magic fang","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":58,"topValue":61}}}
+{"scroll":{"spell":"Obscuring mist","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":62,"topValue":65}}}
+{"scroll":{"spell":"Produce flame","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":66,"topValue":68}}}
+{"scroll":{"spell":"Protection from chaos","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":69,"topValue":71}}}
+{"scroll":{"spell":"Protection from evil","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":72,"topValue":74}}}
+{"scroll":{"spell":"Protection from good","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":75,"topValue":77}}}
+{"scroll":{"spell":"Protection from law","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":78,"topValue":80}}}
+{"scroll":{"spell":"Remove fear","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":81,"topValue":84}}}
+{"scroll":{"spell":"Sanctuary","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":85,"topValue":88}}}
+{"scroll":{"spell":"Shield of faith","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":89,"topValue":94}}}
+{"scroll":{"spell":"Summon monster I","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":95,"topValue":97}}}
+{"scroll":{"spell":"Summon nature’s ally I","spellLevel":1,"casterLevel":1,"price":25,"rarity":"COMMON","type":"DIVINE","interval":{"bottomValue":98,"topValue":100}}}
+{"scroll":{"spell":"Ant haul","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":1,"topValue":4}}}
+{"scroll":{"spell":"Aspect of the falcon","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":5,"topValue":7}}}
+{"scroll":{"spell":"Calm animals","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":8,"topValue":9}}}
+{"scroll":{"spell":"Charm animal","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":10,"topValue":12}}}
+{"scroll":{"spell":"Compel hostility","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":13,"topValue":15}}}
+{"scroll":{"spell":"Deathwatch","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":16,"topValue":17}}}
+{"scroll":{"spell":"Detect animals or plants","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":18,"topValue":18}}}
+{"scroll":{"spell":"Detect snares and pits","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":19,"topValue":20}}}
+{"scroll":{"spell":"Diagnose disease","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":21,"topValue":23}}}
+{"scroll":{"spell":"Endure elements","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":24,"topValue":27}}}
+{"scroll":{"spell":"Entropic shield","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":28,"topValue":30}}}
+{"scroll":{"spell":"Faerie fire","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":31,"topValue":33}}}
+{"scroll":{"spell":"Feather step","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":34,"topValue":36}}}
+{"scroll":{"spell":"Forbid action","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":37,"topValue":39}}}
+{"scroll":{"spell":"Frostbite","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":40,"topValue":42}}}
+{"scroll":{"spell":"Goodberry","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":43,"topValue":46}}}
+{"scroll":{"spell":"Hide from animals","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":47,"topValue":47}}}
+{"scroll":{"spell":"Hide from undead","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":48,"topValue":49}}}
+{"scroll":{"spell":"Hydraulic push","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":50,"topValue":52}}}
+{"scroll":{"spell":"Jump","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":53,"topValue":55}}}
+{"scroll":{"spell":"Keen senses","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":56,"topValue":59}}}
+{"scroll":{"spell":"Liberating command","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":60,"topValue":62}}}
+{"scroll":{"spell":"Longstrider","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":63,"topValue":65}}}
+{"scroll":{"spell":"Magic stone","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":66,"topValue":68}}}
+{"scroll":{"spell":"Pass without trace","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":69,"topValue":72}}}
+{"scroll":{"spell":"Remove sickness","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":73,"topValue":74}}}
+{"scroll":{"spell":"Sanctify corpse","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":75,"topValue":75}}}
+{"scroll":{"spell":"Shillelagh","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":76,"topValue":78}}}
+{"scroll":{"spell":"Speak with animals","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":79,"topValue":81}}}
+{"scroll":{"spell":"Stone fist","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":82,"topValue":85}}}
+{"scroll":{"spell":"Stone shield","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":86,"topValue":88}}}
+{"scroll":{"spell":"Sun metal","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":89,"topValue":91}}}
+{"scroll":{"spell":"Touch of the sea","spellLevel":1,"casterLevel":1,"price":25,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":92,"topValue":95}}}
+{"scroll":{"spell":"Bless water","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":96,"topValue":98}}}
+{"scroll":{"spell":"Curse water","spellLevel":1,"casterLevel":1,"price":50,"rarity":"UNCOMMON","type":"DIVINE","interval":{"bottomValue":99,"topValue":100}}}
