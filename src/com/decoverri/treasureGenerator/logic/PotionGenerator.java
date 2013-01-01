@@ -57,5 +57,4 @@ public class PotionGenerator {
 		return (roll > 75 ? UNCOMMON : COMMON);
 	}
 
-
 }

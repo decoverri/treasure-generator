@@ -83,4 +83,8 @@ public class Wand {
 		this.interval = interval;
 	}
 
+	@Override
+	public String toString() {
+		return "Wand of " + spell.toLowerCase() + " (CL: " + casterLevel + ", " + price + "gp)";
+	}
 }

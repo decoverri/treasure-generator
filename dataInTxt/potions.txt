@@ -90,7 +90,7 @@
 {"potion":{"spell":"Haste","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":30,"topValue":35}}}
 {"potion":{"spell":"Heroism","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":36,"topValue":40}}}
 {"potion":{"spell":"Keen edge","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":41,"topValue":44}}}
-{"potion":{"spell":"Magic fang, greater","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":48}}}
+{"potion":{"spell":"Greater magic fang","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":48}}}
 {"potion":{"spell":"Magic vestment","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":49,"topValue":52}}}
 {"potion":{"spell":"Neutralize poison","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":53,"topValue":57}}}
 {"potion":{"spell":"Protection from energy, acid","spellLevel":3,"casterLevel":5,"price":750,"rarity":"COMMON","interval":{"bottomValue":58,"topValue":60}}}
