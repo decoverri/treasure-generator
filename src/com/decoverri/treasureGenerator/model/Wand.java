@@ -8,9 +8,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class Wand {
+public class Wand implements Treasure {
 
 	@Id
 	@GeneratedValue
@@ -85,6 +86,6 @@ public class Wand {
 
 	@Override
 	public String toString() {
-		return "Wand of " + spell.toLowerCase() + " (CL: " + casterLevel + ", " + price + "gp)";
+		return "Wand of " + spell.toLowerCase() + " (CL: " + casterLevel + ", 50 charges, " + price + "gp)";
 	}
 }

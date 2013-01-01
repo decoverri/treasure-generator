@@ -16,5 +16,4 @@ public class ArtObjectGeneratorDataDao {
 		session.save(artGen);
 	}
 
-
 }

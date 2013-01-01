@@ -31,12 +31,12 @@ public class FitTreasureA {
 		while (scanner.hasNextLine()) {
 			ATreasureReward reward = (ATreasureReward) xstream.fromXML(scanner.nextLine());
 
-			CoinGeneratorDataDao generatorDao = new CoinGeneratorDataDao(session);
+			CoinGeneratorDataDao coinGenDao = new CoinGeneratorDataDao(session);
 			ATreasureRewardDao rewardDao = new ATreasureRewardDao(session);
 
 			if (rewardDao.findByValue(reward.getValue()) == null) {
 				for (CoinGeneratorData coinGen : reward.getCoins()) {
-					generatorDao.save(coinGen);
+					coinGenDao.save(coinGen);
 				}
 				rewardDao.save(reward);
 			}

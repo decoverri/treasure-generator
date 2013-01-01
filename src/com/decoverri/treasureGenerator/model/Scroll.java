@@ -9,9 +9,10 @@ import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicType;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class Scroll {
+public class Scroll implements Treasure {
 
 	@Id
 	@GeneratedValue

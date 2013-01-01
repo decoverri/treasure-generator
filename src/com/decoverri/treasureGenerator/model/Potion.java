@@ -8,9 +8,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class Potion {
+public class Potion implements Treasure {
 
 	@Id
 	@GeneratedValue
