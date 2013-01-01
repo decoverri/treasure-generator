@@ -28,9 +28,7 @@ public class FitScrolls {
 		while (scanner.hasNextLine()) {
 			Scroll scroll = (Scroll) xstream.fromXML(scanner.nextLine());
 			ScrollDao scrollDao = new ScrollDao(session);
-			if (!scrollDao.exists(scroll)) {
-				scrollDao.saveOrUpdate(scroll);
-			}
+			scrollDao.saveOrUpdate(scroll);
 		}
 		scanner.close();
 	}

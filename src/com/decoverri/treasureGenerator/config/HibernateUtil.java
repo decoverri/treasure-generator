@@ -11,11 +11,12 @@ public class HibernateUtil {
 	private static SessionFactory sessionFactory;
 	private static ServiceRegistry serviceRegistry;
 
-	private static SessionFactory configureSessionFactory() throws HibernateException {
-	    Configuration cfg = new Configuration();
-	    
-	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ATreasureReward.class);
-	    cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.BTreasureReward.class);
+	private static SessionFactory configureSessionFactory()
+			throws HibernateException {
+		Configuration cfg = new Configuration();
+
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ATreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.BTreasureReward.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CTreasureReward.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CoinGeneratorData.class);
@@ -32,17 +33,23 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.PotionLevel.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Potion.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ScrollGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ScrollLevel.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Scroll.class);
-		
-	    cfg.configure();
-	    serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();        
-	    sessionFactory = cfg.buildSessionFactory(serviceRegistry);
-	    return sessionFactory;
+
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WandGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WandLevel.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Wand.class);
+
+		cfg.configure();
+		serviceRegistry = new ServiceRegistryBuilder().applySettings(
+				cfg.getProperties()).buildServiceRegistry();
+		sessionFactory = cfg.buildSessionFactory(serviceRegistry);
+		return sessionFactory;
 	}
 
-    public static SessionFactory getSessionFactory() {
-        return configureSessionFactory();
-    }
+	public static SessionFactory getSessionFactory() {
+		return configureSessionFactory();
+	}
 
 }

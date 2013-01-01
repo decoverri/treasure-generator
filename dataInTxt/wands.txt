@@ -1,0 +1,125 @@
+{"wand":{"spell":"Acid splash","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":7}}}
+{"wand":{"spell":"Create water","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":8,"topValue":14}}}
+{"wand":{"spell":"Daze","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":20}}}
+{"wand":{"spell":"Detect magic","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":28}}}
+{"wand":{"spell":"Ghost sound","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":29,"topValue":34}}}
+{"wand":{"spell":"Light","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":35,"topValue":42}}}
+{"wand":{"spell":"Mage hand","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":43,"topValue":49}}}
+{"wand":{"spell":"Mending","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":50,"topValue":55}}}
+{"wand":{"spell":"Message","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":56,"topValue":60}}}
+{"wand":{"spell":"Prestidigitation","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":61,"topValue":66}}}
+{"wand":{"spell":"Purify food and drink","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":73}}}
+{"wand":{"spell":"Ray of frost","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":74,"topValue":81}}}
+{"wand":{"spell":"Read magic","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":82,"topValue":88}}}
+{"wand":{"spell":"Stabilize","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":89,"topValue":95}}}
+{"wand":{"spell":"Touch of fatigue","spellLevel":0,"casterLevel":1,"price":375,"rarity":"COMMON","interval":{"bottomValue":96,"topValue":100}}}
+{"wand":{"spell":"Arcane mark","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":6}}}
+{"wand":{"spell":"Bleed","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":7,"topValue":15}}}
+{"wand":{"spell":"Dancing lights","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":16,"topValue":22}}}
+{"wand":{"spell":"Detect poison","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":23,"topValue":31}}}
+{"wand":{"spell":"Disrupt undead","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":32,"topValue":40}}}
+{"wand":{"spell":"Flare","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":41,"topValue":48}}}
+{"wand":{"spell":"Guidance","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":49,"topValue":56}}}
+{"wand":{"spell":"Know direction","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":57,"topValue":65}}}
+{"wand":{"spell":"Lullaby","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":66,"topValue":73}}}
+{"wand":{"spell":"Open/close","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":74,"topValue":79}}}
+{"wand":{"spell":"Resistance","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":80,"topValue":86}}}
+{"wand":{"spell":"Spark","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":87,"topValue":94}}}
+{"wand":{"spell":"Virtue","spellLevel":0,"casterLevel":1,"price":375,"rarity":"UNCOMMON","interval":{"bottomValue":95,"topValue":100}}}
+{"wand":{"spell":"Alarm","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":2}}}
+{"wand":{"spell":"Animate rope","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":3,"topValue":3}}}
+{"wand":{"spell":"Bane","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":4,"topValue":5}}}
+{"wand":{"spell":"Bless","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":6,"topValue":11}}}
+{"wand":{"spell":"Burning hands","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":12,"topValue":14}}}
+{"wand":{"spell":"Cause fear","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":15,"topValue":17}}}
+{"wand":{"spell":"Charm person","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":18,"topValue":19}}}
+{"wand":{"spell":"Color spray","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":20,"topValue":21}}}
+{"wand":{"spell":"Command","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":22,"topValue":23}}}
+{"wand":{"spell":"Comprehend languages","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":24,"topValue":24}}}
+{"wand":{"spell":"Cure light wounds","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":25,"topValue":31}}}
+{"wand":{"spell":"Disguise self","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":32,"topValue":33}}}
+{"wand":{"spell":"Divine favor","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":34,"topValue":37}}}
+{"wand":{"spell":"Endure elements","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":38,"topValue":38}}}
+{"wand":{"spell":"Enlarge person","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":39,"topValue":41}}}
+{"wand":{"spell":"Entangle","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":42,"topValue":43}}}
+{"wand":{"spell":"Expeditious retreat","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":44,"topValue":45}}}
+{"wand":{"spell":"Feather fall","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":46,"topValue":46}}}
+{"wand":{"spell":"Grease","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":47,"topValue":48}}}
+{"wand":{"spell":"Identify","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":49,"topValue":50}}}
+{"wand":{"spell":"Inflict light wounds","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":51,"topValue":52}}}
+{"wand":{"spell":"Mage armor","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":53,"topValue":58}}}
+{"wand":{"spell":"Magic fang","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":59,"topValue":60}}}
+{"wand":{"spell":"Magic missile","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":61,"topValue":67}}}
+{"wand":{"spell":"Magic stone","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":68,"topValue":68}}}
+{"wand":{"spell":"Magic weapon","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":69,"topValue":70}}}
+{"wand":{"spell":"Obscuring mist","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":71,"topValue":71}}}
+{"wand":{"spell":"Produce flame","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":72,"topValue":73}}}
+{"wand":{"spell":"Protection from chaos","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":74,"topValue":74}}}
+{"wand":{"spell":"Protection from evil","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":75,"topValue":75}}}
+{"wand":{"spell":"Protection from good","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":76,"topValue":76}}}
+{"wand":{"spell":"Protection from law","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":77,"topValue":77}}}
+{"wand":{"spell":"Ray of enfeeblement","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":78,"topValue":79}}}
+{"wand":{"spell":"Remove fear","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":80,"topValue":81}}}
+{"wand":{"spell":"Shield","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":82,"topValue":84}}}
+{"wand":{"spell":"Shield of faith","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":85,"topValue":86}}}
+{"wand":{"spell":"Shillelagh","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":87,"topValue":87}}}
+{"wand":{"spell":"Shocking grasp","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":88,"topValue":89}}}
+{"wand":{"spell":"Silent image","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":90,"topValue":90}}}
+{"wand":{"spell":"Sleep","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":91,"topValue":94}}}
+{"wand":{"spell":"Summon monster I","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":95,"topValue":95}}}
+{"wand":{"spell":"Summon nature’s ally I","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":96,"topValue":96}}}
+{"wand":{"spell":"True strike","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":97,"topValue":99}}}
+{"wand":{"spell":"Unseen servant","spellLevel":1,"casterLevel":1,"price":750,"rarity":"COMMON","interval":{"bottomValue":100,"topValue":100}}}
+{"wand":{"spell":"Ant haul","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":1,"topValue":2}}}
+{"wand":{"spell":"Aspect of the falcon","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":3,"topValue":5}}}
+{"wand":{"spell":"Bless weapon","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":6,"topValue":7}}}
+{"wand":{"spell":"Calm animals","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":8,"topValue":8}}}
+{"wand":{"spell":"Charm animal","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":9,"topValue":10}}}
+{"wand":{"spell":"Chill touch","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":11,"topValue":12}}}
+{"wand":{"spell":"Compel hostility","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":13,"topValue":14}}}
+{"wand":{"spell":"Confusion, lesser","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":15,"topValue":17}}}
+{"wand":{"spell":"Corrosive touch","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":18,"topValue":19}}}
+{"wand":{"spell":"Deathwatch","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":20,"topValue":21}}}
+{"wand":{"spell":"Detect animals or plants","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":22,"topValue":22}}}
+{"wand":{"spell":"Detect chaos","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":23,"topValue":23}}}
+{"wand":{"spell":"Detect evil","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":24,"topValue":24}}}
+{"wand":{"spell":"Detect good","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":25,"topValue":25}}}
+{"wand":{"spell":"Detect law","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":26,"topValue":26}}}
+{"wand":{"spell":"Detect secret doors","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":27,"topValue":28}}}
+{"wand":{"spell":"Detect snares and pits","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":29,"topValue":29}}}
+{"wand":{"spell":"Detect undead","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":30,"topValue":31}}}
+{"wand":{"spell":"Doom","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":32,"topValue":35}}}
+{"wand":{"spell":"Entropic shield","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":36,"topValue":37}}}
+{"wand":{"spell":"Erase","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":38,"topValue":38}}}
+{"wand":{"spell":"Faerie fire","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":39,"topValue":39}}}
+{"wand":{"spell":"Feather step","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":40,"topValue":41}}}
+{"wand":{"spell":"Floating disk","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":42,"topValue":44}}}
+{"wand":{"spell":"Goodberry","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":45,"topValue":47}}}
+{"wand":{"spell":"Hide from animals","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":48,"topValue":49}}}
+{"wand":{"spell":"Hide from undead","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":50,"topValue":51}}}
+{"wand":{"spell":"Hideous laughter","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":52,"topValue":52}}}
+{"wand":{"spell":"Hold portal","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":53,"topValue":54}}}
+{"wand":{"spell":"Hypnotism","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":55,"topValue":56}}}
+{"wand":{"spell":"Icicle dagger","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":57,"topValue":58}}}
+{"wand":{"spell":"Ill omen","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":59,"topValue":60}}}
+{"wand":{"spell":"Jump","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":61,"topValue":63}}}
+{"wand":{"spell":"Longstrider","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":64,"topValue":65}}}
+{"wand":{"spell":"Magic aura","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":66,"topValue":66}}}
+{"wand":{"spell":"Mount","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":67,"topValue":68}}}
+{"wand":{"spell":"Obscure object","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":69,"topValue":69}}}
+{"wand":{"spell":"Pass without trace","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":70,"topValue":71}}}
+{"wand":{"spell":"Ray of sickening","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":72,"topValue":72}}}
+{"wand":{"spell":"Reduce person","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":73,"topValue":75}}}
+{"wand":{"spell":"Sanctuary","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":76,"topValue":78}}}
+{"wand":{"spell":"Shock shield","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":79,"topValue":80}}}
+{"wand":{"spell":"Speak with animals","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":81,"topValue":83}}}
+{"wand":{"spell":"Stone fist","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":84,"topValue":85}}}
+{"wand":{"spell":"Stone shield","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":86,"topValue":87}}}
+{"wand":{"spell":"Summon minor monster","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":88,"topValue":88}}}
+{"wand":{"spell":"Undetectable alignment","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":89,"topValue":89}}}
+{"wand":{"spell":"Urban grace","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":90,"topValue":92}}}
+{"wand":{"spell":"Vanish","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":93,"topValue":96}}}
+{"wand":{"spell":"Ventriloquism","spellLevel":1,"casterLevel":1,"price":750,"rarity":"UNCOMMON","interval":{"bottomValue":97,"topValue":97}}}
+{"wand":{"spell":"Magic mouth","spellLevel":1,"casterLevel":1,"price":1250,"rarity":"UNCOMMON","interval":{"bottomValue":98,"topValue":98}}}
+{"wand":{"spell":"Bless water","spellLevel":1,"casterLevel":1,"price":2000,"rarity":"UNCOMMON","interval":{"bottomValue":99,"topValue":99}}}
+{"wand":{"spell":"Curse water","spellLevel":1,"casterLevel":1,"price":2000,"rarity":"UNCOMMON","interval":{"bottomValue":100,"topValue":100}}}

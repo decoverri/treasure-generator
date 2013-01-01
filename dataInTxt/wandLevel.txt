@@ -1,0 +1,13 @@
+{"wandlevel":{"spellLevel":0,"strength":"LESSER_MINOR","interval":{"bottomValue":1,"topValue":40}}}
+{"wandlevel":{"spellLevel":1,"strength":"LESSER_MINOR","interval":{"bottomValue":41,"topValue":100}}}
+{"wandlevel":{"spellLevel":1,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":80}}}
+{"wandlevel":{"spellLevel":2,"strength":"GREATER_MINOR","interval":{"bottomValue":81,"topValue":100}}}
+{"wandlevel":{"spellLevel":2,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":75}}}
+{"wandlevel":{"spellLevel":3,"strength":"LESSER_MEDIUM","interval":{"bottomValue":76,"topValue":100}}}
+{"wandlevel":{"spellLevel":2,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":20}}}
+{"wandlevel":{"spellLevel":3,"strength":"GREATER_MEDIUM","interval":{"bottomValue":21,"topValue":80}}}
+{"wandlevel":{"spellLevel":4,"strength":"GREATER_MEDIUM","interval":{"bottomValue":81,"topValue":100}}}
+{"wandlevel":{"spellLevel":3,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":60}}}
+{"wandlevel":{"spellLevel":4,"strength":"LESSER_MAJOR","interval":{"bottomValue":61,"topValue":100}}}
+{"wandlevel":{"spellLevel":3,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":30}}}
+{"wandlevel":{"spellLevel":4,"strength":"GREATER_MAJOR","interval":{"bottomValue":31,"topValue":100}}}

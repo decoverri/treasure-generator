@@ -6,29 +6,29 @@ import java.util.Scanner;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.PotionDao;
-import com.decoverri.treasureGenerator.model.Potion;
+import com.decoverri.treasureGenerator.dao.WandLevelDao;
+import com.decoverri.treasureGenerator.model.WandLevel;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
-public class FitPotions {
+public class FitWandLevel {
 
 	private Session session;
 
-	public FitPotions(Session session) {
+	public FitWandLevel(Session session) {
 		this.session = session;
 	}
 
 	public void fit() throws IOException {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
-		xstream.alias("potion", Potion.class);
+		xstream.alias("wandlevel", WandLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potions.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wandLevel.txt"));
 		while (scanner.hasNextLine()) {
-			Potion potion = (Potion) xstream.fromXML(scanner.nextLine());
-			PotionDao potionDao = new PotionDao(session);
-			potionDao.saveOrUpdate(potion);
+			WandLevel wandLevel = (WandLevel) xstream.fromXML(scanner.nextLine());
+			WandLevelDao wandDao = new WandLevelDao(session);
+			wandDao.saveOrUpdate(wandLevel);
 		}
 		scanner.close();
 	}

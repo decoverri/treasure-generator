@@ -1,5 +1,8 @@
 package com.decoverri.treasureGenerator.logic;
 
+import static com.decoverri.treasureGenerator.enums.MagicItemRarity.COMMON;
+import static com.decoverri.treasureGenerator.enums.MagicItemRarity.UNCOMMON;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,7 +54,7 @@ public class PotionGenerator {
 	}
 
 	private MagicItemRarity setPotionRarity(int roll) {
-		return (roll > 75 ? MagicItemRarity.UNCOMMON : MagicItemRarity.COMMON);
+		return (roll > 75 ? UNCOMMON : COMMON);
 	}
 
 
