@@ -1,8 +1,9 @@
 package com.decoverri.treasureGenerator.model;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
-public class SpecificArmor {
+public class SpecificArmor implements Treasure {
 
 	private String name;
 	private double price;
