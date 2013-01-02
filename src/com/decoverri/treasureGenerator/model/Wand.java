@@ -86,6 +86,6 @@ public class Wand implements Treasure {
 
 	@Override
 	public String toString() {
-		return "Wand of " + spell.toLowerCase() + " (CL: " + casterLevel + ", 50 charges, " + price + "gp)";
+		return "Wand of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (CL: " + casterLevel + ", 50 charges, " + price + "gp)";
 	}
 }

@@ -86,6 +86,6 @@ public class Potion implements Treasure {
 
 	@Override
 	public String toString() {
-		return "Potion of " + spell.toLowerCase() + " (CL: " + casterLevel + ", " + price + "gp)";
+		return "Potion of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (CL: " + casterLevel + ", " + price + "gp)";
 	}
 }
