@@ -1,0 +1,69 @@
+{"armor":{"name":"Mithral shirt","type":"ARMOR","price":1100,"strength":"LESSER_MINOR","interval":{"bottomValue":1,"topValue":50}}}
+{"armor":{"name":"Armor made with special material of GM's choice","type":"ARMOR","price":0,"strength":"LESSER_MINOR","interval":{"bottomValue":51,"topValue":100}}}
+{"armor":{"name":"Mistmail","type":"ARMOR","price":2250,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":33}}}
+{"armor":{"name":"Otyugh hide","type":"ARMOR","price":2565,"strength":"GREATER_MINOR","interval":{"bottomValue":34,"topValue":66}}}
+{"armor":{"name":"Dragonhide plate","type":"ARMOR","price":3300,"strength":"GREATER_MINOR","interval":{"bottomValue":67,"topValue":100}}}
+{"armor":{"name":"Elven chain","type":"ARMOR","price":5150,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":33}}}
+{"armor":{"name":"Rhino hide","type":"ARMOR","price":5165,"strength":"LESSER_MEDIUM","interval":{"bottomValue":34,"topValue":66}}}
+{"armor":{"name":"Morlock hide","type":"ARMOR","price":8910,"strength":"LESSER_MEDIUM","interval":{"bottomValue":67,"topValue":100}}}
+{"armor":{"name":"Adamantine breastplate","type":"ARMOR","price":10200,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":15}}}
+{"armor":{"name":"Soothsayer's rainment","type":"ARMOR","price":10300,"strength":"GREATER_MEDIUM","interval":{"bottomValue":16,"topValue":25}}}
+{"armor":{"name":"Equestrian plate","type":"ARMOR","price":10650,"strength":"GREATER_MEDIUM","interval":{"bottomValue":26,"topValue":38}}}
+{"armor":{"name":"Enchanted eelskin","type":"ARMOR","price":11160,"strength":"GREATER_MEDIUM","interval":{"bottomValue":39,"topValue":50}}}
+{"armor":{"name":"Boneless leather","type":"ARMOR","price":12160,"strength":"GREATER_MEDIUM","interval":{"bottomValue":51,"topValue":62}}}
+{"armor":{"name":"Murderer's blackcloth","type":"ARMOR","price":12405,"strength":"GREATER_MEDIUM","interval":{"bottomValue":63,"topValue":72}}}
+{"armor":{"name":"Folding plate","type":"ARMOR","price":12650,"strength":"GREATER_MEDIUM","interval":{"bottomValue":73,"topValue":86}}}
+{"armor":{"name":"Breastplate of vanishing","type":"ARMOR","price":15200,"strength":"GREATER_MEDIUM","interval":{"bottomValue":87,"topValue":100}}}
+{"armor":{"name":"Armor of insults","type":"ARMOR","price":16175,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":13}}}
+{"armor":{"name":"Dwarven plate","type":"ARMOR","price":16500,"strength":"LESSER_MAJOR","interval":{"bottomValue":14,"topValue":29}}}
+{"armor":{"name":"Banded mail of luck","type":"ARMOR","price":18900,"strength":"LESSER_MAJOR","interval":{"bottomValue":30,"topValue":45}}}
+{"armor":{"name":"Catskin leather","type":"ARMOR","price":18910,"strength":"LESSER_MAJOR","interval":{"bottomValue":46,"topValue":58}}}
+{"armor":{"name":"Celestial armor","type":"ARMOR","price":22400,"strength":"LESSER_MAJOR","interval":{"bottomValue":59,"topValue":71}}}
+{"armor":{"name":"Buccaneer's breastplate","type":"ARMOR","price":23850,"strength":"LESSER_MAJOR","interval":{"bottomValue":72,"topValue":84}}}
+{"armor":{"name":"Plate armor of the deep","type":"ARMOR","price":23850,"strength":"LESSER_MAJOR","interval":{"bottomValue":85,"topValue":100}}}
+{"armor":{"name":"Breastplate of command","type":"ARMOR","price":25400,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":10}}}
+{"armor":{"name":"Forsaken banded mail","type":"ARMOR","price":25400,"strength":"GREATER_MAJOR","interval":{"bottomValue":11,"topValue":14}}}
+{"armor":{"name":"Mithral full plate of speed","type":"ARMOR","price":26500,"strength":"GREATER_MAJOR","interval":{"bottomValue":15,"topValue":24}}}
+{"armor":{"name":"Warden of the woods","type":"ARMOR","price":29350,"strength":"GREATER_MAJOR","interval":{"bottomValue":25,"topValue":28}}}
+{"armor":{"name":"Scarab breastplate","type":"ARMOR","price":32350,"strength":"GREATER_MAJOR","interval":{"bottomValue":29,"topValue":32}}}
+{"armor":{"name":"Giant-hide armor (ogre)","type":"ARMOR","price":39165,"strength":"GREATER_MAJOR","interval":{"bottomValue":33,"topValue":38}}}
+{"armor":{"name":"Hamatula hide","type":"ARMOR","price":44215,"strength":"GREATER_MAJOR","interval":{"bottomValue":39,"topValue":42}}}
+{"armor":{"name":"Giant-hide armor (hill giant)","type":"ARMOR","price":46665,"strength":"GREATER_MAJOR","interval":{"bottomValue":43,"topValue":48}}}
+{"armor":{"name":"Demon armor","type":"ARMOR","price":52260,"strength":"GREATER_MAJOR","interval":{"bottomValue":49,"topValue":52}}}
+{"armor":{"name":"Giant-hide armor (stone giant)","type":"ARMOR","price":54165,"strength":"GREATER_MAJOR","interval":{"bottomValue":53,"topValue":54}}}
+{"armor":{"name":"Giant-hide armor (fire giant)","type":"ARMOR","price":54165,"strength":"GREATER_MAJOR","interval":{"bottomValue":55,"topValue":56}}}
+{"armor":{"name":"Giant-hide armor (frost giant)","type":"ARMOR","price":54165,"strength":"GREATER_MAJOR","interval":{"bottomValue":57,"topValue":58}}}
+{"armor":{"name":"Giant-hide armor (troll)","type":"ARMOR","price":59165,"strength":"GREATER_MAJOR","interval":{"bottomValue":59,"topValue":64}}}
+{"armor":{"name":"Mail of malevolence","type":"ARMOR","price":61300,"strength":"GREATER_MAJOR","interval":{"bottomValue":65,"topValue":70}}}
+{"armor":{"name":"Giant-hide armor (cloud giant)","type":"ARMOR","price":69165,"strength":"GREATER_MAJOR","interval":{"bottomValue":71,"topValue":76}}}
+{"armor":{"name":"Giant-hide armor (troll giant)","type":"ARMOR","price":76665,"strength":"GREATER_MAJOR","interval":{"bottomValue":77,"topValue":82}}}
+{"armor":{"name":"Daystar half-plate","type":"ARMOR","price":81250,"strength":"GREATER_MAJOR","interval":{"bottomValue":83,"topValue":88}}}
+{"armor":{"name":"Invincible","type":"ARMOR","price":137650,"strength":"GREATER_MAJOR","interval":{"bottomValue":89,"topValue":96}}}
+{"armor":{"name":"Prismatic plate","type":"ARMOR","price":160650,"strength":"GREATER_MAJOR","interval":{"bottomValue":97,"topValue":100}}}
+{"armor":{"name":"Living steel heavy shield","type":"SHIELD","price":120,"strength":"LESSER_MINOR","interval":{"bottomValue":1,"topValue":20}}}
+{"armor":{"name":"Darkwood buckler","type":"SHIELD","price":203,"strength":"LESSER_MINOR","interval":{"bottomValue":21,"topValue":45}}}
+{"armor":{"name":"Darkwood shield","type":"SHIELD","price":257,"strength":"LESSER_MINOR","interval":{"bottomValue":46,"topValue":70}}}
+{"armor":{"name":"Mithral heavy shield","type":"SHIELD","price":1020,"strength":"LESSER_MINOR","interval":{"bottomValue":71,"topValue":100}}}
+{"armor":{"name":"Zombie skin shield","type":"SHIELD","price":2159,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":30}}}
+{"armor":{"name":"Caster's shield","type":"SHIELD","price":3153,"strength":"GREATER_MINOR","interval":{"bottomValue":31,"topValue":75}}}
+{"armor":{"name":"Burglar's buckler","type":"SHIELD","price":4655,"strength":"GREATER_MINOR","interval":{"bottomValue":76,"topValue":100}}}
+{"armor":{"name":"Spined shield","type":"SHIELD","price":5580,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":35}}}
+{"armor":{"name":"Dragonslayer's shield","type":"SHIELD","price":7170,"strength":"LESSER_MEDIUM","interval":{"bottomValue":36,"topValue":50}}}
+{"armor":{"name":"Collapsible tower","type":"SHIELD","price":8170,"strength":"LESSER_MEDIUM","interval":{"bottomValue":51,"topValue":65}}}
+{"armor":{"name":"Lion's shield","type":"SHIELD","price":9170,"strength":"LESSER_MEDIUM","interval":{"bottomValue":66,"topValue":100}}}
+{"armor":{"name":"Greater caster shield","type":"SHIELD","price":10153,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":20}}}
+{"armor":{"name":"Celestial shield","type":"SHIELD","price":13170,"strength":"GREATER_MEDIUM","interval":{"bottomValue":21,"topValue":40}}}
+{"armor":{"name":"Maelstrom shield","type":"SHIELD","price":14170,"strength":"GREATER_MEDIUM","interval":{"bottomValue":41,"topValue":60}}}
+{"armor":{"name":"Volcanic shield","type":"SHIELD","price":14170,"strength":"GREATER_MEDIUM","interval":{"bottomValue":61,"topValue":80}}}
+{"armor":{"name":"Tempest shield","type":"SHIELD","price":15170,"strength":"GREATER_MEDIUM","interval":{"bottomValue":81,"topValue":100}}}
+{"armor":{"name":"Battlement shield","type":"SHIELD","price":16180,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":20}}}
+{"armor":{"name":"Winged shield","type":"SHIELD","price":17257,"strength":"LESSER_MAJOR","interval":{"bottomValue":21,"topValue":40}}}
+{"armor":{"name":"Avalanche shield","type":"SHIELD","price":19170,"strength":"LESSER_MAJOR","interval":{"bottomValue":41,"topValue":60}}}
+{"armor":{"name":"Fortress shield","type":"SHIELD","price":19180,"strength":"LESSER_MAJOR","interval":{"bottomValue":61,"topValue":80}}}
+{"armor":{"name":"Wyrmslayer's shield","type":"SHIELD","price":20170,"strength":"LESSER_MAJOR","interval":{"bottomValue":81,"topValue":100}}}
+{"armor":{"name":"Spell ward tower shield","type":"SHIELD","price":25180,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":20}}}
+{"armor":{"name":"Quick block buckler","type":"SHIELD","price":36155,"strength":"GREATER_MAJOR","interval":{"bottomValue":21,"topValue":35}}}
+{"armor":{"name":"Belligerent shield","type":"SHIELD","price":36170,"strength":"GREATER_MAJOR","interval":{"bottomValue":36,"topValue":50}}}
+{"armor":{"name":"Force tower","type":"SHIELD","price":46030,"strength":"GREATER_MAJOR","interval":{"bottomValue":51,"topValue":65}}}
+{"armor":{"name":"Absorbing shield","type":"SHIELD","price":50170,"strength":"GREATER_MAJOR","interval":{"bottomValue":66,"topValue":85}}}
+{"armor":{"name":"Elysian shield","type":"SHIELD","price":52620,"strength":"GREATER_MAJOR","interval":{"bottomValue":86,"topValue":100}}}
