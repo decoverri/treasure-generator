@@ -11,8 +11,7 @@ public class HibernateUtil {
 	private static SessionFactory sessionFactory;
 	private static ServiceRegistry serviceRegistry;
 
-	private static SessionFactory configureSessionFactory()
-			throws HibernateException {
+	private static SessionFactory configureSessionFactory() throws HibernateException {
 		Configuration cfg = new Configuration();
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ATreasureReward.class);
@@ -47,8 +46,7 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificArmor.class);
 
 		cfg.configure();
-		serviceRegistry = new ServiceRegistryBuilder().applySettings(
-				cfg.getProperties()).buildServiceRegistry();
+		serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
 		sessionFactory = cfg.buildSessionFactory(serviceRegistry);
 		return sessionFactory;
 	}
