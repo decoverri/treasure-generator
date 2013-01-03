@@ -1,22 +1,22 @@
-{"armor":{"nome":"Banded mail","price":250,"type":"ARMOR","interval":{"bottomValue":1,"topValue":4}}}
-{"armor":{"nome":"Breastplate","price":200,"type":"ARMOR","interval":{"bottomValue":5,"topValue":11}}}
-{"armor":{"nome":"Buckler","price":5,"type":"SHIELD","interval":{"bottomValue":12,"topValue":14}}}
-{"armor":{"nome":"Chain shirt","price":100,"type":"ARMOR","interval":{"bottomValue":15,"topValue":21}}}
-{"armor":{"nome":"Chainmail","price":150,"type":"ARMOR","interval":{"bottomValue":22,"topValue":27}}}
-{"armor":{"nome":"Full plate","price":1500,"type":"ARMOR","interval":{"bottomValue":28,"topValue":34}}}
-{"armor":{"nome":"Half-plate","price":600,"type":"ARMOR","interval":{"bottomValue":35,"topValue":39}}}
-{"armor":{"nome":"Heavy steel shield","price":20,"type":"SHIELD","interval":{"bottomValue":40,"topValue":45}}}
-{"armor":{"nome":"Heavy wooden shield","price":7,"type":"SHIELD","interval":{"bottomValue":46,"topValue":51}}}
-{"armor":{"nome":"Hide","price":15,"type":"ARMOR","interval":{"bottomValue":52,"topValue":55}}}
-{"armor":{"nome":"Leather armor","price":10,"type":"ARMOR","interval":{"bottomValue":56,"topValue":61}}}
-{"armor":{"nome":"Light steel shield","price":9,"type":"SHIELD","interval":{"bottomValue":62,"topValue":65}}}
-{"armor":{"nome":"Light wooden shield","price":3,"type":"SHIELD","interval":{"bottomValue":66,"topValue":69}}}
-{"armor":{"nome":"Padded armor","price":5,"type":"ARMOR","interval":{"bottomValue":70,"topValue":72}}}
-{"armor":{"nome":"Scale mail","price":50,"type":"ARMOR","interval":{"bottomValue":73,"topValue":77}}}
-{"armor":{"nome":"Splint mail","price":200,"type":"ARMOR","interval":{"bottomValue":78,"topValue":81}}}
-{"armor":{"nome":"Studded leather armor","price":25,"type":"ARMOR","interval":{"bottomValue":82,"topValue":87}}}
-{"armor":{"nome":"Tower shield","price":30,"type":"SHIELD","interval":{"bottomValue":88,"topValue":90}}}
-{"armor":{"nome":"Other light armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":91,"topValue":93}}}
-{"armor":{"nome":"Other medium armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":94,"topValue":95}}}
-{"armor":{"nome":"Other heavy armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":96,"topValue":98}}}
-{"armor":{"nome":"Other shield of GM's choice","price":0,"type":"SHIELD","interval":{"bottomValue":99,"topValue":100}}}
+{"armor":{"name":"Banded mail","price":250,"type":"ARMOR","interval":{"bottomValue":1,"topValue":4}}}
+{"armor":{"name":"Breastplate","price":200,"type":"ARMOR","interval":{"bottomValue":5,"topValue":11}}}
+{"armor":{"name":"Buckler","price":5,"type":"SHIELD","interval":{"bottomValue":12,"topValue":14}}}
+{"armor":{"name":"Chain shirt","price":100,"type":"ARMOR","interval":{"bottomValue":15,"topValue":21}}}
+{"armor":{"name":"Chainmail","price":150,"type":"ARMOR","interval":{"bottomValue":22,"topValue":27}}}
+{"armor":{"name":"Full plate","price":1500,"type":"ARMOR","interval":{"bottomValue":28,"topValue":34}}}
+{"armor":{"name":"Half-plate","price":600,"type":"ARMOR","interval":{"bottomValue":35,"topValue":39}}}
+{"armor":{"name":"Heavy steel shield","price":20,"type":"SHIELD","interval":{"bottomValue":40,"topValue":45}}}
+{"armor":{"name":"Heavy wooden shield","price":7,"type":"SHIELD","interval":{"bottomValue":46,"topValue":51}}}
+{"armor":{"name":"Hide","price":15,"type":"ARMOR","interval":{"bottomValue":52,"topValue":55}}}
+{"armor":{"name":"Leather armor","price":10,"type":"ARMOR","interval":{"bottomValue":56,"topValue":61}}}
+{"armor":{"name":"Light steel shield","price":9,"type":"SHIELD","interval":{"bottomValue":62,"topValue":65}}}
+{"armor":{"name":"Light wooden shield","price":3,"type":"SHIELD","interval":{"bottomValue":66,"topValue":69}}}
+{"armor":{"name":"Padded armor","price":5,"type":"ARMOR","interval":{"bottomValue":70,"topValue":72}}}
+{"armor":{"name":"Scale mail","price":50,"type":"ARMOR","interval":{"bottomValue":73,"topValue":77}}}
+{"armor":{"name":"Splint mail","price":200,"type":"ARMOR","interval":{"bottomValue":78,"topValue":81}}}
+{"armor":{"name":"Studded leather armor","price":25,"type":"ARMOR","interval":{"bottomValue":82,"topValue":87}}}
+{"armor":{"name":"Tower shield","price":30,"type":"SHIELD","interval":{"bottomValue":88,"topValue":90}}}
+{"armor":{"name":"Other light armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":91,"topValue":93}}}
+{"armor":{"name":"Other medium armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":94,"topValue":95}}}
+{"armor":{"name":"Other heavy armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":96,"topValue":98}}}
+{"armor":{"name":"Other shield of GM's choice","price":0,"type":"SHIELD","interval":{"bottomValue":99,"topValue":100}}}

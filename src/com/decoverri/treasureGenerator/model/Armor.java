@@ -19,7 +19,7 @@ public class Armor implements Treasure {
 	@GeneratedValue
 	private long id;
 	
-	private String nome;
+	private String name;
 	private double price;
 	
 	@Enumerated(EnumType.STRING)
@@ -39,12 +39,12 @@ public class Armor implements Treasure {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public double getPrice() {
@@ -86,7 +86,7 @@ public class Armor implements Treasure {
 			builder.append(this.size + " ");
 		}
 		double totalPrice = this.price + 150.0;
-		builder.append("masterwork " + this.nome + " (price " + totalPrice + "gp)");
+		builder.append("masterwork " + this.name + " (price " + totalPrice + "gp)");
 
 		String string = builder.toString();
 		return string.toUpperCase().substring(0, 1) + string.toLowerCase().substring(1);

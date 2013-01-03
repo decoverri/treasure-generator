@@ -29,5 +29,4 @@ public class ScrollLevelDao {
 		return (Integer) query.list().get(0);
 	}
 
-
 }

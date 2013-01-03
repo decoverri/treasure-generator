@@ -16,15 +16,20 @@ public class FitData {
 		//TODO Find a way to not add repeated entries (in case of rerunning this class)
 		new FitGems(session).fit();
 		new FitArtObjects(session).fit();
+
 		new FitPotions(session).fit();
 		new FitPotionLevel(session).fit();
+
 		new FitScrolls(session).fit();
 		new FitScrollLevel(session).fit();
+
 		new FitWand(session).fit();
 		new FitWandLevel(session).fit();
+
 		new FitArmor(session).fit();
 		new FitSpecificArmor(session).fit();
 		new FitMagicArmorAbility(session).fit();
+		new FitMagicArmorStats(session).fit();
 
 		new FitTreasureA(session).fit();
 		new FitTreasureB(session).fit();

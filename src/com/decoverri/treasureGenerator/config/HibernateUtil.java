@@ -42,6 +42,7 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Wand.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Armor.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorStats.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorAbility.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificArmor.class);
 
