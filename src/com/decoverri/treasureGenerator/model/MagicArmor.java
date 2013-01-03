@@ -9,7 +9,7 @@ public class MagicArmor implements Treasure {
 
 	private Armor baseArmor;
 	private int bonus;
-	private List<MagicArmorAndShieldAbility> magicalProperties;
+	private List<MagicArmorAbility> magicalAbilities;
 
 	public Armor getBaseArmor() {
 		return baseArmor;
@@ -27,13 +27,12 @@ public class MagicArmor implements Treasure {
 		this.bonus = bonus;
 	}
 
-	public List<MagicArmorAndShieldAbility> getMagicalProperties() {
-		return magicalProperties;
+	public List<MagicArmorAbility> getMagicalAbilities() {
+		return magicalAbilities;
 	}
 
-	public void setMagicalProperties(
-			List<MagicArmorAndShieldAbility> magicalProperties) {
-		this.magicalProperties = magicalProperties;
+	public void setMagicalAbilities(List<MagicArmorAbility> magicalAbilities) {
+		this.magicalAbilities = magicalAbilities;
 	}
 
 	@Override
@@ -42,7 +41,7 @@ public class MagicArmor implements Treasure {
 
 		builder.append("+" + this.bonus + " ");
 
-		for (MagicArmorAndShieldAbility property : this.magicalProperties) {
+		for (MagicArmorAbility property : this.magicalAbilities) {
 			builder.append(property.toString().toLowerCase() + " ");
 		}
 
@@ -59,16 +58,16 @@ public class MagicArmor implements Treasure {
 		double result = this.baseArmor.getPrice() + 150.0;
 		int bonusForPrice = this.bonus;
 
-		for (MagicArmorAndShieldAbility property : this.magicalProperties) {
+		for (MagicArmorAbility property : this.magicalAbilities) {
 			if (property.isPriceInBonus()) {
-				bonusForPrice += property.getAbilityBonus();
+				bonusForPrice += property.getBonus();
 			} else {
 				result += property.getPrice();
 			}
 		}
 
 		result += (bonusForPrice * bonusForPrice * 1000.0);
-		
+
 		return result;
 	}
 

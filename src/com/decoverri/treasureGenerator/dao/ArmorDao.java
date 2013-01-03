@@ -26,5 +26,4 @@ public class ArmorDao {
 		return (Armor) query.list().get(0);
 	}
 
-
 }

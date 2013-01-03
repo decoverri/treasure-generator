@@ -1,0 +1,88 @@
+{"ability":{"name":"Benevolent","type":"ARMOR","bonus":1,"price":2000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":6}}}
+{"ability":{"name":"Poison-resistant","type":"ARMOR","bonus":1,"price":2250,"priceInBonus":"false","interval":{"bottomValue":7,"topValue":12}}}
+{"ability":{"name":"Balanced","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":13,"topValue":18}}}
+{"ability":{"name":"Bitter","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":19,"topValue":24}}}
+{"ability":{"name":"Bolstering","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":25,"topValue":30}}}
+{"ability":{"name":"Brawling","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":31,"topValue":36}}}
+{"ability":{"name":"Champion","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":37,"topValue":42}}}
+{"ability":{"name":"Dastard","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":43,"topValue":48}}}
+{"ability":{"name":"Deathless","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":49,"topValue":54}}}
+{"ability":{"name":"Deathless","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":49,"topValue":54}}}
+{"ability":{"name":"Defiant","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":55,"topValue":60}}}
+{"ability":{"name":"Light fortification","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":61,"topValue":66}}}
+{"ability":{"name":"Grinding","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":67,"topValue":71}}}
+{"ability":{"name":"Impervious","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":72,"topValue":76}}}
+{"ability":{"name":"Mirrored","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":77,"topValue":82}}}
+{"ability":{"name":"Spell Storing","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":83,"topValue":88}}}
+{"ability":{"name":"Stanching","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":89,"topValue":94}}}
+{"ability":{"name":"Warding","type":"ARMOR","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":95,"topValue":100}}}
+{"ability":{"name":"Glamered","type":"ARMOR","bonus":2,"price":2700,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":12}}}
+{"ability":{"name":"Jousting","type":"ARMOR","bonus":2,"price":3750,"priceInBonus":"false","interval":{"bottomValue":13,"topValue":24}}}
+{"ability":{"name":"Shadow","type":"ARMOR","bonus":2,"price":3750,"priceInBonus":"false","interval":{"bottomValue":25,"topValue":38}}}
+{"ability":{"name":"Slick","type":"ARMOR","bonus":2,"price":3750,"priceInBonus":"false","interval":{"bottomValue":39,"topValue":52}}}
+{"ability":{"name":"Expeditious","type":"ARMOR","bonus":2,"price":4000,"priceInBonus":"false","interval":{"bottomValue":53,"topValue":64}}}
+{"ability":{"name":"Creeping","type":"ARMOR","bonus":2,"price":5000,"priceInBonus":"false","interval":{"bottomValue":65,"topValue":76}}}
+{"ability":{"name":"Rallying","type":"ARMOR","bonus":2,"price":5000,"priceInBonus":"false","interval":{"bottomValue":77,"topValue":88}}}
+{"ability":{"name":"Spell resistance (13)","type":"ARMOR","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":89,"topValue":100}}}
+{"ability":{"name":"Adhesive","type":"ARMOR","bonus":3,"price":7000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":8}}}
+{"ability":{"name":"Hosteling","type":"ARMOR","bonus":3,"price":7500,"priceInBonus":"false","interval":{"bottomValue":9,"topValue":17}}}
+{"ability":{"name":"Radiant","type":"ARMOR","bonus":3,"price":7500,"priceInBonus":"false","interval":{"bottomValue":18,"topValue":26}}}
+{"ability":{"name":"Delving","type":"ARMOR","bonus":3,"price":10000,"priceInBonus":"false","interval":{"bottomValue":27,"topValue":36}}}
+{"ability":{"name":"Putrid","type":"ARMOR","bonus":3,"price":10000,"priceInBonus":"false","interval":{"bottomValue":37,"topValue":45}}}
+{"ability":{"name":"Moderate fortification","type":"ARMOR","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":46,"topValue":55}}}
+{"ability":{"name":"Ghost touch","type":"ARMOR","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":56,"topValue":65}}}
+{"ability":{"name":"Invulnerability","type":"ARMOR","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":66,"topValue":74}}}
+{"ability":{"name":"Spell resistance (15)","type":"ARMOR","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":75,"topValue":84}}}
+{"ability":{"name":"Titanic","type":"ARMOR","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":85,"topValue":92}}}
+{"ability":{"name":"Wild","type":"ARMOR","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":93,"topValue":100}}}
+{"ability":{"name":"Harmonizing","type":"ARMOR","bonus":4,"price":15000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":16}}}
+{"ability":{"name":"Improved shadow","type":"ARMOR","bonus":4,"price":15000,"priceInBonus":"false","interval":{"bottomValue":17,"topValue":33}}}
+{"ability":{"name":"Improved slick","type":"ARMOR","bonus":4,"price":15000,"priceInBonus":"false","interval":{"bottomValue":34,"topValue":50}}}
+{"ability":{"name":"Energy resistance","type":"ARMOR","bonus":4,"price":18000,"priceInBonus":"false","interval":{"bottomValue":51,"topValue":67}}}
+{"ability":{"name":"Martyring","type":"ARMOR","bonus":4,"price":18000,"priceInBonus":"false","interval":{"bottomValue":68,"topValue":83}}}
+{"ability":{"name":"Spell resistance (17)","type":"ARMOR","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":84,"topValue":100}}}
+{"ability":{"name":"Righteous","type":"ARMOR","bonus":5,"price":27000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":8}}}
+{"ability":{"name":"Unbound","type":"ARMOR","bonus":5,"price":27000,"priceInBonus":"false","interval":{"bottomValue":9,"topValue":15}}}
+{"ability":{"name":"Unrighteous","type":"ARMOR","bonus":5,"price":27000,"priceInBonus":"false","interval":{"bottomValue":16,"topValue":23}}}
+{"ability":{"name":"Vigilant","type":"ARMOR","bonus":5,"price":27000,"priceInBonus":"false","interval":{"bottomValue":24,"topValue":30}}}
+{"ability":{"name":"Determination","type":"ARMOR","bonus":5,"price":30000,"priceInBonus":"false","interval":{"bottomValue":31,"topValue":37}}}
+{"ability":{"name":"Greater shadow","type":"ARMOR","bonus":5,"price":33750,"priceInBonus":"false","interval":{"bottomValue":38,"topValue":45}}}
+{"ability":{"name":"Greater slick","type":"ARMOR","bonus":5,"price":33750,"priceInBonus":"false","interval":{"bottomValue":46,"topValue":53}}}
+{"ability":{"name":"Improved energy resistance","type":"ARMOR","bonus":5,"price":42000,"priceInBonus":"false","interval":{"bottomValue":54,"topValue":61}}}
+{"ability":{"name":"Etherealness","type":"ARMOR","bonus":5,"price":49000,"priceInBonus":"false","interval":{"bottomValue":62,"topValue":69}}}
+{"ability":{"name":"Undead controlling","type":"ARMOR","bonus":5,"price":49000,"priceInBonus":"false","interval":{"bottomValue":70,"topValue":76}}}
+{"ability":{"name":"Greater energy resistance","type":"ARMOR","bonus":5,"price":66000,"priceInBonus":"false","interval":{"bottomValue":77,"topValue":84}}}
+{"ability":{"name":"Heavy fortification","type":"ARMOR","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":85,"topValue":92}}}
+{"ability":{"name":"Spell resistance (19)","type":"ARMOR","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":93,"topValue":100}}}
+{"ability":{"name":"Poison-resistant","type":"SHIELD","bonus":1,"price":2250,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":10}}}
+{"ability":{"name":"Arrow catching","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":11,"topValue":19}}}
+{"ability":{"name":"Bashing","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":20,"topValue":28}}}
+{"ability":{"name":"Blinding","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":29,"topValue":37}}}
+{"ability":{"name":"Clangorous","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":38,"topValue":46}}}
+{"ability":{"name":"Defiant","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":47,"topValue":55}}}
+{"ability":{"name":"Light fortification","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":56,"topValue":64}}}
+{"ability":{"name":"Grinding","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":65,"topValue":73}}}
+{"ability":{"name":"Impervious","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":74,"topValue":82}}}
+{"ability":{"name":"Mirrored","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":83,"topValue":91}}}
+{"ability":{"name":"Ramming","type":"SHIELD","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":92,"topValue":100}}}
+{"ability":{"name":"Rallying","type":"SHIELD","bonus":2,"price":5000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":15}}}
+{"ability":{"name":"Wyrmsbreath","type":"SHIELD","bonus":2,"price":5000,"priceInBonus":"false","interval":{"bottomValue":16,"topValue":30}}}
+{"ability":{"name":"Animated","type":"SHIELD","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":31,"topValue":50}}}
+{"ability":{"name":"Arrow deflection","type":"SHIELD","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":51,"topValue":67}}}
+{"ability":{"name":"Merging","type":"SHIELD","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":68,"topValue":82}}}
+{"ability":{"name":"Spell resistance (13)","type":"SHIELD","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":83,"topValue":100}}}
+{"ability":{"name":"Hosteling","type":"SHIELD","bonus":3,"price":7500,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":15}}}
+{"ability":{"name":"Radiant","type":"SHIELD","bonus":3,"price":7500,"priceInBonus":"false","interval":{"bottomValue":16,"topValue":32}}}
+{"ability":{"name":"Moderate fortification","type":"SHIELD","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":33,"topValue":49}}}
+{"ability":{"name":"Ghost touch","type":"SHIELD","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":50,"topValue":66}}}
+{"ability":{"name":"Spell resistance (15)","type":"SHIELD","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":67,"topValue":83}}}
+{"ability":{"name":"Wild","type":"SHIELD","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":84,"topValue":100}}}
+{"ability":{"name":"Energy resistance","type":"SHIELD","bonus":4,"price":18000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":50}}}
+{"ability":{"name":"Spell resistance (17)","type":"SHIELD","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":51,"topValue":100}}}
+{"ability":{"name":"Determination","type":"SHIELD","bonus":5,"price":30000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":11}}}
+{"ability":{"name":"Improved energy resistance","type":"SHIELD","bonus":5,"price":42000,"priceInBonus":"false","interval":{"bottomValue":12,"topValue":27}}}
+{"ability":{"name":"Undead controlling","type":"SHIELD","bonus":5,"price":49000,"priceInBonus":"false","interval":{"bottomValue":28,"topValue":38}}}
+{"ability":{"name":"Greater energy resistance","type":"SHIELD","bonus":5,"price":66000,"priceInBonus":"false","interval":{"bottomValue":39,"topValue":55}}}
+{"ability":{"name":"Heavy fortification","type":"SHIELD","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":56,"topValue":70}}}
+{"ability":{"name":"Reflecting","type":"SHIELD","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":71,"topValue":85}}}
+{"ability":{"name":"Spell resistance (19)","type":"SHIELD","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":86,"topValue":100}}}
