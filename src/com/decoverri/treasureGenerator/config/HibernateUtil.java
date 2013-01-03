@@ -42,6 +42,8 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WandLevel.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Wand.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Armor.class);
+
 		cfg.configure();
 		serviceRegistry = new ServiceRegistryBuilder().applySettings(
 				cfg.getProperties()).buildServiceRegistry();

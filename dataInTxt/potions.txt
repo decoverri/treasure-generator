@@ -43,18 +43,18 @@
 {"potion":{"spell":"Aid","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":1,"topValue":4}}}
 {"potion":{"spell":"Align weapon","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":5,"topValue":7}}}
 {"potion":{"spell":"Barkskin","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":8,"topValue":11}}}
-{"potion":{"spell":"Bear’s endurance","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":12,"topValue":16}}}
+{"potion":{"spell":"Bear's endurance","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":12,"topValue":16}}}
 {"potion":{"spell":"Blur","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":17,"topValue":20}}}
-{"potion":{"spell":"Bull’s strength","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":25}}}
-{"potion":{"spell":"Cat’s grace","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":26,"topValue":30}}}
+{"potion":{"spell":"Bull's strength","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":21,"topValue":25}}}
+{"potion":{"spell":"Cat's grace","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":26,"topValue":30}}}
 {"potion":{"spell":"Cure moderate wounds","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":31,"topValue":37}}}
 {"potion":{"spell":"Darkvision","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":38,"topValue":41}}}
 {"potion":{"spell":"Delay poison","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":42,"topValue":44}}}
-{"potion":{"spell":"Eagle’s splendor","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":49}}}
-{"potion":{"spell":"Fox’s cunning","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":50,"topValue":54}}}
+{"potion":{"spell":"Eagle's splendor","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":45,"topValue":49}}}
+{"potion":{"spell":"Fox's cunning","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":50,"topValue":54}}}
 {"potion":{"spell":"Invisibility","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":55,"topValue":61}}}
 {"potion":{"spell":"Levitate","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":62,"topValue":66}}}
-{"potion":{"spell":"Owl’s wisdom","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":71}}}
+{"potion":{"spell":"Owl's wisdom","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":67,"topValue":71}}}
 {"potion":{"spell":"Protection from arrows","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":72,"topValue":73}}}
 {"potion":{"spell":"Remove paralysis","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":74,"topValue":76}}}
 {"potion":{"spell":"Resist energy, acid","spellLevel":2,"casterLevel":3,"price":300,"rarity":"COMMON","interval":{"bottomValue":77,"topValue":80}}}

@@ -22,6 +22,7 @@ public class FitData {
 		new FitScrolls(session).fit();
 		new FitWandLevel(session).fit();
 		new FitWand(session).fit();
+		new FitArmor(session).fit();
 
 		new FitTreasureA(session).fit();
 		new FitTreasureB(session).fit();

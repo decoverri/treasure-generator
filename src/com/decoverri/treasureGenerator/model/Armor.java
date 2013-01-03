@@ -1,16 +1,43 @@
 package com.decoverri.treasureGenerator.model;
 
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Transient;
+
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.enums.Size;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 
+@Entity
 public class Armor implements Treasure {
 
+	@Id
+	@GeneratedValue
+	private long id;
+	
 	private String nome;
 	private double price;
+	
+	@Enumerated(EnumType.STRING)
 	private ArmorType type;
+	
+	@Transient
 	private Size size;
+	
+	@Embedded
 	private Interval interval;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public String getNome() {
 		return nome;
