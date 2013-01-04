@@ -27,7 +27,7 @@ public class SpecificArmorDao {
 		Query query = session.createQuery("select a from SpecificArmor a where a.type = :type and a.strength = :strength " +
 										  "and :roll >= bottomValue and :roll <= topValue")
 										  .setParameter("type", type)
-										  .setParameter("bonus", strength)
+										  .setParameter("strength", strength)
 										  .setParameter("roll", roll);
 		return (SpecificArmor) query.list().get(0);
 	}
