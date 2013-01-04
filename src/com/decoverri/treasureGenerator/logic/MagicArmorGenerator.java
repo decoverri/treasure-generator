@@ -19,6 +19,9 @@ public class MagicArmorGenerator {
 
 	private Session session;
 
+	private DiceRoller roller = new DiceRoller();
+	private Dice d100 = new Dice(100);
+
 	public MagicArmorGenerator(Session session) {
 		this.session = session;
 	}
@@ -27,52 +30,76 @@ public class MagicArmorGenerator {
 
 		List<Treasure> armors = new ArrayList<Treasure>();
 
-		ArmorGenerator armorGenerator = new ArmorGenerator(session);
-		MagicArmorStatsDao statsDao = new MagicArmorStatsDao(session);
-		SpecificArmorGenerator specificGenerator = new SpecificArmorGenerator(session);
-		MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(session);
-
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
-		
 		Treasure finalArmor;
-
 		for (int i = 0; i < data.getQuantity(); i++) {
 			System.out.println("Generating magic armor");
-			int roll = roller.roll(d100);
-			if (roll > 80) {
-				System.out.println("Result: specific armor/shield");
-				finalArmor = specificGenerator.generate(data.getStrength());
+			int abilityRoll = roller.roll(d100);
+
+			if (abilityRoll > 80) {
+				finalArmor = generateSpecificArmor(data);
 			} else {
-				System.out.println("Result: non-specific armor/shield");
-				MagicArmor magicArmor = new MagicArmor();
-				Armor armor = armorGenerator.generate();
-				magicArmor.setBaseArmor(armor);
-				System.out.println("Generating " + data.getStrength() + " magic " + magicArmor.getBaseArmor().getType() + " properties");
-				MagicArmorStats stats = statsDao.getMagicArmorStats(data.getStrength(), roll);
-				System.out.println("Result: " + stats);
-				magicArmor.setBonus(stats.getBonus());
-				magicArmor.setMagicalAbilities(new ArrayList<MagicArmorAbility>());
-				if (stats.getAbilityBonus() > 0) {
-					for (int j = 0; j < stats.getNumberOfAbilities(); j++) {
-						//TODO: don't let generate two identical abilities
-						System.out.println("Generating " + magicArmor.getBaseArmor().getType() + " +" + stats.getAbilityBonus() + " ability");
-						MagicArmorAbility magicArmorAbility = abilityDao.getMagicArmorAbility(stats.getAbilityBonus(), armor.getType(), roller.roll(d100));
-						System.out.println("Result: " + magicArmorAbility);
-						if (j == 1 && magicArmorAbility.getName() == magicArmor.getMagicalAbilities().get(0).getName()) {
-							System.out.println("Repeted ability. Will regenerate");
-							j--;
-							continue;
-						}
-						magicArmor.getMagicalAbilities().add(magicArmorAbility);
-					}
-				}
-				finalArmor = magicArmor;
-				System.out.println("");
+				finalArmor = generateMagicArmor(data, abilityRoll);
 			}
+
 			armors.add(finalArmor);
 		}
 		return armors;
+	}
+
+	private Treasure generateSpecificArmor(MagicArmorGeneratorData data) {
+		SpecificArmorGenerator specificGenerator = new SpecificArmorGenerator(session);
+		Treasure finalArmor;
+
+		System.out.println("Result: specific armor/shield");
+
+		finalArmor = specificGenerator.generate(data.getStrength());
+
+		return finalArmor;
+	}
+
+	private Treasure generateMagicArmor(MagicArmorGeneratorData data, int roll) {
+		ArmorGenerator armorGenerator = new ArmorGenerator(session);
+		MagicArmorStatsDao statsDao = new MagicArmorStatsDao(session);
+		Treasure finalArmor;
+
+		System.out.println("Result: non-specific armor/shield");
+
+		MagicArmor magicArmor = new MagicArmor();
+		Armor armor = armorGenerator.generate();
+		magicArmor.setBaseArmor(armor);
+
+		System.out.println("Generating " + data.getStrength() + " magic " + magicArmor.getBaseArmor().getType() + " properties");
+		MagicArmorStats stats = statsDao.getMagicArmorStats(data.getStrength(), roll);
+		System.out.println("Result: " + stats);
+
+		magicArmor.setBonus(stats.getBonus());
+		magicArmor.setMagicalAbilities(new ArrayList<MagicArmorAbility>());
+
+		if (stats.getAbilityBonus() > 0) {
+			generateMagicAbilities(magicArmor, stats);
+		}
+
+		finalArmor = magicArmor;
+		System.out.println("");
+		return finalArmor;
+	}
+
+	private void generateMagicAbilities(MagicArmor magicArmor, MagicArmorStats stats) {
+		MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(session);
+
+		for (int i = 0; i < stats.getNumberOfAbilities(); i++) {
+			System.out.println("Generating " + magicArmor.getBaseArmor().getType() + " +" + stats.getAbilityBonus() + " ability");
+			MagicArmorAbility magicArmorAbility = abilityDao.getMagicArmorAbility(stats.getAbilityBonus(), magicArmor.getBaseArmor().getType(), roller.roll(d100));
+			System.out.println("Result: " + magicArmorAbility);
+
+			if (i == 1 && magicArmorAbility.getName() == magicArmor.getMagicalAbilities().get(0).getName()) {
+				System.out.println("Repeted ability. Will regenerate");
+				i--;
+				continue;
+			}
+
+			magicArmor.getMagicalAbilities().add(magicArmorAbility);
+		}
 	}
 
 }

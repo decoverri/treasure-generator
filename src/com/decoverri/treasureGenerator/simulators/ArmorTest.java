@@ -23,7 +23,7 @@ public class ArmorTest {
 		
 		MagicArmorGeneratorData data = new MagicArmorGeneratorData();
 		data.setQuantity(100);
-		data.setStrength(MagicItemStrength.LESSER_MEDIUM);
+		data.setStrength(MagicItemStrength.GREATER_MAJOR);
 		armors.addAll(generator.generate(data));
 
 		transaction.commit();
