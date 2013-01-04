@@ -46,6 +46,8 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorAbility.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificArmor.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Weapon.class);
+
 		cfg.configure();
 		serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
 		sessionFactory = cfg.buildSessionFactory(serviceRegistry);
