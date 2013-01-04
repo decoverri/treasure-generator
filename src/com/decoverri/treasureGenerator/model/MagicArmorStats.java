@@ -74,4 +74,13 @@ public class MagicArmorStats {
 		this.interval = interval;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("+" + bonus + " enhancement bonus");
+		if (abilityBonus > 0) {
+			builder.append(" plus " + numberOfAbilities + " +" + abilityBonus + " abilities");
+		}
+		return builder.toString();
+	}
 }

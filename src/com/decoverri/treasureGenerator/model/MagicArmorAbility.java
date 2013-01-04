@@ -87,4 +87,9 @@ public class MagicArmorAbility {
 	public void setInterval(Interval interval) {
 		this.interval = interval;
 	}
+
+	@Override
+	public String toString() {
+		return name;
+	}
 }

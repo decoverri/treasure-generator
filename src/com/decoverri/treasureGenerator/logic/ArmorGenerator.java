@@ -1,8 +1,5 @@
 package com.decoverri.treasureGenerator.logic;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.ArmorDao;
@@ -17,22 +14,18 @@ public class ArmorGenerator {
 		this.session = session;
 	}
 
-	public List<Armor> generate(int quantity) {
+	public Armor generate() {
 
-		List<Armor> armors = new ArrayList<Armor>();
 		ArmorDao armorDao = new ArmorDao(session);
 
 		Dice d100 = new Dice(100);
 		DiceRoller roller = new DiceRoller();
 
-		for (int i = 0; i < quantity; i++) {
-			System.out.println("Generating armor");
-			Armor armor = armorDao.getArmor(roller.roll(d100));
-			System.out.println("Result: " + armor.getName() + "\n");
-			armors.add(armor);
-		}
+		System.out.println("Generating armor/shield");
+		Armor armor = armorDao.getArmor(roller.roll(d100));
+		System.out.println("Result: " + armor.getName());
 
-		return armors;
+		return armor;
 	}
 
 }

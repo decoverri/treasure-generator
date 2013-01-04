@@ -25,7 +25,7 @@ public class SpecificArmorGenerator {
 		Dice d100 = new Dice(100);
 		DiceRoller roller = new DiceRoller();
 
-		System.out.println("Generating armor");
+		System.out.println("Generating " + strength + " specific armor/shield");
 		int i = new Random().nextInt(ArmorType.values().length);
 		SpecificArmor armor = armorDao.getSpecificArmor(ArmorType.values()[i], strength, roller.roll(d100));
 		System.out.println("Result: " + armor.getName() + "\n");

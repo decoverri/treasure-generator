@@ -8,8 +8,9 @@ import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.logic.SpecificArmorGenerator;
-import com.decoverri.treasureGenerator.model.SpecificArmor;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
+import com.decoverri.treasureGenerator.logic.MagicArmorGenerator;
+import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
 
 public class ArmorTest {
 
@@ -17,14 +18,16 @@ public class ArmorTest {
 
 	public static void main(String[] args) {
 		Transaction transaction = session.beginTransaction();
-		SpecificArmorGenerator generator = new SpecificArmorGenerator(session);
-		List<SpecificArmor> armors = new ArrayList<SpecificArmor>();
-		for (int i = 0; i < 10; i++) {
-			armors.add(generator.generate(MagicItemStrength.GREATER_MAJOR));
-			
-		}
+		MagicArmorGenerator generator = new MagicArmorGenerator(session);
+		List<Treasure> armors = new ArrayList<Treasure>();
+		
+		MagicArmorGeneratorData data = new MagicArmorGeneratorData();
+		data.setQuantity(100);
+		data.setStrength(MagicItemStrength.LESSER_MEDIUM);
+		armors.addAll(generator.generate(data));
+
 		transaction.commit();
-		for (SpecificArmor armor : armors) {
+		for (Treasure armor : armors) {
 			System.out.println(armor);
 		}
 	}
