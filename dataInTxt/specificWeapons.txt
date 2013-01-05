@@ -1,0 +1,16 @@
+{"weapon":{"name":"Tracer bullet","price":100,"strength":"LESSER_MINOR","interval":{"bottomValue":1,"topValue":2}}}
+{"weapon":{"name":"Sleep arrow","price":132,"strength":"LESSER_MINOR","interval":{"bottomValue":3,"topValue":8}}}
+{"weapon":{"name":"Dustburst bullet","price":196,"strength":"LESSER_MINOR","interval":{"bottomValue":9,"topValue":10}}}
+{"weapon":{"name":"Tangle bolt","price":226,"strength":"LESSER_MINOR","interval":{"bottomValue":11,"topValue":16}}}
+{"weapon":{"name":"Screaming bolt","price":267,"strength":"LESSER_MINOR","interval":{"bottomValue":17,"topValue":22}}}
+{"weapon":{"name":"Masterwork silver dagger","price":322,"strength":"LESSER_MINOR","interval":{"bottomValue":23,"topValue":32}}}
+{"weapon":{"name":"Alchemist's bullet","price":330,"strength":"LESSER_MINOR","interval":{"bottomValue":33,"topValue":34}}}
+{"weapon":{"name":"Cold iron masterwork longsword","price":330,"strength":"LESSER_MINOR","interval":{"bottomValue":35,"topValue":44}}}
+{"weapon":{"name":"Hushing arrow","price":547,"strength":"LESSER_MINOR","interval":{"bottomValue":45,"topValue":50}}}
+{"weapon":{"name":"Greater hushing arrow","price":1047,"strength":"LESSER_MINOR","interval":{"bottomValue":51,"topValue":56}}}
+{"weapon":{"name":"Javelin of lightning","price":1500,"strength":"LESSER_MINOR","interval":{"bottomValue":57,"topValue":66}}}
+{"weapon":{"name":"Searing arrow","price":1516,"strength":"LESSER_MINOR","interval":{"bottomValue":67,"topValue":74}}}
+{"weapon":{"name":"Sizzling arrow","price":1516,"strength":"LESSER_MINOR","interval":{"bottomValue":75,"topValue":82}}}
+{"weapon":{"name":"Lesser burrowing bullet","price":1722,"strength":"LESSER_MINOR","interval":{"bottomValue":83,"topValue":84}}}
+{"weapon":{"name":"Dust bolt","price":1730,"strength":"LESSER_MINOR","interval":{"bottomValue":85,"topValue":92}}}
+{"weapon":{"name":"Slaying arrow","price":2282,"strength":"LESSER_MINOR","interval":{"bottomValue":93,"topValue":100}}}

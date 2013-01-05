@@ -32,6 +32,7 @@ public class FitData {
 		new FitMagicArmorStats(session).fit();
 
 		new FitWeapon(session).fit();
+		new FitSpecificWeapon(session).fit();
 
 		new FitTreasureA(session).fit();
 		new FitTreasureB(session).fit();
