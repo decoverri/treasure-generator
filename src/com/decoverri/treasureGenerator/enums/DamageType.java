@@ -2,19 +2,11 @@ package com.decoverri.treasureGenerator.enums;
 
 public enum DamageType {
 
-	BLUDGEONING("bludgeoning"), PIERCING("piercing"), SLASHING("slashing"), PIERCING_OR_SLASHING(
-			"piercing and slashing"), ANY("any");
-
-	private final String name;
-
-	private DamageType(String name) {
-		this.name = name;
-	}
-
-	@Override
-	public String toString() {
-		return name;
-	}
+	BLUDGEONING,
+	PIERCING,
+	SLASHING,
+	PIERCING_OR_SLASHING,
+	ANY;
 
 	public boolean equals(DamageType type) {
 		
