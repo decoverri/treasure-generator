@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Transient;
 
+import com.decoverri.treasureGenerator.enums.DamageType;
 import com.decoverri.treasureGenerator.enums.Size;
 import com.decoverri.treasureGenerator.enums.WeaponType;
 
@@ -23,6 +24,9 @@ public class Weapon {
 	
 	@Enumerated(EnumType.STRING)
 	private WeaponType type;
+
+	@Enumerated(EnumType.STRING)
+	private DamageType damageType;
 	
 	@Transient
 	private Size size;
@@ -60,6 +64,14 @@ public class Weapon {
 
 	public void setType(WeaponType type) {
 		this.type = type;
+	}
+
+	public DamageType getDamageType() {
+		return damageType;
+	}
+
+	public void setDamageType(DamageType damageType) {
+		this.damageType = damageType;
 	}
 
 	public Size getSize() {
