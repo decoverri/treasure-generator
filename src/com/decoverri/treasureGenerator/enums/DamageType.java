@@ -6,6 +6,7 @@ public enum DamageType {
 	PIERCING,
 	SLASHING,
 	PIERCING_OR_SLASHING,
+	BLUDGEONING_AND_PIERCING,
 	ANY;
 
 	public boolean equals(DamageType type) {
@@ -20,6 +21,12 @@ public enum DamageType {
 		boolean case4 = (this == DamageType.SLASHING && type == DamageType.PIERCING_OR_SLASHING)
 					 || (this == DamageType.PIERCING_OR_SLASHING && type == DamageType.SLASHING);
 
-		return case1 || case2 || case3 || case4;
+		boolean case5 = (this == DamageType.BLUDGEONING && type == DamageType.BLUDGEONING_AND_PIERCING)
+					 || (this == DamageType.BLUDGEONING_AND_PIERCING && type == DamageType.BLUDGEONING);
+
+		boolean case6 = (this == DamageType.PIERCING && type == DamageType.BLUDGEONING_AND_PIERCING)
+					 || (this == DamageType.BLUDGEONING_AND_PIERCING && type == DamageType.PIERCING);
+
+		return case1 || case2 || case3 || case4 || case5 || case6;
 	}
 }
