@@ -13,7 +13,7 @@ public class FitData {
 
 		Transaction transaction = session.beginTransaction();
 
-		//TODO Find a way to not add repeated entries (in case of rerunning this class)
+		// TODO Find a way to not add repeated entries (in case of rerunning this class)
 		new FitGems(session).fit();
 		new FitArtObjects(session).fit();
 
@@ -30,6 +30,8 @@ public class FitData {
 		new FitSpecificArmor(session).fit();
 		new FitMagicArmorAbility(session).fit();
 		new FitMagicArmorStats(session).fit();
+
+		new FitWeapon(session).fit();
 
 		new FitTreasureA(session).fit();
 		new FitTreasureB(session).fit();

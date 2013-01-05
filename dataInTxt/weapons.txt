@@ -1,0 +1,50 @@
+{"weapon":{"name":"Bastard sword","price":35,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":1,"topValue":1}}}
+{"weapon":{"name":"Battleaxe","price":10,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":2,"topValue":5}}}
+{"weapon":{"name":"Bolas","price":5,"type":"RANGED","damageType":"BLUDGEONING","interval":{"bottomValue":6,"topValue":6}}}
+{"weapon":{"name":"Club","price":0,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":7,"topValue":8}}}
+{"weapon":{"name":"Composite longbow","price":100,"type":"RANGED","damageType":"","interval":{"bottomValue":9,"topValue":10}}}
+{"weapon":{"name":"Composite shortbow","price":75,"type":"RANGED","damageType":"","interval":{"bottomValue":11,"topValue":12}}}
+{"weapon":{"name":"Dagger","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":13,"topValue":16}}}
+{"weapon":{"name":"Dart","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":17,"topValue":17}}}
+{"weapon":{"name":"Dwarven waraxe","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":18,"topValue":18}}}
+{"weapon":{"name":"Falchion","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":19,"topValue":19}}}
+{"weapon":{"name":"Gauntlet","price":,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":20,"topValue":20}}}
+{"weapon":{"name":"Glaive","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":21,"topValue":21}}}
+{"weapon":{"name":"Greataxe","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":22,"topValue":24}}}
+{"weapon":{"name":"Greatclub","price":,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":25,"topValue":25}}}
+{"weapon":{"name":"Greatsword","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":26,"topValue":28}}}
+{"weapon":{"name":"Halberd","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":29,"topValue":29}}}
+{"weapon":{"name":"Handaxe","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":30,"topValue":30}}}
+{"weapon":{"name":"Heavy crossbow","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":31,"topValue":33}}}
+{"weapon":{"name":"Heavy flail","price":,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":34,"topValue":34}}}
+{"weapon":{"name":"Heavy mace","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":35,"topValue":35}}}
+{"weapon":{"name":"Lance","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":36,"topValue":37}}}
+{"weapon":{"name":"Light crossbow","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":38,"topValue":40}}}
+{"weapon":{"name":"Light flail","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":41,"topValue":41}}}
+{"weapon":{"name":"Light hammer","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":42,"topValue":42}}}
+{"weapon":{"name":"Light mace","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":43,"topValue":44}}}
+{"weapon":{"name":"Light pick","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":45,"topValue":45}}}
+{"weapon":{"name":"Longbow","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":46,"topValue":49}}}
+{"weapon":{"name":"Longspear","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":50,"topValue":51}}}
+{"weapon":{"name":"Longsword","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":52,"topValue":58}}}
+{"weapon":{"name":"Morningstar","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":59,"topValue":60}}}
+{"weapon":{"name":"Nunchaku","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":61,"topValue":61}}}
+{"weapon":{"name":"Quarterstaff","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":62,"topValue":63}}}
+{"weapon":{"name":"Rapier","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":64,"topValue":65}}}
+{"weapon":{"name":"Sai","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":66,"topValue":66}}}
+{"weapon":{"name":"Sap","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":67,"topValue":67}}}
+{"weapon":{"name":"Scythe","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":68,"topValue":69}}}
+{"weapon":{"name":"Shortbow","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":70,"topValue":73}}}
+{"weapon":{"name":"Shortspear","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":74,"topValue":75}}}
+{"weapon":{"name":"Shortsword","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":76,"topValue":80}}}
+{"weapon":{"name":"Shuriken","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":81,"topValue":81}}}
+{"weapon":{"name":"Sickle","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":82,"topValue":82}}}
+{"weapon":{"name":"Sling","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":83,"topValue":84}}}
+{"weapon":{"name":"Spear","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":85,"topValue":87}}}
+{"weapon":{"name":"Trident","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":88,"topValue":88}}}
+{"weapon":{"name":"Warhammer","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":89,"topValue":91}}}
+{"weapon":{"name":"Whip","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":92,"topValue":92}}}
+{"weapon":{"name":"Light melee weapon of GM's choice","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":93,"topValue":94}}}
+{"weapon":{"name":"One-handed melee weapon of GM's choice","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":95,"topValue":96}}}
+{"weapon":{"name":"Two-handed melee weapon of GM's choice","price":,"type":"MELEE","damageType":"","interval":{"bottomValue":97,"topValue":98}}}
+{"weapon":{"name":"Ranged weapon of GM's choice","price":,"type":"RANGED","damageType":"","interval":{"bottomValue":99,"topValue":100}}}

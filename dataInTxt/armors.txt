@@ -16,7 +16,7 @@
 {"armor":{"name":"Splint mail","price":200,"type":"ARMOR","interval":{"bottomValue":78,"topValue":81}}}
 {"armor":{"name":"Studded leather armor","price":25,"type":"ARMOR","interval":{"bottomValue":82,"topValue":87}}}
 {"armor":{"name":"Tower shield","price":30,"type":"SHIELD","interval":{"bottomValue":88,"topValue":90}}}
-{"armor":{"name":"Unusual light armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":91,"topValue":93}}}
-{"armor":{"name":"Unusual medium armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":94,"topValue":95}}}
-{"armor":{"name":"Unusual heavy armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":96,"topValue":98}}}
-{"armor":{"name":"Unusual shield of GM's choice","price":0,"type":"SHIELD","interval":{"bottomValue":99,"topValue":100}}}
+{"armor":{"name":"Light armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":91,"topValue":93}}}
+{"armor":{"name":"Medium armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":94,"topValue":95}}}
+{"armor":{"name":"Heavy armor of GM's choice","price":0,"type":"ARMOR","interval":{"bottomValue":96,"topValue":98}}}
+{"armor":{"name":"Shield of GM's choice","price":0,"type":"SHIELD","interval":{"bottomValue":99,"topValue":100}}}
