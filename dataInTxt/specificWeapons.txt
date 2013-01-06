@@ -14,3 +14,80 @@
 {"weapon":{"name":"Lesser burrowing bullet","price":1722,"strength":"LESSER_MINOR","interval":{"bottomValue":83,"topValue":84}}}
 {"weapon":{"name":"Dust bolt","price":1730,"strength":"LESSER_MINOR","interval":{"bottomValue":85,"topValue":92}}}
 {"weapon":{"name":"Slaying arrow","price":2282,"strength":"LESSER_MINOR","interval":{"bottomValue":93,"topValue":100}}}
+{"weapon":{"name":"Adamantine dagger","price":3002,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":20}}}
+{"weapon":{"name":"Adamantine battleaxe","price":3010,"strength":"GREATER_MINOR","interval":{"bottomValue":21,"topValue":40}}}
+{"weapon":{"name":"Greater burrowing bullet","price":3447,"strength":"GREATER_MINOR","interval":{"bottomValue":41,"topValue":50}}}
+{"weapon":{"name":"Greater slaying arrow","price":4057,"strength":"GREATER_MINOR","interval":{"bottomValue":51,"topValue":70}}}
+{"weapon":{"name":"Lance of jousting","price":4310,"strength":"GREATER_MINOR","interval":{"bottomValue":71,"topValue":80}}}
+{"weapon":{"name":"Shatterspike","price":4315,"strength":"GREATER_MINOR","interval":{"bottomValue":81,"topValue":100}}}
+{"weapon":{"name":"Bloodletting kukri","price":6308,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":3}}}
+{"weapon":{"name":"Boulderhead mace","price":6812,"strength":"LESSER_MEDIUM","interval":{"bottomValue":4,"topValue":9}}}
+{"weapon":{"name":"Beaststrike club","price":7300,"strength":"LESSER_MEDIUM","interval":{"bottomValue":10,"topValue":14}}}
+{"weapon":{"name":"Fighter's fork","price":7315,"strength":"LESSER_MEDIUM","interval":{"bottomValue":15,"topValue":20}}}
+{"weapon":{"name":"Everflowing aspergillum","price":7805,"strength":"LESSER_MEDIUM","interval":{"bottomValue":21,"topValue":23}}}
+{"weapon":{"name":"Hurricane quarterstaff","price":7840,"strength":"LESSER_MEDIUM","interval":{"bottomValue":24,"topValue":28}}}
+{"weapon":{"name":"Dagger of venom","price":8302,"strength":"LESSER_MEDIUM","interval":{"bottomValue":29,"topValue":34}}}
+{"weapon":{"name":"Gloom blade","price":8810,"strength":"LESSER_MEDIUM","interval":{"bottomValue":35,"topValue":39}}}
+{"weapon":{"name":"Frostbite sling","price":9380,"strength":"LESSER_MEDIUM","interval":{"bottomValue":40,"topValue":44}}}
+{"weapon":{"name":"Trident of stability","price":9815,"strength":"LESSER_MEDIUM","interval":{"bottomValue":45,"topValue":49}}}
+{"weapon":{"name":"Trident of warning","price":10115,"strength":"LESSER_MEDIUM","interval":{"bottomValue":50,"topValue":54}}}
+{"weapon":{"name":"Assassin's dagger","price":10302,"strength":"LESSER_MEDIUM","interval":{"bottomValue":55,"topValue":60}}}
+{"weapon":{"name":"Dagger of doubling","price":10302,"strength":"LESSER_MEDIUM","interval":{"bottomValue":61,"topValue":66}}}
+{"weapon":{"name":"Earthenflail","price":11315,"strength":"LESSER_MEDIUM","interval":{"bottomValue":67,"topValue":71}}}
+{"weapon":{"name":"Swift obsidian greataxe","price":11320,"strength":"LESSER_MEDIUM","interval":{"bottomValue":72,"topValue":79}}}
+{"weapon":{"name":"Polarity hammer","price":12310,"strength":"LESSER_MEDIUM","interval":{"bottomValue":80,"topValue":85}}}
+{"weapon":{"name":"Blade of binding","price":12350,"strength":"LESSER_MEDIUM","interval":{"bottomValue":86,"topValue":93}}}
+{"weapon":{"name":"Shifter's sorrow","price":12780,"strength":"LESSER_MEDIUM","interval":{"bottomValue":94,"topValue":100}}}
+{"weapon":{"name":"Dragoncatch guisarme","price":13308,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":7}}}
+{"weapon":{"name":"Ten-ring sword","price":14315,"strength":"GREATER_MEDIUM","interval":{"bottomValue":8,"topValue":15}}}
+{"weapon":{"name":"Triton's trident","price":15065,"strength":"GREATER_MEDIUM","interval":{"bottomValue":16,"topValue":21}}}
+{"weapon":{"name":"Lesser mace of smiting","price":16012,"strength":"GREATER_MEDIUM","interval":{"bottomValue":22,"topValue":29}}}
+{"weapon":{"name":"Disarming blade","price":17820,"strength":"GREATER_MEDIUM","interval":{"bottomValue":30,"topValue":37}}}
+{"weapon":{"name":"Lash of the howler","price":18305,"strength":"GREATER_MEDIUM","interval":{"bottomValue":38,"topValue":42}}}
+{"weapon":{"name":"Shieldsplitter lance","price":18310,"strength":"GREATER_MEDIUM","interval":{"bottomValue":43,"topValue":47}}}
+{"weapon":{"name":"Trident of fish command","price":18650,"strength":"GREATER_MEDIUM","interval":{"bottomValue":48,"topValue":53}}}
+{"weapon":{"name":"Quarterstaff of vaulting","price":19100,"strength":"GREATER_MEDIUM","interval":{"bottomValue":54,"topValue":59}}}
+{"weapon":{"name":"Firedrake pistol","price":20300,"strength":"GREATER_MEDIUM","interval":{"bottomValue":60,"topValue":65}}}
+{"weapon":{"name":"Ricochet hammer","price":20301,"strength":"GREATER_MEDIUM","interval":{"bottomValue":66,"topValue":71}}}
+{"weapon":{"name":"Flame tongue","price":20715,"strength":"GREATER_MEDIUM","interval":{"bottomValue":72,"topValue":77}}}
+{"weapon":{"name":"Sparkwake starknife","price":21324,"strength":"GREATER_MEDIUM","interval":{"bottomValue":78,"topValue":85}}}
+{"weapon":{"name":"Luck blade (0 wishes)","price":22060,"strength":"GREATER_MEDIUM","interval":{"bottomValue":86,"topValue":90}}}
+{"weapon":{"name":"Sword of subtlety","price":22310,"strength":"GREATER_MEDIUM","interval":{"bottomValue":31,"topValue":95}}}
+{"weapon":{"name":"Sword of the planes","price":22315,"strength":"GREATER_MEDIUM","interval":{"bottomValue":96,"topValue":100}}}
+{"weapon":{"name":"Nine lives stealer","price":23057,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":12}}}
+{"weapon":{"name":"Undercutting axe","price":23310,"strength":"LESSER_MAJOR","interval":{"bottomValue":13,"topValue":26}}}
+{"weapon":{"name":"Spirit caller","price":25302,"strength":"LESSER_MAJOR","interval":{"bottomValue":27,"topValue":40}}}
+{"weapon":{"name":"Dwarfbond hammer","price":25312,"strength":"LESSER_MAJOR","interval":{"bottomValue":41,"topValue":55}}}
+{"weapon":{"name":"Oathbow","price":25600,"strength":"LESSER_MAJOR","interval":{"bottomValue":56,"topValue":70}}}
+{"weapon":{"name":"Sword of life stealing","price":25715,"strength":"LESSER_MAJOR","interval":{"bottomValue":71,"topValue":85}}}
+{"weapon":{"name":"Cutthroat's apprentice","price":33910,"strength":"LESSER_MAJOR","interval":{"bottomValue":86,"topValue":100}}}
+{"weapon":{"name":"Ghoul's lament","price":35312,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":2}}}
+{"weapon":{"name":"Mace of terror","price":38552,"strength":"GREATER_MAJOR","interval":{"bottomValue":3,"topValue":5}}}
+{"weapon":{"name":"Hellscourge","price":39305,"strength":"GREATER_MAJOR","interval":{"bottomValue":6,"topValue":7}}}
+{"weapon":{"name":"Dragon's doom","price":40310,"strength":"GREATER_MAJOR","interval":{"bottomValue":8,"topValue":9}}}
+{"weapon":{"name":"Life-drinker","price":40320,"strength":"GREATER_MAJOR","interval":{"bottomValue":10,"topValue":13}}}
+{"weapon":{"name":"Valor's minion","price":41335,"strength":"GREATER_MAJOR","interval":{"bottomValue":14,"topValue":16}}}
+{"weapon":{"name":"Summoner's sorrow","price":42816,"strength":"GREATER_MAJOR","interval":{"bottomValue":17,"topValue":18}}}
+{"weapon":{"name":"Sylvan scimitar","price":47315,"strength":"GREATER_MAJOR","interval":{"bottomValue":19,"topValue":21}}}
+{"weapon":{"name":"Spirit blade","price":48502,"strength":"GREATER_MAJOR","interval":{"bottomValue":22,"topValue":23}}}
+{"weapon":{"name":"Heartswood spear","price":50302,"strength":"GREATER_MAJOR","interval":{"bottomValue":24,"topValue":26}}}
+{"weapon":{"name":"Rapier of puncturing","price":50320,"strength":"GREATER_MAJOR","interval":{"bottomValue":27,"topValue":29}}}
+{"weapon":{"name":"Sun blade","price":50335,"strength":"GREATER_MAJOR","interval":{"bottomValue":30,"topValue":32}}}
+{"weapon":{"name":"Blade of the rising sun","price":51850,"strength":"GREATER_MAJOR","interval":{"bottomValue":33,"topValue":37}}}
+{"weapon":{"name":"Frost brand","price":54475,"strength":"GREATER_MAJOR","interval":{"bottomValue":38,"topValue":40}}}
+{"weapon":{"name":"Dwarven thrower","price":60312,"strength":"GREATER_MAJOR","interval":{"bottomValue":41,"topValue":45}}}
+{"weapon":{"name":"Bloodthirst dagger","price":60802,"strength":"GREATER_MAJOR","interval":{"bottomValue":46,"topValue":50}}}
+{"weapon":{"name":"Warbringer","price":61375,"strength":"GREATER_MAJOR","interval":{"bottomValue":51,"topValue":53}}}
+{"weapon":{"name":"Luck blade (1 wish)","price":62360,"strength":"GREATER_MAJOR","interval":{"bottomValue":54,"topValue":57}}}
+{"weapon":{"name":"Guarding blade","price":65310,"strength":"GREATER_MAJOR","interval":{"bottomValue":58,"topValue":61}}}
+{"weapon":{"name":"Pistol of the infinite sky","price":73300,"strength":"GREATER_MAJOR","interval":{"bottomValue":62,"topValue":64}}}
+{"weapon":{"name":"Mace of smiting","price":75312,"strength":"GREATER_MAJOR","interval":{"bottomValue":65,"topValue":69}}}
+{"weapon":{"name":"Blade of the sword-saint","price":75350,"strength":"GREATER_MAJOR","interval":{"bottomValue":70,"topValue":73}}}
+{"weapon":{"name":"Scimitar of the spellthief","price":75815,"strength":"GREATER_MAJOR","interval":{"bottomValue":74,"topValue":76}}}
+{"weapon":{"name":"Spider's fang","price":79102,"strength":"GREATER_MAJOR","interval":{"bottomValue":77,"topValue":79}}}
+{"weapon":{"name":"Demonsorrow curve blade","price":90469,"strength":"GREATER_MAJOR","interval":{"bottomValue":80,"topValue":82}}}
+{"weapon":{"name":"Void scythe","price":95318,"strength":"GREATER_MAJOR","interval":{"bottomValue":83,"topValue":85}}}
+{"weapon":{"name":"Luck blade (2 wishes)","price":102660,"strength":"GREATER_MAJOR","interval":{"bottomValue":86,"topValue":89}}}
+{"weapon":{"name":"Holy avenger","price":120630,"strength":"GREATER_MAJOR","interval":{"bottomValue":90,"topValue":92}}}
+{"weapon":{"name":"Bastard's sting","price":123035,"strength":"GREATER_MAJOR","interval":{"bottomValue":93,"topValue":96}}}
+{"weapon":{"name":"Luck blade (3 wishes)","price":123035,"strength":"GREATER_MAJOR","interval":{"bottomValue":97,"topValue":100}}}

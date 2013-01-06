@@ -22,7 +22,7 @@ public class ArmorTest {
 		List<Treasure> armors = new ArrayList<Treasure>();
 		
 		MagicArmorGeneratorData data = new MagicArmorGeneratorData();
-		data.setQuantity(10);
+		data.setQuantity(5);
 		data.setStrength(MagicItemStrength.GREATER_MAJOR);
 		armors.addAll(generator.generate(data));
 
