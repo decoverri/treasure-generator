@@ -1,50 +1,50 @@
-{"weapon":{"name":"Bastard sword","price":35,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":1,"topValue":1}}}
-{"weapon":{"name":"Battleaxe","price":10,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":2,"topValue":5}}}
-{"weapon":{"name":"Bolas","price":5,"type":"RANGED","damageType":"BLUDGEONING","interval":{"bottomValue":6,"topValue":6}}}
-{"weapon":{"name":"Club","price":0,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":7,"topValue":8}}}
-{"weapon":{"name":"Composite longbow","price":100,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":9,"topValue":10}}}
-{"weapon":{"name":"Composite shortbow","price":75,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":11,"topValue":12}}}
-{"weapon":{"name":"Dagger","price":2,"type":"MELEE","damageType":"PIERCING_OR_SLASHING","interval":{"bottomValue":13,"topValue":16}}}
-{"weapon":{"name":"Dart","price":0.5,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":17,"topValue":17}}}
-{"weapon":{"name":"Dwarven waraxe","price":30,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":18,"topValue":18}}}
-{"weapon":{"name":"Falchion","price":75,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":19,"topValue":19}}}
-{"weapon":{"name":"Gauntlet","price":2,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":20,"topValue":20}}}
-{"weapon":{"name":"Glaive","price":8,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":21,"topValue":21}}}
-{"weapon":{"name":"Greataxe","price":20,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":22,"topValue":24}}}
-{"weapon":{"name":"Greatclub","price":5,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":25,"topValue":25}}}
-{"weapon":{"name":"Greatsword","price":50,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":26,"topValue":28}}}
-{"weapon":{"name":"Halberd","price":10,"type":"MELEE","damageType":"PIERCING_OR_SLASHING","interval":{"bottomValue":29,"topValue":29}}}
-{"weapon":{"name":"Handaxe","price":6,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":30,"topValue":30}}}
-{"weapon":{"name":"Heavy crossbow","price":50,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":31,"topValue":33}}}
-{"weapon":{"name":"Heavy flail","price":15,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":34,"topValue":34}}}
-{"weapon":{"name":"Heavy mace","price":12,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":35,"topValue":35}}}
-{"weapon":{"name":"Lance","price":10,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":36,"topValue":37}}}
-{"weapon":{"name":"Light crossbow","price":35,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":38,"topValue":40}}}
-{"weapon":{"name":"Light flail","price":8,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":41,"topValue":41}}}
-{"weapon":{"name":"Light hammer","price":1,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":42,"topValue":42}}}
-{"weapon":{"name":"Light mace","price":5,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":43,"topValue":44}}}
-{"weapon":{"name":"Light pick","price":4,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":45,"topValue":45}}}
-{"weapon":{"name":"Longbow","price":75,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":46,"topValue":49}}}
-{"weapon":{"name":"Longspear","price":5,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":50,"topValue":51}}}
-{"weapon":{"name":"Longsword","price":15,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":52,"topValue":58}}}
-{"weapon":{"name":"Morningstar","price":8,"type":"MELEE","damageType":"BLUDGEONING_AND_PIERCING","interval":{"bottomValue":59,"topValue":60}}}
-{"weapon":{"name":"Nunchaku","price":2,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":61,"topValue":61}}}
-{"weapon":{"name":"Quarterstaff","price":0,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":62,"topValue":63}}}
-{"weapon":{"name":"Rapier","price":20,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":64,"topValue":65}}}
-{"weapon":{"name":"Sai","price":1,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":66,"topValue":66}}}
-{"weapon":{"name":"Sap","price":1,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":67,"topValue":67}}}
-{"weapon":{"name":"Scythe","price":18,"type":"MELEE","damageType":"PIERCING_OR_SLASHING","interval":{"bottomValue":68,"topValue":69}}}
-{"weapon":{"name":"Shortbow","price":30,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":70,"topValue":73}}}
-{"weapon":{"name":"Shortspear","price":1,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":74,"topValue":75}}}
-{"weapon":{"name":"Short sword","price":10,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":76,"topValue":80}}}
-{"weapon":{"name":"Shuriken","price":0.2,"type":"RANGED","damageType":"PIERCING","interval":{"bottomValue":81,"topValue":81}}}
-{"weapon":{"name":"Sickle","price":6,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":82,"topValue":82}}}
-{"weapon":{"name":"Sling","price":0,"type":"RANGED","damageType":"BLUDGEONING","interval":{"bottomValue":83,"topValue":84}}}
-{"weapon":{"name":"Spear","price":2,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":85,"topValue":87}}}
-{"weapon":{"name":"Trident","price":15,"type":"MELEE","damageType":"PIERCING","interval":{"bottomValue":88,"topValue":88}}}
-{"weapon":{"name":"Warhammer","price":12,"type":"MELEE","damageType":"BLUDGEONING","interval":{"bottomValue":89,"topValue":91}}}
-{"weapon":{"name":"Whip","price":1,"type":"MELEE","damageType":"SLASHING","interval":{"bottomValue":92,"topValue":92}}}
-{"weapon":{"name":"Light melee weapon of GM's choice","price":0,"type":"MELEE","damageType":"ANY","interval":{"bottomValue":93,"topValue":94}}}
-{"weapon":{"name":"One-handed melee weapon of GM's choice","price":0,"type":"MELEE","damageType":"ANY","interval":{"bottomValue":95,"topValue":96}}}
-{"weapon":{"name":"Two-handed melee weapon of GM's choice","price":0,"type":"MELEE","damageType":"ANY","interval":{"bottomValue":97,"topValue":98}}}
-{"weapon":{"name":"Ranged weapon of GM's choice","price":0,"type":"RANGED","damageType":"ANY","interval":{"bottomValue":99,"topValue":100}}}
+{"weapon":{"name":"Bastard sword","price":35,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":1,"topValue":1}}}
+{"weapon":{"name":"Battleaxe","price":10,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":2,"topValue":5}}}
+{"weapon":{"name":"Bolas","price":5,"type":"RANGED","restriction":"BLUDGEONING","interval":{"bottomValue":6,"topValue":6}}}
+{"weapon":{"name":"Club","price":0,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":7,"topValue":8}}}
+{"weapon":{"name":"Composite longbow","price":100,"type":"RANGED","restriction":"COMPOSITE_BOW","interval":{"bottomValue":9,"topValue":10}}}
+{"weapon":{"name":"Composite shortbow","price":75,"type":"RANGED","restriction":"COMPOSITE_BOW","interval":{"bottomValue":11,"topValue":12}}}
+{"weapon":{"name":"Dagger","price":2,"type":"MELEE","restriction":"PIERCING_OR_SLASHING","interval":{"bottomValue":13,"topValue":16}}}
+{"weapon":{"name":"Dart","price":0.5,"type":"RANGED","restriction":"PIERCING","interval":{"bottomValue":17,"topValue":17}}}
+{"weapon":{"name":"Dwarven waraxe","price":30,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":18,"topValue":18}}}
+{"weapon":{"name":"Falchion","price":75,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":19,"topValue":19}}}
+{"weapon":{"name":"Gauntlet","price":2,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":20,"topValue":20}}}
+{"weapon":{"name":"Glaive","price":8,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":21,"topValue":21}}}
+{"weapon":{"name":"Greataxe","price":20,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":22,"topValue":24}}}
+{"weapon":{"name":"Greatclub","price":5,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":25,"topValue":25}}}
+{"weapon":{"name":"Greatsword","price":50,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":26,"topValue":28}}}
+{"weapon":{"name":"Halberd","price":10,"type":"MELEE","restriction":"PIERCING_OR_SLASHING","interval":{"bottomValue":29,"topValue":29}}}
+{"weapon":{"name":"Handaxe","price":6,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":30,"topValue":30}}}
+{"weapon":{"name":"Heavy crossbow","price":50,"type":"RANGED","restriction":"CROSSBOW","interval":{"bottomValue":31,"topValue":33}}}
+{"weapon":{"name":"Heavy flail","price":15,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":34,"topValue":34}}}
+{"weapon":{"name":"Heavy mace","price":12,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":35,"topValue":35}}}
+{"weapon":{"name":"Lance","price":10,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":36,"topValue":37}}}
+{"weapon":{"name":"Light crossbow","price":35,"type":"RANGED","restriction":"CROSSBOW","interval":{"bottomValue":38,"topValue":40}}}
+{"weapon":{"name":"Light flail","price":8,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":41,"topValue":41}}}
+{"weapon":{"name":"Light hammer","price":1,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":42,"topValue":42}}}
+{"weapon":{"name":"Light mace","price":5,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":43,"topValue":44}}}
+{"weapon":{"name":"Light pick","price":4,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":45,"topValue":45}}}
+{"weapon":{"name":"Longbow","price":75,"type":"RANGED","restriction":"BOW","interval":{"bottomValue":46,"topValue":49}}}
+{"weapon":{"name":"Longspear","price":5,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":50,"topValue":51}}}
+{"weapon":{"name":"Longsword","price":15,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":52,"topValue":58}}}
+{"weapon":{"name":"Morningstar","price":8,"type":"MELEE","restriction":"BLUDGEONING_AND_PIERCING","interval":{"bottomValue":59,"topValue":60}}}
+{"weapon":{"name":"Nunchaku","price":2,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":61,"topValue":61}}}
+{"weapon":{"name":"Quarterstaff","price":0,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":62,"topValue":63}}}
+{"weapon":{"name":"Rapier","price":20,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":64,"topValue":65}}}
+{"weapon":{"name":"Sai","price":1,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":66,"topValue":66}}}
+{"weapon":{"name":"Sap","price":1,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":67,"topValue":67}}}
+{"weapon":{"name":"Scythe","price":18,"type":"MELEE","restriction":"PIERCING_OR_SLASHING","interval":{"bottomValue":68,"topValue":69}}}
+{"weapon":{"name":"Shortbow","price":30,"type":"RANGED","restriction":"BOW","interval":{"bottomValue":70,"topValue":73}}}
+{"weapon":{"name":"Shortspear","price":1,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":74,"topValue":75}}}
+{"weapon":{"name":"Short sword","price":10,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":76,"topValue":80}}}
+{"weapon":{"name":"Shuriken","price":0.2,"type":"RANGED","restriction":"PIERCING","interval":{"bottomValue":81,"topValue":81}}}
+{"weapon":{"name":"Sickle","price":6,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":82,"topValue":82}}}
+{"weapon":{"name":"Sling","price":0,"type":"RANGED","restriction":"BLUDGEONING","interval":{"bottomValue":83,"topValue":84}}}
+{"weapon":{"name":"Spear","price":2,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":85,"topValue":87}}}
+{"weapon":{"name":"Trident","price":15,"type":"MELEE","restriction":"PIERCING","interval":{"bottomValue":88,"topValue":88}}}
+{"weapon":{"name":"Warhammer","price":12,"type":"MELEE","restriction":"BLUDGEONING","interval":{"bottomValue":89,"topValue":91}}}
+{"weapon":{"name":"Whip","price":1,"type":"MELEE","restriction":"SLASHING","interval":{"bottomValue":92,"topValue":92}}}
+{"weapon":{"name":"Light melee weapon of GM's choice","price":0,"type":"MELEE","restriction":"ANY","interval":{"bottomValue":93,"topValue":94}}}
+{"weapon":{"name":"One-handed melee weapon of GM's choice","price":0,"type":"MELEE","restriction":"ANY","interval":{"bottomValue":95,"topValue":96}}}
+{"weapon":{"name":"Two-handed melee weapon of GM's choice","price":0,"type":"MELEE","restriction":"ANY","interval":{"bottomValue":97,"topValue":98}}}
+{"weapon":{"name":"Ranged weapon of GM's choice","price":0,"type":"RANGED","restriction":"ANY","interval":{"bottomValue":99,"topValue":100}}}

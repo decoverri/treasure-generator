@@ -1,0 +1,77 @@
+{"ability":{"name":"Impervious","type":"MELEE","restriction":"ANY","bonus":1,"price":3000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":1}}}
+{"ability":{"name":"Glamered","type":"MELEE","restriction":"ANY","bonus":1,"price":4000,"priceInBonus":"false","interval":{"bottomValue":2,"topValue":2}}}
+{"ability":{"name":"Allying","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":3,"topValue":3}}}
+{"ability":{"name":"Bane","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":4,"topValue":8}}}
+{"ability":{"name":"Benevolent","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":9,"topValue":9}}}
+{"ability":{"name":"Called","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":10,"topValue":10}}}
+{"ability":{"name":"Conductive","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":11,"topValue":12}}}
+{"ability":{"name":"Corrosive","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":13,"topValue":16}}}
+{"ability":{"name":"Countering","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":17,"topValue":17}}}
+{"ability":{"name":"Corageous","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":18,"topValue":18}}}
+{"ability":{"name":"Cruel","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":19,"topValue":19}}}
+{"ability":{"name":"Cunning","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":20,"topValue":21}}}
+{"ability":{"name":"Deadly","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":22,"topValue":22}}}
+{"ability":{"name":"Defending","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":23,"topValue":26}}}
+{"ability":{"name":"Dispelling","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":27,"topValue":27}}}
+{"ability":{"name":"Flaming","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":28,"topValue":33}}}
+{"ability":{"name":"Frost","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":34,"topValue":39}}}
+{"ability":{"name":"Furious","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":40,"topValue":41}}}
+{"ability":{"name":"Ghost touch","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":42,"topValue":45}}}
+{"ability":{"name":"Grayflame","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":46,"topValue":47}}}
+{"ability":{"name":"Grounding","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":48,"topValue":48}}}
+{"ability":{"name":"Guardian","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":49,"topValue":49}}}
+{"ability":{"name":"Heartseeker","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":50,"topValue":50}}}
+{"ability":{"name":"Huntsman","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":51,"topValue":52}}}
+{"ability":{"name":"Jurist","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":53,"topValue":54}}}
+{"ability":{"name":"Keen","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":55,"topValue":59}}}
+{"ability":{"name":"Ki focus","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":60,"topValue":61}}}
+{"ability":{"name":"Limning","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":62,"topValue":62}}}
+{"ability":{"name":"Menacing","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":63,"topValue":64}}}
+{"ability":{"name":"Merciful","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":65,"topValue":65}}}
+{"ability":{"name":"Mighty cleaving","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":66,"topValue":68}}}
+{"ability":{"name":"Mimetic","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":69,"topValue":69}}}
+{"ability":{"name":"Neutralizing","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":70,"topValue":70}}}
+{"ability":{"name":"Ominous","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":71,"topValue":71}}}
+{"ability":{"name":"Planar","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":72,"topValue":72}}}
+{"ability":{"name":"Quenching","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":73,"topValue":73}}}
+{"ability":{"name":"Seaborne","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":74,"topValue":74}}}
+{"ability":{"name":"Shock","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":75,"topValue":80}}}
+{"ability":{"name":"Spell storing","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":81,"topValue":85}}}
+{"ability":{"name":"Thawing","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":86,"topValue":86}}}
+{"ability":{"name":"Throwing","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":87,"topValue":91}}}
+{"ability":{"name":"Thundering","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":92,"topValue":96}}}
+{"ability":{"name":"Valiant","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":97,"topValue":97}}}
+{"ability":{"name":"Vicious","type":"MELEE","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":98,"topValue":100}}}
+{"ability":{"name":"Advancing","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":1,"topValue":1}}}
+{"ability":{"name":"Anarchic","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":2,"topValue":10}}}
+{"ability":{"name":"Anchoring","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":11,"topValue":19}}}
+{"ability":{"name":"Axiomatic","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":20,"topValue":20}}}
+{"ability":{"name":"Corrosive burst","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":21,"topValue":27}}}
+{"ability":{"name":"Defiant","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":28,"topValue":28}}}
+{"ability":{"name":"Dispelling burst","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":29,"topValue":29}}}
+{"ability":{"name":"Disruption","type":"MELEE","restriction":"BLUDGEONING","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":30,"topValue":38}}}
+{"ability":{"name":"Flaming burst","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":39,"topValue":47}}}
+{"ability":{"name":"Furyborn","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":48,"topValue":48}}}
+{"ability":{"name":"Glorious","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":49,"topValue":49}}}
+{"ability":{"name":"Holy","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":50,"topValue":58}}}
+{"ability":{"name":"Icy burst","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":59,"topValue":67}}}
+{"ability":{"name":"Igniting","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":68,"topValue":68}}}
+{"ability":{"name":"Impact","type":"MELEE","restriction":"PIERCING_OR_SLASHING","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":69,"topValue":69}}}
+{"ability":{"name":"Invigorating","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":70,"topValue":70}}}
+{"ability":{"name":"Ki intensifying","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":71,"topValue":71}}}
+{"ability":{"name":"Lifesurge","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":72,"topValue":72}}}
+{"ability":{"name":"Negating","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":73,"topValue":73}}}
+{"ability":{"name":"Phase locking","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":74,"topValue":74}}}
+{"ability":{"name":"Shocking burst","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":75,"topValue":83}}}
+{"ability":{"name":"Stalking","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":84,"topValue":84}}}
+{"ability":{"name":"Unholy","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":85,"topValue":91}}}
+{"ability":{"name":"Wounding","type":"MELEE","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":92,"topValue":100}}}
+{"ability":{"name":"Nullifying","type":"MELEE","restriction":"ANY","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":1,"topValue":20}}}
+{"ability":{"name":"Repositioning","type":"MELEE","restriction":"ANY","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":21,"topValue":40}}}
+{"ability":{"name":"Speed","type":"MELEE","restriction":"ANY","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":41,"topValue":80}}}
+{"ability":{"name":"Spellstealing","type":"MELEE","restriction":"ANY","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":81,"topValue":100}}}
+{"ability":{"name":"Brilliant energy","type":"MELEE","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":1,"topValue":40}}}
+{"ability":{"name":"Dancing","type":"MELEE","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":41,"topValue":80}}}
+{"ability":{"name":"Vorpal","type":"MELEE","restriction":"SLASHING","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":81,"topValue":90}}}
+{"ability":{"name":"Tranformative","type":"MELEE","restriction":"ANY","bonus":5,"price":10000,"priceInBonus":"true","interval":{"bottomValue":91,"topValue":95}}}
+{"ability":{"name":"Dueling","type":"MELEE","restriction":"ANY","bonus":5,"price":14000,"priceInBonus":"true","interval":{"bottomValue":96,"topValue":100}}}

@@ -6,31 +6,33 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Transient;
+
+import org.hibernate.annotations.Type;
 
 import com.decoverri.treasureGenerator.enums.MagicWeaponAbilityRestriction;
-import com.decoverri.treasureGenerator.enums.Size;
 import com.decoverri.treasureGenerator.enums.WeaponType;
 
 @Entity
-public class Weapon {
+public class MagicWeaponAbility {
 
 	@Id
 	@GeneratedValue
 	private long id;
-	
+
 	private String name;
-	private double price;
-	
+
 	@Enumerated(EnumType.STRING)
 	private WeaponType type;
 
 	@Enumerated(EnumType.STRING)
 	private MagicWeaponAbilityRestriction restriction;
-	
-	@Transient
-	private Size size;
-	
+
+	private int bonus;
+	private double price;
+
+	@Type(type = "true_false")
+	private boolean priceInBonus;
+
 	@Embedded
 	private Interval interval;
 
@@ -50,14 +52,6 @@ public class Weapon {
 		this.name = name;
 	}
 
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-
 	public WeaponType getType() {
 		return type;
 	}
@@ -74,12 +68,28 @@ public class Weapon {
 		this.restriction = restriction;
 	}
 
-	public Size getSize() {
-		return size;
+	public int getBonus() {
+		return bonus;
 	}
 
-	public void setSize(Size size) {
-		this.size = size;
+	public void setBonus(int bonus) {
+		this.bonus = bonus;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public boolean isPriceInBonus() {
+		return priceInBonus;
+	}
+
+	public void setPriceInBonus(boolean priceInBonus) {
+		this.priceInBonus = priceInBonus;
 	}
 
 	public Interval getInterval() {
@@ -88,20 +98,6 @@ public class Weapon {
 
 	public void setInterval(Interval interval) {
 		this.interval = interval;
-	}
-
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		if (this.size != null && this.size != Size.MEDIUM) {
-			builder.append(this.size + " ");
-		}
-		//TODO: is it necessary to think about double weapons?
-		double totalPrice = this.price + 300.0;
-		builder.append("masterwork " + this.name + " (price " + totalPrice + "gp)");
-
-		String string = builder.toString();
-		return string.toUpperCase().substring(0, 1) + string.toLowerCase().substring(1);
 	}
 
 }
