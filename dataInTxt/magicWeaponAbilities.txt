@@ -73,5 +73,51 @@
 {"ability":{"name":"Brilliant energy","type":"MELEE","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":1,"topValue":40}}}
 {"ability":{"name":"Dancing","type":"MELEE","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":41,"topValue":80}}}
 {"ability":{"name":"Vorpal","type":"MELEE","restriction":"SLASHING","bonus":5,"price":0,"priceInBonus":"true","interval":{"bottomValue":81,"topValue":90}}}
-{"ability":{"name":"Tranformative","type":"MELEE","restriction":"ANY","bonus":5,"price":10000,"priceInBonus":"true","interval":{"bottomValue":91,"topValue":95}}}
-{"ability":{"name":"Dueling","type":"MELEE","restriction":"ANY","bonus":5,"price":14000,"priceInBonus":"true","interval":{"bottomValue":96,"topValue":100}}}
+{"ability":{"name":"Tranformative","type":"MELEE","restriction":"ANY","bonus":5,"price":10000,"priceInBonus":"false","interval":{"bottomValue":91,"topValue":95}}}
+{"ability":{"name":"Dueling","type":"MELEE","restriction":"ANY","bonus":5,"price":14000,"priceInBonus":"false","interval":{"bottomValue":96,"topValue":100}}}
+{"ability":{"name":"Adaptive","type":"RANGED","restriction":"COMPOSITE_BOW","bonus":1,"price":1000,"priceInBonus":"false","interval":{"bottomValue":1,"topValue":1}}}
+{"ability":{"name":"Impervious","type":"RANGED","restriction":"ANY","bonus":1,"price":3000,"priceInBonus":"false","interval":{"bottomValue":2,"topValue":2}}}
+{"ability":{"name":"Glamered","type":"RANGED","restriction":"ANY","bonus":1,"price":4000,"priceInBonus":"false","interval":{"bottomValue":3,"topValue":3}}}
+{"ability":{"name":"Allying","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":4,"topValue":6}}}
+{"ability":{"name":"Bane","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":7,"topValue":15}}}
+{"ability":{"name":"Called","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":16,"topValue":16}}}
+{"ability":{"name":"Conductive","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":17,"topValue":19}}}
+{"ability":{"name":"Conserving","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":20,"topValue":20}}}
+{"ability":{"name":"Corrosive","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":21,"topValue":24}}}
+{"ability":{"name":"Cruel","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":25,"topValue":25}}}
+{"ability":{"name":"Cunning","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":26,"topValue":28}}}
+{"ability":{"name":"Distance","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":29,"topValue":36}}}
+{"ability":{"name":"Flaming","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":37,"topValue":45}}}
+{"ability":{"name":"Frost","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":46,"topValue":54}}}
+{"ability":{"name":"Huntsman","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":55,"topValue":58}}}
+{"ability":{"name":"Jurist","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":59,"topValue":62}}}
+{"ability":{"name":"Limning","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":63,"topValue":63}}}
+{"ability":{"name":"Lucky","type":"RANGED","restriction":"FIREARM","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":63,"topValue":63}}}
+{"ability":{"name":"Merciful","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":64,"topValue":64}}}
+{"ability":{"name":"Planar","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":65,"topValue":66}}}
+{"ability":{"name":"Reliable","type":"RANGED","restriction":"FIREARM","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":68,"topValue":68}}}
+{"ability":{"name":"Returning","type":"RANGED","restriction":"THROWN","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":69,"topValue":76}}}
+{"ability":{"name":"Seeking","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":77,"topValue":84}}}
+{"ability":{"name":"Shock","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":85,"topValue":92}}}
+{"ability":{"name":"Thundering","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":93,"topValue":100}}}
+{"ability":{"name":"Anarchic","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":1,"topValue":10}}}
+{"ability":{"name":"Anchoring","type":"RANGED","restriction":"THROWN","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":11,"topValue":13}}}
+{"ability":{"name":"Axiomatic","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":14,"topValue":23}}}
+{"ability":{"name":"Corrosive burst","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":24,"topValue":31}}}
+{"ability":{"name":"Lesser designating","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":32,"topValue":34}}}
+{"ability":{"name":"Endless ammunition","type":"RANGED","restriction":"BOW_AND_CROSSBOW","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":35,"topValue":37}}}
+{"ability":{"name":"Flaming burst","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":38,"topValue":48}}}
+{"ability":{"name":"Holy","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":49,"topValue":58}}}
+{"ability":{"name":"Icy burst","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":59,"topValue":69}}}
+{"ability":{"name":"Igniting","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":70,"topValue":73}}}
+{"ability":{"name":"Phase locking","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":74,"topValue":76}}}
+{"ability":{"name":"Shocking burst","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":77,"topValue":86}}}
+{"ability":{"name":"Stalking","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":87,"topValue":90}}}
+{"ability":{"name":"Unholy","type":"RANGED","restriction":"ANY","bonus":2,"price":0,"priceInBonus":"true","interval":{"bottomValue":91,"topValue":100}}}
+{"ability":{"name":"Greater lucky","type":"RANGED","restriction":"FIREARM","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":1,"topValue":25}}}
+{"ability":{"name":"Greater reliable","type":"RANGED","restriction":"FIREARM","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":26,"topValue":45}}}
+{"ability":{"name":"Speed","type":"RANGED","restriction":"ANY","bonus":3,"price":0,"priceInBonus":"true","interval":{"bottomValue":46,"topValue":85}}}
+{"ability":{"name":"Brilliant energy","type":"RANGED","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":86,"topValue":94}}}
+{"ability":{"name":"Greater designating","type":"RANGED","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":95,"topValue":96}}}
+{"ability":{"name":"Nimble shot","type":"RANGED","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":97,"topValue":98}}}
+{"ability":{"name":"Second chance","type":"RANGED","restriction":"ANY","bonus":4,"price":0,"priceInBonus":"true","interval":{"bottomValue":99,"topValue":100}}}

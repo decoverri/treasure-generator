@@ -11,6 +11,7 @@ public enum MagicWeaponAbilityRestriction {
 	CROSSBOW,
 	COMPOSITE_BOW,
 	BOW_AND_CROSSBOW,
+	THROWN,
 	FIREARM,
 	ANY;
 
@@ -38,8 +39,8 @@ public enum MagicWeaponAbilityRestriction {
 		boolean case8 = (this == MagicWeaponAbilityRestriction.CROSSBOW && type == MagicWeaponAbilityRestriction.BOW_AND_CROSSBOW)
 					 || (this == MagicWeaponAbilityRestriction.BOW_AND_CROSSBOW && type == MagicWeaponAbilityRestriction.CROSSBOW);
 
-		boolean case9 = (this == MagicWeaponAbilityRestriction.COMPOSITE_BOW && type == MagicWeaponAbilityRestriction.BOW_AND_CROSSBOW)
-					 || (this == MagicWeaponAbilityRestriction.BOW_AND_CROSSBOW && type == MagicWeaponAbilityRestriction.COMPOSITE_BOW);
+		boolean case9 = (this == MagicWeaponAbilityRestriction.COMPOSITE_BOW && type == MagicWeaponAbilityRestriction.BOW)
+					 || (this == MagicWeaponAbilityRestriction.BOW && type == MagicWeaponAbilityRestriction.COMPOSITE_BOW);
 
 		return case1 || case2 || case3 || case4 || case5 || case6 || case7 || case8 || case9;
 	}
