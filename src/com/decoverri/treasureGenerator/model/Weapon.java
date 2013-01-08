@@ -11,9 +11,10 @@ import javax.persistence.Transient;
 import com.decoverri.treasureGenerator.enums.MagicWeaponAbilityRestriction;
 import com.decoverri.treasureGenerator.enums.Size;
 import com.decoverri.treasureGenerator.enums.WeaponType;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class Weapon {
+public class Weapon implements Treasure {
 
 	@Id
 	@GeneratedValue
