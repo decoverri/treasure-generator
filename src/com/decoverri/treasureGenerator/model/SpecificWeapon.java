@@ -65,4 +65,9 @@ public class SpecificWeapon {
 	public void setInterval(Interval interval) {
 		this.interval = interval;
 	}
+
+	@Override
+	public String toString() {
+		return this.name + " (price " + this.price + "gp)";
+	}
 }
