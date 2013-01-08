@@ -48,13 +48,10 @@ public class MagicArmorGenerator {
 
 	private Treasure generateSpecificArmor(MagicArmorGeneratorData data) {
 		SpecificArmorGenerator specificGenerator = new SpecificArmorGenerator(session);
-		Treasure finalArmor;
 
 		System.out.println("Result: specific armor/shield");
 
-		finalArmor = specificGenerator.generate(data.getStrength());
-
-		return finalArmor;
+		return specificGenerator.generate(data.getStrength());
 	}
 
 	private Treasure generateMagicArmor(MagicArmorGeneratorData data, int roll) {
