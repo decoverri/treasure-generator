@@ -100,4 +100,9 @@ public class MagicWeaponAbility {
 		this.interval = interval;
 	}
 
+	@Override
+	public String toString() {
+		return name;
+	}
+
 }

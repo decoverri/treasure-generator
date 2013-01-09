@@ -20,6 +20,9 @@ public class MagicWeaponStats {
 	private int numberOfAbilities;
 	private int abilityBonus;
 
+	private int numberOfSecondAbility;
+	private int secondAbilityBonus;
+
 	@Enumerated(EnumType.STRING)
 	private MagicItemStrength strength;
 
@@ -58,6 +61,22 @@ public class MagicWeaponStats {
 		this.abilityBonus = abilityBonus;
 	}
 
+	public int getNumberOfSecondAbility() {
+		return numberOfSecondAbility;
+	}
+
+	public void setNumberOfSecondAbility(int numberOfSecondAbility) {
+		this.numberOfSecondAbility = numberOfSecondAbility;
+	}
+
+	public int getSecondAbilityBonus() {
+		return secondAbilityBonus;
+	}
+
+	public void setSecondAbilityBonus(int secondAbilityBonus) {
+		this.secondAbilityBonus = secondAbilityBonus;
+	}
+
 	public MagicItemStrength getStrength() {
 		return strength;
 	}
@@ -79,7 +98,10 @@ public class MagicWeaponStats {
 		StringBuilder builder = new StringBuilder();
 		builder.append("+" + bonus + " enhancement bonus");
 		if (abilityBonus > 0) {
-			builder.append(" plus " + numberOfAbilities + " +" + abilityBonus + " abilities");
+			builder.append(" plus " + numberOfAbilities + " +" + abilityBonus + " ability");
+		}
+		if (secondAbilityBonus > 0) {
+			builder.append(" and " + numberOfSecondAbility + " +" + secondAbilityBonus + " ability");
 		}
 		return builder.toString();
 	}

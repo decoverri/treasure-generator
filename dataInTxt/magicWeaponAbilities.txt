@@ -92,9 +92,9 @@
 {"ability":{"name":"Huntsman","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":55,"topValue":58}}}
 {"ability":{"name":"Jurist","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":59,"topValue":62}}}
 {"ability":{"name":"Limning","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":63,"topValue":63}}}
-{"ability":{"name":"Lucky","type":"RANGED","restriction":"FIREARM","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":63,"topValue":63}}}
-{"ability":{"name":"Merciful","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":64,"topValue":64}}}
-{"ability":{"name":"Planar","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":65,"topValue":66}}}
+{"ability":{"name":"Lucky","type":"RANGED","restriction":"FIREARM","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":64,"topValue":64}}}
+{"ability":{"name":"Merciful","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":65,"topValue":66}}}
+{"ability":{"name":"Planar","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":67,"topValue":67}}}
 {"ability":{"name":"Reliable","type":"RANGED","restriction":"FIREARM","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":68,"topValue":68}}}
 {"ability":{"name":"Returning","type":"RANGED","restriction":"THROWN","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":69,"topValue":76}}}
 {"ability":{"name":"Seeking","type":"RANGED","restriction":"ANY","bonus":1,"price":0,"priceInBonus":"true","interval":{"bottomValue":77,"topValue":84}}}

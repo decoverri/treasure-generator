@@ -1,7 +1,8 @@
 package com.decoverri.treasureGenerator.dao;
 
-import org.hibernate.Query;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
+import org.hibernate.criterion.Restrictions;
 
 import com.decoverri.treasureGenerator.enums.WeaponType;
 import com.decoverri.treasureGenerator.model.MagicWeaponAbility;
@@ -23,12 +24,19 @@ public class MagicWeaponAbilityDao {
 	}
 
 	public MagicWeaponAbility getMagicWeaponAbility(int bonus, WeaponType type, int roll) {
-		Query query = session.createQuery("select w from MagicWeaponAbility w where w.bonus = :bonus and w.type = :type " +
-										  "and :roll >= bottomValue and :roll <= topValue")
-										  .setParameter("bonus", bonus)
-										  .setParameter("type", type)
-										  .setParameter("roll", roll);
-		return (MagicWeaponAbility) query.list().get(0);
+		Criteria criteria = session.createCriteria(MagicWeaponAbility.class);
+		criteria.add(Restrictions.eq("type", type));
+		criteria.add(Restrictions.le("interval.bottomValue", roll));
+		criteria.add(Restrictions.ge("interval.topValue", roll));
+		if (type == WeaponType.MELEE && bonus >= 4) {
+			criteria.add(Restrictions.ge("bonus", 4));
+		}else if (type == WeaponType.RANGED && bonus >= 3) {
+			criteria.add(Restrictions.ge("bonus", 3));
+		}else {
+			criteria.add(Restrictions.eq("bonus", bonus));
+		}
+		
+		return (MagicWeaponAbility) criteria.list().get(0);
 	}
 
 }

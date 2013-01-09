@@ -23,7 +23,7 @@ public class WeaponGenerator {
 
 		System.out.println("Generating weapon");
 		Weapon weapon = weaponDao.getWeapon(roller.roll(d100));
-		System.out.println("Result: " + weapon.getName() + "\n");
+		System.out.println("Result: " + weapon.getName());
 
 		return weapon;
 	}

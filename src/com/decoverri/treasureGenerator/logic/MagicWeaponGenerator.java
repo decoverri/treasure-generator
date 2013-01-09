@@ -59,21 +59,21 @@ public class MagicWeaponGenerator {
 		MagicWeaponStatsDao statsDao = new MagicWeaponStatsDao(session);
 		Treasure finalWeapon;
 
-		System.out.println("Result: non-specific weapon");
+		MagicWeaponStats stats = statsDao.getMagicWeaponStats(data.getStrength(), roll);
+		System.out.println("Result: magic weapon with " + stats);
 
 		MagicWeapon magicWeapon = new MagicWeapon();
 		Weapon weapon = weaponGenerator.generate();
 		magicWeapon.setBaseWeapon(weapon);
 
-		System.out.println("Generating " + data.getStrength() + " magic " + magicWeapon.getBaseWeapon().getType() + " properties");
-		MagicWeaponStats stats = statsDao.getMagicWeaponStats(data.getStrength(), roll);
-		System.out.println("Result: " + stats);
-
 		magicWeapon.setBonus(stats.getBonus());
 		magicWeapon.setMagicalAbilities(new ArrayList<MagicWeaponAbility>());
 
 		if (stats.getAbilityBonus() > 0) {
-			generateMagicAbilities(magicWeapon, stats);
+			generateMagicAbilities(magicWeapon, stats.getNumberOfAbilities(), stats.getAbilityBonus());
+		}
+		if (stats.getSecondAbilityBonus() > 0) {
+			generateMagicAbilities(magicWeapon, stats.getNumberOfSecondAbility(), stats.getSecondAbilityBonus());
 		}
 
 		finalWeapon = magicWeapon;
@@ -81,14 +81,20 @@ public class MagicWeaponGenerator {
 		return finalWeapon;
 	}
 
-	private void generateMagicAbilities(MagicWeapon magicWeapon, MagicWeaponStats stats) {
+	private void generateMagicAbilities(MagicWeapon magicWeapon, int numberOfAbilities, int abilityBonus) {
 		MagicWeaponAbilityDao abilityDao = new MagicWeaponAbilityDao(session);
 
-		for (int i = 0; i < stats.getNumberOfAbilities(); i++) {
-			System.out.println("Generating " + magicWeapon.getBaseWeapon().getType() + " +" + stats.getAbilityBonus() + " ability");
-			MagicWeaponAbility magicWeaponAbility = abilityDao.getMagicWeaponAbility(stats.getAbilityBonus(), magicWeapon.getBaseWeapon().getType(), roller.roll(d100));
+		for (int i = 0; i < numberOfAbilities; i++) {
+			System.out.println("Generating " + magicWeapon.getBaseWeapon().getType() + " +" + abilityBonus + " ability");
+			MagicWeaponAbility magicWeaponAbility = abilityDao.getMagicWeaponAbility(abilityBonus, magicWeapon.getBaseWeapon().getType(), roller.roll(d100));
 			System.out.println("Result: " + magicWeaponAbility);
 
+			if (!magicWeaponAbility.getRestriction().equals(magicWeapon.getBaseWeapon().getRestriction())) {
+				System.out.println("Incompability of weapon and ability. Will regenerate");
+				i--;
+				continue;
+			}
+				
 			if (i == 1 && magicWeaponAbility.getName() == magicWeapon.getMagicalAbilities().get(0).getName()) {
 				System.out.println("Repeted ability. Will regenerate");
 				i--;

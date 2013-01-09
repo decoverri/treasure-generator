@@ -2,18 +2,24 @@ package com.decoverri.treasureGenerator.enums;
 
 public enum MagicWeaponAbilityRestriction {
 
-	BLUDGEONING,
-	PIERCING,
-	SLASHING,
-	PIERCING_OR_SLASHING,
-	BLUDGEONING_AND_PIERCING,
-	BOW,
-	CROSSBOW,
-	COMPOSITE_BOW,
-	BOW_AND_CROSSBOW,
-	THROWN,
-	FIREARM,
-	ANY;
+	BLUDGEONING("bludgeoning "),
+	PIERCING("piercing "),
+	SLASHING("slashing "),
+	PIERCING_OR_SLASHING("piercing or slashing "),
+	BLUDGEONING_AND_PIERCING("bludgeoning and piercning "),
+	BOW("bow "),
+	CROSSBOW("crossbow "),
+	COMPOSITE_BOW("composite bow "),
+	BOW_AND_CROSSBOW("bow or crossbow "),
+	THROWN("thrown "),
+	FIREARM("firearm "),
+	ANY("");
+
+	private final String name;
+
+	private MagicWeaponAbilityRestriction(String name) {
+		this.name = name;
+	}
 
 	public boolean equals(MagicWeaponAbilityRestriction type) {
 		
@@ -44,4 +50,10 @@ public enum MagicWeaponAbilityRestriction {
 
 		return case1 || case2 || case3 || case4 || case5 || case6 || case7 || case8 || case9;
 	}
+	
+	@Override
+	public String toString() {
+		return name;
+	}
+
 }

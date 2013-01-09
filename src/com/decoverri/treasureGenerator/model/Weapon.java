@@ -97,7 +97,7 @@ public class Weapon implements Treasure {
 		if (this.size != null && this.size != Size.MEDIUM) {
 			builder.append(this.size + " ");
 		}
-		//TODO: is it necessary to think about double weapons?
+
 		double totalPrice = this.price + 300.0;
 		builder.append("masterwork " + this.name + " (price " + totalPrice + "gp)");
 

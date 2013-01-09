@@ -41,8 +41,8 @@ public class MagicWeapon implements Treasure {
 
 		builder.append("+" + this.bonus + " ");
 
-		for (MagicWeaponAbility property : this.magicalAbilities) {
-			builder.append(property.toString().toLowerCase() + " ");
+		for (MagicWeaponAbility ability : this.magicalAbilities) {
+			builder.append(ability.toString().toLowerCase() + " ");
 		}
 
 		Size size = this.baseWeapon.getSize();
@@ -50,6 +50,12 @@ public class MagicWeapon implements Treasure {
 			builder.append(size + " ");
 		}
 
+		if (this.baseWeapon.getInterval().getBottomValue() > 92) {
+			for (MagicWeaponAbility ability : this.magicalAbilities) {
+				builder.append(ability.getRestriction());
+			}
+		}
+		
 		builder.append(this.baseWeapon.getName() + " (price " + calculatePrice() + "gp)");
 		return builder.toString().toLowerCase();
 	}
@@ -58,11 +64,11 @@ public class MagicWeapon implements Treasure {
 		double result = this.baseWeapon.getPrice() + 300.0;
 		int bonusForPrice = this.bonus;
 
-		for (MagicWeaponAbility property : this.magicalAbilities) {
-			if (property.isPriceInBonus()) {
-				bonusForPrice += property.getBonus();
+		for (MagicWeaponAbility ability : this.magicalAbilities) {
+			if (ability.isPriceInBonus()) {
+				bonusForPrice += ability.getBonus();
 			} else {
-				result += property.getPrice();
+				result += ability.getPrice();
 			}
 		}
 
