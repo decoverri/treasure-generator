@@ -48,15 +48,15 @@ public class FitTreasureD {
 			for (CoinGeneratorData coinGen : reward.getCoins()) {
 				coinGenDao.save(coinGen);
 			}
-			rewardDao.save(reward);
+
 			for (PotionGeneratorData potionGen : reward.getPotions()) {
 				potionGenDao.save(potionGen);
 			}
-			rewardDao.save(reward);
+
 			for (ScrollGeneratorData scrollGen : reward.getScrolls()) {
 				scrollGenDao.save(scrollGen);
 			}
-			rewardDao.save(reward);
+
 			for (WandGeneratorData wandGen : reward.getWands()) {
 				wandGenDao.save(wandGen);
 			}

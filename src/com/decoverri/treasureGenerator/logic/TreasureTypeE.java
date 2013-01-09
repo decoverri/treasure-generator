@@ -7,18 +7,12 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.dao.DTreasureRewardDao;
+import com.decoverri.treasureGenerator.dao.ETreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
-import com.decoverri.treasureGenerator.model.Armor;
-import com.decoverri.treasureGenerator.model.Coins;
-import com.decoverri.treasureGenerator.model.DTreasureReward;
 import com.decoverri.treasureGenerator.model.ETreasureReward;
 import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
-import com.decoverri.treasureGenerator.model.Potion;
-import com.decoverri.treasureGenerator.model.Scroll;
-import com.decoverri.treasureGenerator.model.Wand;
 
 public class TreasureTypeE implements TreasureType {
 

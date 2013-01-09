@@ -1,0 +1,1 @@
+{"reward":{"value":100,"nonmagicalArmors":1,"nonmagicalWeapons":1,"armors":{"armorgenerator":[{"quantity":1,"strength":"LESSER_MINOR"},{"quantity":1,"strength":"LESSER_MINOR"}]},"weapons":{"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"},{"quantity":1,"strength":"LESSER_MINOR"}]}}}

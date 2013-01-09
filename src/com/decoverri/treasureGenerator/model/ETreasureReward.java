@@ -21,10 +21,10 @@ public class ETreasureReward {
 	private int nonmagicalWeapons;
 
 	@OneToMany
-	private List<MagicWeaponGeneratorData> weapons;
+	private List<MagicArmorGeneratorData> armors;
 
 	@OneToMany
-	private List<MagicArmorGeneratorData> armors;
+	private List<MagicWeaponGeneratorData> weapons;
 
 	public long getId() {
 		return id;
@@ -58,20 +58,20 @@ public class ETreasureReward {
 		this.nonmagicalWeapons = nonmagicalWeapons;
 	}
 
-	public List<MagicWeaponGeneratorData> getWeapons() {
-		return weapons;
-	}
-
-	public void setWeapons(List<MagicWeaponGeneratorData> weapons) {
-		this.weapons = weapons;
-	}
-
 	public List<MagicArmorGeneratorData> getArmors() {
 		return armors;
 	}
 
 	public void setArmors(List<MagicArmorGeneratorData> armors) {
 		this.armors = armors;
+	}
+
+	public List<MagicWeaponGeneratorData> getWeapons() {
+		return weapons;
+	}
+
+	public void setWeapons(List<MagicWeaponGeneratorData> weapons) {
+		this.weapons = weapons;
 	}
 
 }
