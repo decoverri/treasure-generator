@@ -1,11 +1,11 @@
-{"reward":{"value":200,"nonmagicalArmors":1,"nonmagicalWeapons":0,"armors":{},"weapons":{}}}
-{"reward":{"value":300,"nonmagicalArmors":1,"nonmagicalWeapons":0,"armors":{},"weapons":{}}}
+{"reward":{"value":200,"nonmagicalArmors":{"mundanearmorgen":[{"type":"LIGHT_ARMOR_OR_SHIELD"}]},"nonmagicalWeapons":0,"armors":{},"weapons":{}}}
+{"reward":{"value":300,"nonmagicalArmors":{"mundanearmorgen":[{"type":"MEDIUM_ARMOR"}]},"nonmagicalWeapons":0,"armors":{},"weapons":{}}}
 {"reward":{"value":350,"nonmagicalArmors":0,"nonmagicalWeapons":1,"armors":{},"weapons":{}}}
-{"reward":{"value":1000,"nonmagicalArmors":1,"nonmagicalWeapons":0,"armors":{},"weapons":{}}}
+{"reward":{"value":1000,"nonmagicalArmors":{"mundanearmorgen":[{"type":"HEAVY_ARMOR"}]},"nonmagicalWeapons":0,"armors":{},"weapons":{}}}
 {"reward":{"value":1500,"nonmagicalArmors":0,"nonmagicalWeapons":0,"armors":{"armorgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]},"weapons":{}}}
 {"reward":{"value":2500,"nonmagicalArmors":0,"nonmagicalWeapons":0,"armors":{},"weapons":{"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]}}}
 {"reward":{"value":3000,"nonmagicalArmors":0,"nonmagicalWeapons":0,"armors":{"armorgenerator":[{"quantity":1,"strength":"GREATER_MINOR"}]},"weapons":{}}}
-{"reward":{"value":3000,"nonmagicalArmors":2,"nonmagicalWeapons":0,"armors":{},"weapons":{"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]}}}
+{"reward":{"value":3000,"nonmagicalArmors":{"mundanearmorgen":[{"type":"MEDIUM_ARMOR"},{"type":"SHIELD"}]},"nonmagicalWeapons":0,"armors":{},"weapons":{"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]}}}
 {"reward":{"value":4000,"nonmagicalArmors":0,"nonmagicalWeapons":0,"armors":{"armorgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]},"weapons":{"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]}}}
 {"reward":{"value":5500,"nonmagicalArmors":0,"nonmagicalWeapons":0,"armors":{"armorgenerator":[{"quantity":1,"strength":"GREATER_MINOR"}]},"weapons":{"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]}}}
 {"reward":{"value":6000,"nonmagicalArmors":0,"nonmagicalWeapons":0,"armors":{},"weapons":{"weapongenerator":[{"quantity":1,"strength":"GREATER_MINOR"}]}}}

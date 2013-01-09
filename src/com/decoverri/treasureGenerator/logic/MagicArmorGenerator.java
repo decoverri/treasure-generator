@@ -62,7 +62,7 @@ public class MagicArmorGenerator {
 		System.out.println("Result: non-specific armor/shield");
 
 		MagicArmor magicArmor = new MagicArmor();
-		Armor armor = armorGenerator.generate();
+		Armor armor = armorGenerator.generateBaseArmor();
 		magicArmor.setBaseArmor(armor);
 
 		System.out.println("Generating " + data.getStrength() + " magic " + magicArmor.getBaseArmor().getType() + " properties");

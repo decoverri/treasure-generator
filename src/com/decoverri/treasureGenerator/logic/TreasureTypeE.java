@@ -10,6 +10,7 @@ import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.ETreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
+import com.decoverri.treasureGenerator.model.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.ETreasureReward;
 import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
@@ -27,8 +28,8 @@ public class TreasureTypeE implements TreasureType {
 		ETreasureReward treasureE = dao.findByValue(value);
 
 		ArmorGenerator armorGenerator = new ArmorGenerator(session);
-		for (int i = 0; i < treasureE.getNonmagicalArmors(); i++) {
-			treasures.add(armorGenerator.generate());
+		for (ArmorGeneratorData data : treasureE.getNonmagicalArmors()) {
+			treasures.add(armorGenerator.generate(data.getType()));
 		}
 
 		WeaponGenerator weaponGenerator = new WeaponGenerator(session);

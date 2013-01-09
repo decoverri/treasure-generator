@@ -10,7 +10,7 @@ public class GeneratorTest {
 
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 
-		int worth = 3000;
+		int worth = 350;
 		String type = "TreasureTypeE";
 
 		String fullType = "com.decoverri.treasureGenerator.logic." + type;

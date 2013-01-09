@@ -16,7 +16,8 @@ public class ETreasureReward {
 
 	private int value;
 
-	private int nonmagicalArmors;
+	@OneToMany
+	private List<ArmorGeneratorData> nonmagicalArmors;
 
 	private int nonmagicalWeapons;
 
@@ -42,11 +43,11 @@ public class ETreasureReward {
 		this.value = value;
 	}
 
-	public int getNonmagicalArmors() {
+	public List<ArmorGeneratorData> getNonmagicalArmors() {
 		return nonmagicalArmors;
 	}
 
-	public void setNonmagicalArmors(int nonmagicalArmors) {
+	public void setNonmagicalArmors(List<ArmorGeneratorData> nonmagicalArmors) {
 		this.nonmagicalArmors = nonmagicalArmors;
 	}
 
