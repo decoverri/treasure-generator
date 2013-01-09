@@ -1,0 +1,65 @@
+package com.decoverri.treasureGenerator.logic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.decoverri.treasureGenerator.config.HibernateUtil;
+import com.decoverri.treasureGenerator.dao.DTreasureRewardDao;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
+import com.decoverri.treasureGenerator.interfaces.TreasureType;
+import com.decoverri.treasureGenerator.model.Armor;
+import com.decoverri.treasureGenerator.model.Coins;
+import com.decoverri.treasureGenerator.model.DTreasureReward;
+import com.decoverri.treasureGenerator.model.ETreasureReward;
+import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.Potion;
+import com.decoverri.treasureGenerator.model.Scroll;
+import com.decoverri.treasureGenerator.model.Wand;
+
+public class TreasureTypeE implements TreasureType {
+
+	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+
+	@Override
+	public List<Treasure> reward(int value) {
+		List<Treasure> treasures = new ArrayList<Treasure>();
+
+		ETreasureRewardDao dao = new ETreasureRewardDao(session);
+		Transaction transaction = session.beginTransaction();
+		ETreasureReward treasureE = dao.findByValue(value);
+
+		ArmorGenerator armorGenerator = new ArmorGenerator(session);
+		for (int i = 0; i < treasureE.getNonmagicalArmors(); i++) {
+			treasures.add(armorGenerator.generate());
+		}
+
+		WeaponGenerator weaponGenerator = new WeaponGenerator(session);
+		for (int i = 0; i < treasureE.getNonmagicalWeapons(); i++) {
+			treasures.add(weaponGenerator.generate());
+		}
+
+		MagicArmorGenerator magicArmorGenerator = new MagicArmorGenerator(session);
+		for (MagicArmorGeneratorData magicArmorGenData : treasureE.getArmors()) {
+			treasures.addAll(magicArmorGenerator.generate(magicArmorGenData));
+		}
+
+		MagicWeaponGenerator magicWeaponGenerator = new MagicWeaponGenerator(session);
+		for (MagicWeaponGeneratorData magicWeaponGenData : treasureE.getWeapons()) {
+			treasures.addAll(magicWeaponGenerator.generate(magicWeaponGenData));
+		}
+
+		transaction.commit();
+		return treasures;
+
+	}
+
+	@Override
+	public String toString() {
+		return "type E";
+	}
+
+}
