@@ -8,18 +8,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class SpecificWeapon implements Treasure {
+public class MagicWeaponStats {
 
 	@Id
 	@GeneratedValue
 	private long id;
 
-	private String name;
-
-	private double price;
+	private int bonus;
+	private int numberOfAbilities;
+	private int abilityBonus;
 
 	@Enumerated(EnumType.STRING)
 	private MagicItemStrength strength;
@@ -35,20 +34,28 @@ public class SpecificWeapon implements Treasure {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public int getBonus() {
+		return bonus;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setBonus(int bonus) {
+		this.bonus = bonus;
 	}
 
-	public double getPrice() {
-		return price;
+	public int getNumberOfAbilities() {
+		return numberOfAbilities;
 	}
 
-	public void setPrice(double price) {
-		this.price = price;
+	public void setNumberOfAbilities(int numberOfAbilities) {
+		this.numberOfAbilities = numberOfAbilities;
+	}
+
+	public int getAbilityBonus() {
+		return abilityBonus;
+	}
+
+	public void setAbilityBonus(int abilityBonus) {
+		this.abilityBonus = abilityBonus;
 	}
 
 	public MagicItemStrength getStrength() {
@@ -69,6 +76,12 @@ public class SpecificWeapon implements Treasure {
 
 	@Override
 	public String toString() {
-		return this.name + " (price " + this.price + "gp)";
+		StringBuilder builder = new StringBuilder();
+		builder.append("+" + bonus + " enhancement bonus");
+		if (abilityBonus > 0) {
+			builder.append(" plus " + numberOfAbilities + " +" + abilityBonus + " abilities");
+		}
+		return builder.toString();
 	}
+
 }
