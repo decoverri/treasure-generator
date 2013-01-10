@@ -1,0 +1,7 @@
+{"item":{"name":"Belt of tumbling","price":800,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":1,"topValue":16}}}
+{"item":{"name":"Beneficial bandolier","price":1000,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":17,"topValue":28}}}
+{"item":{"name":"Meridian belt","price":1000,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":29,"topValue":40}}}
+{"item":{"name":"Bladed belt","price":2000,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":41,"topValue":54}}}
+{"item":{"name":"Heavyload belt","price":2000,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":55,"topValue":70}}}
+{"item":{"name":"Aquatic cummerbund","price":2600,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":71,"topValue":84}}}
+{"item":{"name":"Equestrian belt","price":3200,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":85,"topValue":100}}}
