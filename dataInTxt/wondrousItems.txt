@@ -5,3 +5,107 @@
 {"item":{"name":"Heavyload belt","price":2000,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":55,"topValue":70}}}
 {"item":{"name":"Aquatic cummerbund","price":2600,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":71,"topValue":84}}}
 {"item":{"name":"Equestrian belt","price":3200,"strength":"LESSER_MINOR","slot":"BELT","interval":{"bottomValue":85,"topValue":100}}}
+{"item":{"name":"Belt of giant strength +2","price":4000,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":1,"topValue":18}}}
+{"item":{"name":"Belt of incredible dexterity +2","price":4000,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":19,"topValue":36}}}
+{"item":{"name":"Belt of mighty constitution +2","price":4000,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":37,"topValue":54}}}
+{"item":{"name":"Belt of teeth","price":4000,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":55,"topValue":62}}}
+{"item":{"name":"Blinkback belt","price":5000,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":63,"topValue":74}}}
+{"item":{"name":"Plague rat belt","price":5200,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":75,"topValue":84}}}
+{"item":{"name":"Belt of foraging","price":6000,"strength":"GREATER_MINOR","slot":"BELT","interval":{"bottomValue":85,"topValue":100}}}
+{"item":{"name":"Serpent belt","price":9000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":1,"topValue":4}}}
+{"item":{"name":"Monkey belt","price":9400,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":5,"topValue":8}}}
+{"item":{"name":"Belt of physical might +2","price":10000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":9,"topValue":16}}}
+{"item":{"name":"Belt of the weasel","price":10000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":17,"topValue":22}}}
+{"item":{"name":"Belt of thunderous charging","price":10000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":23,"topValue":27}}}
+{"item":{"name":"Minotaur belt","price":11000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":28,"topValue":32}}}
+{"item":{"name":"Grater plague rat belt","price":11200,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":33,"topValue":36}}}
+{"item":{"name":"Belt of equilibrium","price":12000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":37,"topValue":41}}}
+{"item":{"name":"Security belt","price":12500,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":42,"topValue":46}}}
+{"item":{"name":"Lesser belt of mighty hurling","price":14000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":47,"topValue":51}}}
+{"item":{"name":"Belt of dwarvenkind","price":14900,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":52,"topValue":57}}}
+{"item":{"name":"Cord of stubborn resolve","price":15000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":58,"topValue":61}}}
+{"item":{"name":"Belt of giant strength +4","price":16000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":62,"topValue":71}}}
+{"item":{"name":"Belt of physical perfection +2","price":16000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":72,"topValue":80}}}
+{"item":{"name":"Belt of incredible dexterity +4","price":16000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":81,"topValue":90}}}
+{"item":{"name":"Belt of mighty constitution +4","price":16000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Grater monkey belt","price":18000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":1,"topValue":12}}}
+{"item":{"name":"Anaconda’s coils","price":18500,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":13,"topValue":26}}}
+{"item":{"name":"Grater serpent belt","price":20000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":27,"topValue":38}}}
+{"item":{"name":"Belt of fallen heroes","price":21000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":39,"topValue":53}}}
+{"item":{"name":"Gorgon belt","price":23000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":54,"topValue":67}}}
+{"item":{"name":"Elemental earth belt","price":24000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":68,"topValue":84}}}
+{"item":{"name":"Sash of flowing water","price":25000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":85,"topValue":100}}}
+{"item":{"name":"Merform belt","price":32000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":1,"topValue":12}}}
+{"item":{"name":"Belt of giant strength +6","price":36000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":13,"topValue":30}}}
+{"item":{"name":"Belt of incredible dexterity +6","price":36000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":31,"topValue":48}}}
+{"item":{"name":"Belt of mighty constitution +6","price":36000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":49,"topValue":66}}}
+{"item":{"name":"Belt of physical might +4","price":40000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":67,"topValue":88}}}
+{"item":{"name":"Grater belt of mighty hurling ","price":42000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":89,"topValue":100}}}
+{"item":{"name":"Belt of stoneskin","price":60000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":1,"topValue":25}}}
+{"item":{"name":"Belt of physical perfection +4","price":64000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":26,"topValue":55}}}
+{"item":{"name":"Belt of physical might +6","price":90000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":56,"topValue":75}}}
+{"item":{"name":"Shadowform belt","price":110000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":76,"topValue":90}}}
+{"item":{"name":"Belt of physical perfection +6","price":144000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Robe of infinite twine","price":1000,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":1,"topValue":20}}}
+{"item":{"name":"Robe of needles","price":1000,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":21,"topValue":35}}}
+{"item":{"name":"Robe of bones","price":2400,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":36,"topValue":60}}}
+{"item":{"name":"Bodywrap of mighty strikes +1","price":3000,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":61,"topValue":70}}}
+{"item":{"name":"Corset of the vishkanya","price":3000,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":71,"topValue":80}}}
+{"item":{"name":"Druid’s vestment","price":3750,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Cassock of the clergy","price":4600,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":1,"topValue":15}}}
+{"item":{"name":"Mnemonic vestments","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":16,"topValue":30}}}
+{"item":{"name":"Robe of components","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":31,"topValue":45}}}
+{"item":{"name":"Sorcerer’s robe","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":46,"topValue":60}}}
+{"item":{"name":"Eidolon anchoring harness","price":6000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":61,"topValue":75}}}
+{"item":{"name":"Robe of useful items","price":7000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":76,"topValue":100}}}
+{"item":{"name":"Robe of blending","price":8400,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":1,"topValue":15}}}
+{"item":{"name":"Blazing robes","price":11000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":16,"topValue":26}}}
+{"item":{"name":"Shocking robe","price":11000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":27,"topValue":37}}}
+{"item":{"name":"Voidfrost robes","price":11000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":38,"topValue":48}}}
+{"item":{"name":"Bodywrap of mighty strikes +2","price":12000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":49,"topValue":59}}}
+{"item":{"name":"Monk’s robe","price":13000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":60,"topValue":75}}}
+{"item":{"name":"Robe of arcane heritage","price":16000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":76,"topValue":100}}}
+{"item":{"name":"Xorn robe","price":20000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":1,"topValue":25}}}
+{"item":{"name":"Corset of dire witchcraft","price":22000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":26,"topValue":52}}}
+{"item":{"name":"Bodywrap of mighty strikes +3","price":27000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":53,"topValue":76}}}
+{"item":{"name":"Robe of scintillating colors","price":27000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":77,"topValue":100}}}
+{"item":{"name":"Gunman’s duster","price":36000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":1,"topValue":40}}}
+{"item":{"name":"Bodywrap of mighty strikes +4","price":48000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":41,"topValue":80}}}
+{"item":{"name":"Smuggler’s collapsible robe","price":48000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Robe of stars","price":58000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":1,"topValue":10}}}
+{"item":{"name":"Robe of gates","price":64000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":11,"topValue":15}}}
+{"item":{"name":"Otherworldly kimono","price":67000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":16,"topValue":20}}}
+{"item":{"name":"Bodywrap of mighty strikes +5","price":75000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":21,"topValue":40}}}
+{"item":{"name":"Resplendent robe of the thespian","price":75000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":41,"topValue":51}}}
+{"item":{"name":"Robe of the archmagi","price":75000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":52,"topValue":67}}}
+{"item":{"name":"Bodywrap of mighty strikes +6","price":108000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":68,"topValue":77}}}
+{"item":{"name":"Robe of eyes","price":120000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":78,"topValue":97}}}
+{"item":{"name":"Bodywrap of mighty strikes +7","price":147000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":98,"topValue":100}}}
+{"item":{"name":"Bandages of rapid recovery","price":200,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":15}}}
+{"item":{"name":"Quick runner’s shirt","price":1000,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":16,"topValue":30}}}
+{"item":{"name":"Endless bandolier","price":1500,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":31,"topValue":50}}}
+{"item":{"name":"All tools vest","price":1800,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":51,"topValue":75}}}
+{"item":{"name":"Vest of surgery","price":3000,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":76,"topValue":100}}}
+{"item":{"name":"Sash of the war champion","price":4000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":10}}}
+{"item":{"name":"Sipping jacket","price":5000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":11,"topValue":20}}}
+{"item":{"name":"Tunic of careful casting","price":5000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":21,"topValue":31}}}
+{"item":{"name":"Vest of escape","price":5200,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":32,"topValue":42}}}
+{"item":{"name":"Cackling hag’s blouse","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":43,"topValue":52}}}
+{"item":{"name":"Deadshot vest","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":53,"topValue":62}}}
+{"item":{"name":"Prophet’s pectoral","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":63,"topValue":70}}}
+{"item":{"name":"Tunic of deadly might","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":71,"topValue":79}}}
+{"item":{"name":"Vest of the vengeful tracker","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":80,"topValue":90}}}
+{"item":{"name":"Resplendent uniform coat ","price":7000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Shirt of immolation","price":8000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":1,"topValue":13}}}
+{"item":{"name":"Snakeskin tunic","price":8000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":14,"topValue":28}}}
+{"item":{"name":"Bane baldric","price":10000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":29,"topValue":40}}}
+{"item":{"name":"Unfettered shirt","price":10000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":41,"topValue":60}}}
+{"item":{"name":"Lesser poisoner’s jacket","price":12000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":61,"topValue":80}}}
+{"item":{"name":"Vest of the cockroach","price":16000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Vest of stable mutation","price":20000,"strength":"GREATER_MEDIUM","slot":"CHEST","interval":{"bottomValue":1,"topValue":50}}}
+{"item":{"name":"Spectral shroud","price":26000,"strength":"GREATER_MEDIUM","slot":"CHEST","interval":{"bottomValue":51,"topValue":100}}}
+{"item":{"name":"Mantle of immortality","price":50000,"strength":"LESSER_MAJOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":60}}}
+{"item":{"name":"Greater poisoner’s jacket","price":58000,"strength":"LESSER_MAJOR","slot":"CHEST","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"Merciful baldric","price":60000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":35}}}
+{"item":{"name":"Mantle of faith","price":76000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":36,"topValue":70}}}
+{"item":{"name":"Mantle of spell resistance","price":90000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":71,"topValue":100}}}
