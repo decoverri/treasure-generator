@@ -29,7 +29,7 @@
 {"item":{"name":"Belt of incredible dexterity +4","price":16000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":81,"topValue":90}}}
 {"item":{"name":"Belt of mighty constitution +4","price":16000,"strength":"LESSER_MEDIUM","slot":"BELT","interval":{"bottomValue":91,"topValue":100}}}
 {"item":{"name":"Grater monkey belt","price":18000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":1,"topValue":12}}}
-{"item":{"name":"Anaconda’s coils","price":18500,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":13,"topValue":26}}}
+{"item":{"name":"Anaconda's coils","price":18500,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":13,"topValue":26}}}
 {"item":{"name":"Grater serpent belt","price":20000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":27,"topValue":38}}}
 {"item":{"name":"Belt of fallen heroes","price":21000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":39,"topValue":53}}}
 {"item":{"name":"Gorgon belt","price":23000,"strength":"GREATER_MEDIUM","slot":"BELT","interval":{"bottomValue":54,"topValue":67}}}
@@ -40,7 +40,7 @@
 {"item":{"name":"Belt of incredible dexterity +6","price":36000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":31,"topValue":48}}}
 {"item":{"name":"Belt of mighty constitution +6","price":36000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":49,"topValue":66}}}
 {"item":{"name":"Belt of physical might +4","price":40000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":67,"topValue":88}}}
-{"item":{"name":"Grater belt of mighty hurling ","price":42000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":89,"topValue":100}}}
+{"item":{"name":"Grater belt of mighty hurling","price":42000,"strength":"LESSER_MAJOR","slot":"BELT","interval":{"bottomValue":89,"topValue":100}}}
 {"item":{"name":"Belt of stoneskin","price":60000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":1,"topValue":25}}}
 {"item":{"name":"Belt of physical perfection +4","price":64000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":26,"topValue":55}}}
 {"item":{"name":"Belt of physical might +6","price":90000,"strength":"GREATER_MAJOR","slot":"BELT","interval":{"bottomValue":56,"topValue":75}}}
@@ -51,11 +51,11 @@
 {"item":{"name":"Robe of bones","price":2400,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":36,"topValue":60}}}
 {"item":{"name":"Bodywrap of mighty strikes +1","price":3000,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":61,"topValue":70}}}
 {"item":{"name":"Corset of the vishkanya","price":3000,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":71,"topValue":80}}}
-{"item":{"name":"Druid’s vestment","price":3750,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Druid's vestment","price":3750,"strength":"LESSER_MINOR","slot":"BODY","interval":{"bottomValue":81,"topValue":100}}}
 {"item":{"name":"Cassock of the clergy","price":4600,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":1,"topValue":15}}}
 {"item":{"name":"Mnemonic vestments","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":16,"topValue":30}}}
 {"item":{"name":"Robe of components","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":31,"topValue":45}}}
-{"item":{"name":"Sorcerer’s robe","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":46,"topValue":60}}}
+{"item":{"name":"Sorcerer's robe","price":5000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":46,"topValue":60}}}
 {"item":{"name":"Eidolon anchoring harness","price":6000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":61,"topValue":75}}}
 {"item":{"name":"Robe of useful items","price":7000,"strength":"GREATER_MINOR","slot":"BODY","interval":{"bottomValue":76,"topValue":100}}}
 {"item":{"name":"Robe of blending","price":8400,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":1,"topValue":15}}}
@@ -63,15 +63,15 @@
 {"item":{"name":"Shocking robe","price":11000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":27,"topValue":37}}}
 {"item":{"name":"Voidfrost robes","price":11000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":38,"topValue":48}}}
 {"item":{"name":"Bodywrap of mighty strikes +2","price":12000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":49,"topValue":59}}}
-{"item":{"name":"Monk’s robe","price":13000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":60,"topValue":75}}}
+{"item":{"name":"Monk's robe","price":13000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":60,"topValue":75}}}
 {"item":{"name":"Robe of arcane heritage","price":16000,"strength":"LESSER_MEDIUM","slot":"BODY","interval":{"bottomValue":76,"topValue":100}}}
 {"item":{"name":"Xorn robe","price":20000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":1,"topValue":25}}}
 {"item":{"name":"Corset of dire witchcraft","price":22000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":26,"topValue":52}}}
 {"item":{"name":"Bodywrap of mighty strikes +3","price":27000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":53,"topValue":76}}}
 {"item":{"name":"Robe of scintillating colors","price":27000,"strength":"GREATER_MEDIUM","slot":"BODY","interval":{"bottomValue":77,"topValue":100}}}
-{"item":{"name":"Gunman’s duster","price":36000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":1,"topValue":40}}}
+{"item":{"name":"Gunman's duster","price":36000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":1,"topValue":40}}}
 {"item":{"name":"Bodywrap of mighty strikes +4","price":48000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":41,"topValue":80}}}
-{"item":{"name":"Smuggler’s collapsible robe","price":48000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Smuggler's collapsible robe","price":48000,"strength":"LESSER_MAJOR","slot":"BODY","interval":{"bottomValue":81,"topValue":100}}}
 {"item":{"name":"Robe of stars","price":58000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":1,"topValue":10}}}
 {"item":{"name":"Robe of gates","price":64000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":11,"topValue":15}}}
 {"item":{"name":"Otherworldly kimono","price":67000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":16,"topValue":20}}}
@@ -82,7 +82,7 @@
 {"item":{"name":"Robe of eyes","price":120000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":78,"topValue":97}}}
 {"item":{"name":"Bodywrap of mighty strikes +7","price":147000,"strength":"GREATER_MAJOR","slot":"BODY","interval":{"bottomValue":98,"topValue":100}}}
 {"item":{"name":"Bandages of rapid recovery","price":200,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":15}}}
-{"item":{"name":"Quick runner’s shirt","price":1000,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":16,"topValue":30}}}
+{"item":{"name":"Quick runner's shirt","price":1000,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":16,"topValue":30}}}
 {"item":{"name":"Endless bandolier","price":1500,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":31,"topValue":50}}}
 {"item":{"name":"All tools vest","price":1800,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":51,"topValue":75}}}
 {"item":{"name":"Vest of surgery","price":3000,"strength":"LESSER_MINOR","slot":"CHEST","interval":{"bottomValue":76,"topValue":100}}}
@@ -90,22 +90,22 @@
 {"item":{"name":"Sipping jacket","price":5000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":11,"topValue":20}}}
 {"item":{"name":"Tunic of careful casting","price":5000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":21,"topValue":31}}}
 {"item":{"name":"Vest of escape","price":5200,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":32,"topValue":42}}}
-{"item":{"name":"Cackling hag’s blouse","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":43,"topValue":52}}}
+{"item":{"name":"Cackling hag's blouse","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":43,"topValue":52}}}
 {"item":{"name":"Deadshot vest","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":53,"topValue":62}}}
-{"item":{"name":"Prophet’s pectoral","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":63,"topValue":70}}}
+{"item":{"name":"Prophet's pectoral","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":63,"topValue":70}}}
 {"item":{"name":"Tunic of deadly might","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":71,"topValue":79}}}
 {"item":{"name":"Vest of the vengeful tracker","price":6000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":80,"topValue":90}}}
-{"item":{"name":"Resplendent uniform coat ","price":7000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Resplendent uniform coat","price":7000,"strength":"GREATER_MINOR","slot":"CHEST","interval":{"bottomValue":91,"topValue":100}}}
 {"item":{"name":"Shirt of immolation","price":8000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":1,"topValue":13}}}
 {"item":{"name":"Snakeskin tunic","price":8000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":14,"topValue":28}}}
 {"item":{"name":"Bane baldric","price":10000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":29,"topValue":40}}}
 {"item":{"name":"Unfettered shirt","price":10000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":41,"topValue":60}}}
-{"item":{"name":"Lesser poisoner’s jacket","price":12000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":61,"topValue":80}}}
+{"item":{"name":"Lesser poisoner's jacket","price":12000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":61,"topValue":80}}}
 {"item":{"name":"Vest of the cockroach","price":16000,"strength":"LESSER_MEDIUM","slot":"CHEST","interval":{"bottomValue":81,"topValue":100}}}
 {"item":{"name":"Vest of stable mutation","price":20000,"strength":"GREATER_MEDIUM","slot":"CHEST","interval":{"bottomValue":1,"topValue":50}}}
 {"item":{"name":"Spectral shroud","price":26000,"strength":"GREATER_MEDIUM","slot":"CHEST","interval":{"bottomValue":51,"topValue":100}}}
 {"item":{"name":"Mantle of immortality","price":50000,"strength":"LESSER_MAJOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":60}}}
-{"item":{"name":"Greater poisoner’s jacket","price":58000,"strength":"LESSER_MAJOR","slot":"CHEST","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"Greater poisoner's jacket","price":58000,"strength":"LESSER_MAJOR","slot":"CHEST","interval":{"bottomValue":61,"topValue":100}}}
 {"item":{"name":"Merciful baldric","price":60000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":35}}}
 {"item":{"name":"Mantle of faith","price":76000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":36,"topValue":70}}}
 {"item":{"name":"Mantle of spell resistance","price":90000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":71,"topValue":100}}}
@@ -202,16 +202,16 @@
 {"item":{"name":"Magnetist's gloves","price":6000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":66,"topValue":75}}}
 {"item":{"name":"Gloves of swimming and climbing","price":6250,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":76,"topValue":100}}}
 {"item":{"name":"Deliquescent gloves","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":1,"topValue":2}}}
-{"item":{"name":"Form-fixing gauntlets   ","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":3,"topValue":5}}}
+{"item":{"name":"Form-fixing gauntlets","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":3,"topValue":5}}}
 {"item":{"name":"Iron cobra gauntlet","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":6,"topValue":8}}}
 {"item":{"name":"Shadow falconer's glove","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":9,"topValue":16}}}
 {"item":{"name":"Spellstrike gloves","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":17,"topValue":20}}}
-{"item":{"name":"Glyphbane gloves ","price":9000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":21,"topValue":28}}}
-{"item":{"name":"Glove of storing ","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":29,"topValue":40}}}
+{"item":{"name":"Glyphbane gloves","price":9000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":21,"topValue":28}}}
+{"item":{"name":"Glove of storing","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":29,"topValue":40}}}
 {"item":{"name":"Gloves of shaping","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":41,"topValue":46}}}
 {"item":{"name":"Pliant gloves","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":47,"topValue":54}}}
-{"item":{"name":"Gauntlet of rust ","price":11500,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":55,"topValue":76}}}
-{"item":{"name":"Gloves of dueling ","price":15000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":77,"topValue":100}}}
+{"item":{"name":"Gauntlet of rust","price":11500,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":55,"topValue":76}}}
+{"item":{"name":"Gloves of dueling","price":15000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":77,"topValue":100}}}
 {"item":{"name":"Vampiric gloves","price":18000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":1,"topValue":30}}}
 {"item":{"name":"Giant fist gauntlets","price":20000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":31,"topValue":65}}}
 {"item":{"name":"Gloves of the shortened path","price":27000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":66,"topValue":100}}}
@@ -475,4 +475,359 @@
 {"item":{"name":"Bracers of armor +6","price":36000,"strength":"LESSER_MAJOR","slot":"WRISTS","interval":{"bottomValue":46,"topValue":100}}}
 {"item":{"name":"Bracers of armor +7","price":49000,"strength":"GREATER_MAJOR","slot":"WRISTS","interval":{"bottomValue":1,"topValue":60}}}
 {"item":{"name":"Bracers of armor +8","price":64000,"strength":"GREATER_MAJOR","slot":"WRISTS","interval":{"bottomValue":61,"topValue":100}}}
-{"item":{"name":"","price":,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":,"topValue":}}}
+{"item":{"name":"Feather token (anchor)","price":50,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":1}}}
+{"item":{"name":"Universal solvent","price":50,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":2,"topValue":2}}}
+{"item":{"name":"Ioun torch","price":75,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":3,"topValue":4}}}
+{"item":{"name":"Stubborn nail","price":100,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":5,"topValue":5}}}
+{"item":{"name":"War paint of the terrible visage","price":100,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":6,"topValue":6}}}
+{"item":{"name":"Elixir of love","price":150,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":7,"topValue":7}}}
+{"item":{"name":"Unguent of timelessness","price":150,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":8,"topValue":8}}}
+{"item":{"name":"Feather token (fan)","price":200,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":9,"topValue":9}}}
+{"item":{"name":"Formula alembic","price":200,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":10,"topValue":10}}}
+{"item":{"name":"Hybridization funnel","price":200,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":11,"topValue":11}}}
+{"item":{"name":"Soul soap","price":200,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":12,"topValue":12}}}
+{"item":{"name":"Dust of tracelessness","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":13,"topValue":13}}}
+{"item":{"name":"Elixir of hiding","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":14,"topValue":16}}}
+{"item":{"name":"Elixir of swimming","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":17,"topValue":19}}}
+{"item":{"name":"Elixir of tumbling","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":20,"topValue":22}}}
+{"item":{"name":"Elixir of vision","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":23,"topValue":25}}}
+{"item":{"name":"Nightdrops","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":26,"topValue":27}}}
+{"item":{"name":"Oil of silence","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":28,"topValue":28}}}
+{"item":{"name":"Silversheen","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":29,"topValue":31}}}
+{"item":{"name":"Traveler's any-tool","price":250,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":32}}}
+{"item":{"name":"Bottle of messages","price":300,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":33,"topValue":34}}}
+{"item":{"name":"Feather token (bird)","price":300,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":35,"topValue":36}}}
+{"item":{"name":"Origami swarm","price":300,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":37,"topValue":37}}}
+{"item":{"name":"Alluring golden apple","price":400,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":38}}}
+{"item":{"name":"Feather token (tree)","price":400,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":39,"topValue":39}}}
+{"item":{"name":"Key of lock jamming","price":400,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":40,"topValue":40}}}
+{"item":{"name":"Feather token (swan boat)","price":450,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":42}}}
+{"item":{"name":"Animated portrait","price":500,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":43,"topValue":43}}}
+{"item":{"name":"Bottled misfortune","price":500,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":44,"topValue":44}}}
+{"item":{"name":"Elixir of truth","price":500,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":45,"topValue":46}}}
+{"item":{"name":"Feather token (whip)","price":500,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":47,"topValue":48}}}
+{"item":{"name":"Scabbard of horning","price":500,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":49,"topValue":51}}}
+{"item":{"name":"Seer's tea","price":550,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":52,"topValue":53}}}
+{"item":{"name":"Abjurant salt","price":600,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":54,"topValue":57}}}
+{"item":{"name":"Arrow magnet","price":600,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":58,"topValue":61}}}
+{"item":{"name":"Dust of darkness","price":600,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":62,"topValue":63}}}
+{"item":{"name":"Campfire bead","price":720,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":64,"topValue":69}}}
+{"item":{"name":"Archon's torh","price":750,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":72}}}
+{"item":{"name":"Lesser book of extended summoning","price":750,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":73,"topValue":75}}}
+{"item":{"name":"Iron rope","price":750,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":76,"topValue":79}}}
+{"item":{"name":"Snapleaf","price":750,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":80,"topValue":83}}}
+{"item":{"name":"Bottled yeti fur","price":800,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":84,"topValue":86}}}
+{"item":{"name":"Defoliant polish","price":800,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":87,"topValue":89}}}
+{"item":{"name":"Dust of emulation","price":800,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":90,"topValue":92}}}
+{"item":{"name":"Steadfast gut-stone","price":800,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":93,"topValue":97}}}
+{"item":{"name":"Dust of dryness","price":850,"strength":"LEAST_MINOR","slot":"SLOTLESS","interval":{"bottomValue":98,"topValue":100}}}
+{"item":{"name":"Roll on the Least Minor table","price":0,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":3}}}
+{"item":{"name":"Anatomy doll","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":4,"topValue":4}}}
+{"item":{"name":"Bead of newt prevention","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":5,"topValue":5}}}
+{"item":{"name":"Beast-bond brand","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":6,"topValue":6}}}
+{"item":{"name":"Bookplate of recall","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":7,"topValue":7}}}
+{"item":{"name":"Boro bead (1st)","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":8,"topValue":9}}}
+{"item":{"name":"Concealing pocket","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":10,"topValue":10}}}
+{"item":{"name":"Dowsing syrup","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":11,"topValue":11}}}
+{"item":{"name":"Incense of transcendence","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":12,"topValue":12}}}
+{"item":{"name":"Page of spell knowledge (1st)","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":13,"topValue":14}}}
+{"item":{"name":"Pearl of Power (1st)","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":15,"topValue":17}}}
+{"item":{"name":"Preserving flask (1st)","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":18,"topValue":18}}}
+{"item":{"name":"Pyxes of redirected focus","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":19,"topValue":20}}}
+{"item":{"name":"Salve of slipperiness","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":21,"topValue":22}}}
+{"item":{"name":"Wasp nest of swarming","price":1000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":23,"topValue":23}}}
+{"item":{"name":"Elixir of fire breath","price":1100,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":24,"topValue":26}}}
+{"item":{"name":"Grave salt","price":1100,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":27,"topValue":27}}}
+{"item":{"name":"Pipes of the sewers","price":1150,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":28,"topValue":29}}}
+{"item":{"name":"Dust of illusion","price":1200,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":30,"topValue":31}}}
+{"item":{"name":"Goblin skull bomb","price":1200,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":33}}}
+{"item":{"name":"Elixir of dragon breath","price":1400,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":34,"topValue":35}}}
+{"item":{"name":"Bookmark of deception","price":1500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":36,"topValue":36}}}
+{"item":{"name":"Word bottle","price":1500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":37,"topValue":37}}}
+{"item":{"name":"Dust of acid consumption","price":1600,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":38}}}
+{"item":{"name":"Dust of appearance","price":1800,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":39,"topValue":40}}}
+{"item":{"name":"Efficient quiver","price":1800,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":42}}}
+{"item":{"name":"Pipes of sounding","price":1800,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":43,"topValue":43}}}
+{"item":{"name":"Scabbard of vigor","price":1800,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":44,"topValue":44}}}
+{"item":{"name":"Agile alpenstock","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":45,"topValue":45}}}
+{"item":{"name":"Blood reservoir of physical prowess","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":46,"topValue":46}}}
+{"item":{"name":"Clamor box","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":47,"topValue":47}}}
+{"item":{"name":"Dry load powder horn","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":48,"topValue":48}}}
+{"item":{"name":"Goblin fire drum (normal)","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":49,"topValue":49}}}
+{"item":{"name":"Handy haversack","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":50,"topValue":51}}}
+{"item":{"name":"Horn of fog","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":52,"topValue":53}}}
+{"item":{"name":"Iron spike of safe passage","price":2000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":54,"topValue":54}}}
+{"item":{"name":"Knight's pennon (honor)","price":2200,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":55,"topValue":55}}}
+{"item":{"name":"Volatile vaporizer (1st)","price":2200,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":56,"topValue":59}}}
+{"item":{"name":"Elemental gem","price":2250,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":60,"topValue":62}}}
+{"item":{"name":"Flying ointment","price":2250,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":63,"topValue":64}}}
+{"item":{"name":"Sovereign glue","price":2400,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":65,"topValue":65}}}
+{"item":{"name":"Apple of eternal sleep","price":2500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":66,"topValue":66}}}
+{"item":{"name":"Bag of holding (type I)","price":2500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":67,"topValue":68}}}
+{"item":{"name":"Candle of truth","price":2500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":69,"topValue":69}}}
+{"item":{"name":"Hexing doll","price":2500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":70}}}
+{"item":{"name":"Stone of alarm","price":2700,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":71,"topValue":72}}}
+{"item":{"name":"Standard book of extended summoning","price":2750,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":73,"topValue":73}}}
+{"item":{"name":"Bead of force","price":3000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":74,"topValue":77}}}
+{"item":{"name":"Cauldron of brewing","price":3000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":78,"topValue":78}}}
+{"item":{"name":"Chime of opening","price":3000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":79,"topValue":80}}}
+{"item":{"name":"Philter of love","price":3000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":81,"topValue":81}}}
+{"item":{"name":"Rope of climbing","price":3000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":82,"topValue":86}}}
+{"item":{"name":"Volatile vaporizer (2nd)","price":3000,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":87,"topValue":88}}}
+{"item":{"name":"Shroud of disintegration","price":3300,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":89,"topValue":89}}}
+{"item":{"name":"Bag of tricks (gray)","price":3400,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":90,"topValue":92}}}
+{"item":{"name":"Dust of disappearance","price":3500,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":93,"topValue":95}}}
+{"item":{"name":"Dust of weighty burdens","price":3600,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":96,"topValue":96}}}
+{"item":{"name":"Noble's vigilant pillbox","price":3600,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":97,"topValue":97}}}
+{"item":{"name":"Figurine of wondrous power (silver raven)","price":3800,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":98,"topValue":99}}}
+{"item":{"name":"Volatile vaporizer (3rd)","price":3800,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":100,"topValue":100}}}
+{"item":{"name":"Boro bead (2nd)","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":1}}}
+{"item":{"name":"Cautionary creance","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":2,"topValue":2}}}
+{"item":{"name":"Escape ladder","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":3,"topValue":3}}}
+{"item":{"name":"Far-reaching sight","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":4,"topValue":4}}}
+{"item":{"name":"Ioun stone (clear spindle)","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":5,"topValue":6}}}
+{"item":{"name":"Marvelous pigments","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":7,"topValue":7}}}
+{"item":{"name":"Page of spell knowledge (2nd)","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":8,"topValue":15}}}
+{"item":{"name":"Pearl of Power (2nd)","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":16,"topValue":25}}}
+{"item":{"name":"Preserving flask (2nd)","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":26,"topValue":26}}}
+{"item":{"name":"Restorative ointment","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":27,"topValue":27}}}
+{"item":{"name":"Stone salve","price":4000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":28,"topValue":30}}}
+{"item":{"name":"Wind-caller compass","price":4400,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":31,"topValue":31}}}
+{"item":{"name":"Goblin fire drum (greater)","price":4500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":32}}}
+{"item":{"name":"Knight's pennon (battle)","price":4500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":33,"topValue":33}}}
+{"item":{"name":"Knight's pennon (parley)","price":4500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":34,"topValue":34}}}
+{"item":{"name":"Void dust","price":4500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":35,"topValue":35}}}
+{"item":{"name":"Incense of meditation","price":4900,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":36,"topValue":36}}}
+{"item":{"name":"Admixture vial","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":37,"topValue":37}}}
+{"item":{"name":"Bag of holding (type II)","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":51}}}
+{"item":{"name":"Bone razor","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":52,"topValue":52}}}
+{"item":{"name":"Horn of the huntmaster","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":53,"topValue":53}}}
+{"item":{"name":"Insistent doorknocker","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":54,"topValue":54}}}
+{"item":{"name":"Ioun stone (dusty rose prism)","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":55,"topValue":56}}}
+{"item":{"name":"Mallet of building","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":57,"topValue":57}}}
+{"item":{"name":"Polymorphic pouch","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":58,"topValue":58}}}
+{"item":{"name":"Scabbard of stanching","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":59,"topValue":59}}}
+{"item":{"name":"School of eyes","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":60,"topValue":60}}}
+{"item":{"name":"Sheath of bladestealth","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":61,"topValue":61}}}
+{"item":{"name":"Stone of alliance","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":62,"topValue":62}}}
+{"item":{"name":"Summoning shackle","price":5000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":63,"topValue":63}}}
+{"item":{"name":"Eversmoking bottle","price":5400,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":64,"topValue":64}}}
+{"item":{"name":"Sustaining spoon","price":5400,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":65,"topValue":65}}}
+{"item":{"name":"Wind fan","price":5500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":66,"topValue":66}}}
+{"item":{"name":"Grim lantern","price":5800,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":67,"topValue":67}}}
+{"item":{"name":"Coin of the untrodden road","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":68,"topValue":68}}}
+{"item":{"name":"Horn of battle clarity","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":69,"topValue":69}}}
+{"item":{"name":"Life link badge","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":70}}}
+{"item":{"name":"Martyr's tear","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":71,"topValue":71}}}
+{"item":{"name":"Pipes of haunting","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":72,"topValue":72}}}
+{"item":{"name":"Rope of knots","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":73,"topValue":73}}}
+{"item":{"name":"Singing bell of striking","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":74,"topValue":74}}}
+{"item":{"name":"Stone familiar","price":6000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":75,"topValue":75}}}
+{"item":{"name":"Book of extended summoning (greater)","price":6126,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":76,"topValue":76}}}
+{"item":{"name":"Dragonbone divination sticks","price":6400,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":77,"topValue":77}}}
+{"item":{"name":"Horn of goodness/evil","price":6500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":78,"topValue":78}}}
+{"item":{"name":"Naga-scale bindi","price":6600,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":79,"topValue":79}}}
+{"item":{"name":"Bottle of shadows","price":7000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":80,"topValue":80}}}
+{"item":{"name":"Cape of bravado","price":7000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":81,"topValue":81}}}
+{"item":{"name":"Instant bridge","price":7000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":82,"topValue":83}}}
+{"item":{"name":"Mirror of guarding reflections","price":7000,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":84,"topValue":84}}}
+{"item":{"name":"Folding boat","price":7200,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":85,"topValue":85}}}
+{"item":{"name":"Bottle of air","price":7250,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":86,"topValue":87}}}
+{"item":{"name":"Bag of holding (type III)","price":7400,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":88,"topValue":94}}}
+{"item":{"name":"Balm of impish grace","price":7500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":95,"topValue":95}}}
+{"item":{"name":"Candle of clean air","price":7500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":96,"topValue":96}}}
+{"item":{"name":"Harp of charming","price":7500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":97,"topValue":97}}}
+{"item":{"name":"Manual of war","price":7500,"strength":"GREATER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":98,"topValue":100}}}
+{"item":{"name":"Chalice of poison weeping","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":1}}}
+{"item":{"name":"Exorcist's aspergillum","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":2,"topValue":2}}}
+{"item":{"name":"Golem manual (flesh)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":3,"topValue":3}}}
+{"item":{"name":"Harp of shattering","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":4,"topValue":4}}}
+{"item":{"name":"Insignia of valor","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":5,"topValue":5}}}
+{"item":{"name":"Ioun stone (deep red sphere)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":6,"topValue":6}}}
+{"item":{"name":"Ioun stone (incandescent blue sphere)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":7,"topValue":7}}}
+{"item":{"name":"Ioun stone (pale blue rhomboid)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":8,"topValue":8}}}
+{"item":{"name":"Ioun stone (pink and green sphere)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":9,"topValue":9}}}
+{"item":{"name":"Ioun stone (pink rhomboid)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":10,"topValue":10}}}
+{"item":{"name":"Ioun stone (scarlet and blue sphere)","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":11,"topValue":11}}}
+{"item":{"name":"Needles of fleshgraving","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":12,"topValue":12}}}
+{"item":{"name":"Restless lockpicks","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":13,"topValue":13}}}
+{"item":{"name":"Werewhistle","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":14,"topValue":14}}}
+{"item":{"name":"Deck of illusions","price":8100,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":16,"topValue":16}}}
+{"item":{"name":"Candle of invocation","price":8400,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":17,"topValue":17}}}
+{"item":{"name":"Bag of tricks (rust)","price":8500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":19,"topValue":19}}}
+{"item":{"name":"Boro bead (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":20,"topValue":20}}}
+{"item":{"name":"Decanter of endless water","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":21,"topValue":21}}}
+{"item":{"name":"Loathsome mirror","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":22,"topValue":22}}}
+{"item":{"name":"Page of spell knowledge (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":25,"topValue":25}}}
+{"item":{"name":"Pearl of Power (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":31,"topValue":31}}}
+{"item":{"name":"Preserving flask (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":32}}}
+{"item":{"name":"Figurine of wondrous power (serpentine owl)","price":9100,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":33,"topValue":33}}}
+{"item":{"name":"Strand of prayer beads (lesser)","price":9600,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":34,"topValue":34}}}
+{"item":{"name":"Bag of holding (type IV)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":38}}}
+{"item":{"name":"Boundary chalk","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":39,"topValue":39}}}
+{"item":{"name":"Chime of resounding silence","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":40,"topValue":40}}}
+{"item":{"name":"Construct channel brick","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":41}}}
+{"item":{"name":"Doomharp","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":42,"topValue":42}}}
+{"item":{"name":"Drum of advance and retreat","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":43,"topValue":43}}}
+{"item":{"name":"Embalming thread","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":44,"topValue":44}}}
+{"item":{"name":"Eye of the void","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":45,"topValue":45}}}
+{"item":{"name":"Figurine of wondrous power (bronze griffon)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":46,"topValue":46}}}
+{"item":{"name":"Figurine of wondrous power (ebony fly)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":47,"topValue":47}}}
+{"item":{"name":"Figurine of wondrous power (slate spider)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":48,"topValue":48}}}
+{"item":{"name":"Hourglass of last chances","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":49,"topValue":49}}}
+{"item":{"name":"Ioun stone (dark blue rhomboid)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":50,"topValue":51}}}
+{"item":{"name":"Ki mat","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":52,"topValue":52}}}
+{"item":{"name":"Lord's banner (swiftness)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":53,"topValue":53}}}
+{"item":{"name":"Malleable symbol","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":54,"topValue":54}}}
+{"item":{"name":"Migrus locker","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":55,"topValue":55}}}
+{"item":{"name":"Ornament of healing light","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":56,"topValue":56}}}
+{"item":{"name":"Prayer wheel of ethical strength","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":57,"topValue":57}}}
+{"item":{"name":"Stone horse (courser)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":58,"topValue":58}}}
+{"item":{"name":"Summon-slave crystal","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":59,"topValue":59}}}
+{"item":{"name":"Treasurer's seal","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":60,"topValue":60}}}
+{"item":{"name":"Black soul shard","price":12000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":61,"topValue":61}}}
+{"item":{"name":"Golem manual (clay)","price":12000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":62,"topValue":62}}}
+{"item":{"name":"Horsemaster's saddle","price":12000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":63,"topValue":63}}}
+{"item":{"name":"Pipes of dissolution","price":12000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":64,"topValue":64}}}
+{"item":{"name":"Pipes of pain","price":12000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":65,"topValue":65}}}
+{"item":{"name":"Seeker's sight","price":12000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":66,"topValue":66}}}
+{"item":{"name":"Blessed book","price":12500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":67,"topValue":67}}}
+{"item":{"name":"Waters of transfiguration","price":12500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":68,"topValue":68}}}
+{"item":{"name":"Gem of brightness","price":13000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":69,"topValue":69}}}
+{"item":{"name":"Harp of contagion","price":13000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":70}}}
+{"item":{"name":"Lyre of building","price":13000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":71,"topValue":71}}}
+{"item":{"name":"Void pennant","price":14000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":72,"topValue":72}}}
+{"item":{"name":"Stone horse (destrier)","price":14800,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":73,"topValue":73}}}
+{"item":{"name":"Book of the loremaster","price":15000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":74,"topValue":74}}}
+{"item":{"name":"Cauldron of plenty","price":15000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":75,"topValue":75}}}
+{"item":{"name":"Horn of judgment","price":15000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":76,"topValue":76}}}
+{"item":{"name":"Horn of the tritons","price":15000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":77,"topValue":77}}}
+{"item":{"name":"Pearl of the sirines","price":15300,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":78,"topValue":78}}}
+{"item":{"name":"Figurine of wondrous power (onyx dog)","price":15500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":79,"topValue":79}}}
+{"item":{"name":"Bag of tricks (tan)","price":16000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":80,"topValue":81}}}
+{"item":{"name":"Boro bead (4th)","price":16000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":82,"topValue":82}}}
+{"item":{"name":"Page of spell knowledge (4th)","price":16000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":83,"topValue":83}}}
+{"item":{"name":"Pearl of Power (4th)","price":16000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":84,"topValue":87}}}
+{"item":{"name":"Preserving flask (4th)","price":16000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":88,"topValue":88}}}
+{"item":{"name":"Scabbard of keen edges","price":16000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":89,"topValue":91}}}
+{"item":{"name":"Figurine of wondrous power (golden lions)","price":16500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":92,"topValue":93}}}
+{"item":{"name":"Chime of interruption","price":16800,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":94,"topValue":95}}}
+{"item":{"name":"Broom of flying","price":17000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":96,"topValue":99}}}
+{"item":{"name":"Figurine of wondrous power (marble elephant)","price":17000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":100,"topValue":100}}}
+{"item":{"name":"Ioun stone (iridescent spindle)","price":18000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":3}}}
+{"item":{"name":"Orb of foul Abaddon","price":18000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":4,"topValue":4}}}
+{"item":{"name":"Carpet of flying (5 ft. by 5 ft.)","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":5,"topValue":8}}}
+{"item":{"name":"Horn of antagonism","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":9,"topValue":9}}}
+{"item":{"name":"Horn of blasting","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":10,"topValue":13}}}
+{"item":{"name":"Ioun stone (pale lavender ellipsoid)","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":14,"topValue":17}}}
+{"item":{"name":"Ioun stone (pearly white spindle)","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":18,"topValue":21}}}
+{"item":{"name":"Master's perfect golden bell","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":22,"topValue":24}}}
+{"item":{"name":"Necromancer's athame","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":25,"topValue":27}}}
+{"item":{"name":"Portable hole","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":28,"topValue":31}}}
+{"item":{"name":"Stone of good luck","price":20000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":35}}}
+{"item":{"name":"Figurine of wondrous power (ivory goats)","price":21000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":36,"topValue":37}}}
+{"item":{"name":"Rope of entanglement","price":21000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":40}}}
+{"item":{"name":"Golem manual (stone)","price":22000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":42}}}
+{"item":{"name":"Orb of golden heaven","price":22000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":43,"topValue":43}}}
+{"item":{"name":"Mattock of the titans","price":23348,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":44,"topValue":45}}}
+{"item":{"name":"Drinking horn of bottomless valor","price":24000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":46,"topValue":48}}}
+{"item":{"name":"Boro bead (5th)","price":25000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":49,"topValue":51}}}
+{"item":{"name":"Chaos emerald","price":25000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":52,"topValue":53}}}
+{"item":{"name":"Page of spell knowledge (5th)","price":25000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":54,"topValue":57}}}
+{"item":{"name":"Pearl of Power (5th)","price":25000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":58,"topValue":64}}}
+{"item":{"name":"Preserving flask (5th)","price":25000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":65,"topValue":67}}}
+{"item":{"name":"Maul of the titans","price":25305,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":68,"topValue":69}}}
+{"item":{"name":"Iron bands of binding","price":26000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":73}}}
+{"item":{"name":"Cube of frost resistance","price":27000,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":74,"topValue":76}}}
+{"item":{"name":"Manual of bodily health +1","price":27500,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":77,"topValue":80}}}
+{"item":{"name":"Manual of gainful exercise +1","price":27500,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":81,"topValue":84}}}
+{"item":{"name":"Manual of quickness of action +1","price":27500,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":85,"topValue":88}}}
+{"item":{"name":"Tome of clear thought +1","price":27500,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":89,"topValue":92}}}
+{"item":{"name":"Tome of leadership and influence +1","price":27500,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":93,"topValue":96}}}
+{"item":{"name":"Tome of understanding +1","price":27500,"strength":"GREATER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":97,"topValue":100}}}
+{"item":{"name":"Figurine of wondrous power (obsidian steed)","price":28500,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":4}}}
+{"item":{"name":"Cauldron of the dead","price":30000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":5,"topValue":7}}}
+{"item":{"name":"Drums of panic","price":30000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":8,"topValue":11}}}
+{"item":{"name":"Ioun stone (orange prism)","price":30000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":12,"topValue":15}}}
+{"item":{"name":"Ioun stone (pale green prism)","price":30000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":16,"topValue":19}}}
+{"item":{"name":"Lantern of revealing","price":30000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":20,"topValue":23}}}
+{"item":{"name":"Racing broom of flying","price":30000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":24,"topValue":27}}}
+{"item":{"name":"Cauldron of resurrection","price":33000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":28,"topValue":31}}}
+{"item":{"name":"Carpet of flying (5 ft. by 10 ft.)","price":35000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":36}}}
+{"item":{"name":"Golem manual (iron)","price":35000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":37,"topValue":38}}}
+{"item":{"name":"Boro bead (6th)","price":36000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":39,"topValue":40}}}
+{"item":{"name":"Ioun stone (vibrant purple prism)","price":36000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":44}}}
+{"item":{"name":"Orb of utter chaos","price":36000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":45,"topValue":48}}}
+{"item":{"name":"Page of spell knowledge (6th)","price":36000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":49,"topValue":50}}}
+{"item":{"name":"Pearl of Power (6th)","price":36000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":51,"topValue":58}}}
+{"item":{"name":"Preserving flask (6th)","price":36000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":59,"topValue":60}}}
+{"item":{"name":"Cauldron of flying","price":40000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":61,"topValue":64}}}
+{"item":{"name":"Enmity fetish","price":40000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":65,"topValue":66}}}
+{"item":{"name":"Ioun stone (lavender and green ellipsoid)","price":40000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":67,"topValue":69}}}
+{"item":{"name":"Ring gates","price":40000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":73}}}
+{"item":{"name":"Cauldron of seeing","price":42000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":74,"topValue":77}}}
+{"item":{"name":"Crystal ball","price":42000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":78,"topValue":81}}}
+{"item":{"name":"Golem manual (stone guardian)","price":44000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":82,"topValue":83}}}
+{"item":{"name":"Drums of haste","price":45000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":84,"topValue":87}}}
+{"item":{"name":"Strand of prayer beads (standard)","price":45800,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":88,"topValue":91}}}
+{"item":{"name":"Orb of storms","price":48000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":92,"topValue":94}}}
+{"item":{"name":"Page of spell knowledge (7th)","price":49000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":95,"topValue":96}}}
+{"item":{"name":"Pearl of Power (7th)","price":49000,"strength":"LESSER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":97,"topValue":100}}}
+{"item":{"name":"Crystal ball with see invisibility","price":50000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":1,"topValue":3}}}
+{"item":{"name":"Horn of Valhalla","price":50000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":4,"topValue":5}}}
+{"item":{"name":"Crystal ball with detect thoughts","price":51000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":6,"topValue":8}}}
+{"item":{"name":"Last leaves of the autumn dryad","price":52000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":9,"topValue":9}}}
+{"item":{"name":"Instant fortress","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":10,"topValue":11}}}
+{"item":{"name":"Manual of bodily health +2","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":12,"topValue":15}}}
+{"item":{"name":"Manual of gainful exercise +2","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":16,"topValue":19}}}
+{"item":{"name":"Manual of quickness of action +2","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":20,"topValue":23}}}
+{"item":{"name":"Tome of clear thought +2","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":24,"topValue":27}}}
+{"item":{"name":"Tome of leadership and influence +2","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":28,"topValue":31}}}
+{"item":{"name":"Tome of understanding +2","price":55000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":35}}}
+{"item":{"name":"Lord's banner (terror)","price":56000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":36,"topValue":36}}}
+{"item":{"name":"Carpet of flying (10 ft. by 10 ft.)","price":60000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":37,"topValue":37}}}
+{"item":{"name":"Darkskull","price":60000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":39}}}
+{"item":{"name":"Orb of pure law","price":60000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":40,"topValue":40}}}
+{"item":{"name":"Cube of force","price":62000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":41}}}
+{"item":{"name":"Page of spell knowledge (8th)","price":64000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":42,"topValue":43}}}
+{"item":{"name":"Pearl of Power (8th)","price":64000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":44,"topValue":49}}}
+{"item":{"name":"Crystal ball with telepathy","price":70000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":50,"topValue":50}}}
+{"item":{"name":"Horn of blasting (greater)","price":70000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":51,"topValue":51}}}
+{"item":{"name":"Pearl of Power (two spells)","price":70000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":52,"topValue":54}}}
+{"item":{"name":"Gem of seeing","price":75000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":55,"topValue":55}}}
+{"item":{"name":"Lord's banner (victory)","price":75000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":56,"topValue":56}}}
+{"item":{"name":"Crystal ball with true seeing","price":80000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":57,"topValue":57}}}
+{"item":{"name":"Page of spell knowledge (9th)","price":81000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":58,"topValue":59}}}
+{"item":{"name":"Pearl of Power (9th)","price":81000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":60,"topValue":62}}}
+{"item":{"name":"Well of many worlds","price":82000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":63,"topValue":63}}}
+{"item":{"name":"Manual of bodily health +3","price":82500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":64,"topValue":65}}}
+{"item":{"name":"Manual of gainful exercise +3","price":82500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":66,"topValue":67}}}
+{"item":{"name":"Manual of quickness of action +3","price":82500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":68,"topValue":69}}}
+{"item":{"name":"Tome of clear thought +3","price":82500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":70,"topValue":71}}}
+{"item":{"name":"Tome of leadership and influence +3","price":82500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":72,"topValue":73}}}
+{"item":{"name":"Tome of understanding +3","price":82500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":74,"topValue":75}}}
+{"item":{"name":"Apparatus of the crab","price":90000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":76,"topValue":76}}}
+{"item":{"name":"Bowl of conjuring water elementals","price":90000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":77,"topValue":77}}}
+{"item":{"name":"Brazier of conjuring fire elementals","price":90000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":78,"topValue":78}}}
+{"item":{"name":"Censer of conjuring air elementals","price":90000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":79,"topValue":79}}}
+{"item":{"name":"Stone of conjuring earth elementals","price":90000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":80,"topValue":80}}}
+{"item":{"name":"Mirror of opposition","price":92000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":81,"topValue":81}}}
+{"item":{"name":"Strand of prayer beads (greater)","price":95800,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":82,"topValue":82}}}
+{"item":{"name":"Lord's banner (crusades)","price":100000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":83,"topValue":83}}}
+{"item":{"name":"Manual of bodily health +4","price":110000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":84,"topValue":84}}}
+{"item":{"name":"Manual of gainful exercise +4","price":110000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":85,"topValue":85}}}
+{"item":{"name":"Manual of quickness of action +4","price":110000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":86,"topValue":86}}}
+{"item":{"name":"Tome of clear thought +4","price":110000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":87,"topValue":87}}}
+{"item":{"name":"Tome of leadership and influence +4","price":110000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":88,"topValue":88}}}
+{"item":{"name":"Tome of understanding +4","price":110000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":89,"topValue":89}}}
+{"item":{"name":"Manual of bodily health +5","price":137500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":90,"topValue":90}}}
+{"item":{"name":"Manual of gainful exercise +5","price":137500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":91,"topValue":91}}}
+{"item":{"name":"Manual of quickness of action +5","price":137500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":92,"topValue":92}}}
+{"item":{"name":"Tome of clear thought +5","price":137500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":93,"topValue":93}}}
+{"item":{"name":"Tome of leadership and influence +5","price":137500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":94,"topValue":94}}}
+{"item":{"name":"Tome of understanding +5","price":137500,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":95,"topValue":95}}}
+{"item":{"name":"Efreeti bottle","price":145000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":96,"topValue":96}}}
+{"item":{"name":"Cubic gate","price":164000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":97,"topValue":97}}}
+{"item":{"name":"Iron flask","price":170000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":98,"topValue":98}}}
+{"item":{"name":"Mirror of mental prowess","price":175000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":99,"topValue":99}}}
+{"item":{"name":"Mirror of life trapping","price":200000,"strength":"GREATER_MAJOR","slot":"SLOTLESS","interval":{"bottomValue":100,"topValue":100}}}

@@ -1,5 +1,7 @@
 package com.decoverri.treasureGenerator.model;
 
+import static com.decoverri.treasureGenerator.enums.BodySlot.SLOTLESS;
+
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -79,6 +81,14 @@ public class WondrousItem {
 
 	@Override
 	public String toString() {
-		return name + " (" + slot + ", price " + price + "gp)";
+		StringBuilder builder = new StringBuilder();
+		builder.append(name + " (");
+
+		if (slot != SLOTLESS) {
+			builder.append(slot + ", ");
+		}
+
+		builder.append("price " + price + "gp)");
+		return builder.toString();
 	}
 }

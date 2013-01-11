@@ -5,7 +5,6 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.enums.BodySlot;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.model.Potion;
 import com.decoverri.treasureGenerator.model.WondrousItem;
 
 public class WondrousItemDao {
@@ -24,13 +23,13 @@ public class WondrousItemDao {
 		session.saveOrUpdate(item);
 	}
 
-	public Potion getWondrousItem(MagicItemStrength strength, BodySlot slot, int roll) {
+	public WondrousItem getWondrousItem(MagicItemStrength strength, BodySlot slot, int roll) {
 		Query query = session.createQuery("select i from WondrousItem i where i.strength = :strength and slot = :slot and " +
 							":roll >= bottomValue and :roll <= topValue")
 							.setParameter("strength", strength)
 							.setParameter("slot", slot)
 							.setParameter("roll", roll);
-		return (Potion) query.list().get(0);
+		return (WondrousItem) query.list().get(0);
 	}
 
 }

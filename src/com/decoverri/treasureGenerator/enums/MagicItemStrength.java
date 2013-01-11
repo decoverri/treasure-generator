@@ -2,6 +2,7 @@ package com.decoverri.treasureGenerator.enums;
 
 public enum MagicItemStrength {
 
+	LEAST_MINOR("least minor"),
 	LESSER_MINOR("lesser minor"),
 	GREATER_MINOR("greater minor"),
 	LESSER_MEDIUM("lesser medium"),

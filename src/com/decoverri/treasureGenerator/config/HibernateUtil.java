@@ -55,7 +55,9 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponAbility.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponStats.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WondrousItemBodySlot.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WondrousItem.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WondrousItemGeneratorData.class);
 
 		cfg.configure();
 		serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();

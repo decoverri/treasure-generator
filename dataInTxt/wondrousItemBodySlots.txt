@@ -1,0 +1,12 @@
+{"wondrousitemslot":{"slot":"BELT","interval":{"bottomValue":1,"topValue":6}}}
+{"wondrousitemslot":{"slot":"BODY","interval":{"bottomValue":7,"topValue":12}}}
+{"wondrousitemslot":{"slot":"CHEST","interval":{"bottomValue":13,"topValue":17}}}
+{"wondrousitemslot":{"slot":"EYES","interval":{"bottomValue":18,"topValue":22}}}
+{"wondrousitemslot":{"slot":"FEET","interval":{"bottomValue":23,"topValue":28}}}
+{"wondrousitemslot":{"slot":"HANDS","interval":{"bottomValue":29,"topValue":34}}}
+{"wondrousitemslot":{"slot":"HEAD","interval":{"bottomValue":35,"topValue":41}}}
+{"wondrousitemslot":{"slot":"HEADBAND","interval":{"bottomValue":42,"topValue":47}}}
+{"wondrousitemslot":{"slot":"NECK","interval":{"bottomValue":48,"topValue":54}}}
+{"wondrousitemslot":{"slot":"SHOULDERS","interval":{"bottomValue":55,"topValue":61}}}
+{"wondrousitemslot":{"slot":"WRISTS","interval":{"bottomValue":62,"topValue":67}}}
+{"wondrousitemslot":{"slot":"SLOTLESS","interval":{"bottomValue":68,"topValue":100}}}
