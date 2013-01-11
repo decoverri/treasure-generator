@@ -47,6 +47,7 @@ public class FitData {
 		new FitTreasureC(session).fit();
 		new FitTreasureD(session).fit();
 		new FitTreasureE(session).fit();
+		new FitTreasureF(session).fit();
 
 		transaction.commit();
 	}

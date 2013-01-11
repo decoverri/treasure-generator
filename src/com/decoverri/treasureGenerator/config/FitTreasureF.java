@@ -1,0 +1,89 @@
+package com.decoverri.treasureGenerator.config;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+import org.hibernate.Session;
+
+import com.decoverri.treasureGenerator.dao.ArmorGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.FTreasureRewardDao;
+import com.decoverri.treasureGenerator.dao.MagicArmorGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.MagicWeaponGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.PotionGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.RingGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.WondrousItemGeneratorDataDao;
+import com.decoverri.treasureGenerator.model.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.FTreasureReward;
+import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.WondrousItemGeneratorData;
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
+
+public class FitTreasureF {
+
+	private Session session;
+
+	public FitTreasureF(Session session) {
+		this.session = session;
+	}
+
+	public void fit() throws IOException {
+
+		XStream xstream = new XStream(new JettisonMappedXmlDriver());
+		xstream.alias("reward", FTreasureReward.class);
+		xstream.alias("coins", CoinGeneratorData.class);
+		xstream.alias("mundanearmors", ArmorGeneratorData.class);
+		xstream.alias("armors", MagicArmorGeneratorData.class);
+		xstream.alias("weapons", MagicWeaponGeneratorData.class);
+		xstream.alias("rings", RingGeneratorData.class);
+		xstream.alias("wondrous", WondrousItemGeneratorData.class);
+		xstream.alias("potions", PotionGeneratorData.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/FTreasureReward.txt"));
+		while (scanner.hasNextLine()) {
+			FTreasureReward reward = (FTreasureReward) xstream.fromXML(scanner.nextLine());
+
+			CoinGeneratorDataDao coinGenDao = new CoinGeneratorDataDao(session);
+			ArmorGeneratorDataDao armorGenDao = new ArmorGeneratorDataDao(session);
+			MagicArmorGeneratorDataDao magicArmorGenDao = new MagicArmorGeneratorDataDao(session);
+			MagicWeaponGeneratorDataDao magicWeaponGenDao = new MagicWeaponGeneratorDataDao(session);
+			RingGeneratorDataDao ringGenDao = new RingGeneratorDataDao(session);
+			WondrousItemGeneratorDataDao wondrousGenDao = new WondrousItemGeneratorDataDao(session);
+			PotionGeneratorDataDao potionGenDao = new PotionGeneratorDataDao(session);
+
+			FTreasureRewardDao rewardDao = new FTreasureRewardDao(session);
+			
+			for (CoinGeneratorData coinGen : reward.getCoins()) {
+				coinGenDao.save(coinGen);
+			}
+			for (ArmorGeneratorData armorGen : reward.getNonmagicalArmors()) {
+				armorGenDao.save(armorGen);
+			}
+			for (MagicArmorGeneratorData magicArmorGen : reward.getArmors()) {
+				magicArmorGenDao.save(magicArmorGen);
+			}
+			for (MagicWeaponGeneratorData magicWeaponGen : reward.getWeapons()) {
+				magicWeaponGenDao.save(magicWeaponGen);
+			}
+			for (RingGeneratorData ringGen : reward.getRings()) {
+				ringGenDao.save(ringGen);
+			}
+			for (WondrousItemGeneratorData wondrousGen : reward.getWondrousItems()) {
+				wondrousGenDao.save(wondrousGen);
+			}
+			for (PotionGeneratorData potionGen : reward.getPotions()) {
+				potionGenDao.save(potionGen);
+			}
+			rewardDao.save(reward);
+
+		}
+		scanner.close();
+	}
+
+}
