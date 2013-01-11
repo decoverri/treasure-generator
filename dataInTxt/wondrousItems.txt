@@ -322,7 +322,7 @@
 {"item":{"name":"Necklace of fireballs (type II)","price":2700,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":73,"topValue":82}}}
 {"item":{"name":"Swarmbane clasp","price":3000,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":83,"topValue":89}}}
 {"item":{"name":"Mind sentinel medallion","price":3500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":90,"topValue":95}}}
-{"item":{"name":"Mummer’s ruff","price":3500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":96,"topValue":100}}}
+{"item":{"name":"Mummer's ruff","price":3500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":96,"topValue":100}}}
 {"item":{"name":"Amulet of elemental strife","price":4000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":1,"topValue":8}}}
 {"item":{"name":"Righteous fist amulet","price":4000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":9,"topValue":15}}}
 {"item":{"name":"Necklace of fireballs (type III)","price":4350,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":16,"topValue":26}}}
@@ -376,3 +376,103 @@
 {"item":{"name":"Amulet of mighty fists +4","price":80000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":36,"topValue":60}}}
 {"item":{"name":"Amulet of the planes","price":120000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":61,"topValue":85}}}
 {"item":{"name":"Amulet of mighty fists +5","price":125000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":86,"topValue":100}}}
+{"item":{"name":"Catching cape","price":200,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":1,"topValue":6}}}
+{"item":{"name":"Cloak of human guise","price":900,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":7,"topValue":10}}}
+{"item":{"name":"Cloak of resistance +1","price":1000,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":11,"topValue":30}}}
+{"item":{"name":"Muleback cords","price":1000,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":31,"topValue":36}}}
+{"item":{"name":"Shawl of life-keeping","price":1000,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":37,"topValue":38}}}
+{"item":{"name":"Shield cloak","price":1000,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":39,"topValue":44}}}
+{"item":{"name":"Quickchange cloak","price":1500,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":45,"topValue":50}}}
+{"item":{"name":"Cowardly crouching cloak","price":1800,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":51,"topValue":56}}}
+{"item":{"name":"Cloak of elvenkind","price":2500,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":57,"topValue":74}}}
+{"item":{"name":"Cloak of the hedge wizard","price":2500,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":75,"topValue":80}}}
+{"item":{"name":"Cloak of fiery vanishing","price":2600,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":81,"topValue":85}}}
+{"item":{"name":"Cloak of fangs","price":2800,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":86,"topValue":94}}}
+{"item":{"name":"Pauldrons of the serpent","price":3000,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":95,"topValue":97}}}
+{"item":{"name":"Stonemist cloak","price":3500,"strength":"LESSER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":98,"topValue":100}}}
+{"item":{"name":"Cloak of resistance +2","price":4000,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":1,"topValue":26}}}
+{"item":{"name":"Cloak of the scuttling rat","price":6000,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":27,"topValue":38}}}
+{"item":{"name":"Seafoam shawl","price":6000,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":39,"topValue":39}}}
+{"item":{"name":"Treeform cloak","price":6000,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":40,"topValue":52}}}
+{"item":{"name":"Eagle cape","price":7000,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":53,"topValue":74}}}
+{"item":{"name":"Cloak of the manta ray","price":7200,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":75,"topValue":94}}}
+{"item":{"name":"Hunter's cloak","price":7500,"strength":"GREATER_MINOR","slot":"SHOULDERS","interval":{"bottomValue":95,"topValue":100}}}
+{"item":{"name":"Cloak of resistance +3","price":9000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":1,"topValue":20}}}
+{"item":{"name":"Cloak of the duskwalker","price":10000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":21,"topValue":22}}}
+{"item":{"name":"Cocoon cloak","price":10000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":23,"topValue":25}}}
+{"item":{"name":"Pauldrons of the bull","price":10000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":26,"topValue":27}}}
+{"item":{"name":"Minor stone cloak","price":10000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":28,"topValue":32}}}
+{"item":{"name":"Cape of the mountebank","price":10800,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":33,"topValue":40}}}
+{"item":{"name":"Pauldrons of the watchful lion","price":10800,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":41,"topValue":45}}}
+{"item":{"name":"Lion cloak","price":12000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":46,"topValue":52}}}
+{"item":{"name":"Mantle of spores","price":13400,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":53,"topValue":54}}}
+{"item":{"name":"Cape of effulgent escape","price":14000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":55,"topValue":59}}}
+{"item":{"name":"Cloak of arachnida","price":14000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":60,"topValue":69}}}
+{"item":{"name":"Gunfighter's poncho","price":14000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":70,"topValue":72}}}
+{"item":{"name":"Tentacle cloak","price":14000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":73,"topValue":74}}}
+{"item":{"name":"Demonspike pauldrons","price":14350,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":75,"topValue":76}}}
+{"item":{"name":"Comfort's cloak","price":15600,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":77,"topValue":78}}}
+{"item":{"name":"Cloak of resistance +4","price":16000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":79,"topValue":88}}}
+{"item":{"name":"Shawl of the crone","price":16000,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":89,"topValue":91}}}
+{"item":{"name":"Prestidigitator's cloak","price":17200,"strength":"LESSER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":92,"topValue":100}}}
+{"item":{"name":"Stole of justice","price":18000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":1,"topValue":12}}}
+{"item":{"name":"Jellyfish cape","price":19200,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":13,"topValue":24}}}
+{"item":{"name":"Cloak of the diplomat","price":20000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":25,"topValue":32}}}
+{"item":{"name":"Slashing cloak","price":20000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":33,"topValue":44}}}
+{"item":{"name":"Major stone cloak","price":20000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":45,"topValue":56}}}
+{"item":{"name":"Minor cloak of displacement","price":24000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":57,"topValue":68}}}
+{"item":{"name":"Cloak of resistance +5","price":25000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":69,"topValue":88}}}
+{"item":{"name":"Cloak of the bat","price":26000,"strength":"GREATER_MEDIUM","slot":"SHOULDERS","interval":{"bottomValue":89,"topValue":100}}}
+{"item":{"name":"Highwayman's cape","price":32500,"strength":"LESSER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":1,"topValue":40}}}
+{"item":{"name":"Juggernaut's pauldrons","price":40000,"strength":"LESSER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":41,"topValue":60}}}
+{"item":{"name":"Charlatan's cape","price":45000,"strength":"LESSER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"Major cloak of displacement","price":50000,"strength":"GREATER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":1,"topValue":15}}}
+{"item":{"name":"Wings of flying","price":54000,"strength":"GREATER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":16,"topValue":35}}}
+{"item":{"name":"Cloak of etherealness","price":55000,"strength":"GREATER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":36,"topValue":55}}}
+{"item":{"name":"Wings of the gargoyle","price":72000,"strength":"GREATER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":56,"topValue":80}}}
+{"item":{"name":"Wyvern cloak","price":78600,"strength":"GREATER_MAJOR","slot":"SHOULDERS","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Sleeves of many garments","price":200,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":1,"topValue":10}}}
+{"item":{"name":"Armbands of the brawler","price":500,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":11,"topValue":20}}}
+{"item":{"name":"Bracers of armor +1","price":1000,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":21,"topValue":48}}}
+{"item":{"name":"Burglar's bracers","price":1000,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":49,"topValue":63}}}
+{"item":{"name":"Bracers of steadiness","price":2000,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":64,"topValue":91}}}
+{"item":{"name":"Manacles of cooperation","price":2000,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":92,"topValue":96}}}
+{"item":{"name":"Shackles of compliance","price":3280,"strength":"LESSER_MINOR","slot":"WRISTS","interval":{"bottomValue":97,"topValue":100}}}
+{"item":{"name":"Bracers of armor +2","price":4000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":1,"topValue":27}}}
+{"item":{"name":"Bracers of falcon's aim","price":4000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":28,"topValue":28}}}
+{"item":{"name":"Inquisitor's bastion vambraces","price":4000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":29,"topValue":38}}}
+{"item":{"name":"Lesser bracers of archery","price":5000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":39,"topValue":65}}}
+{"item":{"name":"Spellguard bracers","price":5000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":66,"topValue":68}}}
+{"item":{"name":"Bonebreaker gauntlets","price":6000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":69,"topValue":71}}}
+{"item":{"name":"Vambraces of defense","price":6000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":72,"topValue":81}}}
+{"item":{"name":"Verdant vine","price":6000,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":82,"topValue":98}}}
+{"item":{"name":"Longarm bracers","price":7200,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":99,"topValue":99}}}
+{"item":{"name":"Bracers of the glib entertainer","price":7900,"strength":"GREATER_MINOR","slot":"WRISTS","interval":{"bottomValue":100,"topValue":100}}}
+{"item":{"name":"Charm bracelet","price":8000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":1,"topValue":4}}}
+{"item":{"name":"Duelist's vambraces","price":8000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":5,"topValue":8}}}
+{"item":{"name":"Merciful vambraces","price":8000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":9,"topValue":13}}}
+{"item":{"name":"Vambraces of the tactician","price":8000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":14,"topValue":18}}}
+{"item":{"name":"Bracers of armor +3","price":9000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":19,"topValue":43}}}
+{"item":{"name":"Seducer's bane","price":9900,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":44,"topValue":53}}}
+{"item":{"name":"Bracers of the avenging knight","price":11500,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":54,"topValue":58}}}
+{"item":{"name":"Arrowmaster's bracers","price":13900,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":59,"topValue":63}}}
+{"item":{"name":"Vambraces of the genie (efreeti)","price":14400,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":64,"topValue":73}}}
+{"item":{"name":"Bracelet of bargaining","price":14500,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":74,"topValue":78}}}
+{"item":{"name":"Bracelet of mercy","price":15000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":79,"topValue":82}}}
+{"item":{"name":"Bracers of the merciful knight","price":15600,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":83,"topValue":86}}}
+{"item":{"name":"Bracelet of second chances","price":15750,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":87,"topValue":90}}}
+{"item":{"name":"Bracers of armor +4","price":16000,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":91,"topValue":99}}}
+{"item":{"name":"Shackles of durance vile","price":16200,"strength":"LESSER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":100,"topValue":100}}}
+{"item":{"name":"Vambraces of the genie (djinni)","price":18900,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":1,"topValue":10}}}
+{"item":{"name":"Vambraces of the genie (marid)","price":18900,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":11,"topValue":20}}}
+{"item":{"name":"Vambraces of the genie (shaitan)","price":18900,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":21,"topValue":30}}}
+{"item":{"name":"Bracelet of friends","price":19000,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":31,"topValue":50}}}
+{"item":{"name":"Greater bracers of archery","price":25000,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":51,"topValue":70}}}
+{"item":{"name":"Bracers of armor +5","price":25000,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":71,"topValue":90}}}
+{"item":{"name":"Bracers of sworn vengeance","price":25000,"strength":"GREATER_MEDIUM","slot":"WRISTS","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Dimensional shackles","price":28000,"strength":"LESSER_MAJOR","slot":"WRISTS","interval":{"bottomValue":1,"topValue":30}}}
+{"item":{"name":"Gauntlets of skill at arms","price":30000,"strength":"LESSER_MAJOR","slot":"WRISTS","interval":{"bottomValue":31,"topValue":45}}}
+{"item":{"name":"Bracers of armor +6","price":36000,"strength":"LESSER_MAJOR","slot":"WRISTS","interval":{"bottomValue":46,"topValue":100}}}
+{"item":{"name":"Bracers of armor +7","price":49000,"strength":"GREATER_MAJOR","slot":"WRISTS","interval":{"bottomValue":1,"topValue":60}}}
+{"item":{"name":"Bracers of armor +8","price":64000,"strength":"GREATER_MAJOR","slot":"WRISTS","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"","price":,"strength":"LESSER_MINOR","slot":"SLOTLESS","interval":{"bottomValue":,"topValue":}}}
