@@ -216,6 +216,163 @@
 {"item":{"name":"Giant fist gauntlets","price":20000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":31,"topValue":65}}}
 {"item":{"name":"Gloves of the shortened path","price":27000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":66,"topValue":100}}}
 {"item":{"name":"Gloves of the commanding conjurer","price":30000,"strength":"LESSER_MAJOR","slot":"HANDS","interval":{"bottomValue":1,"topValue":40}}}
-{"item":{"name":"Gauntlet of rust, greater","price":34500,"strength":"LESSER_MAJOR","slot":"HANDS","interval":{"bottomValue":41,"topValue":100}}}
+{"item":{"name":"Greater gauntlet of rust","price":34500,"strength":"LESSER_MAJOR","slot":"HANDS","interval":{"bottomValue":41,"topValue":100}}}
 {"item":{"name":"Talons of Leng","price":67000,"strength":"GREATER_MAJOR","slot":"HANDS","interval":{"bottomValue":1,"topValue":60}}}
 {"item":{"name":"Gauntlets of the weaponmaster","price":110000,"strength":"GREATER_MAJOR","slot":"HANDS","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"Mask of stony demeanor","price":500,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":1,"topValue":10}}}
+{"item":{"name":"Cap of human guise","price":800,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":11,"topValue":22}}}
+{"item":{"name":"Cap of light","price":900,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":23,"topValue":36}}}
+{"item":{"name":"Hat of disguise","price":1800,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":37,"topValue":56}}}
+{"item":{"name":"Buffering cap","price":2000,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":57,"topValue":71}}}
+{"item":{"name":"Miser's mask","price":3000,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":72,"topValue":85}}}
+{"item":{"name":"Stalker's mask","price":3500,"strength":"LESSER_MINOR","slot":"HEAD","interval":{"bottomValue":86,"topValue":100}}}
+{"item":{"name":"Circlet of persuasion","price":4500,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":1,"topValue":12}}}
+{"item":{"name":"Grappler's mask","price":5000,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":13,"topValue":21}}}
+{"item":{"name":"Helm of fearsome mien","price":5000,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":22,"topValue":31}}}
+{"item":{"name":"Jingasa of the fortunate soldier","price":5000,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":32,"topValue":40}}}
+{"item":{"name":"Helm of comprehend languages and read magic","price":5200,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":41,"topValue":54}}}
+{"item":{"name":"Crown of swords","price":6000,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":55,"topValue":67}}}
+{"item":{"name":"Minor crown of blasting","price":6480,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":68,"topValue":87}}}
+{"item":{"name":"Mask of the krenshar","price":7200,"strength":"GREATER_MINOR","slot":"HEAD","interval":{"bottomValue":88,"topValue":100}}}
+{"item":{"name":"Helm of the mammoth lord","price":8500,"strength":"LESSER_MEDIUM","slot":"HEAD","interval":{"bottomValue":1,"topValue":16}}}
+{"item":{"name":"Veil of fleeting glances","price":9000,"strength":"LESSER_MEDIUM","slot":"HEAD","interval":{"bottomValue":17,"topValue":30}}}
+{"item":{"name":"Mask of a thousand tomes","price":10000,"strength":"LESSER_MEDIUM","slot":"HEAD","interval":{"bottomValue":31,"topValue":46}}}
+{"item":{"name":"Medusa mask","price":10000,"strength":"LESSER_MEDIUM","slot":"HEAD","interval":{"bottomValue":47,"topValue":63}}}
+{"item":{"name":"Cap of the free thinker","price":12000,"strength":"LESSER_MEDIUM","slot":"HEAD","interval":{"bottomValue":64,"topValue":80}}}
+{"item":{"name":"Halo of inner calm","price":16000,"strength":"LESSER_MEDIUM","slot":"HEAD","interval":{"bottomValue":81,"topValue":100}}}
+{"item":{"name":"Cat's eye crown","price":18000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":1,"topValue":6}}}
+{"item":{"name":"Maw of the wyrm","price":18000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":7,"topValue":12}}}
+{"item":{"name":"Mitre of the hierophant","price":18000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":13,"topValue":19}}}
+{"item":{"name":"Magician's hat","price":20000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":20,"topValue":27}}}
+{"item":{"name":"Circlet of mindsight","price":22000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":28,"topValue":34}}}
+{"item":{"name":"Mask of the skull","price":22000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":35,"topValue":42}}}
+{"item":{"name":"Howling helm","price":22600,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":43,"topValue":50}}}
+{"item":{"name":"Major crown of blasting","price":23760,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":51,"topValue":62}}}
+{"item":{"name":"Helm of underwater action","price":24000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":63,"topValue":72}}}
+{"item":{"name":"Crown of conquest","price":24600,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":73,"topValue":79}}}
+{"item":{"name":"Batrachian helm","price":26000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":80,"topValue":85}}}
+{"item":{"name":"Helm of telepathy","price":27000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":86,"topValue":94}}}
+{"item":{"name":"Plague mask","price":27000,"strength":"GREATER_MEDIUM","slot":"HEAD","interval":{"bottomValue":95,"topValue":100}}}
+{"item":{"name":"Iron circlet of guarded souls","price":30000,"strength":"LESSER_MAJOR","slot":"HEAD","interval":{"bottomValue":1,"topValue":14}}}
+{"item":{"name":"Laurel of command","price":30000,"strength":"LESSER_MAJOR","slot":"HEAD","interval":{"bottomValue":15,"topValue":29}}}
+{"item":{"name":"Lesser mask of giants","price":30000,"strength":"LESSER_MAJOR","slot":"HEAD","interval":{"bottomValue":30,"topValue":45}}}
+{"item":{"name":"Steel-mind cap","price":33600,"strength":"LESSER_MAJOR","slot":"HEAD","interval":{"bottomValue":46,"topValue":61}}}
+{"item":{"name":"Stormlord's helm","price":35000,"strength":"LESSER_MAJOR","slot":"HEAD","interval":{"bottomValue":62,"topValue":78}}}
+{"item":{"name":"Lesser helm of brilliance","price":36000,"strength":"LESSER_MAJOR","slot":"HEAD","interval":{"bottomValue":79,"topValue":100}}}
+{"item":{"name":"Judge's wig","price":59200,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":1,"topValue":14}}}
+{"item":{"name":"Helm of teleportation","price":73500,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":15,"topValue":39}}}
+{"item":{"name":"Halo of menace","price":84000,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":40,"topValue":55}}}
+{"item":{"name":"Greater mask of giants","price":90000,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":56,"topValue":68}}}
+{"item":{"name":"Helm of brilliance","price":125000,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":69,"topValue":83}}}
+{"item":{"name":"Helm of electric radiance","price":125000,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":84,"topValue":92}}}
+{"item":{"name":"Crown of heaven","price":150000,"strength":"GREATER_MAJOR","slot":"HEAD","interval":{"bottomValue":93,"topValue":100}}}
+{"item":{"name":"Phylactery of faithfulness","price":1000,"strength":"LESSER_MINOR","slot":"HEADBAND","interval":{"bottomValue":1,"topValue":60}}}
+{"item":{"name":"Dead man's headband","price":3600,"strength":"LESSER_MINOR","slot":"HEADBAND","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"Headband of alluring charisma +2","price":4000,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":1,"topValue":9}}}
+{"item":{"name":"Headband of inspired wisdom +2","price":4000,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":10,"topValue":18}}}
+{"item":{"name":"Headband of vast intelligence +2","price":4000,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":19,"topValue":27}}}
+{"item":{"name":"Headband of aerial agility +2","price":4500,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":28,"topValue":33}}}
+{"item":{"name":"Shifter's headband +2","price":4500,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":34,"topValue":39}}}
+{"item":{"name":"Headband of ponderous recollection","price":5100,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":40,"topValue":45}}}
+{"item":{"name":"Headband of ki focus","price":5400,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":46,"topValue":51}}}
+{"item":{"name":"Headband of unshakeable resolve","price":5600,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":52,"topValue":58}}}
+{"item":{"name":"Hollywreath band","price":5700,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":59,"topValue":66}}}
+{"item":{"name":"Headband of deathless devotion","price":6400,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":67,"topValue":74}}}
+{"item":{"name":"Phylactery of the shepherd","price":7000,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":75,"topValue":82}}}
+{"item":{"name":"Headband of intuition","price":7000,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":83,"topValue":91}}}
+{"item":{"name":"Headband of fortune's favor","price":7700,"strength":"GREATER_MINOR","slot":"HEADBAND","interval":{"bottomValue":92,"topValue":100}}}
+{"item":{"name":"Headband of havoc","price":8000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":1,"topValue":6}}}
+{"item":{"name":"Serpent's band","price":9000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":7,"topValue":12}}}
+{"item":{"name":"Headband of mental prowess +2","price":10000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":13,"topValue":20}}}
+{"item":{"name":"Hunter's band","price":11000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":21,"topValue":26}}}
+{"item":{"name":"Phylactery of negative channeling","price":11000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":27,"topValue":34}}}
+{"item":{"name":"Phylactery of positive channeling","price":11000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":35,"topValue":42}}}
+{"item":{"name":"Veiled eye","price":12000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":43,"topValue":48}}}
+{"item":{"name":"Band of the stalwart warrior","price":14000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":49,"topValue":54}}}
+{"item":{"name":"Headband of ninjitsu","price":15000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":55,"topValue":60}}}
+{"item":{"name":"Headband of alluring charisma +4","price":16000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":61,"topValue":68}}}
+{"item":{"name":"Headband of inspired wisdom +4","price":16000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":69,"topValue":76}}}
+{"item":{"name":"Headband of mental superiority +2","price":16000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":77,"topValue":85}}}
+{"item":{"name":"Headband of vast intelligence +4","price":16000,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":86,"topValue":93}}}
+{"item":{"name":"Shifter's headband +4","price":17500,"strength":"LESSER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":94,"topValue":100}}}
+{"item":{"name":"Headband of arcane energy","price":20000,"strength":"GREATER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":1,"topValue":30}}}
+{"item":{"name":"Headband of counterspelling","price":20000,"strength":"GREATER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":31,"topValue":70}}}
+{"item":{"name":"Headband of knucklebones","price":27500,"strength":"GREATER_MEDIUM","slot":"HEADBAND","interval":{"bottomValue":71,"topValue":100}}}
+{"item":{"name":"Soulbound eye","price":30000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":1,"topValue":9}}}
+{"item":{"name":"Winter wolf headband","price":32000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":10,"topValue":19}}}
+{"item":{"name":"Headband of alluring charisma +6","price":36000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":20,"topValue":32}}}
+{"item":{"name":"Headband of inspired wisdom +6","price":36000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":33,"topValue":45}}}
+{"item":{"name":"Headband of vast intelligence +6","price":36000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":46,"topValue":58}}}
+{"item":{"name":"Shifter's headband +6","price":39000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":59,"topValue":66}}}
+{"item":{"name":"Headband of mental prowess +4","price":40000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":67,"topValue":81}}}
+{"item":{"name":"Headband of seduction","price":40000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":82,"topValue":90}}}
+{"item":{"name":"Headband of aerial agility +4","price":42000,"strength":"LESSER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Headband of mental resilience","price":64000,"strength":"GREATER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":1,"topValue":20}}}
+{"item":{"name":"Headband of mental superiority +4","price":64000,"strength":"GREATER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":21,"topValue":50}}}
+{"item":{"name":"Headband of aerial agility +6","price":81000,"strength":"GREATER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":51,"topValue":65}}}
+{"item":{"name":"Headband of metal prowess +6","price":90000,"strength":"GREATER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":66,"topValue":85}}}
+{"item":{"name":"Headband of mental superiority +6","price":144000,"strength":"GREATER_MAJOR","slot":"HEADBAND","interval":{"bottomValue":86,"topValue":100}}}
+{"item":{"name":"Hand of the mage","price":900,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":1,"topValue":10}}}
+{"item":{"name":"Aegis of recovery","price":1500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":11,"topValue":18}}}
+{"item":{"name":"Amulet of bullet protection +1","price":1500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":19,"topValue":25}}}
+{"item":{"name":"Brooch of shielding","price":1500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":26,"topValue":37}}}
+{"item":{"name":"Necklace of fireballs (type I)","price":1650,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":38,"topValue":49}}}
+{"item":{"name":"Amulet of natural armor +1","price":2000,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":50,"topValue":63}}}
+{"item":{"name":"Golembane scarab","price":2500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":64,"topValue":72}}}
+{"item":{"name":"Necklace of fireballs (type II)","price":2700,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":73,"topValue":82}}}
+{"item":{"name":"Swarmbane clasp","price":3000,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":83,"topValue":89}}}
+{"item":{"name":"Mind sentinel medallion","price":3500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":90,"topValue":95}}}
+{"item":{"name":"Mummer’s ruff","price":3500,"strength":"LESSER_MINOR","slot":"NECK","interval":{"bottomValue":96,"topValue":100}}}
+{"item":{"name":"Amulet of elemental strife","price":4000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":1,"topValue":8}}}
+{"item":{"name":"Righteous fist amulet","price":4000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":9,"topValue":15}}}
+{"item":{"name":"Necklace of fireballs (type III)","price":4350,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":16,"topValue":26}}}
+{"item":{"name":"Amulet of mighty fists +1","price":5000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":27,"topValue":36}}}
+{"item":{"name":"Necklace of fireballs (type IV)","price":5400,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":37,"topValue":47}}}
+{"item":{"name":"Stormlure","price":5400,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":48,"topValue":55}}}
+{"item":{"name":"Necklace of fireballs (type V)","price":5850,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":56,"topValue":66}}}
+{"item":{"name":"Amulet of bullet protection +2","price":6000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":67,"topValue":73}}}
+{"item":{"name":"Feychild necklace","price":6000,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":74,"topValue":81}}}
+{"item":{"name":"Carcanet of detention","price":7200,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":82,"topValue":89}}}
+{"item":{"name":"Periapt of health","price":7500,"strength":"GREATER_MINOR","slot":"NECK","interval":{"bottomValue":90,"topValue":100}}}
+{"item":{"name":"Amulet of natural armor +2","price":8000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":1,"topValue":8}}}
+{"item":{"name":"Amulet of proof against petrification","price":8000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":9,"topValue":12}}}
+{"item":{"name":"Everwake amulet","price":8000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":13,"topValue":15}}}
+{"item":{"name":"Gravewatch pendant","price":8000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":16,"topValue":18}}}
+{"item":{"name":"Hand of glory","price":8000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":19,"topValue":23}}}
+{"item":{"name":"Torc of lionheart fury","price":8000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":24,"topValue":26}}}
+{"item":{"name":"Necklace of fireballs (type VI)","price":8100,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":27,"topValue":33}}}
+{"item":{"name":"Necklace of fireballs (type VII)","price":8700,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":34,"topValue":40}}}
+{"item":{"name":"Amulet of hidden strength","price":9000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":41,"topValue":43}}}
+{"item":{"name":"Necklace of adaptation","price":9000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":44,"topValue":47}}}
+{"item":{"name":"Amulet of spell cunning","price":10000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":48,"topValue":51}}}
+{"item":{"name":"Collar of the true companion","price":10000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":52,"topValue":54}}}
+{"item":{"name":"Frost fist amulet","price":10000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":55,"topValue":58}}}
+{"item":{"name":"Crystal of healing hands","price":12000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":59,"topValue":63}}}
+{"item":{"name":"Guardian gorget","price":12000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":64,"topValue":66}}}
+{"item":{"name":"Medallion of thoughts","price":12000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":67,"topValue":73}}}
+{"item":{"name":"Periapt of protection from curses","price":12000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":74,"topValue":77}}}
+{"item":{"name":"Forge fist amulet","price":13000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":78,"topValue":81}}}
+{"item":{"name":"Amulet of bullet protection +3","price":13500,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":82,"topValue":85}}}
+{"item":{"name":"Periapt of wound closure","price":15000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":86,"topValue":92}}}
+{"item":{"name":"Necklace of ki serenity","price":16000,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":93,"topValue":95}}}
+{"item":{"name":"Brooch of amber sparks","price":16800,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":96,"topValue":98}}}
+{"item":{"name":"Symbol of sanguine protection","price":17500,"strength":"LESSER_MEDIUM","slot":"NECK","interval":{"bottomValue":99,"topValue":100}}}
+{"item":{"name":"Amulet of natural armor +3","price":18000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":1,"topValue":15}}}
+{"item":{"name":"Ampoule of false blood","price":20000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":16,"topValue":24}}}
+{"item":{"name":"Amulet of magecraft","price":20000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":25,"topValue":35}}}
+{"item":{"name":"Amulet of mighty fists +2","price":20000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":36,"topValue":50}}}
+{"item":{"name":"Dragonfoe amulet","price":20000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":51,"topValue":62}}}
+{"item":{"name":"Amulet of spell mastery","price":22000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":63,"topValue":67}}}
+{"item":{"name":"Amulet of bullet protection +4","price":24000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":68,"topValue":72}}}
+{"item":{"name":"Hand of stone","price":27000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":73,"topValue":85}}}
+{"item":{"name":"Periapt of proof against poison","price":27000,"strength":"GREATER_MEDIUM","slot":"NECK","interval":{"bottomValue":86,"topValue":100}}}
+{"item":{"name":"Amulet of natural armor +4","price":32000,"strength":"LESSER_MAJOR","slot":"NECK","interval":{"bottomValue":1,"topValue":18}}}
+{"item":{"name":"Amulet of proof against detection and location","price":35000,"strength":"LESSER_MAJOR","slot":"NECK","interval":{"bottomValue":19,"topValue":35}}}
+{"item":{"name":"Amulet of bullet protection +5","price":37500,"strength":"LESSER_MAJOR","slot":"NECK","interval":{"bottomValue":36,"topValue":49}}}
+{"item":{"name":"Scarab of protection","price":38000,"strength":"LESSER_MAJOR","slot":"NECK","interval":{"bottomValue":50,"topValue":67}}}
+{"item":{"name":"Necklace of netted stars","price":42000,"strength":"LESSER_MAJOR","slot":"NECK","interval":{"bottomValue":68,"topValue":82}}}
+{"item":{"name":"Amulet of mighty fists +3","price":45000,"strength":"LESSER_MAJOR","slot":"NECK","interval":{"bottomValue":83,"topValue":100}}}
+{"item":{"name":"Amulet of natural armor +5","price":50000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":1,"topValue":35}}}
+{"item":{"name":"Amulet of mighty fists +4","price":80000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":36,"topValue":60}}}
+{"item":{"name":"Amulet of the planes","price":120000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":61,"topValue":85}}}
+{"item":{"name":"Amulet of mighty fists +5","price":125000,"strength":"GREATER_MAJOR","slot":"NECK","interval":{"bottomValue":86,"topValue":100}}}
