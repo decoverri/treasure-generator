@@ -1,0 +1,86 @@
+{"ring":{"name":"Prisoner's dungeon ring","price":250,"strength":"LESSER_MINOR","interval":{"bottomValue":1,"topValue":7}}}
+{"ring":{"name":"Ring of arcane signets","price":1000,"strength":"LESSER_MINOR","interval":{"bottomValue":8,"topValue":16}}}
+{"ring":{"name":"Ring of spell knowledge I","price":1500,"strength":"LESSER_MINOR","interval":{"bottomValue":17,"topValue":25}}}
+{"ring":{"name":"Ring of protection +1","price":2000,"strength":"LESSER_MINOR","interval":{"bottomValue":26,"topValue":40}}}
+{"ring":{"name":"Ring of the grasping grave","price":2000,"strength":"LESSER_MINOR","interval":{"bottomValue":41,"topValue":47}}}
+{"ring":{"name":"Ring of feather falling","price":2200,"strength":"LESSER_MINOR","interval":{"bottomValue":48,"topValue":57}}}
+{"ring":{"name":"Ring of climbing","price":2500,"strength":"LESSER_MINOR","interval":{"bottomValue":58,"topValue":66}}}
+{"ring":{"name":"Ring of jumping","price":2500,"strength":"LESSER_MINOR","interval":{"bottomValue":67,"topValue":75}}}
+{"ring":{"name":"Ring of sustenance","price":2500,"strength":"LESSER_MINOR","interval":{"bottomValue":76,"topValue":84}}}
+{"ring":{"name":"Ring of swimming","price":2500,"strength":"LESSER_MINOR","interval":{"bottomValue":85,"topValue":93}}}
+{"ring":{"name":"Ring of ferocious action","price":3000,"strength":"LESSER_MINOR","interval":{"bottomValue":94,"topValue":100}}}
+{"ring":{"name":"Ring of counterspells","price":4000,"strength":"GREATER_MINOR","interval":{"bottomValue":1,"topValue":15}}}
+{"ring":{"name":"Ring of maniacal devices","price":5000,"strength":"GREATER_MINOR","interval":{"bottomValue":16,"topValue":25}}}
+{"ring":{"name":"Ring of rat fangs","price":5000,"strength":"GREATER_MINOR","interval":{"bottomValue":26,"topValue":35}}}
+{"ring":{"name":"Ring of sacred mistletoe","price":6000,"strength":"GREATER_MINOR","interval":{"bottomValue":36,"topValue":52}}}
+{"ring":{"name":"Ring of spell knowledge II","price":6000,"strength":"GREATER_MINOR","interval":{"bottomValue":53,"topValue":69}}}
+{"ring":{"name":"Ring of swarming stabs","price":6000,"strength":"GREATER_MINOR","interval":{"bottomValue":70,"topValue":86}}}
+{"ring":{"name":"Ring of grit mastery","price":6840,"strength":"GREATER_MINOR","interval":{"bottomValue":87,"topValue":100}}}
+{"ring":{"name":"Ring of forcefangs","price":8000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":2}}}
+{"ring":{"name":"Ring of mind shielding","price":8000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":3,"topValue":6}}}
+{"ring":{"name":"Ring of protection +2","price":8000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":7,"topValue":11}}}
+{"ring":{"name":"Ring of strength sapping","price":8000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":12,"topValue":13}}}
+{"ring":{"name":"Ring of force shield","price":8500,"strength":"LESSER_MEDIUM","interval":{"bottomValue":14,"topValue":17}}}
+{"ring":{"name":"Ring of the ram","price":8600,"strength":"LESSER_MEDIUM","interval":{"bottomValue":18,"topValue":22}}}
+{"ring":{"name":"Scholar's ring","price":8700,"strength":"LESSER_MEDIUM","interval":{"bottomValue":23,"topValue":24}}}
+{"ring":{"name":"Improved ring of climbing","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":25,"topValue":27}}}
+{"ring":{"name":"Ring of curing","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":28,"topValue":29}}}
+{"ring":{"name":"Ring of foe focus","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":30,"topValue":31}}}
+{"ring":{"name":"Improved ring of jumping","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":32,"topValue":35}}}
+{"ring":{"name":"Ring of ki mastery","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":36,"topValue":37}}}
+{"ring":{"name":"Lesser ring of revelation","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":38,"topValue":40}}}
+{"ring":{"name":"Improved ring of swimming","price":10000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":41,"topValue":43}}}
+{"ring":{"name":"Ring of animal friendship","price":10800,"strength":"LESSER_MEDIUM","interval":{"bottomValue":44,"topValue":46}}}
+{"ring":{"name":"Ring of transposition","price":10800,"strength":"LESSER_MEDIUM","interval":{"bottomValue":47,"topValue":48}}}
+{"ring":{"name":"Ring of tactical precision","price":11000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":49,"topValue":50}}}
+{"ring":{"name":"Ring of the sophisticate","price":11000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":51,"topValue":52}}}
+{"ring":{"name":"Decoy ring","price":12000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":53,"topValue":55}}}
+{"ring":{"name":"Ring of craft magic","price":12000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":56,"topValue":58}}}
+{"ring":{"name":"Ring of ectoplasmic invigoration","price":12000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":59,"topValue":61}}}
+{"ring":{"name":"Minor ring of energy resistance","price":12000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":62,"topValue":64}}}
+{"ring":{"name":"Ring of the troglodyte","price":12000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":65,"topValue":67}}}
+{"ring":{"name":"Steelhand circle","price":12000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":68,"topValue":70}}}
+{"ring":{"name":"Ring of chameleon power","price":12700,"strength":"LESSER_MEDIUM","interval":{"bottomValue":71,"topValue":76}}}
+{"ring":{"name":"Ring of spell knowledge III","price":13500,"strength":"LESSER_MEDIUM","interval":{"bottomValue":77,"topValue":79}}}
+{"ring":{"name":"Ring of the sea strider","price":14000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":80,"topValue":82}}}
+{"ring":{"name":"Ring of retribution","price":15000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":83,"topValue":85}}}
+{"ring":{"name":"Ring of water walking","price":15000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":86,"topValue":89}}}
+{"ring":{"name":"Jailer's dungeon ring","price":16000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":90,"topValue":95}}}
+{"ring":{"name":"Greater ring of revelation","price":16000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":96,"topValue":100}}}
+{"ring":{"name":"Minor ring of inner fortitude","price":18000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":4}}}
+{"ring":{"name":"Ring of protection +3","price":18000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":5,"topValue":16}}}
+{"ring":{"name":"Minor ring of spell storing","price":18000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":17,"topValue":26}}}
+{"ring":{"name":"Ring of energy shroud","price":19500,"strength":"GREATER_MEDIUM","interval":{"bottomValue":27,"topValue":30}}}
+{"ring":{"name":"Ring of arcane mastery","price":20000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":31,"topValue":35}}}
+{"ring":{"name":"Ring of invisibility","price":20000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":36,"topValue":46}}}
+{"ring":{"name":"Ring of wizardry I","price":20000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":47,"topValue":54}}}
+{"ring":{"name":"Superior ring of revelation","price":24000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":55,"topValue":60}}}
+{"ring":{"name":"Ring of spell knowledge IV","price":24000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":61,"topValue":68}}}
+{"ring":{"name":"Ring of evasion","price":25000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":69,"topValue":80}}}
+{"ring":{"name":"Ring of x-ray vision","price":25000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":81,"topValue":88}}}
+{"ring":{"name":"Ring of blinking","price":27000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":89,"topValue":100}}}
+{"ring":{"name":"Major ring of energy resistance","price":28000,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":9}}}
+{"ring":{"name":"Ring of the ecclesiarch","price":28500,"strength":"LESSER_MAJOR","interval":{"bottomValue":10,"topValue":16}}}
+{"ring":{"name":"Ring of protection +4","price":32000,"strength":"LESSER_MAJOR","interval":{"bottomValue":17,"topValue":33}}}
+{"ring":{"name":"Ring of return","price":33600,"strength":"LESSER_MAJOR","interval":{"bottomValue":34,"topValue":39}}}
+{"ring":{"name":"Ring of freedom of movement","price":40000,"strength":"LESSER_MAJOR","interval":{"bottomValue":40,"topValue":55}}}
+{"ring":{"name":"Ring of wizardry II","price":40000,"strength":"LESSER_MAJOR","interval":{"bottomValue":56,"topValue":70}}}
+{"ring":{"name":"Major ring of inner fortitude","price":42000,"strength":"LESSER_MAJOR","interval":{"bottomValue":71,"topValue":75}}}
+{"ring":{"name":"Greater ring of energy resistance","price":44000,"strength":"LESSER_MAJOR","interval":{"bottomValue":76,"topValue":92}}}
+{"ring":{"name":"Ring of delayed doom","price":45000,"strength":"LESSER_MAJOR","interval":{"bottomValue":93,"topValue":100}}}
+{"ring":{"name":"Ring of friend shield","price":50000,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":6}}}
+{"ring":{"name":"Ring of protection +5","price":50000,"strength":"GREATER_MAJOR","interval":{"bottomValue":7,"topValue":18}}}
+{"ring":{"name":"Ring of shooting stars","price":50000,"strength":"GREATER_MAJOR","interval":{"bottomValue":19,"topValue":27}}}
+{"ring":{"name":"Ring of spell storing","price":50000,"strength":"GREATER_MAJOR","interval":{"bottomValue":28,"topValue":37}}}
+{"ring":{"name":"Ring of continuation","price":56000,"strength":"GREATER_MAJOR","interval":{"bottomValue":38,"topValue":43}}}
+{"ring":{"name":"Greater ring of inner fortitude","price":66000,"strength":"GREATER_MAJOR","interval":{"bottomValue":44,"topValue":48}}}
+{"ring":{"name":"Ring of wizardry III","price":70000,"strength":"GREATER_MAJOR","interval":{"bottomValue":49,"topValue":57}}}
+{"ring":{"name":"Spiritualist Rings","price":70000,"strength":"GREATER_MAJOR","interval":{"bottomValue":58,"topValue":63}}}
+{"ring":{"name":"Ring of telekinesis","price":75000,"strength":"GREATER_MAJOR","interval":{"bottomValue":64,"topValue":71}}}
+{"ring":{"name":"Ring of regeneration","price":90000,"strength":"GREATER_MAJOR","interval":{"bottomValue":72,"topValue":76}}}
+{"ring":{"name":"Ring of spell turning","price":100000,"strength":"GREATER_MAJOR","interval":{"bottomValue":77,"topValue":82}}}
+{"ring":{"name":"Ring of wizardry IV","price":100000,"strength":"GREATER_MAJOR","interval":{"bottomValue":83,"topValue":86}}}
+{"ring":{"name":"Ring of three wishes","price":120000,"strength":"GREATER_MAJOR","interval":{"bottomValue":87,"topValue":90}}}
+{"ring":{"name":"Ring of djinni calling","price":125000,"strength":"GREATER_MAJOR","interval":{"bottomValue":91,"topValue":93}}}
+{"ring":{"name":"Ring of elemental command","price":200000,"strength":"GREATER_MAJOR","interval":{"bottomValue":94,"topValue":97}}}
+{"ring":{"name":"Major ring of spell storing","price":200000,"strength":"GREATER_MAJOR","interval":{"bottomValue":98,"topValue":100}}}

@@ -13,7 +13,8 @@ public class FitData {
 
 		Transaction transaction = session.beginTransaction();
 
-		// TODO Find a way to not add repeated entries (in case of rerunning this class)
+		// TODO Find a way to not add repeated entries (in case of rerunning
+		// this class)
 		new FitGems(session).fit();
 		new FitArtObjects(session).fit();
 
@@ -38,6 +39,8 @@ public class FitData {
 
 		new FitWondrousItem(session).fit();
 		new FitWondrousItemBodySlot(session).fit();
+
+		new FitRing(session).fit();
 
 		new FitTreasureA(session).fit();
 		new FitTreasureB(session).fit();
