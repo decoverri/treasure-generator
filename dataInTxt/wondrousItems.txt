@@ -109,3 +109,113 @@
 {"item":{"name":"Merciful baldric","price":60000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":1,"topValue":35}}}
 {"item":{"name":"Mantle of faith","price":76000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":36,"topValue":70}}}
 {"item":{"name":"Mantle of spell resistance","price":90000,"strength":"GREATER_MAJOR","slot":"CHEST","interval":{"bottomValue":71,"topValue":100}}}
+{"item":{"name":"Deathwatch eyes","price":2000,"strength":"LESSER_MINOR","slot":"EYES","interval":{"bottomValue":1,"topValue":18}}}
+{"item":{"name":"Eyes of the eagle","price":2500,"strength":"LESSER_MINOR","slot":"EYES","interval":{"bottomValue":19,"topValue":38}}}
+{"item":{"name":"Goggles of minute seeing","price":2500,"strength":"LESSER_MINOR","slot":"EYES","interval":{"bottomValue":39,"topValue":58}}}
+{"item":{"name":"Pirate's eye patch","price":2600,"strength":"LESSER_MINOR","slot":"EYES","interval":{"bottomValue":59,"topValue":72}}}
+{"item":{"name":"Spectacles of understanding","price":3000,"strength":"LESSER_MINOR","slot":"EYES","interval":{"bottomValue":73,"topValue":87}}}
+{"item":{"name":"Lenses of detection","price":3500,"strength":"LESSER_MINOR","slot":"EYES","interval":{"bottomValue":88,"topValue":100}}}
+{"item":{"name":"Eyes of the owl","price":4000,"strength":"GREATER_MINOR","slot":"EYES","interval":{"bottomValue":1,"topValue":20}}}
+{"item":{"name":"Eyes of keen sight","price":6000,"strength":"GREATER_MINOR","slot":"EYES","interval":{"bottomValue":21,"topValue":44}}}
+{"item":{"name":"Treasure hunter's goggles","price":6400,"strength":"GREATER_MINOR","slot":"EYES","interval":{"bottomValue":45,"topValue":66}}}
+{"item":{"name":"Inquisitor's monocle","price":6800,"strength":"GREATER_MINOR","slot":"EYES","interval":{"bottomValue":67,"topValue":84}}}
+{"item":{"name":"Kinsight goggles","price":7500,"strength":"GREATER_MINOR","slot":"EYES","interval":{"bottomValue":85,"topValue":100}}}
+{"item":{"name":"Goggles of elvenkind","price":8500,"strength":"LESSER_MEDIUM","slot":"EYES","interval":{"bottomValue":1,"topValue":16}}}
+{"item":{"name":"Goggles of brilliant light","price":8800,"strength":"LESSER_MEDIUM","slot":"EYES","interval":{"bottomValue":17,"topValue":31}}}
+{"item":{"name":"Blind man's fold","price":12000,"strength":"LESSER_MEDIUM","slot":"EYES","interval":{"bottomValue":32,"topValue":48}}}
+{"item":{"name":"Goggles of night","price":12000,"strength":"LESSER_MEDIUM","slot":"EYES","interval":{"bottomValue":49,"topValue":67}}}
+{"item":{"name":"Lenses of figment piercing","price":12000,"strength":"LESSER_MEDIUM","slot":"EYES","interval":{"bottomValue":68,"topValue":82}}}
+{"item":{"name":"Arachnid goggles","price":15000,"strength":"LESSER_MEDIUM","slot":"EYES","interval":{"bottomValue":83,"topValue":100}}}
+{"item":{"name":"Darklands goggles","price":20000,"strength":"GREATER_MEDIUM","slot":"EYES","interval":{"bottomValue":1,"topValue":21}}}
+{"item":{"name":"Sniper goggles","price":20000,"strength":"GREATER_MEDIUM","slot":"EYES","interval":{"bottomValue":22,"topValue":40}}}
+{"item":{"name":"Rainbow lenses","price":21000,"strength":"GREATER_MEDIUM","slot":"EYES","interval":{"bottomValue":41,"topValue":58}}}
+{"item":{"name":"Annihilation spectacles","price":25000,"strength":"GREATER_MEDIUM","slot":"EYES","interval":{"bottomValue":59,"topValue":77}}}
+{"item":{"name":"Eyes of doom","price":25000,"strength":"GREATER_MEDIUM","slot":"EYES","interval":{"bottomValue":78,"topValue":100}}}
+{"item":{"name":"Eyes of eyebite","price":30000,"strength":"LESSER_MAJOR","slot":"EYES","interval":{"bottomValue":1,"topValue":60}}}
+{"item":{"name":"Greater sniper goggles","price":50000,"strength":"LESSER_MAJOR","slot":"EYES","interval":{"bottomValue":61,"topValue":100}}}
+{"item":{"name":"Eyes of charming","price":56000,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":1,"topValue":18}}}
+{"item":{"name":"Monocle of the investigator","price":66000,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":19,"topValue":34}}}
+{"item":{"name":"Sea tyrant's patch","price":70000,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":35,"topValue":48}}}
+{"item":{"name":"Swordmaster's blindfold","price":80000,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":49,"topValue":63}}}
+{"item":{"name":"Mindmaster's eyes","price":95000,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":64,"topValue":77}}}
+{"item":{"name":"Eyes of the dragon","price":110000,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":78,"topValue":90}}}
+{"item":{"name":"Truesight goggles","price":184800,"strength":"GREATER_MAJOR","slot":"EYES","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Boots of the cat","price":1000,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":1,"topValue":11}}}
+{"item":{"name":"Daredevil boots","price":1400,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":12,"topValue":22}}}
+{"item":{"name":"Boots of the enduring march","price":1500,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":23,"topValue":31}}}
+{"item":{"name":"Feather step slippers","price":2000,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":32,"topValue":41}}}
+{"item":{"name":"Boots of friendly terrain","price":2400,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":42,"topValue":50}}}
+{"item":{"name":"Boots of the winterlands","price":2500,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":51,"topValue":60}}}
+{"item":{"name":"Boots of elvenkind","price":2500,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":61,"topValue":76}}}
+{"item":{"name":"Acrobat slippers","price":3000,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":77,"topValue":85}}}
+{"item":{"name":"Horseshoes of speed","price":3000,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":86,"topValue":92}}}
+{"item":{"name":"Boots of the mire","price":3500,"strength":"LESSER_MINOR","slot":"FEET","interval":{"bottomValue":93,"topValue":100}}}
+{"item":{"name":"Minor burglar boots","price":4000,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":1,"topValue":7}}}
+{"item":{"name":"Horseshoes of crushing blows +1","price":4000,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":8,"topValue":13}}}
+{"item":{"name":"Sandals of quick reaction","price":4000,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":14,"topValue":19}}}
+{"item":{"name":"Slippers of cloudwalking","price":4400,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":20,"topValue":26}}}
+{"item":{"name":"Slippers of spider climbing","price":4800,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":27,"topValue":40}}}
+{"item":{"name":"Sandals of the lightest step","price":5000,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":41,"topValue":46}}}
+{"item":{"name":"Boots of striding and springing","price":5500,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":47,"topValue":60}}}
+{"item":{"name":"Horseshoes of a zephyr","price":6000,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":61,"topValue":68}}}
+{"item":{"name":"Haunted shoes","price":6480,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":69,"topValue":75}}}
+{"item":{"name":"Jaunt boots","price":7200,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":76,"topValue":82}}}
+{"item":{"name":"Boots of levitation","price":7500,"strength":"GREATER_MINOR","slot":"FEET","interval":{"bottomValue":83,"topValue":100}}}
+{"item":{"name":"Boots of escape","price":8000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":1,"topValue":8}}}
+{"item":{"name":"Earth root boots","price":8000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":9,"topValue":14}}}
+{"item":{"name":"Nightmare boots","price":8500,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":15,"topValue":21}}}
+{"item":{"name":"Nightmare horseshoes","price":9000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":22,"topValue":26}}}
+{"item":{"name":"Caltrop boots","price":10000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":27,"topValue":32}}}
+{"item":{"name":"Tremor boots","price":10000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":33,"topValue":39}}}
+{"item":{"name":"Boots of the mastodon","price":10500,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":40,"topValue":47}}}
+{"item":{"name":"Shoes of the lightning leaper","price":10500,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":48,"topValue":54}}}
+{"item":{"name":"Boots of speed","price":12000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":55,"topValue":70}}}
+{"item":{"name":"Verdant boots","price":12000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":71,"topValue":77}}}
+{"item":{"name":"Horseshoes of crushing blows +2","price":16000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":78,"topValue":84}}}
+{"item":{"name":"Winged boots","price":16000,"strength":"LESSER_MEDIUM","slot":"FEET","interval":{"bottomValue":85,"topValue":100}}}
+{"item":{"name":"Shoes of the firewalker","price":21000,"strength":"GREATER_MEDIUM","slot":"FEET","interval":{"bottomValue":1,"topValue":38}}}
+{"item":{"name":"Dryad sandals","price":24000,"strength":"GREATER_MEDIUM","slot":"FEET","interval":{"bottomValue":39,"topValue":72}}}
+{"item":{"name":"Horseshoes of the mist","price":27000,"strength":"GREATER_MEDIUM","slot":"FEET","interval":{"bottomValue":73,"topValue":100}}}
+{"item":{"name":"Getaway boots","price":30000,"strength":"LESSER_MAJOR","slot":"FEET","interval":{"bottomValue":1,"topValue":20}}}
+{"item":{"name":"Horseshoes of crushing blows +3","price":36000,"strength":"LESSER_MAJOR","slot":"FEET","interval":{"bottomValue":21,"topValue":35}}}
+{"item":{"name":"Horseshoes of glory","price":39600,"strength":"LESSER_MAJOR","slot":"FEET","interval":{"bottomValue":36,"topValue":55}}}
+{"item":{"name":"Major burglar boots","price":46000,"strength":"LESSER_MAJOR","slot":"FEET","interval":{"bottomValue":56,"topValue":75}}}
+{"item":{"name":"Boots of teleportation","price":49000,"strength":"LESSER_MAJOR","slot":"FEET","interval":{"bottomValue":76,"topValue":100}}}
+{"item":{"name":"Slippers of the triton","price":56000,"strength":"GREATER_MAJOR","slot":"FEET","interval":{"bottomValue":1,"topValue":40}}}
+{"item":{"name":"Horseshoes of crushing blows +4","price":64000,"strength":"GREATER_MAJOR","slot":"FEET","interval":{"bottomValue":41,"topValue":70}}}
+{"item":{"name":"Horseshoes of crushing blows +5","price":100000,"strength":"GREATER_MAJOR","slot":"FEET","interval":{"bottomValue":71,"topValue":100}}}
+{"item":{"name":"Assisting gloves","price":180,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":1,"topValue":13}}}
+{"item":{"name":"Claws of the ice bear","price":1300,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":14,"topValue":22}}}
+{"item":{"name":"Gloves of reconnaissance","price":2000,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":23,"topValue":34}}}
+{"item":{"name":"Glowing glove","price":2000,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":35,"topValue":46}}}
+{"item":{"name":"Apprentice's cheating gloves","price":2200,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":47,"topValue":58}}}
+{"item":{"name":"Challenger's gloves","price":2200,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":59,"topValue":70}}}
+{"item":{"name":"Gloves of larceny","price":2500,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":71,"topValue":80}}}
+{"item":{"name":"Healer's gloves","price":2500,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":81,"topValue":90}}}
+{"item":{"name":"Engineer's workgloves","price":3000,"strength":"LESSER_MINOR","slot":"HANDS","interval":{"bottomValue":91,"topValue":100}}}
+{"item":{"name":"Gauntlets of the skilled maneuver","price":4000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":1,"topValue":12}}}
+{"item":{"name":"Ghostvision gloves","price":4000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":13,"topValue":21}}}
+{"item":{"name":"Gloves of arrow snaring","price":4000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":22,"topValue":33}}}
+{"item":{"name":"Trapspringer's gloves","price":4000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":34,"topValue":43}}}
+{"item":{"name":"Gloves of arcane striking","price":5000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":44,"topValue":55}}}
+{"item":{"name":"Poisoner's gloves","price":5000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":56,"topValue":65}}}
+{"item":{"name":"Magnetist's gloves","price":6000,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":66,"topValue":75}}}
+{"item":{"name":"Gloves of swimming and climbing","price":6250,"strength":"GREATER_MINOR","slot":"HANDS","interval":{"bottomValue":76,"topValue":100}}}
+{"item":{"name":"Deliquescent gloves","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":1,"topValue":2}}}
+{"item":{"name":"Form-fixing gauntlets   ","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":3,"topValue":5}}}
+{"item":{"name":"Iron cobra gauntlet","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":6,"topValue":8}}}
+{"item":{"name":"Shadow falconer's glove","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":9,"topValue":16}}}
+{"item":{"name":"Spellstrike gloves","price":8000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":17,"topValue":20}}}
+{"item":{"name":"Glyphbane gloves ","price":9000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":21,"topValue":28}}}
+{"item":{"name":"Glove of storing ","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":29,"topValue":40}}}
+{"item":{"name":"Gloves of shaping","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":41,"topValue":46}}}
+{"item":{"name":"Pliant gloves","price":10000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":47,"topValue":54}}}
+{"item":{"name":"Gauntlet of rust ","price":11500,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":55,"topValue":76}}}
+{"item":{"name":"Gloves of dueling ","price":15000,"strength":"LESSER_MEDIUM","slot":"HANDS","interval":{"bottomValue":77,"topValue":100}}}
+{"item":{"name":"Vampiric gloves","price":18000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":1,"topValue":30}}}
+{"item":{"name":"Giant fist gauntlets","price":20000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":31,"topValue":65}}}
+{"item":{"name":"Gloves of the shortened path","price":27000,"strength":"GREATER_MEDIUM","slot":"HANDS","interval":{"bottomValue":66,"topValue":100}}}
+{"item":{"name":"Gloves of the commanding conjurer","price":30000,"strength":"LESSER_MAJOR","slot":"HANDS","interval":{"bottomValue":1,"topValue":40}}}
+{"item":{"name":"Gauntlet of rust, greater","price":34500,"strength":"LESSER_MAJOR","slot":"HANDS","interval":{"bottomValue":41,"topValue":100}}}
+{"item":{"name":"Talons of Leng","price":67000,"strength":"GREATER_MAJOR","slot":"HANDS","interval":{"bottomValue":1,"topValue":60}}}
+{"item":{"name":"Gauntlets of the weaponmaster","price":110000,"strength":"GREATER_MAJOR","slot":"HANDS","interval":{"bottomValue":61,"topValue":100}}}
