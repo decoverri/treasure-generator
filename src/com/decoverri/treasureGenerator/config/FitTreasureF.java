@@ -37,13 +37,13 @@ public class FitTreasureF {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("reward", FTreasureReward.class);
-		xstream.alias("coins", CoinGeneratorData.class);
-		xstream.alias("mundanearmors", ArmorGeneratorData.class);
-		xstream.alias("armors", MagicArmorGeneratorData.class);
-		xstream.alias("weapons", MagicWeaponGeneratorData.class);
-		xstream.alias("rings", RingGeneratorData.class);
-		xstream.alias("wondrous", WondrousItemGeneratorData.class);
-		xstream.alias("potions", PotionGeneratorData.class);
+		xstream.alias("coingenerator", CoinGeneratorData.class);
+		xstream.alias("mundanearmorgen", ArmorGeneratorData.class);
+		xstream.alias("armorgenerator", MagicArmorGeneratorData.class);
+		xstream.alias("weapongenerator", MagicWeaponGeneratorData.class);
+		xstream.alias("ringgenerator", RingGeneratorData.class);
+		xstream.alias("wondrousgenerator", WondrousItemGeneratorData.class);
+		xstream.alias("potiongenerator", PotionGeneratorData.class);
 
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/FTreasureReward.txt"));
 		while (scanner.hasNextLine()) {
