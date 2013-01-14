@@ -63,6 +63,8 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Ring.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.RingGeneratorData.class);
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MetamagicRod.class);
+
 		cfg.configure();
 		serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
 		sessionFactory = cfg.buildSessionFactory(serviceRegistry);
