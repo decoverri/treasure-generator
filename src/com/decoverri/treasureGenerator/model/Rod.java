@@ -76,4 +76,8 @@ public class Rod implements Treasure {
 		this.interval = interval;
 	}
 
+	@Override
+	public String toString() {
+		return name + " (price " + price + ")";
+	}
 }

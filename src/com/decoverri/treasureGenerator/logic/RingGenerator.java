@@ -37,5 +37,4 @@ public class RingGenerator {
 		return rings;
 	}
 
-
 }

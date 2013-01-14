@@ -1,10 +1,10 @@
 {"rod":{"name":"Lesser merciful metamagic rod","price":1500,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":1}}}
-{"rod":{"name":"Lesser","price":3000,"metamagicSpellLevelIncrement":1,"strength":"LESSER_MEDIUM","interval":{"bottomValue":2,"topValue":34}}}
+{"rod":{"name":"Lesser ","price":3000,"metamagicSpellLevelIncrement":1,"strength":"LESSER_MEDIUM","interval":{"bottomValue":2,"topValue":34}}}
 {"rod":{"name":"Immovable rod","price":5000,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":35,"topValue":49}}}
 {"rod":{"name":"Rod of thunderous force","price":5400,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":50,"topValue":59}}}
 {"rod":{"name":"Merciful metamagic rod","price":5500,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":60,"topValue":60}}}
 {"rod":{"name":"Rod of ice","price":8500,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":61,"topValue":61}}}
-{"rod":{"name":"Lesser","price":9000,"metamagicSpellLevelIncrement":2,"strength":"LESSER_MEDIUM","interval":{"bottomValue":62,"topValue":71}}}
+{"rod":{"name":"Lesser ","price":9000,"metamagicSpellLevelIncrement":2,"strength":"LESSER_MEDIUM","interval":{"bottomValue":62,"topValue":71}}}
 {"rod":{"name":"Rod of metal and mineral detection","price":10500,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":72,"topValue":81}}}
 {"rod":{"name":"","price":11000,"metamagicSpellLevelIncrement":1,"strength":"LESSER_MEDIUM","interval":{"bottomValue":82,"topValue":86}}}
 {"rod":{"name":"Rod of cancellation","price":11000,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MEDIUM","interval":{"bottomValue":87,"topValue":100}}}
@@ -15,7 +15,7 @@
 {"rod":{"name":"Greater merciful metamagic rod","price":12250,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MEDIUM","interval":{"bottomValue":19,"topValue":19}}}
 {"rod":{"name":"Rod of the python","price":13000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MEDIUM","interval":{"bottomValue":20,"topValue":29}}}
 {"rod":{"name":"Trap-stealer's rod","price":13500,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MEDIUM","interval":{"bottomValue":30,"topValue":33}}}
-{"rod":{"name":"Lesser","price":14000,"metamagicSpellLevelIncrement":3,"strength":"GREATER_MEDIUM","interval":{"bottomValue":34,"topValue":55}}}
+{"rod":{"name":"Lesser ","price":14000,"metamagicSpellLevelIncrement":3,"strength":"GREATER_MEDIUM","interval":{"bottomValue":34,"topValue":55}}}
 {"rod":{"name":"Rod of balance","price":15000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MEDIUM","interval":{"bottomValue":56,"topValue":59}}}
 {"rod":{"name":"Rod of escape","price":15000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MEDIUM","interval":{"bottomValue":60,"topValue":63}}}
 {"rod":{"name":"Rod of flame extinguishing","price":15000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MEDIUM","interval":{"bottomValue":64,"topValue":72}}}
@@ -27,7 +27,7 @@
 {"rod":{"name":"Suzerain scepter","price":20000,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":4}}}
 {"rod":{"name":"Fiery nimbus rod","price":22305,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MAJOR","interval":{"bottomValue":5,"topValue":6}}}
 {"rod":{"name":"Rod of enemy detection","price":23500,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MAJOR","interval":{"bottomValue":7,"topValue":13}}}
-{"rod":{"name":"Greater","price":24500,"metamagicSpellLevelIncrement":1,"strength":"LESSER_MAJOR","interval":{"bottomValue":14,"topValue":27}}}
+{"rod":{"name":"Greater ","price":24500,"metamagicSpellLevelIncrement":1,"strength":"LESSER_MAJOR","interval":{"bottomValue":14,"topValue":27}}}
 {"rod":{"name":"Rod of splendor","price":25000,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MAJOR","interval":{"bottomValue":28,"topValue":36}}}
 {"rod":{"name":"Rod of withering","price":25000,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MAJOR","interval":{"bottomValue":37,"topValue":44}}}
 {"rod":{"name":"Earthbind rod","price":26500,"metamagicSpellLevelIncrement":0,"strength":"LESSER_MAJOR","interval":{"bottomValue":45,"topValue":50}}}
@@ -46,10 +46,10 @@
 {"rod":{"name":"Rod of shadows","price":64305,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":31,"topValue":32}}}
 {"rod":{"name":"Rod of mind mastery","price":67000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":33,"topValue":34}}}
 {"rod":{"name":"Rod of lordly might","price":70000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":35,"topValue":37}}}
-{"rod":{"name":"Greater","price":73000,"metamagicSpellLevelIncrement":2,"strength":"GREATER_MAJOR","interval":{"bottomValue":38,"topValue":57}}}
+{"rod":{"name":"Greater ","price":73000,"metamagicSpellLevelIncrement":2,"strength":"GREATER_MAJOR","interval":{"bottomValue":38,"topValue":57}}}
 {"rod":{"name":"Scepter of heaven","price":74000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":58,"topValue":58}}}
 {"rod":{"name":"Quicken metamagic rod","price":75500,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":59,"topValue":68}}}
 {"rod":{"name":"Rod of dwarven might","price":80000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":69,"topValue":70}}}
 {"rod":{"name":"Rod of alertness","price":85000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":71,"topValue":75}}}
-{"rod":{"name":"Greater","price":121500,"metamagicSpellLevelIncrement":3,"strength":"GREATER_MAJOR","interval":{"bottomValue":76,"topValue":95}}}
+{"rod":{"name":"Greater ","price":121500,"metamagicSpellLevelIncrement":3,"strength":"GREATER_MAJOR","interval":{"bottomValue":76,"topValue":95}}}
 {"rod":{"name":"Greater quicken metamagic rod","price":170000,"metamagicSpellLevelIncrement":0,"strength":"GREATER_MAJOR","interval":{"bottomValue":96,"topValue":100}}}

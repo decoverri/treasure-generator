@@ -50,4 +50,8 @@ public class MetamagicRod {
 		this.interval = interval;
 	}
 
+	@Override
+	public String toString() {
+		return type;
+	}
 }

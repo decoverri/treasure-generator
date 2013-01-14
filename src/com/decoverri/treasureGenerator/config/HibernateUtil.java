@@ -64,6 +64,7 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.RingGeneratorData.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Rod.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.RodGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MetamagicRod.class);
 
 		cfg.configure();
