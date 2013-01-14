@@ -9,6 +9,7 @@ import com.decoverri.treasureGenerator.logic.TreasureGenerator;
 public class GeneratorTest {
 
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		long inicio = System.currentTimeMillis();
 
 		int worth = 100000;
 		String type = "TreasureTypeF";
@@ -24,5 +25,8 @@ public class GeneratorTest {
 		for (Treasure treasure : treasures) {
 			System.out.println(treasure);
 		}
+
+		long fim = System.currentTimeMillis();
+		System.out.println("\nTempo de Execução: " + (fim - inicio));
 	}
 }

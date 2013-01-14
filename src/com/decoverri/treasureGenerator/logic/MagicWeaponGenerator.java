@@ -32,7 +32,7 @@ public class MagicWeaponGenerator {
 
 		Treasure finalWeapon;
 		for (int i = 0; i < data.getQuantity(); i++) {
-			System.out.println("Generating magic weapon");
+			System.out.println("Generating " + data.getStrength() + " weapon");
 			int abilityRoll = roller.roll(d100);
 
 			if (abilityRoll > 80) {

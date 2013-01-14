@@ -22,7 +22,7 @@ public class ArmorGenerator {
 		Dice d100 = new Dice(100);
 		DiceRoller roller = new DiceRoller();
 
-		System.out.println("Generating armor/shield");
+		System.out.println("Generating armor or shield");
 		Armor armor = armorDao.getArmor(roller.roll(d100));
 		System.out.println("Result: " + armor.getName());
 

@@ -79,7 +79,7 @@ public class MagicArmorStats {
 		StringBuilder builder = new StringBuilder();
 		builder.append("+" + bonus + " enhancement bonus");
 		if (abilityBonus > 0) {
-			builder.append(" with " + numberOfAbilities + " +" + abilityBonus + " ability");
+			builder.append(" plus " + numberOfAbilities + " +" + abilityBonus + " ability");
 		}
 		return builder.toString();
 	}

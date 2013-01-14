@@ -652,18 +652,18 @@
 {"item":{"name":"Needles of fleshgraving","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":12,"topValue":12}}}
 {"item":{"name":"Restless lockpicks","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":13,"topValue":13}}}
 {"item":{"name":"Werewhistle","price":8000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":14,"topValue":14}}}
-{"item":{"name":"Deck of illusions","price":8100,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":16,"topValue":16}}}
+{"item":{"name":"Deck of illusions","price":8100,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":15,"topValue":16}}}
 {"item":{"name":"Candle of invocation","price":8400,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":17,"topValue":17}}}
-{"item":{"name":"Bag of tricks (rust)","price":8500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":19,"topValue":19}}}
+{"item":{"name":"Bag of tricks (rust)","price":8500,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":18,"topValue":19}}}
 {"item":{"name":"Boro bead (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":20,"topValue":20}}}
 {"item":{"name":"Decanter of endless water","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":21,"topValue":21}}}
 {"item":{"name":"Loathsome mirror","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":22,"topValue":22}}}
-{"item":{"name":"Page of spell knowledge (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":25,"topValue":25}}}
-{"item":{"name":"Pearl of Power (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":31,"topValue":31}}}
+{"item":{"name":"Page of spell knowledge (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":23,"topValue":25}}}
+{"item":{"name":"Pearl of Power (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":26,"topValue":31}}}
 {"item":{"name":"Preserving flask (3rd)","price":9000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":32,"topValue":32}}}
 {"item":{"name":"Figurine of wondrous power (serpentine owl)","price":9100,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":33,"topValue":33}}}
 {"item":{"name":"Strand of prayer beads (lesser)","price":9600,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":34,"topValue":34}}}
-{"item":{"name":"Bag of holding (type IV)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":38,"topValue":38}}}
+{"item":{"name":"Bag of holding (type IV)","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":35,"topValue":38}}}
 {"item":{"name":"Boundary chalk","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":39,"topValue":39}}}
 {"item":{"name":"Chime of resounding silence","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":40,"topValue":40}}}
 {"item":{"name":"Construct channel brick","price":10000,"strength":"LESSER_MEDIUM","slot":"SLOTLESS","interval":{"bottomValue":41,"topValue":41}}}

@@ -36,7 +36,7 @@ public class MagicArmorGenerator {
 
 		Treasure finalArmor;
 		for (int i = 0; i < data.getQuantity(); i++) {
-			System.out.println("Generating magic armor");
+			System.out.println("Generating " + data.getStrength() + " armor or shield");
 			int abilityRoll = roller.roll(d100);
 
 			if (abilityRoll > 80) {
@@ -63,15 +63,12 @@ public class MagicArmorGenerator {
 		MagicArmorStatsDao statsDao = new MagicArmorStatsDao(session);
 		Treasure finalArmor;
 
-		System.out.println("Result: non-specific armor/shield");
+		MagicArmorStats stats = statsDao.getMagicArmorStats(data.getStrength(), roll);
+		System.out.println("Result: magic armor or shield with " + stats);
 
 		MagicArmor magicArmor = new MagicArmor();
 		Armor armor = armorGenerator.generateBaseArmor();
 		magicArmor.setBaseArmor(armor);
-
-		System.out.println("Generating " + data.getStrength() + " magic " + magicArmor.getBaseArmor().getType() + " properties");
-		MagicArmorStats stats = statsDao.getMagicArmorStats(data.getStrength(), roll);
-		System.out.println("Result: " + stats);
 
 		magicArmor.setBonus(stats.getBonus());
 		magicArmor.setMagicalAbilities(new ArrayList<MagicArmorAbility>());

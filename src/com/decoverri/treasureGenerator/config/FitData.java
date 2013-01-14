@@ -10,11 +10,11 @@ public class FitData {
 	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
 	public static void main(String[] args) throws IOException {
+		long inicio = System.currentTimeMillis();
 
 		Transaction transaction = session.beginTransaction();
 
-		// TODO Find a way to not add repeated entries (in case of rerunning
-		// this class)
+		// TODO Find a way to not add repeated entries (in case of rerunning this class)
 		new FitGems(session).fit();
 		new FitArtObjects(session).fit();
 
@@ -50,5 +50,8 @@ public class FitData {
 		new FitTreasureF(session).fit();
 
 		transaction.commit();
+
+		long fim = System.currentTimeMillis();
+		System.out.println("Tempo de Execução: " + (fim - inicio));
 	}
 }
