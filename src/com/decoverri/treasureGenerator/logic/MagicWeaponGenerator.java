@@ -81,6 +81,7 @@ public class MagicWeaponGenerator {
 		return finalWeapon;
 	}
 
+	//TODO generate creature for BANE and SLAYING abilities
 	private void generateMagicAbilities(MagicWeapon magicWeapon, int numberOfAbilities, int abilityBonus) {
 		MagicWeaponAbilityDao abilityDao = new MagicWeaponAbilityDao(session);
 
