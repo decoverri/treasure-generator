@@ -1,0 +1,11 @@
+{"reward":{"value":50,"coins":{"coingenerator":[{"dice":{"numberOfDice":2,"numberOfSides":4},"multiplier":10,"currency":"SP"},{"dice":{"numberOfDice":2,"numberOfSides":4},"multiplier":1,"currency":"GP"}]},"nonmagicalWeapons":0,"weapons":{},"rings":{},"staves":{},"rods":{},"wondrousItems":{},"potions":{"potiongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]},"scrolls":{},"wands":{}}}
+
+"coingenerator":[{"dice":{"numberOfDice":2,"numberOfSides":4},"multiplier":10,"currency":"SP"}]
+"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
+"ringgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
+"staffgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
+"rodgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
+"wondrousgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
+"potiongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
+"scrollgenerator":[{"quantity":1,"strength":"LESSER_MAJOR"}]
+"wandgenerator":[{"quantity":1,"strength":"LESSER_MEDIUM"}]
