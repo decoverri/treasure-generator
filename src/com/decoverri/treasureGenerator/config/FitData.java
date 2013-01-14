@@ -45,6 +45,8 @@ public class FitData {
 		new FitRod(session).fit();
 		new FitMetamagicRod(session).fit();
 
+		new FitStaff(session).fit();
+		
 		new FitTreasureA(session).fit();
 		new FitTreasureB(session).fit();
 		new FitTreasureC(session).fit();

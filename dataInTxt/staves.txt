@@ -1,0 +1,74 @@
+{"staff":{"name":"Staff of blessed relief","price":7200,"strength":"LESSER_MEDIUM","interval":{"bottomValue":1,"topValue":10}}}
+{"staff":{"name":"Staff of minor arcana","price":8000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":11,"topValue":20}}}
+{"staff":{"name":"Staff of tricks","price":8800,"strength":"LESSER_MEDIUM","interval":{"bottomValue":21,"topValue":30}}}
+{"staff":{"name":"Staff of the scout","price":9600,"strength":"LESSER_MEDIUM","interval":{"bottomValue":31,"topValue":44}}}
+{"staff":{"name":"Staff of eidolons","price":14400,"strength":"LESSER_MEDIUM","interval":{"bottomValue":45,"topValue":54}}}
+{"staff":{"name":"Staff of accompaniment","price":14800,"strength":"LESSER_MEDIUM","interval":{"bottomValue":55,"topValue":67}}}
+{"staff":{"name":"Staff of understanding","price":16000,"strength":"LESSER_MEDIUM","interval":{"bottomValue":68,"topValue":84}}}
+{"staff":{"name":"Staff of charming","price":17600,"strength":"LESSER_MEDIUM","interval":{"bottomValue":85,"topValue":100}}}
+{"staff":{"name":"Staff of fire","price":18950,"strength":"GREATER_MEDIUM","interval":{"bottomValue":1,"topValue":11}}}
+{"staff":{"name":"Staff of courage","price":19200,"strength":"GREATER_MEDIUM","interval":{"bottomValue":12,"topValue":21}}}
+{"staff":{"name":"Staff of belittling","price":20000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":22,"topValue":29}}}
+{"staff":{"name":"Staff of feast and famine","price":20800,"strength":"GREATER_MEDIUM","interval":{"bottomValue":30,"topValue":38}}}
+{"staff":{"name":"Staff of rigor","price":20800,"strength":"GREATER_MEDIUM","interval":{"bottomValue":39,"topValue":49}}}
+{"staff":{"name":"Staff of swarming insects","price":22800,"strength":"GREATER_MEDIUM","interval":{"bottomValue":50,"topValue":60}}}
+{"staff":{"name":"Staff of authority","price":23000,"strength":"GREATER_MEDIUM","interval":{"bottomValue":61,"topValue":68}}}
+{"staff":{"name":"Staff of radiance","price":23200,"strength":"GREATER_MEDIUM","interval":{"bottomValue":69,"topValue":81}}}
+{"staff":{"name":"Staff of size alteration","price":26150,"strength":"GREATER_MEDIUM","interval":{"bottomValue":82,"topValue":92}}}
+{"staff":{"name":"Staff of journeys","price":27200,"strength":"GREATER_MEDIUM","interval":{"bottomValue":93,"topValue":100}}}
+{"staff":{"name":"Staff of acid","price":28600,"strength":"LESSER_MAJOR","interval":{"bottomValue":1,"topValue":4}}}
+{"staff":{"name":"Staff of shrieking","price":28800,"strength":"LESSER_MAJOR","interval":{"bottomValue":5,"topValue":8}}}
+{"staff":{"name":"Chaotic staff","price":29600,"strength":"LESSER_MAJOR","interval":{"bottomValue":9,"topValue":11}}}
+{"staff":{"name":"Holy staff","price":29600,"strength":"LESSER_MAJOR","interval":{"bottomValue":12,"topValue":14}}}
+{"staff":{"name":"Lawful staff","price":29600,"strength":"LESSER_MAJOR","interval":{"bottomValue":15,"topValue":17}}}
+{"staff":{"name":"Staff of healing","price":29600,"strength":"LESSER_MAJOR","interval":{"bottomValue":18,"topValue":21}}}
+{"staff":{"name":"Unholy staff","price":29600,"strength":"LESSER_MAJOR","interval":{"bottomValue":22,"topValue":24}}}
+{"staff":{"name":"Staff of the master","price":30000,"strength":"LESSER_MAJOR","interval":{"bottomValue":25,"topValue":28}}}
+{"staff":{"name":"Staff of spiders","price":30200,"strength":"LESSER_MAJOR","interval":{"bottomValue":29,"topValue":32}}}
+{"staff":{"name":"Staff of electricity","price":31900,"strength":"LESSER_MAJOR","interval":{"bottomValue":33,"topValue":36}}}
+{"staff":{"name":"Heretic’s bane","price":32000,"strength":"LESSER_MAJOR","interval":{"bottomValue":37,"topValue":39}}}
+{"staff":{"name":"Musical staff","price":32000,"strength":"LESSER_MAJOR","interval":{"bottomValue":40,"topValue":42}}}
+{"staff":{"name":"Staff of souls","price":32800,"strength":"LESSER_MAJOR","interval":{"bottomValue":43,"topValue":46}}}
+{"staff":{"name":"Staff of toxins","price":34200,"strength":"LESSER_MAJOR","interval":{"bottomValue":47,"topValue":50}}}
+{"staff":{"name":"Staff of stealth","price":36800,"strength":"LESSER_MAJOR","interval":{"bottomValue":51,"topValue":54}}}
+{"staff":{"name":"Staff of the avenger","price":37310,"strength":"LESSER_MAJOR","interval":{"bottomValue":55,"topValue":58}}}
+{"staff":{"name":"Staff of aspects","price":37600,"strength":"LESSER_MAJOR","interval":{"bottomValue":59,"topValue":62}}}
+{"staff":{"name":"Staff of speaking","price":39600,"strength":"LESSER_MAJOR","interval":{"bottomValue":63,"topValue":66}}}
+{"staff":{"name":"Staff of frost","price":41400,"strength":"LESSER_MAJOR","interval":{"bottomValue":67,"topValue":70}}}
+{"staff":{"name":"Staff of bolstering","price":41600,"strength":"LESSER_MAJOR","interval":{"bottomValue":71,"topValue":74}}}
+{"staff":{"name":"Staff of curses","price":43500,"strength":"LESSER_MAJOR","interval":{"bottomValue":75,"topValue":78}}}
+{"staff":{"name":"Staff of dark flame","price":47000,"strength":"LESSER_MAJOR","interval":{"bottomValue":79,"topValue":85}}}
+{"staff":{"name":"Staff of cackling wrath","price":47200,"strength":"LESSER_MAJOR","interval":{"bottomValue":86,"topValue":89}}}
+{"staff":{"name":"Staff of performance","price":48800,"strength":"LESSER_MAJOR","interval":{"bottomValue":90,"topValue":93}}}
+{"staff":{"name":"Animate staff","price":49800,"strength":"LESSER_MAJOR","interval":{"bottomValue":94,"topValue":97}}}
+{"staff":{"name":"Staff of revelations","price":51008,"strength":"LESSER_MAJOR","interval":{"bottomValue":98,"topValue":100}}}
+{"staff":{"name":"Staff of illumination","price":51500,"strength":"GREATER_MAJOR","interval":{"bottomValue":1,"topValue":4}}}
+{"staff":{"name":"Staff of obstacles","price":51600,"strength":"GREATER_MAJOR","interval":{"bottomValue":5,"topValue":7}}}
+{"staff":{"name":"Staff of heaven and earth","price":54000,"strength":"GREATER_MAJOR","interval":{"bottomValue":8,"topValue":10}}}
+{"staff":{"name":"Staff of travel","price":54400,"strength":"GREATER_MAJOR","interval":{"bottomValue":11,"topValue":13}}}
+{"staff":{"name":"Staff of hoarding","price":55866,"strength":"GREATER_MAJOR","interval":{"bottomValue":14,"topValue":16}}}
+{"staff":{"name":"Staff of traps","price":56925,"strength":"GREATER_MAJOR","interval":{"bottomValue":17,"topValue":19}}}
+{"staff":{"name":"Staff of many rays","price":57200,"strength":"GREATER_MAJOR","interval":{"bottomValue":20,"topValue":22}}}
+{"staff":{"name":"Staff of mithral might","price":58000,"strength":"GREATER_MAJOR","interval":{"bottomValue":23,"topValue":25}}}
+{"staff":{"name":"Staff of defense","price":62000,"strength":"GREATER_MAJOR","interval":{"bottomValue":26,"topValue":29}}}
+{"staff":{"name":"Staff of the planes","price":63960,"strength":"GREATER_MAJOR","interval":{"bottomValue":30,"topValue":32}}}
+{"staff":{"name":"Staff of hungry shadows","price":69300,"strength":"GREATER_MAJOR","interval":{"bottomValue":33,"topValue":35}}}
+{"staff":{"name":"Dragon staff","price":81000,"strength":"GREATER_MAJOR","interval":{"bottomValue":36,"topValue":38}}}
+{"staff":{"name":"Staff of slumber","price":81766,"strength":"GREATER_MAJOR","interval":{"bottomValue":39,"topValue":41}}}
+{"staff":{"name":"Staff of abjuration","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":42,"topValue":46}}}
+{"staff":{"name":"Staff of conjuration","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":47,"topValue":51}}}
+{"staff":{"name":"Staff of divination","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":52,"topValue":56}}}
+{"staff":{"name":"Staff of enchantment","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":57,"topValue":61}}}
+{"staff":{"name":"Staff of evocation","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":62,"topValue":66}}}
+{"staff":{"name":"Staff of illusion","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":67,"topValue":71}}}
+{"staff":{"name":"Staff of necromancy","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":72,"topValue":76}}}
+{"staff":{"name":"Staff of transmutation","price":82000,"strength":"GREATER_MAJOR","interval":{"bottomValue":77,"topValue":81}}}
+{"staff":{"name":"Staff of weather","price":84066,"strength":"GREATER_MAJOR","interval":{"bottomValue":82,"topValue":83}}}
+{"staff":{"name":"Staff of earth and stone","price":85800,"strength":"GREATER_MAJOR","interval":{"bottomValue":84,"topValue":86}}}
+{"staff":{"name":"Staff of vision","price":86666,"strength":"GREATER_MAJOR","interval":{"bottomValue":87,"topValue":88}}}
+{"staff":{"name":"Staff of the woodlands","price":100400,"strength":"GREATER_MAJOR","interval":{"bottomValue":89,"topValue":91}}}
+{"staff":{"name":"Staff of life","price":109400,"strength":"GREATER_MAJOR","interval":{"bottomValue":92,"topValue":94}}}
+{"staff":{"name":"Staff of one hundred hands","price":180200,"strength":"GREATER_MAJOR","interval":{"bottomValue":95,"topValue":95}}}
+{"staff":{"name":"Staff of passage","price":206900,"strength":"GREATER_MAJOR","interval":{"bottomValue":96,"topValue":98}}}
+{"staff":{"name":"Staff of the hierophant","price":220000,"strength":"GREATER_MAJOR","interval":{"bottomValue":99,"topValue":99}}}
+{"staff":{"name":"Staff of power","price":235000,"strength":"GREATER_MAJOR","interval":{"bottomValue":100,"topValue":100}}}
