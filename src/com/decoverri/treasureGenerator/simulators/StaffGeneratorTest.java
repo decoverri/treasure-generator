@@ -8,23 +8,23 @@ import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.logic.RingGenerator;
-import com.decoverri.treasureGenerator.model.Ring;
-import com.decoverri.treasureGenerator.model.RingGeneratorData;
+import com.decoverri.treasureGenerator.logic.StaffGenerator;
+import com.decoverri.treasureGenerator.model.Staff;
+import com.decoverri.treasureGenerator.model.StaffGeneratorData;
 
-public class RingGeneratorTest {
+public class StaffGeneratorTest {
 
 	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
 	public static void main(String[] args) {
 		Transaction transaction = session.beginTransaction();
-		RingGenerator generator = new RingGenerator(session);
-		RingGeneratorData data = new RingGeneratorData();
+		StaffGenerator generator = new StaffGenerator(session);
+		StaffGeneratorData data = new StaffGeneratorData();
 		data.setQuantity(10);
-		data.setStrength(MagicItemStrength.LESSER_MINOR);
-		List<Ring> rings = generator.generate(Arrays.asList(data));
-		for (Ring ring : rings) {
-			System.out.println(ring);
+		data.setStrength(MagicItemStrength.LESSER_MEDIUM);
+		List<Staff> staves = generator.generate(Arrays.asList(data));
+		for (Staff staff : staves) {
+			System.out.println(staff);
 		}
 		transaction.commit();
 	}

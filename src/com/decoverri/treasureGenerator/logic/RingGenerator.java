@@ -28,9 +28,9 @@ public class RingGenerator {
 		for (RingGeneratorData data : ringsData) {
 			for (int i = 0; i < data.getQuantity(); i++) {
 				System.out.println("Generating " + data.getStrength() + " ring");
-				Ring item = ringDao.getRing(data.getStrength(), roller.roll(d100));
-				System.out.println("Result: " + item.getName() + "\n");
-				rings.add(item);
+				Ring ring = ringDao.getRing(data.getStrength(), roller.roll(d100));
+				System.out.println("Result: " + ring.getName() + "\n");
+				rings.add(ring);
 			}
 		}
 
