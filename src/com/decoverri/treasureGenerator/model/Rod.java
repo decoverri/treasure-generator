@@ -11,7 +11,7 @@ import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class Rod implements Treasure {
+public class Rod implements Treasure, Cloneable {
 
 	@Id
 	@GeneratedValue
@@ -79,5 +79,17 @@ public class Rod implements Treasure {
 	@Override
 	public String toString() {
 		return name + " (price " + price + ")";
+	}
+
+	@Override
+	public Rod clone(){
+		Rod rod = new Rod();
+		rod.setId(id);
+		rod.setInterval(interval);
+		rod.setMetamagicSpellLevelIncrement(metamagicSpellLevelIncrement);
+		rod.setName(name);
+		rod.setPrice(price);
+		rod.setStrength(strength);
+		return rod;
 	}
 }
