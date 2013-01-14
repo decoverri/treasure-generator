@@ -16,7 +16,6 @@ import com.decoverri.treasureGenerator.dao.ScrollGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.StaffGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.WondrousItemGeneratorDataDao;
 import com.decoverri.treasureGenerator.model.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.FTreasureReward;
 import com.decoverri.treasureGenerator.model.GTreasureReward;
 import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.PotionGeneratorData;
@@ -40,7 +39,7 @@ public class FitTreasureG {
 	public void fit() throws IOException {
 
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
-		xstream.alias("reward", FTreasureReward.class);
+		xstream.alias("reward", GTreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
 		xstream.alias("weapongenerator", MagicWeaponGeneratorData.class);
 		xstream.alias("ringgenerator", RingGeneratorData.class);
