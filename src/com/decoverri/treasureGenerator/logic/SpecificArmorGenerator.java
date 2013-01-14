@@ -1,5 +1,8 @@
 package com.decoverri.treasureGenerator.logic;
 
+import static com.decoverri.treasureGenerator.enums.ArmorType.ARMOR;
+import static com.decoverri.treasureGenerator.enums.ArmorType.SHIELD;
+
 import java.util.Random;
 
 import org.hibernate.Session;
@@ -25,12 +28,22 @@ public class SpecificArmorGenerator {
 		Dice d100 = new Dice(100);
 		DiceRoller roller = new DiceRoller();
 
-		System.out.println("Generating " + strength + " specific armor/shield");
-		int i = new Random().nextInt(ArmorType.values().length);
-		SpecificArmor armor = armorDao.getSpecificArmor(ArmorType.values()[i], strength, roller.roll(d100));
+		System.out.println("Generating armor or shield");
+		ArmorType type = selectArmorOrShield();
+		System.out.println("Result: " + type);
+		System.out.println("Generating " + strength + " specific " + type);
+		SpecificArmor armor = armorDao.getSpecificArmor(type, strength, roller.roll(d100));
 		System.out.println("Result: " + armor.getName() + "\n");
 
 		return armor;
+	}
+
+	private ArmorType selectArmorOrShield() {
+		int i = new Random().nextInt(2);
+		if (i == 0) {
+			return SHIELD;
+		}
+		return ARMOR;
 	}
 
 }

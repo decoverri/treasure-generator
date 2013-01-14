@@ -11,9 +11,10 @@ import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.enums.BodySlot;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class WondrousItem {
+public class WondrousItem implements Treasure {
 
 	@Id
 	@GeneratedValue

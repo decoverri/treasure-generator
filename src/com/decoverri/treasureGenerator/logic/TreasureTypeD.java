@@ -12,9 +12,6 @@ import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
 import com.decoverri.treasureGenerator.model.Coins;
 import com.decoverri.treasureGenerator.model.DTreasureReward;
-import com.decoverri.treasureGenerator.model.Potion;
-import com.decoverri.treasureGenerator.model.Scroll;
-import com.decoverri.treasureGenerator.model.Wand;
 
 public class TreasureTypeD implements TreasureType {
 
@@ -33,16 +30,13 @@ public class TreasureTypeD implements TreasureType {
 		treasures.addAll(coins);
 
 		PotionGenerator potionGenerator = new PotionGenerator(session);
-		List<Potion> potions = potionGenerator.generate(treasureD.getPotions());
-		treasures.addAll(potions);
+		treasures.addAll(potionGenerator.generate(treasureD.getPotions()));
 
 		ScrollGenerator scrollGenerator = new ScrollGenerator(session);
-		List<Scroll> scrolls = scrollGenerator.generate(treasureD.getScrolls());
-		treasures.addAll(scrolls);
+		treasures.addAll(scrollGenerator.generate(treasureD.getScrolls()));
 
 		WandGenerator wandGenerator = new WandGenerator(session);
-		List<Wand> wands = wandGenerator.generate(treasureD.getWands());
-		treasures.addAll(wands);
+		treasures.addAll(wandGenerator.generate(treasureD.getWands()));
 
 		transaction.commit();
 		return treasures;

@@ -1,5 +1,8 @@
 package com.decoverri.treasureGenerator.logic;
 
+import static com.decoverri.treasureGenerator.enums.ArmorType.ARMOR;
+import static com.decoverri.treasureGenerator.enums.ArmorType.SHIELD;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +10,7 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.MagicArmorAbilityDao;
 import com.decoverri.treasureGenerator.dao.MagicArmorStatsDao;
+import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.Armor;
 import com.decoverri.treasureGenerator.model.Dice;
@@ -83,10 +87,15 @@ public class MagicArmorGenerator {
 
 	private void generateMagicAbilities(MagicArmor magicArmor, MagicArmorStats stats) {
 		MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(session);
+		
+		ArmorType type = SHIELD;
+		if (magicArmor.getBaseArmor().getType() != SHIELD) {
+			type = ARMOR;
+		}
 
 		for (int i = 0; i < stats.getNumberOfAbilities(); i++) {
-			System.out.println("Generating " + magicArmor.getBaseArmor().getType() + " +" + stats.getAbilityBonus() + " ability");
-			MagicArmorAbility magicArmorAbility = abilityDao.getMagicArmorAbility(stats.getAbilityBonus(), magicArmor.getBaseArmor().getType(), roller.roll(d100));
+			System.out.println("Generating " + type + " +" + stats.getAbilityBonus() + " ability");
+			MagicArmorAbility magicArmorAbility = abilityDao.getMagicArmorAbility(stats.getAbilityBonus(), type, roller.roll(d100));
 			System.out.println("Result: " + magicArmorAbility);
 
 			if (i == 1 && magicArmorAbility.getName() == magicArmor.getMagicalAbilities().get(0).getName()) {

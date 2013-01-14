@@ -8,9 +8,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
 
 @Entity
-public class Ring {
+public class Ring implements Treasure {
 
 	@Id
 	@GeneratedValue

@@ -11,7 +11,6 @@ import com.decoverri.treasureGenerator.dao.ATreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
 import com.decoverri.treasureGenerator.model.ATreasureReward;
-import com.decoverri.treasureGenerator.model.Coins;
 
 public class TreasureTypeA implements TreasureType {
 
@@ -26,8 +25,7 @@ public class TreasureTypeA implements TreasureType {
 		ATreasureReward treasureA = dao.findByValue(value);
 
 		CoinGenerator coinGenerator = new CoinGenerator();
-		List<Coins> coins = coinGenerator.generate(treasureA.getCoins());
-		treasures.addAll(coins);
+		treasures.addAll(coinGenerator.generate(treasureA.getCoins()));
 
 		transaction.commit();
 		return treasures;
