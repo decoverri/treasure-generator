@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.StaffGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.StaffGeneratorData;
 
 public class StaffGeneratorDataDao {
 

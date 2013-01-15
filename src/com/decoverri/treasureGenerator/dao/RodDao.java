@@ -4,7 +4,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.model.Rod;
+import com.decoverri.treasureGenerator.model.treasure.Rod;
 
 public class RodDao {
 

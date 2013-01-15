@@ -10,10 +10,10 @@ import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.FTreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
-import com.decoverri.treasureGenerator.model.ArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.FTreasureReward;
-import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.FTreasureReward;
 
 public class TreasureTypeF implements TreasureType{
 

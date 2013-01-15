@@ -4,6 +4,7 @@ import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
 
 import com.decoverri.treasureGenerator.interfaces.DiceGenerated;
+import com.decoverri.treasureGenerator.model.treasure.Coins;
 
 @Embeddable
 public class GemValue implements DiceGenerated {

@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.PotionDao;
-import com.decoverri.treasureGenerator.model.Potion;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

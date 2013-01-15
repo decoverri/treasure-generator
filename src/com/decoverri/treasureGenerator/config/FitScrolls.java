@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.ScrollDao;
-import com.decoverri.treasureGenerator.model.Scroll;
+import com.decoverri.treasureGenerator.model.treasure.Scroll;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

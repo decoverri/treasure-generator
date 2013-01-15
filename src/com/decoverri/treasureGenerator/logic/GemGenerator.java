@@ -8,8 +8,8 @@ import org.hibernate.Session;
 import com.decoverri.treasureGenerator.dao.GemstoneDao;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.GemValue;
-import com.decoverri.treasureGenerator.model.Gemstone;
-import com.decoverri.treasureGenerator.model.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 
 public class GemGenerator {
 

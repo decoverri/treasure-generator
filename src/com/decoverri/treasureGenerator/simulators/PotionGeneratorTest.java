@@ -9,8 +9,8 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.PotionGenerator;
-import com.decoverri.treasureGenerator.model.Potion;
-import com.decoverri.treasureGenerator.model.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 
 public class PotionGeneratorTest {
 

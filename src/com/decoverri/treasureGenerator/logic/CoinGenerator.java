@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.decoverri.treasureGenerator.enums.Currency;
-import com.decoverri.treasureGenerator.model.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.Coins;
 import com.decoverri.treasureGenerator.model.Dice;
+import com.decoverri.treasureGenerator.model.generator.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Coins;
 
 public class CoinGenerator {
 

@@ -10,8 +10,8 @@ import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.GTreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
-import com.decoverri.treasureGenerator.model.GTreasureReward;
-import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.GTreasureReward;
 
 public class TreasureTypeG implements TreasureType {
 

@@ -6,9 +6,9 @@ import java.util.List;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.ArtObjectDao;
-import com.decoverri.treasureGenerator.model.ArtObject;
-import com.decoverri.treasureGenerator.model.ArtObjectGeneratorData;
 import com.decoverri.treasureGenerator.model.Dice;
+import com.decoverri.treasureGenerator.model.generator.ArtObjectGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 
 public class ArtObjectGenerator {
 

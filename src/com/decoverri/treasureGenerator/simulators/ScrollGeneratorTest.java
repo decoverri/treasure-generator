@@ -9,8 +9,8 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.ScrollGenerator;
-import com.decoverri.treasureGenerator.model.Scroll;
-import com.decoverri.treasureGenerator.model.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Scroll;
 
 public class ScrollGeneratorTest {
 

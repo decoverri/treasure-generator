@@ -11,7 +11,7 @@ import org.hibernate.Session;
 import com.decoverri.treasureGenerator.enums.HallowAdditionalSpell;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicType;
-import com.decoverri.treasureGenerator.model.Scroll;
+import com.decoverri.treasureGenerator.model.treasure.Scroll;
 
 public class ScrollDao {
 

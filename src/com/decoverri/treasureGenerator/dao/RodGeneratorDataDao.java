@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.RodGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.RodGeneratorData;
 
 public class RodGeneratorDataDao {
 

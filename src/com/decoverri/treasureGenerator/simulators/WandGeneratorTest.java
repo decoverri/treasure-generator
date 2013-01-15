@@ -9,8 +9,8 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.WandGenerator;
-import com.decoverri.treasureGenerator.model.Wand;
-import com.decoverri.treasureGenerator.model.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Wand;
 
 public class WandGeneratorTest {
 

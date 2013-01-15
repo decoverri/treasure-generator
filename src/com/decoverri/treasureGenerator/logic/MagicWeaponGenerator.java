@@ -9,11 +9,11 @@ import com.decoverri.treasureGenerator.dao.MagicWeaponAbilityDao;
 import com.decoverri.treasureGenerator.dao.MagicWeaponStatsDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.MagicWeapon;
 import com.decoverri.treasureGenerator.model.MagicWeaponAbility;
-import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicWeaponStats;
-import com.decoverri.treasureGenerator.model.Weapon;
+import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.MagicWeapon;
+import com.decoverri.treasureGenerator.model.treasure.Weapon;
 
 //TODO Refactoring
 public class MagicWeaponGenerator {

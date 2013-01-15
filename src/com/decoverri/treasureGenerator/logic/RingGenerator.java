@@ -7,8 +7,8 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.RingDao;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.Ring;
-import com.decoverri.treasureGenerator.model.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Ring;
 
 public class RingGenerator {
 

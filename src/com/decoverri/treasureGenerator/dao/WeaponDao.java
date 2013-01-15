@@ -3,7 +3,7 @@ package com.decoverri.treasureGenerator.dao;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.Weapon;
+import com.decoverri.treasureGenerator.model.treasure.Weapon;
 
 public class WeaponDao {
 

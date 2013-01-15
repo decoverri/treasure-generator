@@ -11,8 +11,8 @@ import com.decoverri.treasureGenerator.dao.WondrousItemBodySlotDao;
 import com.decoverri.treasureGenerator.dao.WondrousItemDao;
 import com.decoverri.treasureGenerator.enums.BodySlot;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.WondrousItem;
-import com.decoverri.treasureGenerator.model.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 
 public class WondrousItemGenerator {
 

@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
 
 public class MagicArmorGeneratorDataDao {
 

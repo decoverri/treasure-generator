@@ -4,6 +4,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
+import com.decoverri.treasureGenerator.model.treasure.Staff;
 
 public class StaffDao {
 

@@ -6,9 +6,9 @@ import java.util.List;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.Staff;
 import com.decoverri.treasureGenerator.model.StaffDao;
-import com.decoverri.treasureGenerator.model.StaffGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.StaffGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Staff;
 
 public class StaffGenerator {
 

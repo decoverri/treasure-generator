@@ -9,8 +9,8 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.WondrousItemGenerator;
-import com.decoverri.treasureGenerator.model.WondrousItem;
-import com.decoverri.treasureGenerator.model.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 
 public class WondrousTest {
 

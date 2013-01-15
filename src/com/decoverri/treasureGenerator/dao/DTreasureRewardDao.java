@@ -7,7 +7,7 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import com.decoverri.treasureGenerator.model.DTreasureReward;
+import com.decoverri.treasureGenerator.model.reward.DTreasureReward;
 
 public class DTreasureRewardDao {
 

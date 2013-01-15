@@ -9,9 +9,9 @@ import org.hibernate.Session;
 import com.decoverri.treasureGenerator.dao.BTreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.GemstoneGeneratorDataDao;
-import com.decoverri.treasureGenerator.model.BTreasureReward;
-import com.decoverri.treasureGenerator.model.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.BTreasureReward;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

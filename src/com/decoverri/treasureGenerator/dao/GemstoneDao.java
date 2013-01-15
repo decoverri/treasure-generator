@@ -7,7 +7,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import com.decoverri.treasureGenerator.model.Gemstone;
+import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 
 public class GemstoneDao {
 

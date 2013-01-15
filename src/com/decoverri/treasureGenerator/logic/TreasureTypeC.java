@@ -10,8 +10,8 @@ import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.CTreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
-import com.decoverri.treasureGenerator.model.ArtObject;
-import com.decoverri.treasureGenerator.model.CTreasureReward;
+import com.decoverri.treasureGenerator.model.reward.CTreasureReward;
+import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 
 public class TreasureTypeC implements TreasureType {
 

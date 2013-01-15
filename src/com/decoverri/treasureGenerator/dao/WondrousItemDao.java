@@ -5,7 +5,7 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.enums.BodySlot;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.model.WondrousItem;
+import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 
 public class WondrousItemDao {
 

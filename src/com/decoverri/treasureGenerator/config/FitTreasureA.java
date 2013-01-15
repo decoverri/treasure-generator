@@ -8,8 +8,8 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.ATreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
-import com.decoverri.treasureGenerator.model.ATreasureReward;
-import com.decoverri.treasureGenerator.model.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.ATreasureReward;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

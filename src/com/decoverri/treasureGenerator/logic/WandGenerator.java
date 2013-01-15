@@ -12,8 +12,8 @@ import com.decoverri.treasureGenerator.dao.WandDao;
 import com.decoverri.treasureGenerator.dao.WandLevelDao;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.Wand;
-import com.decoverri.treasureGenerator.model.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Wand;
 
 public class WandGenerator {
 

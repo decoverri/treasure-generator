@@ -12,8 +12,8 @@ import com.decoverri.treasureGenerator.dao.PotionDao;
 import com.decoverri.treasureGenerator.dao.PotionLevelDao;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.Potion;
-import com.decoverri.treasureGenerator.model.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 
 public class PotionGenerator {
 

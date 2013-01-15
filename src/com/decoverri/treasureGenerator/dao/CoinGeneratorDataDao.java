@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.CoinGeneratorData;
 
 public class CoinGeneratorDataDao {
 

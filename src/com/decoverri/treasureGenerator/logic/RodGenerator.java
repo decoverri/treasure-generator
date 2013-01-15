@@ -9,8 +9,8 @@ import com.decoverri.treasureGenerator.dao.MetamagicRodDao;
 import com.decoverri.treasureGenerator.dao.RodDao;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.MetamagicRod;
-import com.decoverri.treasureGenerator.model.Rod;
-import com.decoverri.treasureGenerator.model.RodGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.RodGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Rod;
 
 public class RodGenerator {
 

@@ -10,10 +10,10 @@ import com.decoverri.treasureGenerator.dao.ArmorGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.ETreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.MagicArmorGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.MagicWeaponGeneratorDataDao;
-import com.decoverri.treasureGenerator.model.ArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.ETreasureReward;
-import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.ETreasureReward;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

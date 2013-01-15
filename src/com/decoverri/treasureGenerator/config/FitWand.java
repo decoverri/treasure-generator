@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.WandDao;
-import com.decoverri.treasureGenerator.model.Wand;
+import com.decoverri.treasureGenerator.model.treasure.Wand;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

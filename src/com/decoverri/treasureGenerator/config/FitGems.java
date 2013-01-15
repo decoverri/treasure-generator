@@ -9,7 +9,7 @@ import org.hibernate.Session;
 import com.decoverri.treasureGenerator.dao.GemGradeDao;
 import com.decoverri.treasureGenerator.dao.GemstoneDao;
 import com.decoverri.treasureGenerator.model.GemGrade;
-import com.decoverri.treasureGenerator.model.Gemstone;
+import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

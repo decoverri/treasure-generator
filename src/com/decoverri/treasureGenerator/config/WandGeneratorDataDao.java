@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.config;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.WandGeneratorData;
 
 public class WandGeneratorDataDao {
 

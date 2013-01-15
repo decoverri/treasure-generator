@@ -4,7 +4,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
-import com.decoverri.treasureGenerator.model.Wand;
+import com.decoverri.treasureGenerator.model.treasure.Wand;
 
 public class WandDao {
 

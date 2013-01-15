@@ -7,7 +7,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import com.decoverri.treasureGenerator.model.ArtObject;
+import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 
 public class ArtObjectDao {
 

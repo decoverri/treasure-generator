@@ -12,12 +12,12 @@ import com.decoverri.treasureGenerator.dao.MagicArmorAbilityDao;
 import com.decoverri.treasureGenerator.dao.MagicArmorStatsDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
-import com.decoverri.treasureGenerator.model.Armor;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.MagicArmor;
 import com.decoverri.treasureGenerator.model.MagicArmorAbility;
-import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicArmorStats;
+import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Armor;
+import com.decoverri.treasureGenerator.model.treasure.MagicArmor;
 
 //TODO Refactoring
 public class MagicArmorGenerator {

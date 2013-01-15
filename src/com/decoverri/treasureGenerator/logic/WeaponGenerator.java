@@ -4,7 +4,7 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.WeaponDao;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.Weapon;
+import com.decoverri.treasureGenerator.model.treasure.Weapon;
 
 public class WeaponGenerator {
 

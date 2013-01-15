@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.ArmorDao;
-import com.decoverri.treasureGenerator.model.Armor;
+import com.decoverri.treasureGenerator.model.treasure.Armor;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

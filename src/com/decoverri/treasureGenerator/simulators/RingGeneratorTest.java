@@ -9,8 +9,8 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.RingGenerator;
-import com.decoverri.treasureGenerator.model.Ring;
-import com.decoverri.treasureGenerator.model.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Ring;
 
 public class RingGeneratorTest {
 

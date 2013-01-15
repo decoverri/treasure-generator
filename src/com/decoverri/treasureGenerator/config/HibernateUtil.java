@@ -14,64 +14,64 @@ public class HibernateUtil {
 	private static SessionFactory configureSessionFactory() throws HibernateException {
 		Configuration cfg = new Configuration();
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ATreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.BTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.DTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ETreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.FTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.HTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ITreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ATreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.BTreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.CTreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.DTreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ETreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.FTreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.GTreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.HTreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ITreasureReward.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.CoinGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.CoinGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Dice.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GemstoneGeneratorData.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Gemstone.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.GemstoneGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Gemstone.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.GemGrade.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ArtObjectGeneratorData.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ArtObject.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.ArtObjectGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.ArtObject.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.PotionGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.PotionGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.PotionLevel.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Potion.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Potion.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ScrollGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.ScrollGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ScrollLevel.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Scroll.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Scroll.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WandGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.WandGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WandLevel.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Wand.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Wand.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.ArmorGeneratorData.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Armor.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.ArmorGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Armor.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificArmor.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorStats.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorAbility.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Weapon.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Weapon.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificWeapon.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponAbility.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponStats.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WondrousItemBodySlot.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WondrousItem.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.WondrousItemGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.WondrousItem.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.WondrousItemGeneratorData.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Ring.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.RingGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Ring.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.RingGeneratorData.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Rod.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.RodGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Rod.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.RodGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MetamagicRod.class);
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Staff.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.StaffGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Staff.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.StaffGeneratorData.class);
 
 		cfg.configure();
 		serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();

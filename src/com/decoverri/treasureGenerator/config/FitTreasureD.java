@@ -10,11 +10,11 @@ import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.DTreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.PotionGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.ScrollGeneratorDataDao;
-import com.decoverri.treasureGenerator.model.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.DTreasureReward;
-import com.decoverri.treasureGenerator.model.PotionGeneratorData;
-import com.decoverri.treasureGenerator.model.ScrollGeneratorData;
-import com.decoverri.treasureGenerator.model.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.reward.DTreasureReward;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

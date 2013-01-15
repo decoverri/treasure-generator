@@ -4,7 +4,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
-import com.decoverri.treasureGenerator.model.Potion;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 
 public class PotionDao {
 

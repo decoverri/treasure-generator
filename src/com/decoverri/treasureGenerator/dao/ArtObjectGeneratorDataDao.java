@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.ArtObjectGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.ArtObjectGeneratorData;
 
 public class ArtObjectGeneratorDataDao {
 

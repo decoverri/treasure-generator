@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.ScrollDao;
-import com.decoverri.treasureGenerator.model.Scroll;
+import com.decoverri.treasureGenerator.model.treasure.Scroll;
 
 public class ScrollTest {
 

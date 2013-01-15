@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.model.Staff;
 import com.decoverri.treasureGenerator.model.StaffDao;
+import com.decoverri.treasureGenerator.model.treasure.Staff;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

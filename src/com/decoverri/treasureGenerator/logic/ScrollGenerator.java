@@ -15,8 +15,8 @@ import com.decoverri.treasureGenerator.dao.ScrollLevelDao;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicType;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.Scroll;
-import com.decoverri.treasureGenerator.model.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Scroll;
 
 public class ScrollGenerator {
 
