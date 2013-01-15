@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.ArmorGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.ArtObjectGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.CoinGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.GemstoneGeneratorDataDao;
@@ -19,7 +18,6 @@ import com.decoverri.treasureGenerator.dao.RodGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.ScrollGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.StaffGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.WondrousItemGeneratorDataDao;
-import com.decoverri.treasureGenerator.model.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.ArtObjectGeneratorData;
 import com.decoverri.treasureGenerator.model.CoinGeneratorData;
 import com.decoverri.treasureGenerator.model.GemstoneGeneratorData;
@@ -49,7 +47,6 @@ public class FitTreasureI {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("reward", ITreasureReward.class);
 		xstream.alias("coingenerator", CoinGeneratorData.class);
-		xstream.alias("mundanearmorgen", ArmorGeneratorData.class);
 		xstream.alias("armorgenerator", MagicArmorGeneratorData.class);
 		xstream.alias("weapongenerator", MagicWeaponGeneratorData.class);
 		xstream.alias("ringgenerator", RingGeneratorData.class);
@@ -67,7 +64,6 @@ public class FitTreasureI {
 			ITreasureReward reward = (ITreasureReward) xstream.fromXML(scanner.nextLine());
 
 			CoinGeneratorDataDao coinGenDao = new CoinGeneratorDataDao(session);
-			ArmorGeneratorDataDao armorGenDao = new ArmorGeneratorDataDao(session);
 			MagicArmorGeneratorDataDao magicArmorGenDao = new MagicArmorGeneratorDataDao(session);
 			MagicWeaponGeneratorDataDao magicWeaponGenDao = new MagicWeaponGeneratorDataDao(session);
 			RingGeneratorDataDao ringGenDao = new RingGeneratorDataDao(session);
@@ -84,9 +80,6 @@ public class FitTreasureI {
 			
 			for (CoinGeneratorData coinGen : reward.getCoins()) {
 				coinGenDao.save(coinGen);
-			}
-			for (ArmorGeneratorData armorGen : reward.getNonmagicalArmors()) {
-				armorGenDao.save(armorGen);
 			}
 			for (MagicArmorGeneratorData magicArmorGen : reward.getArmors()) {
 				magicArmorGenDao.save(magicArmorGen);

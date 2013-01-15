@@ -20,11 +20,6 @@ public class ITreasureReward {
 	private List<CoinGeneratorData> coins;
 
 	@OneToMany
-	private List<ArmorGeneratorData> nonmagicalArmors;
-
-	private int nonmagicalWeapons;
-
-	@OneToMany
 	private List<MagicArmorGeneratorData> armors;
 
 	@OneToMany
@@ -79,22 +74,6 @@ public class ITreasureReward {
 
 	public void setCoins(List<CoinGeneratorData> coins) {
 		this.coins = coins;
-	}
-
-	public List<ArmorGeneratorData> getNonmagicalArmors() {
-		return nonmagicalArmors;
-	}
-
-	public void setNonmagicalArmors(List<ArmorGeneratorData> nonmagicalArmors) {
-		this.nonmagicalArmors = nonmagicalArmors;
-	}
-
-	public int getNonmagicalWeapons() {
-		return nonmagicalWeapons;
-	}
-
-	public void setNonmagicalWeapons(int nonmagicalWeapons) {
-		this.nonmagicalWeapons = nonmagicalWeapons;
 	}
 
 	public List<MagicArmorGeneratorData> getArmors() {
