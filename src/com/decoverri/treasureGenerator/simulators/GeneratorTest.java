@@ -11,8 +11,8 @@ public class GeneratorTest {
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 		long inicio = System.currentTimeMillis();
 
-		int worth = 12500;
-		String type = "TreasureTypeG";
+		int worth = 100000;
+		String type = "TreasureTypeH";
 
 		String fullType = "com.decoverri.treasureGenerator.logic." + type;
 

@@ -21,7 +21,7 @@ public class HTreasureReward {
 
 	@OneToMany
 	private List<ArmorGeneratorData> nonmagicalArmors;
-	
+
 	private int nonmagicalWeapons;
 
 	@OneToMany
@@ -35,6 +35,9 @@ public class HTreasureReward {
 
 	@OneToMany
 	private List<StaffGeneratorData> staves;
+
+	@OneToMany
+	private List<RodGeneratorData> rods;
 
 	@OneToMany
 	private List<WondrousItemGeneratorData> wondrousItems;
@@ -121,6 +124,14 @@ public class HTreasureReward {
 
 	public void setStaves(List<StaffGeneratorData> staves) {
 		this.staves = staves;
+	}
+
+	public List<RodGeneratorData> getRods() {
+		return rods;
+	}
+
+	public void setRods(List<RodGeneratorData> rods) {
+		this.rods = rods;
 	}
 
 	public List<WondrousItemGeneratorData> getWondrousItems() {

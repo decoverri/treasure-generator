@@ -14,6 +14,7 @@ import com.decoverri.treasureGenerator.dao.MagicArmorGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.MagicWeaponGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.PotionGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.RingGeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.RodGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.ScrollGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.StaffGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.WondrousItemGeneratorDataDao;
@@ -25,6 +26,7 @@ import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.PotionGeneratorData;
 import com.decoverri.treasureGenerator.model.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.RodGeneratorData;
 import com.decoverri.treasureGenerator.model.ScrollGeneratorData;
 import com.decoverri.treasureGenerator.model.StaffGeneratorData;
 import com.decoverri.treasureGenerator.model.WandGeneratorData;
@@ -50,6 +52,7 @@ public class FitTreasureH {
 		xstream.alias("weapongenerator", MagicWeaponGeneratorData.class);
 		xstream.alias("ringgenerator", RingGeneratorData.class);
 		xstream.alias("staffgenerator", StaffGeneratorData.class);
+		xstream.alias("rodgenerator", RodGeneratorData.class);
 		xstream.alias("wondrousgenerator", WondrousItemGeneratorData.class);
 		xstream.alias("potiongenerator", PotionGeneratorData.class);
 		xstream.alias("scrollgenerator", ScrollGeneratorData.class);
@@ -66,6 +69,7 @@ public class FitTreasureH {
 			MagicWeaponGeneratorDataDao magicWeaponGenDao = new MagicWeaponGeneratorDataDao(session);
 			RingGeneratorDataDao ringGenDao = new RingGeneratorDataDao(session);
 			StaffGeneratorDataDao staffGenDao = new StaffGeneratorDataDao(session);
+			RodGeneratorDataDao rodGenDao = new RodGeneratorDataDao(session);
 			WondrousItemGeneratorDataDao wondrousGenDao = new WondrousItemGeneratorDataDao(session);
 			PotionGeneratorDataDao potionGenDao = new PotionGeneratorDataDao(session);
 			ScrollGeneratorDataDao scrollGenDao = new ScrollGeneratorDataDao(session);
@@ -91,6 +95,9 @@ public class FitTreasureH {
 			}
 			for (StaffGeneratorData staffGen : reward.getStaves()) {
 				staffGenDao.save(staffGen);
+			}
+			for (RodGeneratorData rodGen : reward.getRods()) {
+				rodGenDao.save(rodGen);
 			}
 			for (WondrousItemGeneratorData wondrousGen : reward.getWondrousItems()) {
 				wondrousGenDao.save(wondrousGen);
