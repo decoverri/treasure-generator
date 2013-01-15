@@ -1,13 +1,1 @@
-{"reward":{"value":500,"coins":{"coingenerator":[{"dice":{"numberOfDice":4,"numberOfSides":4},"multiplier":100,"currency":"CP"},{"dice":{"numberOfDice":3,"numberOfSides":6},"multiplier":10,"currency":"SP"},{"dice":{"numberOfDice":2,"numberOfSides":4},"multiplier":10,"currency":"GP"}]},"nonmagicalArmors":{},"nonmagicalWeapons":1,"armors":{},"weapons":{},"rings":{},"staves":{},"rods":{},"wondrousItems":{},"potions":{"potiongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]},"scrolls":{"scrollgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]},"wands":{},"gems":{"gemgenerator":[{"quantity":1,"grade":2}]}}}
-
-"coingenerator":[{"dice":{"numberOfDice":2,"numberOfSides":4},"multiplier":10,"currency":"GP"}]
-"mundanearmorgen":[{"type":"HEAVY_ARMOR"}]
-"armorgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
-"weapongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
-"ringgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
-"staffgenerator":[{"quantity":1,"strength":"LESSER_MEDIUM"}]
-"wondrousgenerator":[{"quantity":1,"strength":"GREATER_MEDIUM"}]
-"potiongenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
-"scrollgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
-"wandgenerator":[{"quantity":1,"strength":"LESSER_MINOR"}]
-"gemgenerator":[{"quantity":1,"grade":1}]
+{"reward":{"value":5000,"coins":{},"nonmagicalArmors":{},"nonmagicalWeapons":0,"armors":{},"weapons":{},"rings":{},"staves":{},"rods":{},"wondrousItems":{},"potions":{},"scrolls":{},"wands":{},"gems":{},"arts":{}}}
