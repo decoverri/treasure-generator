@@ -1,0 +1,1 @@
+{"reward":{"value":50,"coins":{},"nonmagicalArmors":{},"nonmagicalWeapons":0,"armors":{},"weapons":{},"rings":{},"staves":{},"wondrousItems":{},"potions":{},"scrolls":{},"wands":{},"gems":{}}
