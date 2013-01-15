@@ -31,7 +31,6 @@ public class RodGenerator {
 		for (RodGeneratorData data : rodsData) {
 			for (int i = 0; i < data.getQuantity(); i++) {
 				System.out.println("Generating " + data.getStrength() + " rod");
-				//TODO resolver problema de transaction
 				Rod result = rodDao.getRod(data.getStrength(), roller.roll(d100));
 				Rod rod = result.clone();
 

@@ -15,6 +15,7 @@ import com.decoverri.treasureGenerator.model.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicWeaponStats;
 import com.decoverri.treasureGenerator.model.Weapon;
 
+//TODO Refactoring
 public class MagicWeaponGenerator {
 
 	private Session session;

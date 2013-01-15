@@ -56,7 +56,7 @@ public class MagicWeapon implements Treasure {
 			}
 		}
 		
-		builder.append(this.baseWeapon.getName() + " (price " + calculatePrice() + "gp)");
+		builder.append(this.baseWeapon.getName() + " (" + calculatePrice() + "gp)");
 		return builder.toString().toLowerCase();
 	}
 

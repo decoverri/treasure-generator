@@ -19,6 +19,7 @@ import com.decoverri.treasureGenerator.model.MagicArmorAbility;
 import com.decoverri.treasureGenerator.model.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.MagicArmorStats;
 
+//TODO Refactoring
 public class MagicArmorGenerator {
 
 	private Session session;

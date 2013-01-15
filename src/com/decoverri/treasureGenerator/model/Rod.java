@@ -78,7 +78,7 @@ public class Rod implements Treasure, Cloneable {
 
 	@Override
 	public String toString() {
-		return name + " (price " + price + ")";
+		return name + " (" + price + "gp)";
 	}
 
 	@Override

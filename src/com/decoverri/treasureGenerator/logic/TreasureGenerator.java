@@ -6,7 +6,7 @@ import java.util.List;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
 
-
+//TODO Super refactoring (whole project)
 public class TreasureGenerator {
 
 	public List<Treasure> genarate(int value, TreasureType type) {

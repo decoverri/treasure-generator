@@ -50,7 +50,7 @@ public class MagicArmor implements Treasure {
 			builder.append(size + " ");
 		}
 
-		builder.append(this.baseArmor.getName() + " (price " + calculatePrice() + "gp)");
+		builder.append(this.baseArmor.getName() + " (" + calculatePrice() + "gp)");
 		return builder.toString().toLowerCase();
 	}
 
