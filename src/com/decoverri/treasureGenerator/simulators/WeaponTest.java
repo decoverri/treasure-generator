@@ -9,7 +9,7 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
-import com.decoverri.treasureGenerator.logic.MagicWeaponGenerator;
+import com.decoverri.treasureGenerator.logic.generator.MagicWeaponGenerator;
 import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
 
 public class WeaponTest {

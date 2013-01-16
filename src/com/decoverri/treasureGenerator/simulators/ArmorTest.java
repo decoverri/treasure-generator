@@ -9,7 +9,7 @@ import org.hibernate.Transaction;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
-import com.decoverri.treasureGenerator.logic.SpecificArmorGenerator;
+import com.decoverri.treasureGenerator.logic.generator.SpecificArmorGenerator;
 
 public class ArmorTest {
 

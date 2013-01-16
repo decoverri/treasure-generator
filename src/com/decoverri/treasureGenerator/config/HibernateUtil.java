@@ -48,13 +48,13 @@ public class HibernateUtil {
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.ArmorGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Armor.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificArmor.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.SpecificArmor.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorStats.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicArmorAbility.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Weapon.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.SpecificWeapon.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.SpecificWeapon.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponAbility.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MagicWeaponStats.class);
@@ -67,7 +67,7 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.RingGeneratorData.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Rod.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.RodGeneratorData.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.generator.RodGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.MetamagicRod.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Staff.class);

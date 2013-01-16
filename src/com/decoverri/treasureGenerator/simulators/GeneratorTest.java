@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
-import com.decoverri.treasureGenerator.logic.TreasureGenerator;
+import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
 
 public class GeneratorTest {
 

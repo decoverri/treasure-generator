@@ -7,9 +7,17 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.dao.FTreasureRewardDao;
+import com.decoverri.treasureGenerator.dao.reward.FTreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
+import com.decoverri.treasureGenerator.logic.generator.ArmorGenerator;
+import com.decoverri.treasureGenerator.logic.generator.CoinGenerator;
+import com.decoverri.treasureGenerator.logic.generator.MagicArmorGenerator;
+import com.decoverri.treasureGenerator.logic.generator.MagicWeaponGenerator;
+import com.decoverri.treasureGenerator.logic.generator.PotionGenerator;
+import com.decoverri.treasureGenerator.logic.generator.RingGenerator;
+import com.decoverri.treasureGenerator.logic.generator.WeaponGenerator;
+import com.decoverri.treasureGenerator.logic.generator.WondrousItemGenerator;
 import com.decoverri.treasureGenerator.model.generator.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;

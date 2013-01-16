@@ -14,6 +14,7 @@ import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.PotionGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.generator.RodGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.ScrollGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.StaffGeneratorData;
 import com.decoverri.treasureGenerator.model.generator.WandGeneratorData;

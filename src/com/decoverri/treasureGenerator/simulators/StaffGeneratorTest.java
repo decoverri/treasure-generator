@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
-import com.decoverri.treasureGenerator.logic.StaffGenerator;
+import com.decoverri.treasureGenerator.logic.generator.StaffGenerator;
 import com.decoverri.treasureGenerator.model.generator.StaffGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Staff;
 
