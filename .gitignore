@@ -1,2 +1,4 @@
+.settings/
+*~
 *.class
-/build
+build/
