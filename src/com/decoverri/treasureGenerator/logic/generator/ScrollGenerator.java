@@ -10,14 +10,14 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.ScrollLevelDao;
-import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
+import com.decoverri.treasureGenerator.data.model.ScrollGeneratorData;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicType;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.generator.ScrollGeneratorData;
-import com.decoverri.treasureGenerator.model.treasure.Scroll;
+import com.decoverri.treasureGenerator.treasure.aux.dao.ScrollLevelDao;
+import com.decoverri.treasureGenerator.treasure.dao.ScrollDao;
+import com.decoverri.treasureGenerator.treasure.model.Scroll;
 
 public class ScrollGenerator {
 

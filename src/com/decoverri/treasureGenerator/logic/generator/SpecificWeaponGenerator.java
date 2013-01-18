@@ -2,11 +2,11 @@ package com.decoverri.treasureGenerator.logic.generator;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.treasure.SpecificWeaponDao;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
+import com.decoverri.treasureGenerator.treasure.dao.SpecificWeaponDao;
+import com.decoverri.treasureGenerator.treasure.model.SpecificWeapon;
 
 public class SpecificWeaponGenerator {
 

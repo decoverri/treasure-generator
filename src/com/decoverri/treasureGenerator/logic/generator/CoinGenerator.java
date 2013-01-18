@@ -3,11 +3,11 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.decoverri.treasureGenerator.data.model.CoinGeneratorData;
 import com.decoverri.treasureGenerator.enums.Currency;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.generator.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.treasure.Coins;
+import com.decoverri.treasureGenerator.treasure.model.Coins;
 
 public class CoinGenerator {
 

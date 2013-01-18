@@ -7,7 +7,9 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.dao.reward.HTreasureRewardDao;
+import com.decoverri.treasureGenerator.data.model.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.data.model.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.data.model.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
 import com.decoverri.treasureGenerator.logic.generator.ArmorGenerator;
@@ -23,10 +25,8 @@ import com.decoverri.treasureGenerator.logic.generator.StaffGenerator;
 import com.decoverri.treasureGenerator.logic.generator.WandGenerator;
 import com.decoverri.treasureGenerator.logic.generator.WeaponGenerator;
 import com.decoverri.treasureGenerator.logic.generator.WondrousItemGenerator;
-import com.decoverri.treasureGenerator.model.generator.ArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.generator.MagicWeaponGeneratorData;
-import com.decoverri.treasureGenerator.model.reward.HTreasureReward;
+import com.decoverri.treasureGenerator.reward.dao.HTreasureRewardDao;
+import com.decoverri.treasureGenerator.reward.model.HTreasureReward;
 
 public class TreasureTypeH implements TreasureType {
 

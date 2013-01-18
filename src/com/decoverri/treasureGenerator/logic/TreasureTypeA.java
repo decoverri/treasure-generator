@@ -7,11 +7,11 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.dao.reward.ATreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.interfaces.TreasureType;
 import com.decoverri.treasureGenerator.logic.generator.CoinGenerator;
-import com.decoverri.treasureGenerator.model.reward.ATreasureReward;
+import com.decoverri.treasureGenerator.reward.dao.ATreasureRewardDao;
+import com.decoverri.treasureGenerator.reward.model.ATreasureReward;
 
 public class TreasureTypeA implements TreasureType {
 

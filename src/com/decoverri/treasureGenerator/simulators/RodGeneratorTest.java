@@ -7,10 +7,10 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
+import com.decoverri.treasureGenerator.data.model.RodGeneratorData;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.generator.RodGenerator;
-import com.decoverri.treasureGenerator.model.generator.RodGeneratorData;
-import com.decoverri.treasureGenerator.model.treasure.Rod;
+import com.decoverri.treasureGenerator.treasure.model.Rod;
 
 public class RodGeneratorTest {
 

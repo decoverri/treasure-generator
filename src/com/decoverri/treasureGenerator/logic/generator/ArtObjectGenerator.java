@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
+import com.decoverri.treasureGenerator.data.model.ArtObjectGeneratorData;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.generator.ArtObjectGeneratorData;
-import com.decoverri.treasureGenerator.model.treasure.ArtObject;
+import com.decoverri.treasureGenerator.treasure.dao.ArtObjectDao;
+import com.decoverri.treasureGenerator.treasure.model.ArtObject;
 
 public class ArtObjectGenerator {
 

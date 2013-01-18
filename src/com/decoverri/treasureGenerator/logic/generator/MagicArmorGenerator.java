@@ -8,17 +8,17 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.MagicArmorAbilityDao;
-import com.decoverri.treasureGenerator.dao.MagicArmorStatsDao;
+import com.decoverri.treasureGenerator.data.model.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.MagicArmorAbility;
-import com.decoverri.treasureGenerator.model.MagicArmorStats;
-import com.decoverri.treasureGenerator.model.generator.MagicArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.treasure.Armor;
-import com.decoverri.treasureGenerator.model.treasure.MagicArmor;
+import com.decoverri.treasureGenerator.treasure.aux.dao.MagicArmorAbilityDao;
+import com.decoverri.treasureGenerator.treasure.aux.dao.MagicArmorStatsDao;
+import com.decoverri.treasureGenerator.treasure.aux.model.MagicArmorAbility;
+import com.decoverri.treasureGenerator.treasure.aux.model.MagicArmorStats;
+import com.decoverri.treasureGenerator.treasure.model.Armor;
+import com.decoverri.treasureGenerator.treasure.model.MagicArmor;
 
 //TODO Refactoring
 public class MagicArmorGenerator {

@@ -2,11 +2,11 @@ package com.decoverri.treasureGenerator.logic.generator;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.treasure.Armor;
+import com.decoverri.treasureGenerator.treasure.dao.ArmorDao;
+import com.decoverri.treasureGenerator.treasure.model.Armor;
 
 public class ArmorGenerator {
 
