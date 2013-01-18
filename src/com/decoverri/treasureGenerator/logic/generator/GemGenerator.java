@@ -14,31 +14,48 @@ import com.decoverri.treasureGenerator.treasure.model.Gemstone;
 
 public class GemGenerator {
 
-	private Session session;
+	private GemstoneDao dao;
+	private DiceRoller roller;
+	private Dice d100;
 
 	public GemGenerator(Session session) {
-		this.session = session;
+		this.dao = new GemstoneDao(session);
+		this.roller = new DiceRoller();
+		this.d100 = new Dice(100);
 	}
 
-	public List<Gemstone> generate(List<GemstoneGeneratorData> gemData) {
+	public Gemstone generate(int grade) {
+		System.out.println("Generating grade " + grade + " gemstone");
 
+		Gemstone gemstone = dao.getGem(grade, roller.roll(d100));
+
+		System.out.println("Result: " + gemstone.getName());
+		System.out.println("Generating gemstone value");
+
+		GemValue gemValue = gemstone.getGrade().getValue();
+		double result = gemValue.getBaseValue() + roller.roll(gemValue.getDice()) * gemValue.getMultiplier();
+		gemstone.setValue(result);
+
+		System.out.println("Gemstone value result: " + result + "\n");
+
+		return gemstone;
+	}
+	
+	public List<Gemstone> generate(GemstoneGeneratorData data) {
 		List<Gemstone> gems = new ArrayList<Gemstone>();
-		GemstoneDao gemstoneDao = new GemstoneDao(session);
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
 
-		for (GemstoneGeneratorData gem : gemData) {
-			for (int i = 0; i < gem.getQuantity(); i++) {
-				System.out.println("Generating grade " + gem.getGrade() + " gemstone");
-				Gemstone gemstone = gemstoneDao.getGem(gem.getGrade(), roller.roll(d100));
-				System.out.println("Result: " + gemstone.getName());
-				System.out.println("Generating gemstone value");
-				GemValue gemValue = gemstone.getGrade().getValue();
-				double result = gemValue.getBaseValue() + roller.roll(gemValue.getDice()) * gemValue.getMultiplier();
-				gemstone.setValue(result);
-				System.out.println("Gemstone value result: " + result + "\n");
-				gems.add(gemstone);
-			}
+		for (int i = 0; i < data.getQuantity(); i++) {
+			gems.add(generate(data.getGrade()));
+		}
+
+		return gems;
+	}
+	
+	public List<Gemstone> generate(List<GemstoneGeneratorData> gemsData) {
+		List<Gemstone> gems = new ArrayList<Gemstone>();
+		
+		for (GemstoneGeneratorData data : gemsData) {
+			gems.addAll(generate(data));
 		}
 
 		return gems;

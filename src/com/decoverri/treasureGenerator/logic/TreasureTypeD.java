@@ -15,32 +15,23 @@ import com.decoverri.treasureGenerator.logic.generator.ScrollGenerator;
 import com.decoverri.treasureGenerator.logic.generator.WandGenerator;
 import com.decoverri.treasureGenerator.reward.dao.DTreasureRewardDao;
 import com.decoverri.treasureGenerator.reward.model.DTreasureReward;
-import com.decoverri.treasureGenerator.treasure.model.Coins;
 
 public class TreasureTypeD implements TreasureType {
 
 	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	DTreasureRewardDao dao = new DTreasureRewardDao(session);
 
 	@Override
 	public List<Treasure> reward(int value) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
-		DTreasureRewardDao dao = new DTreasureRewardDao(session);
 		Transaction transaction = session.beginTransaction();
-		DTreasureReward treasureD = dao.findByValue(value);
+		DTreasureReward treasure = dao.findByValue(value);
 
-		CoinGenerator coinGenerator = new CoinGenerator();
-		List<Coins> coins = coinGenerator.generate(treasureD.getCoins());
-		treasures.addAll(coins);
-
-		PotionGenerator potionGenerator = new PotionGenerator(session);
-		treasures.addAll(potionGenerator.generate(treasureD.getPotions()));
-
-		ScrollGenerator scrollGenerator = new ScrollGenerator(session);
-		treasures.addAll(scrollGenerator.generate(treasureD.getScrolls()));
-
-		WandGenerator wandGenerator = new WandGenerator(session);
-		treasures.addAll(wandGenerator.generate(treasureD.getWands()));
+		treasures.addAll(new CoinGenerator().generate(treasure.getCoins()));
+		treasures.addAll(new PotionGenerator(session).generate(treasure.getPotions()));
+		treasures.addAll(new ScrollGenerator(session).generate(treasure.getScrolls()));
+		treasures.addAll(new WandGenerator(session).generate(treasure.getWands()));
 
 		transaction.commit();
 		return treasures;

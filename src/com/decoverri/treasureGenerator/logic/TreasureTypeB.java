@@ -13,29 +13,22 @@ import com.decoverri.treasureGenerator.logic.generator.CoinGenerator;
 import com.decoverri.treasureGenerator.logic.generator.GemGenerator;
 import com.decoverri.treasureGenerator.reward.dao.BTreasureRewardDao;
 import com.decoverri.treasureGenerator.reward.model.BTreasureReward;
-import com.decoverri.treasureGenerator.treasure.model.Coins;
-import com.decoverri.treasureGenerator.treasure.model.Gemstone;
 
 public class TreasureTypeB implements TreasureType {
 
 	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	BTreasureRewardDao dao = new BTreasureRewardDao(session);
 
 	@Override
 	public List<Treasure> reward(int value) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
-		BTreasureRewardDao dao = new BTreasureRewardDao(session);
 		Transaction transaction = session.beginTransaction();
-		BTreasureReward treasureB = dao.findByValue(value);
+		BTreasureReward treasure = dao.findByValue(value);
 
-		CoinGenerator coinGenerator = new CoinGenerator();
-		List<Coins> coins = coinGenerator.generate(treasureB.getCoins());
-		treasures.addAll(coins);
+		treasures.addAll(new CoinGenerator().generate(treasure.getCoins()));
+		treasures.addAll(new GemGenerator(session).generate(treasure.getGems()));
 
-		GemGenerator gemGenerator = new GemGenerator(session);
-		List<Gemstone> gems = gemGenerator.generate(treasureB.getGems());
-		treasures.addAll(gems);
-		
 		transaction.commit();
 		return treasures;
 

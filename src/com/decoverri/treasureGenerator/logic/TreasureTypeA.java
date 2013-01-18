@@ -16,17 +16,16 @@ import com.decoverri.treasureGenerator.reward.model.ATreasureReward;
 public class TreasureTypeA implements TreasureType {
 
 	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	ATreasureRewardDao dao = new ATreasureRewardDao(session);
 
 	@Override
 	public List<Treasure> reward(int value) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
-		ATreasureRewardDao dao = new ATreasureRewardDao(session);
 		Transaction transaction = session.beginTransaction();
-		ATreasureReward treasureA = dao.findByValue(value);
+		ATreasureReward treasure = dao.findByValue(value);
 
-		CoinGenerator coinGenerator = new CoinGenerator();
-		treasures.addAll(coinGenerator.generate(treasureA.getCoins()));
+		treasures.addAll(new CoinGenerator().generate(treasure.getCoins()));
 
 		transaction.commit();
 		return treasures;

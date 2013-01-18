@@ -11,22 +11,28 @@ import com.decoverri.treasureGenerator.treasure.model.Coins;
 
 public class CoinGenerator {
 
-	public List<Coins> generate(List<CoinGeneratorData> coinData) {
+	private DiceRoller roller = new DiceRoller();
 
+	public Coins generate(CoinGeneratorData data) {
+		return generatePieces(data.getCurrency(), data.getDice(), data.getMultiplier());
+	}
+
+	public List<Coins> generate(List<CoinGeneratorData> datas) {
 		List<Coins> coins = new ArrayList<Coins>();
 
-		for (CoinGeneratorData coin : coinData) {
-			Coins pieces = generatePieces(coin.getCurrency(), coin.getDice(), coin.getMultiplier());
-			coins.add(pieces);
+		for (CoinGeneratorData data : datas) {
+			coins.add(generate(data));
 		}
+
 		return coins;
 	}
 
 	private Coins generatePieces(Currency currency, Dice dice, int multiplier) {
-
 		System.out.println("Generating " + currency);
-		int result = new DiceRoller().roll(dice) * multiplier;
+
+		int result = roller.roll(dice) * multiplier;
 		System.out.println("Result: " + result + "\n");
+
 		return new Coins(result, currency);
 	}
 
