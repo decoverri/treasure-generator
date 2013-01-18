@@ -22,8 +22,28 @@ public class ArtObjectGenerator {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}
+	
+	public List<ArtObject> generate(List<ArtObjectGeneratorData> artsData) {
+		List<ArtObject> arts = new ArrayList<ArtObject>();
+		
+		for (ArtObjectGeneratorData data : artsData) {
+			arts.addAll(generate(data));
+		}
+		
+		return arts;
+	}
+	
+	private List<ArtObject> generate(ArtObjectGeneratorData data) {
+		List<ArtObject> arts = new ArrayList<ArtObject>();
+		
+		for (int i = 0; i < data.getQuantity(); i++) {
+			arts.add(generate(data.getGrade()));
+		}
+		
+		return arts;
+	}
 
-	public ArtObject generate(int grade) {
+	private ArtObject generate(int grade) {
 		System.out.println("Generating grade " + grade + " art object");
 
 		ArtObject artObject = dao.getArt(grade, roller.roll(d100));
@@ -31,26 +51,6 @@ public class ArtObjectGenerator {
 		System.out.println("Result: " + artObject.getName() + "\n");
 
 		return artObject;
-	}
-
-	public List<ArtObject> generate(ArtObjectGeneratorData data) {
-		List<ArtObject> arts = new ArrayList<ArtObject>();
-
-		for (int i = 0; i < data.getQuantity(); i++) {
-			arts.add(generate(data.getGrade()));
-		}
-
-		return arts;
-	}
-
-	public List<ArtObject> generate(List<ArtObjectGeneratorData> artsData) {
-		List<ArtObject> arts = new ArrayList<ArtObject>();
-
-		for (ArtObjectGeneratorData data : artsData) {
-			arts.addAll(generate(data));
-		}
-
-		return arts;
 	}
 
 }

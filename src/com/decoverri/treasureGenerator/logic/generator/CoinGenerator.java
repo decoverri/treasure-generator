@@ -13,10 +13,6 @@ public class CoinGenerator {
 
 	private DiceRoller roller = new DiceRoller();
 
-	public Coins generate(CoinGeneratorData data) {
-		return generatePieces(data.getCurrency(), data.getDice(), data.getMultiplier());
-	}
-
 	public List<Coins> generate(List<CoinGeneratorData> datas) {
 		List<Coins> coins = new ArrayList<Coins>();
 
@@ -25,6 +21,10 @@ public class CoinGenerator {
 		}
 
 		return coins;
+	}
+
+	private Coins generate(CoinGeneratorData data) {
+		return generatePieces(data.getCurrency(), data.getDice(), data.getMultiplier());
 	}
 
 	private Coins generatePieces(Currency currency, Dice dice, int multiplier) {

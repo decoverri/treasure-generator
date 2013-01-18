@@ -24,7 +24,27 @@ public class GemGenerator {
 		this.d100 = new Dice(100);
 	}
 
-	public Gemstone generate(int grade) {
+	public List<Gemstone> generate(List<GemstoneGeneratorData> gemsData) {
+		List<Gemstone> gems = new ArrayList<Gemstone>();
+
+		for (GemstoneGeneratorData data : gemsData) {
+			gems.addAll(generate(data));
+		}
+
+		return gems;
+	}
+
+	private List<Gemstone> generate(GemstoneGeneratorData data) {
+		List<Gemstone> gems = new ArrayList<Gemstone>();
+
+		for (int i = 0; i < data.getQuantity(); i++) {
+			gems.add(generate(data.getGrade()));
+		}
+
+		return gems;
+	}
+
+	private Gemstone generate(int grade) {
 		System.out.println("Generating grade " + grade + " gemstone");
 
 		Gemstone gemstone = dao.getGem(grade, roller.roll(d100));
@@ -39,26 +59,6 @@ public class GemGenerator {
 		System.out.println("Gemstone value result: " + result + "\n");
 
 		return gemstone;
-	}
-	
-	public List<Gemstone> generate(GemstoneGeneratorData data) {
-		List<Gemstone> gems = new ArrayList<Gemstone>();
-
-		for (int i = 0; i < data.getQuantity(); i++) {
-			gems.add(generate(data.getGrade()));
-		}
-
-		return gems;
-	}
-	
-	public List<Gemstone> generate(List<GemstoneGeneratorData> gemsData) {
-		List<Gemstone> gems = new ArrayList<Gemstone>();
-		
-		for (GemstoneGeneratorData data : gemsData) {
-			gems.addAll(generate(data));
-		}
-
-		return gems;
 	}
 
 }

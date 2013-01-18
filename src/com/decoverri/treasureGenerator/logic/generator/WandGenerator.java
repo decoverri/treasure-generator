@@ -10,6 +10,7 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.data.model.WandGeneratorData;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
+import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.treasure.aux.dao.WandLevelDao;
@@ -18,37 +19,58 @@ import com.decoverri.treasureGenerator.treasure.model.Wand;
 
 public class WandGenerator {
 
-	private Session session;
+	private WandDao wandDao;
+	private WandLevelDao wandLevelDao;
+	private Dice d100;
+	private DiceRoller roller;
 
 	public WandGenerator(Session session) {
-		this.session = session;
+		this.wandDao = new WandDao(session);
+		this.wandLevelDao = new WandLevelDao(session);
+		this.d100 = new Dice(100);
+		this.roller = new DiceRoller();
 	}
 
 	public List<Wand> generate(List<WandGeneratorData> wandsData) {
-
 		List<Wand> wands = new ArrayList<Wand>();
-		WandDao wandDao = new WandDao(session);
-		WandLevelDao wandLevelDao = new WandLevelDao(session);
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
 
-		for (WandGeneratorData wandData : wandsData) {
-			for (int i = 0; i < wandData.getQuantity(); i++) {
-				System.out.println("Generating " + wandData.getStrength() + " wand");
-				System.out.println("Generating spell level");
-				int level = wandLevelDao.getWandLevel(wandData.getStrength(), roller.roll(d100));
-				System.out.println("Result: level " + level);
-				System.out.println("Generating rarity");
-				MagicItemRarity rarity = setPotionRarity(roller.roll(d100));
-				System.out.println("Result: " + rarity);
-				System.out.println("Generating " + rarity + " level " + level + " wand");
-				Wand wand = wandDao.getWand(level, rarity, roller.roll(d100));
-				System.out.println("Result: " + wand.getSpell() + "\n");
-				wands.add(wand);
-			}
+		for (WandGeneratorData data : wandsData) {
+			wands.addAll(generate(data));
 		}
 
 		return wands;
+	}
+
+	private List<Wand> generate(WandGeneratorData data) {
+		List<Wand> wands = new ArrayList<Wand>();
+
+		for (int i = 0; i < data.getQuantity(); i++) {
+			wands.add(generate(data.getStrength()));
+		}
+
+		return wands;
+	}
+
+	private Wand generate(MagicItemStrength strength) {
+
+		System.out.println("Generating " + strength + " wand");
+		System.out.println("Generating spell level");
+
+		int level = wandLevelDao.getWandLevel(strength, roller.roll(d100));
+
+		System.out.println("Result: level " + level);
+		System.out.println("Generating rarity");
+
+		MagicItemRarity rarity = setPotionRarity(roller.roll(d100));
+
+		System.out.println("Result: " + rarity);
+		System.out.println("Generating " + rarity + " level " + level + " wand");
+
+		Wand wand = wandDao.getWand(level, rarity, roller.roll(d100));
+
+		System.out.println("Result: " + wand.getSpell() + "\n");
+
+		return wand;
 	}
 
 	private MagicItemRarity setPotionRarity(int roll) {
