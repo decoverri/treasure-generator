@@ -8,14 +8,14 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.data.model.PotionGeneratorData;
+import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.aux.dao.PotionLevelDao;
-import com.decoverri.treasureGenerator.treasure.dao.PotionDao;
-import com.decoverri.treasureGenerator.treasure.model.Potion;
+import com.decoverri.treasureGenerator.model.data.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 
 public class PotionGenerator {
 

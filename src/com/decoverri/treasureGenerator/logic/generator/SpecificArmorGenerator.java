@@ -7,12 +7,12 @@ import java.util.Random;
 
 import org.hibernate.Session;
 
+import com.decoverri.treasureGenerator.dao.treasure.SpecificArmorDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.dao.SpecificArmorDao;
-import com.decoverri.treasureGenerator.treasure.model.SpecificArmor;
+import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 
 public class SpecificArmorGenerator {
 

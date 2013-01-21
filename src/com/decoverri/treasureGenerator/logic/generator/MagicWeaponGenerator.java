@@ -5,16 +5,16 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.data.model.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponAbilityDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.aux.dao.MagicWeaponAbilityDao;
-import com.decoverri.treasureGenerator.treasure.aux.dao.MagicWeaponStatsDao;
-import com.decoverri.treasureGenerator.treasure.aux.model.MagicWeaponAbility;
-import com.decoverri.treasureGenerator.treasure.aux.model.MagicWeaponStats;
-import com.decoverri.treasureGenerator.treasure.model.MagicWeapon;
-import com.decoverri.treasureGenerator.treasure.model.Weapon;
+import com.decoverri.treasureGenerator.model.data.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.MagicWeapon;
+import com.decoverri.treasureGenerator.model.treasure.Weapon;
+import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
+import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
 
 //TODO Refactoring
 public class MagicWeaponGenerator {

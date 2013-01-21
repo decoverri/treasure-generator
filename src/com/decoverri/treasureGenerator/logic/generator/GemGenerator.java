@@ -5,12 +5,12 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.data.model.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.aux.model.GemValue;
-import com.decoverri.treasureGenerator.treasure.dao.GemstoneDao;
-import com.decoverri.treasureGenerator.treasure.model.Gemstone;
+import com.decoverri.treasureGenerator.model.data.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Gemstone;
+import com.decoverri.treasureGenerator.model.treasure.complement.GemValue;
 
 public class GemGenerator {
 

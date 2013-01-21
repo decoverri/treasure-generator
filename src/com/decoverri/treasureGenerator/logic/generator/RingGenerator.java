@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.data.model.RingGeneratorData;
+import com.decoverri.treasureGenerator.dao.treasure.RingDao;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.dao.RingDao;
-import com.decoverri.treasureGenerator.treasure.model.Ring;
+import com.decoverri.treasureGenerator.model.data.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Ring;
 
 public class RingGenerator {
 

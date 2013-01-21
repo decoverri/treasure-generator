@@ -7,13 +7,13 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.data.model.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.dao.treasure.WondrousItemDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.WondrousItemBodySlotDao;
 import com.decoverri.treasureGenerator.enums.BodySlot;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.aux.dao.WondrousItemBodySlotDao;
-import com.decoverri.treasureGenerator.treasure.dao.WondrousItemDao;
-import com.decoverri.treasureGenerator.treasure.model.WondrousItem;
+import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 
 public class WondrousItemGenerator {
 

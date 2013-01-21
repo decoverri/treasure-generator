@@ -7,10 +7,10 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.data.model.StaffGeneratorData;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.generator.StaffGenerator;
-import com.decoverri.treasureGenerator.treasure.model.Staff;
+import com.decoverri.treasureGenerator.model.data.StaffGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Staff;
 
 public class StaffGeneratorTest {
 

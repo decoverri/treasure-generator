@@ -5,13 +5,13 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.decoverri.treasureGenerator.data.model.RodGeneratorData;
+import com.decoverri.treasureGenerator.dao.treasure.RodDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MetamagicRodDao;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.treasure.aux.dao.MetamagicRodDao;
-import com.decoverri.treasureGenerator.treasure.aux.model.MetamagicRod;
-import com.decoverri.treasureGenerator.treasure.dao.RodDao;
-import com.decoverri.treasureGenerator.treasure.model.Rod;
+import com.decoverri.treasureGenerator.model.data.RodGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Rod;
+import com.decoverri.treasureGenerator.model.treasure.complement.MetamagicRod;
 
 public class RodGenerator {
 

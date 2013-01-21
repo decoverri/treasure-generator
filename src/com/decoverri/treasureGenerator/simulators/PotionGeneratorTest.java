@@ -7,10 +7,10 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.data.model.PotionGeneratorData;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.generator.PotionGenerator;
-import com.decoverri.treasureGenerator.treasure.model.Potion;
+import com.decoverri.treasureGenerator.model.data.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 
 public class PotionGeneratorTest {
 
