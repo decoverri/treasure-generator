@@ -24,10 +24,10 @@ public class TreasureTypeB implements TreasureType {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
 		Transaction transaction = session.beginTransaction();
-		BTreasureReward treasure = dao.findByValue(value);
+		BTreasureReward reward = dao.findByValue(value);
 
-		treasures.addAll(new CoinGenerator().generate(treasure.getCoins()));
-		treasures.addAll(new GemGenerator(session).generate(treasure.getGems()));
+		treasures.addAll(new CoinGenerator().generate(reward.getCoins()));
+		treasures.addAll(new GemGenerator(session).generate(reward.getGems()));
 
 		transaction.commit();
 		return treasures;

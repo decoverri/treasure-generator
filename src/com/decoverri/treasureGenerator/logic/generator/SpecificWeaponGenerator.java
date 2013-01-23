@@ -10,21 +10,22 @@ import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
 
 public class SpecificWeaponGenerator {
 
-	private Session session;
+	private SpecificWeaponDao weaponDao;
+
+	private DiceRoller roller;
+	private Dice d100;
 
 	public SpecificWeaponGenerator(Session session) {
-		this.session = session;
+		this.weaponDao = new SpecificWeaponDao(session);
+		this.roller = new DiceRoller();
+		this.d100 = new Dice(100);
 	}
 
 	public SpecificWeapon generate(MagicItemStrength strength) {
-
-		SpecificWeaponDao weaponDao = new SpecificWeaponDao(session);
-
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
-
 		System.out.println("Generating " + strength + " specific weapon");
+
 		SpecificWeapon weapon = weaponDao.getSpecificWeapon(strength, roller.roll(d100));
+
 		System.out.println("Result: " + weapon.getName() + "\n");
 
 		return weapon;

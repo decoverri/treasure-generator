@@ -15,6 +15,7 @@ import com.decoverri.treasureGenerator.model.treasure.complement.GemValue;
 public class GemGenerator {
 
 	private GemstoneDao dao;
+
 	private DiceRoller roller;
 	private Dice d100;
 

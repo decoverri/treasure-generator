@@ -1,6 +1,7 @@
 package com.decoverri.treasureGenerator.simulators;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -24,7 +25,7 @@ public class WeaponTest {
 		MagicWeaponGeneratorData data = new MagicWeaponGeneratorData();
 		data.setQuantity(1000);
 		data.setStrength(MagicItemStrength.GREATER_MAJOR);
-		weapons.addAll(generator.generate(data));
+		weapons.addAll(generator.generate(Arrays.asList(data)));
 
 		transaction.commit();
 

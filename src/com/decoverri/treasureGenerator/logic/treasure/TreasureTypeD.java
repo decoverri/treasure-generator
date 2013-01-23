@@ -26,12 +26,12 @@ public class TreasureTypeD implements TreasureType {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
 		Transaction transaction = session.beginTransaction();
-		DTreasureReward treasure = dao.findByValue(value);
+		DTreasureReward reward = dao.findByValue(value);
 
-		treasures.addAll(new CoinGenerator().generate(treasure.getCoins()));
-		treasures.addAll(new PotionGenerator(session).generate(treasure.getPotions()));
-		treasures.addAll(new ScrollGenerator(session).generate(treasure.getScrolls()));
-		treasures.addAll(new WandGenerator(session).generate(treasure.getWands()));
+		treasures.addAll(new CoinGenerator().generate(reward.getCoins()));
+		treasures.addAll(new PotionGenerator(session).generate(reward.getPotions()));
+		treasures.addAll(new ScrollGenerator(session).generate(reward.getScrolls()));
+		treasures.addAll(new WandGenerator(session).generate(reward.getWands()));
 
 		transaction.commit();
 		return treasures;

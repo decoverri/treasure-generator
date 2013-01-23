@@ -14,6 +14,7 @@ import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 public class ArtObjectGenerator {
 
 	private ArtObjectDao dao;
+
 	private DiceRoller roller;
 	private Dice d100;
 

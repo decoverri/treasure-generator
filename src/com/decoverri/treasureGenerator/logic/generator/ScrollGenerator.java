@@ -24,6 +24,7 @@ public class ScrollGenerator {
 
 	private ScrollDao scrollDao;
 	private ScrollLevelDao scrollLevelDao;
+
 	private Dice d100;
 	private DiceRoller roller;
 

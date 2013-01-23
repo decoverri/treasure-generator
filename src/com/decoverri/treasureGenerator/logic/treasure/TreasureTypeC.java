@@ -23,9 +23,9 @@ public class TreasureTypeC implements TreasureType {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 
 		Transaction transaction = session.beginTransaction();
-		CTreasureReward treasure = dao.findByValue(value);
+		CTreasureReward reward = dao.findByValue(value);
 
-		treasures.addAll(new ArtObjectGenerator(session).generate(treasure.getArts()));
+		treasures.addAll(new ArtObjectGenerator(session).generate(reward.getArts()));
 
 		transaction.commit();
 		return treasures;

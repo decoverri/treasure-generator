@@ -7,106 +7,123 @@ import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponAbilityDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsDao;
+import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.MagicWeapon;
-import com.decoverri.treasureGenerator.model.treasure.Weapon;
+import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
 
-//TODO Refactoring
 public class MagicWeaponGenerator {
 
-	private Session session;
+	private WeaponGenerator weaponGenerator;
+	private SpecificWeaponGenerator specificGenerator;
 
-	private DiceRoller roller = new DiceRoller();
-	private Dice d100 = new Dice(100);
+	private MagicWeaponStatsDao statsDao;
+	private MagicWeaponAbilityDao abilityDao;
+
+	private DiceRoller roller;
+	private Dice d100;
 
 	public MagicWeaponGenerator(Session session) {
-		this.session = session;
+		this.weaponGenerator = new WeaponGenerator(session);
+		this.specificGenerator = new SpecificWeaponGenerator(session);
+		this.statsDao = new MagicWeaponStatsDao(session);
+		this.abilityDao = new MagicWeaponAbilityDao(session);
+		this.roller = new DiceRoller();
+		this.d100 = new Dice(100);
 	}
 
-	public List<Treasure> generate(MagicWeaponGeneratorData data) {
-
+	public List<Treasure> generate(List<MagicWeaponGeneratorData> weaponsData) {
 		List<Treasure> weapons = new ArrayList<Treasure>();
 
-		Treasure finalWeapon;
-		for (int i = 0; i < data.getQuantity(); i++) {
-			System.out.println("Generating " + data.getStrength() + " weapon");
-			int abilityRoll = roller.roll(d100);
-
-			if (abilityRoll > 80) {
-				finalWeapon = generateSpecificWeapon(data);
-			} else {
-				finalWeapon = generateMagicWeapon(data, abilityRoll);
-			}
-
-			weapons.add(finalWeapon);
+		for (MagicWeaponGeneratorData data : weaponsData) {
+			weapons.addAll(generate(data));
 		}
+
 		return weapons;
 	}
 
-	private Treasure generateSpecificWeapon(MagicWeaponGeneratorData data) {
-		SpecificWeaponGenerator specificGenerator = new SpecificWeaponGenerator(session);
+	private List<Treasure> generate(MagicWeaponGeneratorData data) {
+		List<Treasure> weapons = new ArrayList<Treasure>();
 
-		System.out.println("Result: specific weapon");
+		for (int i = 0; i < data.getQuantity(); i++) {
+			weapons.add(generate(data.getStrength()));
+		}
 
-		return specificGenerator.generate(data.getStrength());
+		return weapons;
 	}
 
-	private Treasure generateMagicWeapon(MagicWeaponGeneratorData data, int roll) {
-		WeaponGenerator weaponGenerator = new WeaponGenerator(session);
-		MagicWeaponStatsDao statsDao = new MagicWeaponStatsDao(session);
-		Treasure finalWeapon;
+	private Treasure generate(MagicItemStrength strength) {
+		Treasure weapon;
 
-		MagicWeaponStats stats = statsDao.getMagicWeaponStats(data.getStrength(), roll);
+		System.out.println("Generating " + strength + " armor or shield");
+		int abilityRoll = roller.roll(d100);
+
+		if (abilityRoll > 80) {
+			weapon = generateSpecificWeapon(strength);
+		} else {
+			weapon = generateMagicWeapon(strength, abilityRoll);
+		}
+
+		return weapon;
+
+	}
+
+	private SpecificWeapon generateSpecificWeapon(MagicItemStrength strength) {
+		System.out.println("Result: specific weapon");
+		return specificGenerator.generate(strength);
+	}
+
+	private MagicWeapon generateMagicWeapon(MagicItemStrength strength, int roll) {
+		MagicWeaponStats stats = statsDao.getMagicWeaponStats(strength, roll);
 		System.out.println("Result: magic weapon with " + stats);
 
 		MagicWeapon magicWeapon = new MagicWeapon();
-		Weapon weapon = weaponGenerator.generate();
-		magicWeapon.setBaseWeapon(weapon);
-
+		magicWeapon.setBaseWeapon(weaponGenerator.generate());
 		magicWeapon.setBonus(stats.getBonus());
-		magicWeapon.setMagicalAbilities(new ArrayList<MagicWeaponAbility>());
+		setMagicalAbilities(magicWeapon, stats);
 
+		System.out.println("");
+		return magicWeapon;
+	}
+
+	private void setMagicalAbilities(MagicWeapon magicWeapon, MagicWeaponStats stats) {
+		magicWeapon.setMagicalAbilities(new ArrayList<MagicWeaponAbility>());
+		
 		if (stats.getAbilityBonus() > 0) {
 			generateMagicAbilities(magicWeapon, stats.getNumberOfAbilities(), stats.getAbilityBonus());
 		}
 		if (stats.getSecondAbilityBonus() > 0) {
 			generateMagicAbilities(magicWeapon, stats.getNumberOfSecondAbility(), stats.getSecondAbilityBonus());
 		}
-
-		finalWeapon = magicWeapon;
-		System.out.println("");
-		return finalWeapon;
 	}
 
-	//TODO generate creature for BANE and SLAYING abilities
+	// TODO generate creature for BANE and SLAYING abilities
 	private void generateMagicAbilities(MagicWeapon magicWeapon, int numberOfAbilities, int abilityBonus) {
-		MagicWeaponAbilityDao abilityDao = new MagicWeaponAbilityDao(session);
 
-		for (int i = 0; i < numberOfAbilities; i++) {
+		int i = 0;
+		while (i < numberOfAbilities) {
 			System.out.println("Generating " + magicWeapon.getBaseWeapon().getType() + " +" + abilityBonus + " ability");
 			MagicWeaponAbility magicWeaponAbility = abilityDao.getMagicWeaponAbility(abilityBonus, magicWeapon.getBaseWeapon().getType(), roller.roll(d100));
 			System.out.println("Result: " + magicWeaponAbility);
-
+			
 			if (!magicWeaponAbility.getRestriction().equals(magicWeapon.getBaseWeapon().getRestriction())) {
 				System.out.println("Incompability of weapon and ability. Will regenerate");
-				i--;
 				continue;
 			}
-				
+			
 			if (i == 1 && magicWeaponAbility.getName() == magicWeapon.getMagicalAbilities().get(0).getName()) {
 				System.out.println("Repeted ability. Will regenerate");
-				i--;
 				continue;
 			}
 
 			magicWeapon.getMagicalAbilities().add(magicWeaponAbility);
+			i++;
 		}
 	}
-
 
 }

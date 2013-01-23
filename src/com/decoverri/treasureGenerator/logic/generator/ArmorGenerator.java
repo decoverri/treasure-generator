@@ -1,41 +1,55 @@
 package com.decoverri.treasureGenerator.logic.generator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.hibernate.Session;
 
 import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
+import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Armor;
 
 public class ArmorGenerator {
 
-	private Session session;
+	private ArmorDao armorDao;
+
+	private DiceRoller roller;
+	private Dice d100;
 
 	public ArmorGenerator(Session session) {
-		this.session = session;
+		this.armorDao = new ArmorDao(session);
+		this.roller = new DiceRoller();
+		this.d100 = new Dice(100);
 	}
 
 	public Armor generateBaseArmor() {
-
-		ArmorDao armorDao = new ArmorDao(session);
-
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
-
 		System.out.println("Generating armor or shield");
+
 		Armor armor = armorDao.getArmor(roller.roll(d100));
+
 		System.out.println("Result: " + armor.getName());
 
 		return armor;
 	}
 
-	public Armor generate(ArmorType type) {
+	public ArrayList<Armor> generate(List<ArmorGeneratorData> armorsData) {
+		ArrayList<Armor> armors = new ArrayList<Armor>();
 
-		ArmorDao armorDao = new ArmorDao(session);
+		for (ArmorGeneratorData data : armorsData) {
+			armors.add(generate(data));
+		}
 
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
+		return armors;
+	}
+
+	private Armor generate(ArmorGeneratorData data) {
+		return generate(data.getType());
+	}
+
+	private Armor generate(ArmorType type) {
 
 		System.out.println("Generating " + type);
 		Armor armor = new Armor();
@@ -48,7 +62,7 @@ public class ArmorGenerator {
 			if (!matchType) {
 				System.out.println("Result doesn't match armor type. Will regenerate");
 			}
-			
+
 		}
 
 		System.out.println("");

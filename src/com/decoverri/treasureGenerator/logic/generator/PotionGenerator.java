@@ -21,6 +21,7 @@ public class PotionGenerator {
 
 	private PotionDao potionDao;
 	private PotionLevelDao potionLevelDao;
+
 	private DiceRoller roller;
 	private Dice d100;
 

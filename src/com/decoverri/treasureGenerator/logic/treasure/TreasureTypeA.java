@@ -20,15 +20,15 @@ public class TreasureTypeA implements TreasureType {
 
 	@Override
 	public List<Treasure> reward(int value) {
-		List<Treasure> treasures = new ArrayList<Treasure>();
+		List<Treasure> reward = new ArrayList<Treasure>();
 
 		Transaction transaction = session.beginTransaction();
 		ATreasureReward treasure = dao.findByValue(value);
 
-		treasures.addAll(new CoinGenerator().generate(treasure.getCoins()));
+		reward.addAll(new CoinGenerator().generate(treasure.getCoins()));
 
 		transaction.commit();
-		return treasures;
+		return reward;
 	}
 
 	@Override

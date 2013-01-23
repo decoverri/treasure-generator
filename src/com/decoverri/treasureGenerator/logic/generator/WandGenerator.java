@@ -21,6 +21,7 @@ public class WandGenerator {
 
 	private WandDao wandDao;
 	private WandLevelDao wandLevelDao;
+
 	private Dice d100;
 	private DiceRoller roller;
 

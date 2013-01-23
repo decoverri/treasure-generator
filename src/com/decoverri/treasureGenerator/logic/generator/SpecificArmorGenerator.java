@@ -16,19 +16,18 @@ import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 
 public class SpecificArmorGenerator {
 
-	private Session session;
+	private SpecificArmorDao armorDao;
+
+	private DiceRoller roller;
+	private Dice d100;
 
 	public SpecificArmorGenerator(Session session) {
-		this.session = session;
+		this.armorDao = new SpecificArmorDao(session);
+		this.roller = new DiceRoller();
+		this.d100 = new Dice(100);
 	}
 
 	public SpecificArmor generate(MagicItemStrength strength) {
-
-		SpecificArmorDao armorDao = new SpecificArmorDao(session);
-
-		Dice d100 = new Dice(100);
-		DiceRoller roller = new DiceRoller();
-
 		System.out.println("Generating armor or shield");
 		ArmorType type = selectArmorOrShield();
 		System.out.println("Result: " + type);
@@ -40,11 +39,13 @@ public class SpecificArmorGenerator {
 	}
 
 	private ArmorType selectArmorOrShield() {
-		int i = new Random().nextInt(2);
-		if (i == 0) {
-			return SHIELD;
+		int i = new Random().nextInt(ArmorType.values().length);
+		ArmorType type = ArmorType.values()[i];
+
+		if (type != SHIELD) {
+			type = ARMOR;
 		}
-		return ARMOR;
+		return type;
 	}
 
 }
