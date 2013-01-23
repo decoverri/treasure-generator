@@ -20,21 +20,26 @@ public class Weapon implements Treasure {
 	@Id
 	@GeneratedValue
 	private long id;
-	
+
 	private String name;
 	private double price;
-	
+
 	@Enumerated(EnumType.STRING)
 	private WeaponType type;
 
 	@Enumerated(EnumType.STRING)
 	private MagicWeaponAbilityRestriction restriction;
-	
+
 	@Transient
 	private Size size;
-	
+
 	@Embedded
 	private Interval interval;
+
+	@Override
+	public double getTreasureValue() {
+		return getMasterworkPrice();
+	}
 
 	public long getId() {
 		return id;
@@ -91,6 +96,10 @@ public class Weapon implements Treasure {
 	public void setInterval(Interval interval) {
 		this.interval = interval;
 	}
+	
+	public double getMasterworkPrice() {
+		return this.price + 300.0;
+	}
 
 	@Override
 	public String toString() {
@@ -99,11 +108,9 @@ public class Weapon implements Treasure {
 			builder.append(this.size + " ");
 		}
 
-		double totalPrice = this.price + 300.0;
-		builder.append("masterwork " + this.name + " (price " + totalPrice + "gp)");
+		builder.append("masterwork " + this.name + " (price " + getMasterworkPrice() + "gp)");
 
 		String string = builder.toString();
 		return string.toUpperCase().substring(0, 1) + string.toLowerCase().substring(1);
 	}
-
 }

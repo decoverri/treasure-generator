@@ -62,6 +62,6 @@ public class FitData {
 		transaction.commit();
 
 		long fim = System.currentTimeMillis();
-		System.out.println("Tempo de Execução: " + (fim - inicio));
+		System.out.println("Total time: " + (fim - inicio)/1000.0 + "s");
 	}
 }

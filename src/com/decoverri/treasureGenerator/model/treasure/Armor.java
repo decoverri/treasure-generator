@@ -19,18 +19,23 @@ public class Armor implements Treasure {
 	@Id
 	@GeneratedValue
 	private long id;
-	
+
 	private String name;
 	private double price;
-	
+
 	@Enumerated(EnumType.STRING)
 	private ArmorType type;
-	
+
 	@Transient
 	private Size size;
-	
+
 	@Embedded
 	private Interval interval;
+
+	@Override
+	public double getTreasureValue() {
+		return getMasterworkPrice();
+	}
 
 	public long getId() {
 		return id;
@@ -47,11 +52,11 @@ public class Armor implements Treasure {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public double getPrice() {
 		return price;
 	}
-	
+
 	public void setPrice(double price) {
 		this.price = price;
 	}
@@ -79,6 +84,10 @@ public class Armor implements Treasure {
 	public void setInterval(Interval interval) {
 		this.interval = interval;
 	}
+	
+	public double getMasterworkPrice() {
+		return this.price + 150.0;
+	}
 
 	@Override
 	public String toString() {
@@ -86,11 +95,10 @@ public class Armor implements Treasure {
 		if (this.size != null && this.size != Size.MEDIUM) {
 			builder.append(this.size + " ");
 		}
-		double totalPrice = this.price + 150.0;
-		builder.append("masterwork " + this.name + " (price " + totalPrice + "gp)");
+
+		builder.append("masterwork " + this.name + " (price " + getMasterworkPrice() + "gp)");
 
 		String string = builder.toString();
 		return string.toUpperCase().substring(0, 1) + string.toLowerCase().substring(1);
 	}
-
 }

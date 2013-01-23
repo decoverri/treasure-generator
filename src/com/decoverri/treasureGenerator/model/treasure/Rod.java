@@ -29,6 +29,11 @@ public class Rod implements Treasure, Cloneable {
 	@Embedded
 	private Interval interval;
 
+	@Override
+	public double getTreasureValue() {
+		return getPrice();
+	}
+
 	public long getId() {
 		return id;
 	}

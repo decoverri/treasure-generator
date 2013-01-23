@@ -12,6 +12,11 @@ public class MagicWeapon implements Treasure {
 	private int bonus;
 	private List<MagicWeaponAbility> magicalAbilities;
 
+	@Override
+	public double getTreasureValue() {
+		return calculatePrice();
+	}
+
 	public Weapon getBaseWeapon() {
 		return baseWeapon;
 	}
@@ -62,7 +67,7 @@ public class MagicWeapon implements Treasure {
 	}
 
 	private double calculatePrice() {
-		double result = this.baseWeapon.getPrice() + 300.0;
+		double result = this.baseWeapon.getMasterworkPrice();
 		int bonusForPrice = this.bonus;
 
 		for (MagicWeaponAbility ability : this.magicalAbilities) {

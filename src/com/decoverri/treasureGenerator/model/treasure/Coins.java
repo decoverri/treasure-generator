@@ -33,6 +33,22 @@ public class Coins implements Treasure {
 		this.currency = GP;
 	}
 
+	@Override
+	public double getTreasureValue() {
+		switch (this.currency) {
+		case CP:
+			return this.amount / 100.0;
+		case SP:
+			return this.amount / 10.0;
+		case GP:
+			return this.amount;
+		case PP:
+			return this.amount * 10;
+		default:
+			return this.amount;
+		}
+	}
+
 	public double getAmount() {
 		return amount;
 	}

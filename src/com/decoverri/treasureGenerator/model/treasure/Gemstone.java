@@ -31,6 +31,11 @@ public class Gemstone implements Treasure {
 	@Transient
 	private double value;
 
+	@Override
+	public double getTreasureValue() {
+		return getValue();
+	}
+
 	public long getId() {
 		return id;
 	}

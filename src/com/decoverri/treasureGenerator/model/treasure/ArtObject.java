@@ -26,6 +26,11 @@ public class ArtObject implements Treasure {
 	@Embedded
 	private Interval chanceInterval;
 
+	@Override
+	public double getTreasureValue() {
+		return getPrice();
+	}
+
 	public long getId() {
 		return id;
 	}

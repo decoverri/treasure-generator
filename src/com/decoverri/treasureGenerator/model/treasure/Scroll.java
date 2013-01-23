@@ -33,6 +33,11 @@ public class Scroll implements Treasure {
 	@Embedded
 	private Interval interval;
 
+	@Override
+	public double getTreasureValue() {
+		return getPrice();
+	}
+
 	public long getId() {
 		return id;
 	}
