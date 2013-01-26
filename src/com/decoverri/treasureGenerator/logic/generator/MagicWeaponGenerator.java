@@ -111,13 +111,10 @@ public class MagicWeaponGenerator {
 			MagicWeaponAbility magicWeaponAbility = abilityDao.getMagicWeaponAbility(abilityBonus, magicWeapon.getBaseWeapon().getType(), roller.roll(d100));
 			System.out.println("Result: " + magicWeaponAbility);
 			
-			if (!magicWeaponAbility.getRestriction().equals(magicWeapon.getBaseWeapon().getRestriction())) {
+			boolean matchRestriction = magicWeaponAbility.getRestriction().equals(magicWeapon.getBaseWeapon().getRestriction());
+			boolean secondAbilityEqualsFirst = i == 1 && magicWeaponAbility.getName() == magicWeapon.getMagicalAbilities().get(0).getName();
+			if (!matchRestriction || secondAbilityEqualsFirst) {
 				System.out.println("Incompability of weapon and ability. Will regenerate");
-				continue;
-			}
-			
-			if (i == 1 && magicWeaponAbility.getName() == magicWeapon.getMagicalAbilities().get(0).getName()) {
-				System.out.println("Repeted ability. Will regenerate");
 				continue;
 			}
 
