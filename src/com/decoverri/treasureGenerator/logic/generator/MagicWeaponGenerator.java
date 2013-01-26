@@ -114,9 +114,10 @@ public class MagicWeaponGenerator {
 			boolean matchRestriction = magicWeaponAbility.getRestriction().equals(magicWeapon.getBaseWeapon().getRestriction());
 			boolean secondAbilityEqualsFirst = i == 1 && magicWeaponAbility.getName() == magicWeapon.getMagicalAbilities().get(0).getName();
 			if (!matchRestriction || secondAbilityEqualsFirst) {
-				System.out.println("Incompability of weapon and ability. Will regenerate");
+				System.out.println("Incompatible ability. Will regenerate");
 				continue;
 			}
+			
 
 			magicWeapon.getMagicalAbilities().add(magicWeaponAbility);
 			i++;
