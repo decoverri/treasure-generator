@@ -14,7 +14,7 @@ import com.decoverri.treasureGenerator.enums.WeaponType;
 import com.decoverri.treasureGenerator.model.Interval;
 
 @Entity
-public class MagicWeaponAbility {
+public class MagicWeaponAbility implements Cloneable{
 
 	@Id
 	@GeneratedValue
@@ -106,4 +106,17 @@ public class MagicWeaponAbility {
 		return name;
 	}
 
+	@Override
+	public MagicWeaponAbility clone() {
+		MagicWeaponAbility ability = new MagicWeaponAbility();
+		ability.setBonus(bonus);
+		ability.setInterval(interval);
+		ability.setName(name);
+		ability.setPrice(price);
+		ability.setPriceInBonus(priceInBonus);
+		ability.setRestriction(restriction);
+		ability.setType(type);
+		return ability;
+	}
+	
 }

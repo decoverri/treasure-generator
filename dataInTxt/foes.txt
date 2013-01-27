@@ -1,0 +1,30 @@
+{"foe":{"name":"Aberration","interval":{"bottomValue":1,"topValue":5}}}
+{"foe":{"name":"Animal","interval":{"bottomValue":6,"topValue":9}}}
+{"foe":{"name":"Construct","interval":{"bottomValue":10,"topValue":16}}}
+{"foe":{"name":"Dragon","interval":{"bottomValue":17,"topValue":27}}}
+{"foe":{"name":"Fey","interval":{"bottomValue":28,"topValue":32}}}
+{"foe":{"name":"Aquatic humanoid","interval":{"bottomValue":33,"topValue":33}}}
+{"foe":{"name":"Dwarf","interval":{"bottomValue":34,"topValue":35}}}
+{"foe":{"name":"Elf","interval":{"bottomValue":36,"topValue":37}}}
+{"foe":{"name":"Giant","interval":{"bottomValue":38,"topValue":44}}}
+{"foe":{"name":"Gnoll","interval":{"bottomValue":45,"topValue":45}}}
+{"foe":{"name":"Gnome","interval":{"bottomValue":46,"topValue":46}}}
+{"foe":{"name":"Goblinoid","interval":{"bottomValue":47,"topValue":49}}}
+{"foe":{"name":"Halfling","interval":{"bottomValue":50,"topValue":50}}}
+{"foe":{"name":"Human","interval":{"bottomValue":51,"topValue":54}}}
+{"foe":{"name":"Reptilian","interval":{"bottomValue":55,"topValue":57}}}
+{"foe":{"name":"Orc","interval":{"bottomValue":58,"topValue":60}}}
+{"foe":{"name":"Magical beast","interval":{"bottomValue":61,"topValue":65}}}
+{"foe":{"name":"Monstrous humanoid","interval":{"bottomValue":66,"topValue":70}}}
+{"foe":{"name":"Ooze","interval":{"bottomValue":71,"topValue":72}}}
+{"foe":{"name":"Air outsider","interval":{"bottomValue":73,"topValue":73}}}
+{"foe":{"name":"Chaotic outsider","interval":{"bottomValue":74,"topValue":76}}}
+{"foe":{"name":"Earth outsider","interval":{"bottomValue":77,"topValue":77}}}
+{"foe":{"name":"Evil outsider","interval":{"bottomValue":78,"topValue":80}}}
+{"foe":{"name":"Fire outsider","interval":{"bottomValue":81,"topValue":81}}}
+{"foe":{"name":"Good outsider","interval":{"bottomValue":82,"topValue":84}}}
+{"foe":{"name":"Lawful outsider","interval":{"bottomValue":85,"topValue":87}}}
+{"foe":{"name":"Water outsider","interval":{"bottomValue":88,"topValue":88}}}
+{"foe":{"name":"Plant","interval":{"bottomValue":89,"topValue":90}}}
+{"foe":{"name":"Undead","interval":{"bottomValue":91,"topValue":98}}}
+{"foe":{"name":"Vermin","interval":{"bottomValue":99,"topValue":100}}}

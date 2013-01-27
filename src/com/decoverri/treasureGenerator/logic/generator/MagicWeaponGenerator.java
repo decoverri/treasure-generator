@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 
+import com.decoverri.treasureGenerator.dao.treasure.complement.FoeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponAbilityDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsDao;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
@@ -14,6 +15,7 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.MagicWeapon;
 import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
+import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
 
@@ -24,6 +26,7 @@ public class MagicWeaponGenerator {
 
 	private MagicWeaponStatsDao statsDao;
 	private MagicWeaponAbilityDao abilityDao;
+	private FoeDao foeDao;
 
 	private DiceRoller roller;
 	private Dice d100;
@@ -33,6 +36,7 @@ public class MagicWeaponGenerator {
 		this.specificGenerator = new SpecificWeaponGenerator(session);
 		this.statsDao = new MagicWeaponStatsDao(session);
 		this.abilityDao = new MagicWeaponAbilityDao(session);
+		this.foeDao = new FoeDao(session);
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}
@@ -102,7 +106,6 @@ public class MagicWeaponGenerator {
 		}
 	}
 
-	// TODO generate creature for BANE and SLAYING abilities
 	private void generateMagicAbilities(MagicWeapon magicWeapon, int numberOfAbilities, int abilityBonus) {
 
 		int i = 0;
@@ -118,10 +121,22 @@ public class MagicWeaponGenerator {
 				continue;
 			}
 			
+			if (magicWeaponAbility.getName().equals("Bane")) {
+				magicWeaponAbility = setBaneFoe(magicWeaponAbility);
+			}
 
 			magicWeapon.getMagicalAbilities().add(magicWeaponAbility);
 			i++;
 		}
+	}
+
+	private MagicWeaponAbility setBaneFoe(MagicWeaponAbility magicWeaponAbility) {
+		System.out.println("Generating bane foe");
+		Foe foe = foeDao.getFoe(roller.roll(d100));
+		System.out.println("Result: " + foe);
+		MagicWeaponAbility ability = magicWeaponAbility.clone();
+		ability.setName(foe + " " + ability.getName().toLowerCase() + "\n");
+		return ability;
 	}
 
 }

@@ -37,6 +37,7 @@ public class FitData {
 		new FitWeapon(session).fit();
 		new FitSpecificWeapon(session).fit();
 		new FitMagicWeaponAbility(session).fit();
+		new FitFoe(session).fit();
 		new FitMagicWeaponStats(session).fit();
 
 		new FitWondrousItem(session).fit();

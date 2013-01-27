@@ -12,7 +12,7 @@ import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.Interval;
 
 @Entity
-public class SpecificWeapon implements Treasure {
+public class SpecificWeapon implements Treasure, Cloneable {
 
 	@Id
 	@GeneratedValue
@@ -76,5 +76,15 @@ public class SpecificWeapon implements Treasure {
 	@Override
 	public String toString() {
 		return this.name + " (price " + this.price + "gp)";
+	}
+	
+	@Override
+	public SpecificWeapon clone() {
+		SpecificWeapon specificWeapon = new SpecificWeapon();
+		specificWeapon.setName(name);
+		specificWeapon.setPrice(price);
+		specificWeapon.setStrength(strength);
+		specificWeapon.setInterval(interval);
+		return specificWeapon;
 	}
 }
