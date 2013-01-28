@@ -135,7 +135,7 @@ public class MagicWeaponGenerator {
 		Foe foe = foeDao.getFoe(roller.roll(d100));
 		System.out.println("Result: " + foe);
 		MagicWeaponAbility ability = magicWeaponAbility.clone();
-		ability.setName(foe + " " + ability.getName().toLowerCase() + "\n");
+		ability.setName(foe + " " + ability.getName().toLowerCase());
 		return ability;
 	}
 
