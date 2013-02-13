@@ -1,40 +1,41 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap-responsive.css">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Treasure Generator</title>
-	</head>
+<head>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap-responsive.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Treasure Generator</title>
+</head>
 
-	<body>
-		<div class="container">
-			<div class="hero-unit">
-				<h1>Treasure Generator</h1>
-				<p>Pathfinder RPG treasure generator</p>
-				<a href="http://www.paizo.com" >www.paizo.com</a>
-			</div>
+<body>
+	<div class="container">
+		<div class="hero-unit">
+			<h1>Treasure Generator</h1>
+			<p>Pathfinder RPG treasure generator</p>
+			<a href="http://www.paizo.com">www.paizo.com</a>
 		</div>
-		
-		<div class="container">
+	</div>
 
-			<h3>By Treasure Type</h3>
-			<form action="generateTreasure" method="post">
-				<select name="treasureName">
-					<option value="A" >Type A - Coins</option>
-					<option value="B" >Type B - Coins and Gems</option>
-					<option value="C" >Type C - Art Objects</option>
-					<option value="D" >Type D - Potions, Scrolls and Wands</option>
-					<option value="E" >Type E - Armors and Weapons</option>
-					<option value="F" >Type F - Combatant Gear</option>
-					<option value="G" >Type G - Spellcaster Gear</option>
-					<option value="H" >Type H - Lair</option>
-					<option value="I" >Type I - Hoard</option>
-				</select>
+	<div class="container">
+		<div class="hero-unit">
+			<form action="generateTreasure" method="post" class="form-horizontal">
+
+				<c:forEach items="${treasureTypesInfo}" var="info">
+					<p>${info.name} <small>- ${info.description}</small></p>
+
+						<c:forEach items="${info.values}" var="value">
+							<label class="checkbox inline"> <input type="checkbox"/>${value}</label>
+					</c:forEach>
+				
+				<hr>
+				</c:forEach><br/>
+
+				<button class="btn btn-primary" type="button">Generate</button>
 			</form>
-
 		</div>
-		
-	</body>
+	</div>
+
+</body>
 </html>

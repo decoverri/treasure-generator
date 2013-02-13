@@ -2,22 +2,21 @@ package com.decoverri.treasureGenerator.model.reward;
 
 import java.util.List;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.decoverri.treasureGenerator.interfaces.TreasureReward;
 import com.decoverri.treasureGenerator.model.data.CoinGeneratorData;
 
 @Entity
-public class ATreasureReward {
+public class ATreasureReward implements TreasureReward {
 
 	@Id
 	@GeneratedValue
 	private long id;
 
-	@Column(unique = true)
 	private int value;
 
 	@OneToMany
@@ -31,6 +30,7 @@ public class ATreasureReward {
 		this.id = id;
 	}
 
+	@Override
 	public int getValue() {
 		return value;
 	}

@@ -7,10 +7,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.decoverri.treasureGenerator.interfaces.TreasureReward;
 import com.decoverri.treasureGenerator.model.data.ArtObjectGeneratorData;
 
 @Entity
-public class CTreasureReward {
+public class CTreasureReward implements TreasureReward {
 
 	@Id
 	@GeneratedValue

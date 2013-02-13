@@ -5,7 +5,7 @@
          http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	id="WebApp_ID" version="2.5">
 
-	<display-name>fj21-agenda</display-name>
+	<display-name>treasure-generator</display-name>
 
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>

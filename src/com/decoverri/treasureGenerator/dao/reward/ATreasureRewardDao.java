@@ -21,7 +21,7 @@ public class ATreasureRewardDao {
 	}
 
 	@SuppressWarnings("unchecked")
-	public ATreasureReward findByValue(int value){
+	public ATreasureReward findByValue(int value) {
 		Criteria criteria = session.createCriteria(ATreasureReward.class);
 		criteria.add(Restrictions.eq("value", value));
 		List<ATreasureReward> list = criteria.list();
@@ -32,4 +32,8 @@ public class ATreasureRewardDao {
 		return reward;
 	}
 
+	@SuppressWarnings("unchecked")
+	public List<Integer> getValues() {
+		return session.createQuery("select distinct r.value from ATreasureReward r").list();
+	}
 }

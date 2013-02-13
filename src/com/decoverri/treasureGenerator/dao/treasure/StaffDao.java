@@ -1,4 +1,4 @@
-package com.decoverri.treasureGenerator.model.treasure.complement;
+package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;

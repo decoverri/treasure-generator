@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.decoverri.treasureGenerator.interfaces.TreasureReward;
 import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.data.CoinGeneratorData;
 import com.decoverri.treasureGenerator.model.data.GemstoneGeneratorData;
@@ -21,7 +22,7 @@ import com.decoverri.treasureGenerator.model.data.WandGeneratorData;
 import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
 
 @Entity
-public class HTreasureReward {
+public class HTreasureReward implements TreasureReward {
 
 	@Id
 	@GeneratedValue
@@ -75,6 +76,7 @@ public class HTreasureReward {
 		this.id = id;
 	}
 
+	@Override
 	public int getValue() {
 		return value;
 	}
