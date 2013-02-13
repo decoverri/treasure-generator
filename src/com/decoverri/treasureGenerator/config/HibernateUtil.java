@@ -23,6 +23,7 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.GTreasureReward.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.HTreasureReward.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ITreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.TreasureReward.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.data.CoinGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Dice.class);

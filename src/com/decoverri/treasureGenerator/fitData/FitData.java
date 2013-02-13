@@ -59,6 +59,8 @@ public class FitData {
 		new FitTreasureH(session).fit();
 		new FitTreasureI(session).fit();
 
+		new FitTreasure(session).fit();
+
 		transaction.commit();
 
 		long fim = System.currentTimeMillis();
