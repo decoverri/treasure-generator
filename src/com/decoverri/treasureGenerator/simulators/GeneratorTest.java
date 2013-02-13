@@ -12,7 +12,7 @@ public class GeneratorTest {
 		long inicio = System.currentTimeMillis();
 
 		int worth = 10000;
-		char type = 'C';
+		char type = 'D';
 
 		TreasureGenerator generator = new TreasureGenerator();
 		List<Treasure> treasures = generator.genarate(worth, type);
