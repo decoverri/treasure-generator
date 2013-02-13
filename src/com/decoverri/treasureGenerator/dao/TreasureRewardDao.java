@@ -1,4 +1,4 @@
-package com.decoverri.treasureGenerator.dao.reward;
+package com.decoverri.treasureGenerator.dao;
 
 import java.util.List;
 import java.util.Random;
@@ -7,7 +7,7 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import com.decoverri.treasureGenerator.model.reward.TreasureReward;
+import com.decoverri.treasureGenerator.model.TreasureReward;
 
 public class TreasureRewardDao {
 

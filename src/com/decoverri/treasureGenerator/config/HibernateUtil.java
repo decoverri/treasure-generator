@@ -14,16 +14,7 @@ public class HibernateUtil {
 	private static SessionFactory configureSessionFactory() throws HibernateException {
 		Configuration cfg = new Configuration();
 
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ATreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.BTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.CTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.DTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ETreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.FTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.GTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.HTreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.ITreasureReward.class);
-		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.reward.TreasureReward.class);
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.TreasureReward.class);
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.data.CoinGeneratorData.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.Dice.class);

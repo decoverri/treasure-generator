@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import org.hibernate.Session;
 
+import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.data.ArmorGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.data.ArtObjectGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.data.CoinGeneratorDataDao;
@@ -19,7 +20,7 @@ import com.decoverri.treasureGenerator.dao.data.ScrollGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.data.StaffGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.data.WandGeneratorDataDao;
 import com.decoverri.treasureGenerator.dao.data.WondrousItemGeneratorDataDao;
-import com.decoverri.treasureGenerator.dao.reward.TreasureRewardDao;
+import com.decoverri.treasureGenerator.model.TreasureReward;
 import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.data.ArtObjectGeneratorData;
 import com.decoverri.treasureGenerator.model.data.CoinGeneratorData;
@@ -33,7 +34,6 @@ import com.decoverri.treasureGenerator.model.data.ScrollGeneratorData;
 import com.decoverri.treasureGenerator.model.data.StaffGeneratorData;
 import com.decoverri.treasureGenerator.model.data.WandGeneratorData;
 import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
-import com.decoverri.treasureGenerator.model.reward.TreasureReward;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 

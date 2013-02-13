@@ -7,9 +7,9 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
-import com.decoverri.treasureGenerator.dao.reward.TreasureRewardDao;
+import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
-import com.decoverri.treasureGenerator.model.reward.TreasureReward;
+import com.decoverri.treasureGenerator.model.TreasureReward;
 
 public class TreasureGenerator {
 

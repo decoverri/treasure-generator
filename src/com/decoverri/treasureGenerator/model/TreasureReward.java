@@ -1,4 +1,4 @@
-package com.decoverri.treasureGenerator.model.reward;
+package com.decoverri.treasureGenerator.model;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.decoverri.treasureGenerator.interfaces.TreasureReward;
 import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.data.ArtObjectGeneratorData;
 import com.decoverri.treasureGenerator.model.data.CoinGeneratorData;
 import com.decoverri.treasureGenerator.model.data.GemstoneGeneratorData;
 import com.decoverri.treasureGenerator.model.data.MagicArmorGeneratorData;
@@ -22,11 +22,13 @@ import com.decoverri.treasureGenerator.model.data.WandGeneratorData;
 import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
 
 @Entity
-public class HTreasureReward implements TreasureReward {
+public class TreasureReward {
 
 	@Id
 	@GeneratedValue
 	private long id;
+
+	private char type;
 
 	private int value;
 
@@ -68,6 +70,9 @@ public class HTreasureReward implements TreasureReward {
 	@OneToMany
 	private List<GemstoneGeneratorData> gems;
 
+	@OneToMany
+	private List<ArtObjectGeneratorData> arts;
+
 	public long getId() {
 		return id;
 	}
@@ -76,7 +81,14 @@ public class HTreasureReward implements TreasureReward {
 		this.id = id;
 	}
 
-	@Override
+	public char getType() {
+		return type;
+	}
+
+	public void setType(char type) {
+		this.type = type;
+	}
+
 	public int getValue() {
 		return value;
 	}
@@ -93,20 +105,20 @@ public class HTreasureReward implements TreasureReward {
 		this.coins = coins;
 	}
 
-	public int getNonmagicalWeapons() {
-		return nonmagicalWeapons;
-	}
-
-	public void setNonmagicalWeapons(int nonmagicalWeapons) {
-		this.nonmagicalWeapons = nonmagicalWeapons;
-	}
-
 	public List<ArmorGeneratorData> getNonmagicalArmors() {
 		return nonmagicalArmors;
 	}
 
 	public void setNonmagicalArmors(List<ArmorGeneratorData> nonmagicalArmors) {
 		this.nonmagicalArmors = nonmagicalArmors;
+	}
+
+	public int getNonmagicalWeapons() {
+		return nonmagicalWeapons;
+	}
+
+	public void setNonmagicalWeapons(int nonmagicalWeapons) {
+		this.nonmagicalWeapons = nonmagicalWeapons;
 	}
 
 	public List<MagicArmorGeneratorData> getArmors() {
@@ -185,8 +197,16 @@ public class HTreasureReward implements TreasureReward {
 		return gems;
 	}
 
-	public void setGems(List<GemstoneGeneratorData> gemstones) {
-		this.gems = gemstones;
+	public void setGems(List<GemstoneGeneratorData> gems) {
+		this.gems = gems;
+	}
+
+	public List<ArtObjectGeneratorData> getArts() {
+		return arts;
+	}
+
+	public void setArts(List<ArtObjectGeneratorData> arts) {
+		this.arts = arts;
 	}
 
 }

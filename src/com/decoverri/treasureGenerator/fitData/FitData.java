@@ -17,6 +17,7 @@ public class FitData {
 		Transaction transaction = session.beginTransaction();
 
 		new FitGems(session).fit();
+
 		new FitArtObjects(session).fit();
 
 		new FitPotions(session).fit();
@@ -49,16 +50,6 @@ public class FitData {
 
 		new FitStaff(session).fit();
 		
-		new FitTreasureA(session).fit();
-		new FitTreasureB(session).fit();
-		new FitTreasureC(session).fit();
-		new FitTreasureD(session).fit();
-		new FitTreasureE(session).fit();
-		new FitTreasureF(session).fit();
-		new FitTreasureG(session).fit();
-		new FitTreasureH(session).fit();
-		new FitTreasureI(session).fit();
-
 		new FitTreasure(session).fit();
 
 		transaction.commit();
