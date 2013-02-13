@@ -8,12 +8,6 @@ public class TreasureTypeInfo {
 	private String description;
 	private List<Integer> values;
 
-	public TreasureTypeInfo(String name, String description, List<Integer> values) {
-		this.name = name;
-		this.setDescription(description);
-		this.values = values;
-	}
-
 	public String getName() {
 		return name;
 	}

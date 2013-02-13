@@ -40,4 +40,8 @@ public class TreasureRewardDao {
 		return session.createQuery("select distinct r.value from TreasureReward r where r.type = :type").setParameter("type", type).list();
 	}
 
+	@SuppressWarnings("unchecked")
+	public List<Character> getTypes() {
+		return session.createQuery("select distinct r.type from TreasureReward r").list();
+	}
 }

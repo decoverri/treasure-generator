@@ -23,7 +23,7 @@
 			<form action="generateTreasure" method="post" class="form-horizontal">
 
 				<c:forEach items="${treasureTypesInfo}" var="info">
-					<p>${info.name} <small>- ${info.description}</small></p>
+					<p>Type ${info.name} <small>- ainda não tem descrição</small></p>
 
 						<c:forEach items="${info.values}" var="value">
 							<label class="checkbox inline"> <input type="checkbox"/>${value}</label>
