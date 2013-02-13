@@ -11,13 +11,12 @@ public class GeneratorTest {
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 		long inicio = System.currentTimeMillis();
 
-		int worth = 500;
-		char type = 'A';
+		int worth = 1000;
+		char type = 'B';
 
 		TreasureGenerator generator = new TreasureGenerator();
 		List<Treasure> treasures = generator.genarate(worth, type);
 
-		System.out.println("Finished!\n");
 		System.out.println("Treasure List:");
 		double totalPrice = 0;
 		for (Treasure treasure : treasures) {

@@ -40,6 +40,7 @@ public class TreasureGenerator {
 
 		transaction.commit();
 
+		System.out.println("Finished!\n");
 		return treasures;
 	}
 }
