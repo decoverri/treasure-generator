@@ -1,40 +1,51 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!DOCTYPE html>
 
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap-responsive.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Treasure Generator</title>
 </head>
 
 <body>
-	<div class="container">
-		<div class="hero-unit">
-			<h1>Treasure Generator</h1>
-			<p>Pathfinder RPG treasure generator</p>
-			<a href="http://www.paizo.com">www.paizo.com</a>
+
+	<header class="page-header">
+		<div class="container">
+			<h1>Treasure Generator <small> Pathfinder RPG (<a href="http://www.paizo.com">www.paizo.com</a>)</small></h1>
 		</div>
-	</div>
+	</header>
+	<br/>
 
 	<div class="container">
-		<div class="hero-unit">
-			<form action="generateTreasure" method="post" class="form-horizontal">
+		<form action="generateTreasure" method="post" class="form-horizontal">
 
+			<button class="btn btn-primary pull-right" type="button">Generate</button>
+			<br/>
+			<hr>
+
+			<div class="row">
 				<c:forEach items="${treasureTypesInfo}" var="info">
-					<p>Type ${info.name} <small>- ainda não tem descrição</small></p>
-
+					<div class="span1AndABit">
+						<h4>Type ${info.name}</h4>
+	
 						<c:forEach items="${info.values}" var="value">
-							<label class="checkbox inline"> <input type="checkbox"/>${value}</label>
-					</c:forEach>
+							<label class="checkbox">
+								<input type="checkbox"/>
+								<fmt:formatNumber type="number" value="${value}" /> gp
+							</label>
+						</c:forEach>
+					</div>
 				
-				<hr>
 				</c:forEach><br/>
+			</div>
 
-				<button class="btn btn-primary" type="button">Generate</button>
-			</form>
-		</div>
+			<hr>
+			<button class="btn btn-primary pull-right" type="button">Generate</button>
+
+			<br/>
+		</form>
 	</div>
 
 </body>
