@@ -3,20 +3,16 @@ package com.decoverri.treasureGenerator.dao.treasure.complement;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 
+@Component
 public class FoeDao {
 
-	private final Session session;
-
-	public FoeDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Foe foe) {
-		session.save(foe);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Foe foe) {
 		session.saveOrUpdate(foe);

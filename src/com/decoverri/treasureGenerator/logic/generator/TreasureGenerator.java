@@ -5,16 +5,58 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
 
-import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.TreasureReward;
 
 public class TreasureGenerator {
 
-	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-	TreasureRewardDao dao = new TreasureRewardDao(session);
+	@Autowired
+	private Session session;
+
+	@Autowired
+	private ArmorGenerator armorGenerator;
+
+	@Autowired
+	private MagicArmorGenerator magicArmorGenerator;
+
+	@Autowired
+	private WeaponGenerator weaponGenerator;
+
+	@Autowired
+	private MagicWeaponGenerator magicWeaponGenerator;
+
+	@Autowired
+	private RingGenerator ringGenerator;
+
+	@Autowired
+	private StaffGenerator staffGenerator;
+
+	@Autowired
+	private RodGenerator rodGenerator;
+	
+	@Autowired
+	private WondrousItemGenerator wondrousItemGenerator;
+
+	@Autowired
+	private PotionGenerator potionGenerator;
+
+	@Autowired
+	private ScrollGenerator scrollGenerator;
+
+	@Autowired
+	private WandGenerator wandGenerator;
+
+	@Autowired
+	private GemGenerator gemGenerator;
+
+	@Autowired
+	private ArtObjectGenerator artObjectGenerator;
+
+	@Autowired
+	private TreasureRewardDao dao;
 
 	public List<Treasure> genarate(int value, char type) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
@@ -24,19 +66,19 @@ public class TreasureGenerator {
 		TreasureReward reward = dao.findByValue(type, value);
 
 		treasures.addAll(new CoinGenerator().generate(reward.getCoins()));
-		treasures.addAll(new ArmorGenerator(session).generate(reward.getNonmagicalArmors()));
-		treasures.addAll(new MagicArmorGenerator(session).generate(reward.getArmors()));
-		treasures.addAll(new WeaponGenerator(session).generate(reward.getNonmagicalWeapons()));
-		treasures.addAll(new MagicWeaponGenerator(session).generate(reward.getWeapons()));
-		treasures.addAll(new RingGenerator(session).generate(reward.getRings()));
-		treasures.addAll(new StaffGenerator(session).generate(reward.getStaves()));
-		treasures.addAll(new RodGenerator(session).generate(reward.getRods()));
-		treasures.addAll(new WondrousItemGenerator(session).generate(reward.getWondrousItems()));
-		treasures.addAll(new PotionGenerator(session).generate(reward.getPotions()));
-		treasures.addAll(new ScrollGenerator(session).generate(reward.getScrolls()));
-		treasures.addAll(new WandGenerator(session).generate(reward.getWands()));
-		treasures.addAll(new GemGenerator(session).generate(reward.getGems()));
-		treasures.addAll(new ArtObjectGenerator(session).generate(reward.getArts()));
+		treasures.addAll(armorGenerator.generate(reward.getNonmagicalArmors()));
+		treasures.addAll(magicArmorGenerator.generate(reward.getArmors()));
+		treasures.addAll(weaponGenerator.generate(reward.getNonmagicalWeapons()));
+		treasures.addAll(magicWeaponGenerator.generate(reward.getWeapons()));
+		treasures.addAll(ringGenerator.generate(reward.getRings()));
+		treasures.addAll(staffGenerator.generate(reward.getStaves()));
+		treasures.addAll(rodGenerator.generate(reward.getRods()));
+		treasures.addAll(wondrousItemGenerator.generate(reward.getWondrousItems()));
+		treasures.addAll(potionGenerator.generate(reward.getPotions()));
+		treasures.addAll(scrollGenerator.generate(reward.getScrolls()));
+		treasures.addAll(wandGenerator.generate(reward.getWands()));
+		treasures.addAll(gemGenerator.generate(reward.getGems()));
+		treasures.addAll(artObjectGenerator.generate(reward.getArts()));
 
 		transaction.commit();
 

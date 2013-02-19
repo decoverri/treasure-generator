@@ -2,22 +2,18 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 
+@Component
 public class SpecificArmorDao {
 
-	private final Session session;
-
-	public SpecificArmorDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(SpecificArmor armor) {
-		session.save(armor);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(SpecificArmor armor) {
 		session.saveOrUpdate(armor);

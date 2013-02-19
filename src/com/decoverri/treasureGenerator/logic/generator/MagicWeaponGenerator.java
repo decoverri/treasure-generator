@@ -3,7 +3,8 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.FoeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponAbilityDao;
@@ -19,24 +20,25 @@ import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
 
+@Component
 public class MagicWeaponGenerator {
 
+	@Autowired
 	private WeaponGenerator weaponGenerator;
+	@Autowired
 	private SpecificWeaponGenerator specificGenerator;
 
+	@Autowired
 	private MagicWeaponStatsDao statsDao;
+	@Autowired
 	private MagicWeaponAbilityDao abilityDao;
+	@Autowired
 	private FoeDao foeDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public MagicWeaponGenerator(Session session) {
-		this.weaponGenerator = new WeaponGenerator(session);
-		this.specificGenerator = new SpecificWeaponGenerator(session);
-		this.statsDao = new MagicWeaponStatsDao(session);
-		this.abilityDao = new MagicWeaponAbilityDao(session);
-		this.foeDao = new FoeDao(session);
+	public MagicWeaponGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

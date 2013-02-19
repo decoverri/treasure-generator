@@ -1,6 +1,7 @@
 package com.decoverri.treasureGenerator.logic.generator;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.SpecificWeaponDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.FoeDao;
@@ -10,17 +11,18 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
 import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 
+@Component
 public class SpecificWeaponGenerator {
 
+	@Autowired
 	private SpecificWeaponDao weaponDao;
+	@Autowired
 	private FoeDao foeDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public SpecificWeaponGenerator(Session session) {
-		this.weaponDao = new SpecificWeaponDao(session);
-		this.foeDao = new FoeDao(session);
+	public SpecificWeaponGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

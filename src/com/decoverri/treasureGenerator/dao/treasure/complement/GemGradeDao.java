@@ -5,23 +5,19 @@ import java.util.List;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 
+@Component
 public class GemGradeDao {
 
-	private final Session session;
-
-	public GemGradeDao(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private Session session;
 
 	public void save(GemGrade grade) {
 		session.save(grade);
-	}
-
-	public void saveOrUpdate(GemGrade grade) {
-		session.saveOrUpdate(grade);
 	}
 
 	@SuppressWarnings("unchecked")

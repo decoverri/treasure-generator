@@ -7,23 +7,19 @@ import java.util.Random;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.HallowAdditionalSpell;
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicType;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
 
+@Component
 public class ScrollDao {
 
-	private final Session session;
-
-	public ScrollDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Scroll scroll) {
-		session.save(scroll);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Scroll scroll) {
 		session.saveOrUpdate(scroll);

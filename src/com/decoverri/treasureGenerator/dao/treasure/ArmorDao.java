@@ -2,20 +2,16 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.model.treasure.Armor;
 
+@Component
 public class ArmorDao {
 
-	private final Session session;
-
-	public ArmorDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Armor armor) {
-		session.save(armor);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Armor armor) {
 		session.saveOrUpdate(armor);

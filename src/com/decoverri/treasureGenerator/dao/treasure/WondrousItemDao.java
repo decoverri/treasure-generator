@@ -2,22 +2,18 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.BodySlot;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 
+@Component
 public class WondrousItemDao {
 
-	private final Session session;
-
-	public WondrousItemDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(WondrousItem item) {
-		session.save(item);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(WondrousItem item) {
 		session.saveOrUpdate(item);

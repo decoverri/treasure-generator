@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.RodDao;
 import com.decoverri.treasureGenerator.model.treasure.Rod;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitRod {
 
-	private Session session;
-
-	public FitRod(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private RodDao rodDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitRod {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rods.txt"));
 		while (scanner.hasNextLine()) {
 			Rod rod = (Rod) xstream.fromXML(scanner.nextLine());
-			RodDao rodDao = new RodDao(session);
 			rodDao.saveOrUpdate(rod);
 		}
 		scanner.close();

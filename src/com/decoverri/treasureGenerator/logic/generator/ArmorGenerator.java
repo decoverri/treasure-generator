@@ -3,7 +3,8 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
@@ -12,15 +13,16 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Armor;
 
+@Component
 public class ArmorGenerator {
 
+	@Autowired
 	private ArmorDao armorDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public ArmorGenerator(Session session) {
-		this.armorDao = new ArmorDao(session);
+	public ArmorGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

@@ -6,20 +6,16 @@ import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 
+@Component
 public class ArtObjectDao {
 
-	private final Session session;
-
-	public ArtObjectDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(ArtObject art) {
-		session.save(art);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(ArtObject art) {
 		session.saveOrUpdate(art);
@@ -39,7 +35,8 @@ public class ArtObjectDao {
 	@SuppressWarnings("unchecked")
 	public ArtObject getArt(int grade, int roll) {
 		Query query = session.createQuery("select ao from ArtObject ao " +
-										  "where ao.grade = :grade and :roll >= ao.chanceInterval.bottomValue and :roll <= ao.chanceInterval.topValue")
+				"where ao.grade = :grade and :roll >= ao.chanceInterval.bottomValue " +
+				"and :roll <= ao.chanceInterval.topValue")
 				.setParameter("grade", grade).setParameter("roll", roll);
 		List<ArtObject> list = query.list();
 		if (list.isEmpty()) {

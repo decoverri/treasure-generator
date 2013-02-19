@@ -4,8 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import com.decoverri.treasureGenerator.interfaces.GeneratorData;
+
 @Entity
-public class ArtObjectGeneratorData {
+public class ArtObjectGeneratorData implements GeneratorData {
 
 	@Id
 	@GeneratedValue

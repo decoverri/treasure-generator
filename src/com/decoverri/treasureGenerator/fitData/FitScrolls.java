@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitScrolls {
 
-	private Session session;
-
-	public FitScrolls(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private ScrollDao scrollDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitScrolls {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrolls.txt"));
 		while (scanner.hasNextLine()) {
 			Scroll scroll = (Scroll) xstream.fromXML(scanner.nextLine());
-			ScrollDao scrollDao = new ScrollDao(session);
 			scrollDao.saveOrUpdate(scroll);
 		}
 		scanner.close();

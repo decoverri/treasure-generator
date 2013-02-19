@@ -8,7 +8,8 @@ import static com.decoverri.treasureGenerator.enums.MagicType.DIVINE;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
@@ -20,17 +21,18 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.ScrollGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
 
+@Component
 public class ScrollGenerator {
 
+	@Autowired
 	private ScrollDao scrollDao;
+	@Autowired
 	private ScrollLevelDao scrollLevelDao;
 
 	private Dice d100;
 	private DiceRoller roller;
 
-	public ScrollGenerator(Session session) {
-		this.scrollDao = new ScrollDao(session);
-		this.scrollLevelDao = new ScrollLevelDao(session);
+	public ScrollGenerator() {
 		this.d100 = new Dice(100);
 		this.roller = new DiceRoller();
 	}

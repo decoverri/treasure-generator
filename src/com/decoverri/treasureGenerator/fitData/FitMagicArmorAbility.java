@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorAbilityDao;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbility;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitMagicArmorAbility {
 
-	private Session session;
-
-	public FitMagicArmorAbility(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private MagicArmorAbilityDao abilityDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitMagicArmorAbility {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorAbilities.txt"));
 		while (scanner.hasNextLine()) {
 			MagicArmorAbility ability = (MagicArmorAbility) xstream.fromXML(scanner.nextLine());
-			MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(session);
 			abilityDao.saveOrUpdate(ability);
 		}
 		scanner.close();

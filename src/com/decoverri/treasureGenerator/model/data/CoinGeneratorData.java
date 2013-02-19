@@ -8,10 +8,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.Currency;
+import com.decoverri.treasureGenerator.interfaces.GeneratorData;
 import com.decoverri.treasureGenerator.model.Dice;
 
 @Entity
-public class CoinGeneratorData {
+public class CoinGeneratorData implements GeneratorData {
 
 	@Id
 	@GeneratedValue

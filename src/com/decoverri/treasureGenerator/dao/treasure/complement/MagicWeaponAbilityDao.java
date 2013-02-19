@@ -3,21 +3,17 @@ package com.decoverri.treasureGenerator.dao.treasure.complement;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.WeaponType;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
 
+@Component
 public class MagicWeaponAbilityDao {
 
-	private final Session session;
-
-	public MagicWeaponAbilityDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(MagicWeaponAbility ability) {
-		session.save(ability);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(MagicWeaponAbility ablility) {
 		session.saveOrUpdate(ablility);

@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.MetamagicRodDao;
 import com.decoverri.treasureGenerator.model.treasure.complement.MetamagicRod;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitMetamagicRod {
 
-	private Session session;
-
-	public FitMetamagicRod(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private MetamagicRodDao metamagicDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitMetamagicRod {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/metamagicRods.txt"));
 		while (scanner.hasNextLine()) {
 			MetamagicRod metamagic = (MetamagicRod) xstream.fromXML(scanner.nextLine());
-			MetamagicRodDao metamagicDao = new MetamagicRodDao(session);
 			metamagicDao.saveOrUpdate(metamagic);
 		}
 		scanner.close();

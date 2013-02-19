@@ -3,7 +3,8 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.RodDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MetamagicRodDao;
@@ -14,17 +15,19 @@ import com.decoverri.treasureGenerator.model.data.RodGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Rod;
 import com.decoverri.treasureGenerator.model.treasure.complement.MetamagicRod;
 
+@Component
 public class RodGenerator {
 
+	@Autowired
 	private RodDao rodDao;
+
+	@Autowired
 	private MetamagicRodDao metamagicDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public RodGenerator(Session session) {
-		this.rodDao = new RodDao(session);
-		this.metamagicDao = new MetamagicRodDao(session);
+	public RodGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

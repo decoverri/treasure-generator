@@ -6,7 +6,8 @@ import static com.decoverri.treasureGenerator.enums.ArmorType.SHIELD;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorAbilityDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorStatsDao;
@@ -21,22 +22,23 @@ import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorStats;
 
+@Component
 public class MagicArmorGenerator {
 
+	@Autowired
 	private ArmorGenerator armorGenerator;
+	@Autowired
 	private SpecificArmorGenerator specificGenerator;
 
+	@Autowired
 	private MagicArmorStatsDao statsDao;
+	@Autowired
 	private MagicArmorAbilityDao abilityDao;
 	
 	private DiceRoller roller;
 	private Dice d100;
 
-	public MagicArmorGenerator(Session session) {
-		this.armorGenerator = new ArmorGenerator(session);
-		this.specificGenerator = new SpecificArmorGenerator(session);
-		this.statsDao = new MagicArmorStatsDao(session);
-		this.abilityDao = new MagicArmorAbilityDao(session);
+	public MagicArmorGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

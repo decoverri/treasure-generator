@@ -2,21 +2,17 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.model.treasure.Rod;
 
+@Component
 public class RodDao {
 
-	private final Session session;
-
-	public RodDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Rod rod) {
-		session.save(rod);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Rod rod) {
 		session.saveOrUpdate(rod);

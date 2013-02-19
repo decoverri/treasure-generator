@@ -6,7 +6,8 @@ import static com.decoverri.treasureGenerator.enums.MagicItemRarity.UNCOMMON;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
@@ -17,17 +18,18 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.PotionGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
 
+@Component
 public class PotionGenerator {
 
+	@Autowired
 	private PotionDao potionDao;
+	@Autowired
 	private PotionLevelDao potionLevelDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public PotionGenerator(Session session) {
-		this.potionDao = new PotionDao(session);
-		this.potionLevelDao = new PotionLevelDao(session);
+	public PotionGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

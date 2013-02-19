@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.WondrousItemDao;
 import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitWondrousItem {
 
-	private Session session;
-
-	public FitWondrousItem(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private WondrousItemDao itemDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitWondrousItem {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItems.txt"));
 		while (scanner.hasNextLine()) {
 			WondrousItem item = (WondrousItem) xstream.fromXML(scanner.nextLine());
-			WondrousItemDao itemDao = new WondrousItemDao(session);
 			itemDao.saveOrUpdate(item);
 		}
 		scanner.close();

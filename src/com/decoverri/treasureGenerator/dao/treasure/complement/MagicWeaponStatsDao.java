@@ -2,21 +2,17 @@ package com.decoverri.treasureGenerator.dao.treasure.complement;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
 
+@Component
 public class MagicWeaponStatsDao {
 
-	private final Session session;
-
-	public MagicWeaponStatsDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(MagicWeaponStats stats) {
-		session.save(stats);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(MagicWeaponStats stats) {
 		session.saveOrUpdate(stats);

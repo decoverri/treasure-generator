@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.FoeDao;
 import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitFoe {
 
-	private Session session;
-
-	public FitFoe(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private FoeDao foeDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitFoe {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/foes.txt"));
 		while (scanner.hasNextLine()) {
 			Foe foe = (Foe) xstream.fromXML(scanner.nextLine());
-			FoeDao foeDao = new FoeDao(session);
 			foeDao.saveOrUpdate(foe);
 		}
 		scanner.close();

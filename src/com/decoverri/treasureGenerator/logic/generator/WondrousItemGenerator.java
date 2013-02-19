@@ -5,7 +5,8 @@ import static com.decoverri.treasureGenerator.enums.MagicItemStrength.LEAST_MINO
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.WondrousItemDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WondrousItemBodySlotDao;
@@ -16,17 +17,18 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 
+@Component
 public class WondrousItemGenerator {
 
+	@Autowired
 	private WondrousItemDao itemDao;
+	@Autowired
 	private WondrousItemBodySlotDao bodySlotDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public WondrousItemGenerator(Session session) {
-		this.itemDao = new WondrousItemDao(session);
-		this.bodySlotDao = new WondrousItemBodySlotDao(session);
+	public WondrousItemGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

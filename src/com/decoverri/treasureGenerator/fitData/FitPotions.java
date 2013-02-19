@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitPotions {
 
-	private Session session;
-
-	public FitPotions(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private PotionDao potionDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitPotions {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potions.txt"));
 		while (scanner.hasNextLine()) {
 			Potion potion = (Potion) xstream.fromXML(scanner.nextLine());
-			PotionDao potionDao = new PotionDao(session);
 			potionDao.saveOrUpdate(potion);
 		}
 		scanner.close();

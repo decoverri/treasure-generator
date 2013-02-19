@@ -7,9 +7,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.ArmorType;
+import com.decoverri.treasureGenerator.interfaces.GeneratorData;
 
 @Entity
-public class ArmorGeneratorData {
+public class ArmorGeneratorData implements GeneratorData {
 
 	@Id
 	@GeneratedValue

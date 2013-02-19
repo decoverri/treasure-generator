@@ -6,7 +6,8 @@ import static com.decoverri.treasureGenerator.enums.MagicItemRarity.UNCOMMON;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.WandDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
@@ -17,17 +18,18 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.WandGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
 
+@Component
 public class WandGenerator {
 
+	@Autowired
 	private WandDao wandDao;
+	@Autowired
 	private WandLevelDao wandLevelDao;
 
 	private Dice d100;
 	private DiceRoller roller;
 
-	public WandGenerator(Session session) {
-		this.wandDao = new WandDao(session);
-		this.wandLevelDao = new WandLevelDao(session);
+	public WandGenerator() {
 		this.d100 = new Dice(100);
 		this.roller = new DiceRoller();
 	}

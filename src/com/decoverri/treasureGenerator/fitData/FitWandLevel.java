@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
 import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitWandLevel {
 
-	private Session session;
-
-	public FitWandLevel(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private WandLevelDao wandDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitWandLevel {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wandLevel.txt"));
 		while (scanner.hasNextLine()) {
 			WandLevel wandLevel = (WandLevel) xstream.fromXML(scanner.nextLine());
-			WandLevelDao wandDao = new WandLevelDao(session);
 			wandDao.saveOrUpdate(wandLevel);
 		}
 		scanner.close();

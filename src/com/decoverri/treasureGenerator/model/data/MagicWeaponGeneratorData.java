@@ -7,9 +7,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
+import com.decoverri.treasureGenerator.interfaces.GeneratorData;
 
 @Entity
-public class MagicWeaponGeneratorData {
+public class MagicWeaponGeneratorData implements GeneratorData {
 
 	@Id
 	@GeneratedValue

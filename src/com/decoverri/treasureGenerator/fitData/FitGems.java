@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
@@ -15,11 +15,10 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitGems {
 
-	private Session session;
-
-	public FitGems(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private GemstoneDao gemDao;
+	@Autowired
+	private GemGradeDao gradeDao;
 
 	public void fit() throws IOException {
 
@@ -29,9 +28,7 @@ public class FitGems {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/gems.txt"));
 		while (scanner.hasNextLine()) {
 			Gemstone gem = (Gemstone) xstream.fromXML(scanner.nextLine());
-			GemstoneDao gemDao = new GemstoneDao(session);
 			if (!gemDao.exists(gem.getName())) {
-				GemGradeDao gradeDao = new GemGradeDao(session);
 				GemGrade gradeSearch = gradeDao.searchByGradeNumber(gem.getGrade());
 				if (gradeSearch == null) {
 					gradeDao.save(gem.getGrade());

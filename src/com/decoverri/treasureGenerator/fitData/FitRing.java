@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.RingDao;
 import com.decoverri.treasureGenerator.model.treasure.Ring;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitRing {
 
-	private Session session;
-
-	public FitRing(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private RingDao ringDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitRing {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rings.txt"));
 		while (scanner.hasNextLine()) {
 			Ring ring = (Ring) xstream.fromXML(scanner.nextLine());
-			RingDao ringDao = new RingDao(session);
 			ringDao.saveOrUpdate(ring);
 		}
 		scanner.close();

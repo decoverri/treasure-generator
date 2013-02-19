@@ -6,16 +6,16 @@ import java.util.Random;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.model.TreasureReward;
 
+@Component
 public class TreasureRewardDao {
 
-	private final Session session;
-
-	public TreasureRewardDao(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private Session session;
 
 	public void save(TreasureReward reward) {
 		session.save(reward);

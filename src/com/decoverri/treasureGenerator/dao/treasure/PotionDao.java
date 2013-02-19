@@ -2,21 +2,17 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
 
+@Component
 public class PotionDao {
 
-	private final Session session;
-
-	public PotionDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Potion potion) {
-		session.save(potion);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Potion potion) {
 		session.saveOrUpdate(potion);

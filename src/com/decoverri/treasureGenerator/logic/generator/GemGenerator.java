@@ -3,7 +3,8 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
@@ -12,15 +13,16 @@ import com.decoverri.treasureGenerator.model.data.GemstoneGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemValue;
 
+@Component
 public class GemGenerator {
 
+	@Autowired
 	private GemstoneDao dao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public GemGenerator(Session session) {
-		this.dao = new GemstoneDao(session);
+	public GemGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

@@ -3,7 +3,8 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.StaffDao;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
@@ -12,15 +13,16 @@ import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.data.StaffGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Staff;
 
+@Component
 public class StaffGenerator {
 
+	@Autowired
 	private StaffDao staffDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public StaffGenerator(Session session) {
-		this.staffDao = new StaffDao(session);
+	public StaffGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

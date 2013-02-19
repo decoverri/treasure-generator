@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.SpecificWeaponDao;
 import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitSpecificWeapon {
 
-	private Session session;
-
-	public FitSpecificWeapon(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private SpecificWeaponDao weaponDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitSpecificWeapon {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/specificWeapons.txt"));
 		while (scanner.hasNextLine()) {
 			SpecificWeapon weapon = (SpecificWeapon) xstream.fromXML(scanner.nextLine());
-			SpecificWeaponDao weaponDao = new SpecificWeaponDao(session);
 			weaponDao.saveOrUpdate(weapon);
 		}
 		scanner.close();

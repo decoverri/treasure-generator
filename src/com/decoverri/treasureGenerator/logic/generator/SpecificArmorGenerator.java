@@ -5,7 +5,8 @@ import static com.decoverri.treasureGenerator.enums.ArmorType.SHIELD;
 
 import java.util.Random;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.dao.treasure.SpecificArmorDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
@@ -14,15 +15,16 @@ import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 
+@Component
 public class SpecificArmorGenerator {
 
+	@Autowired
 	private SpecificArmorDao armorDao;
 
 	private DiceRoller roller;
 	private Dice d100;
 
-	public SpecificArmorGenerator(Session session) {
-		this.armorDao = new SpecificArmorDao(session);
+	public SpecificArmorGenerator() {
 		this.roller = new DiceRoller();
 		this.d100 = new Dice(100);
 	}

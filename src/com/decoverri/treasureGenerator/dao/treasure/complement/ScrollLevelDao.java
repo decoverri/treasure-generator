@@ -2,21 +2,17 @@ package com.decoverri.treasureGenerator.dao.treasure.complement;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 
+@Component
 public class ScrollLevelDao {
 
-	private final Session session;
-
-	public ScrollLevelDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(ScrollLevel scroll) {
-		session.save(scroll);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(ScrollLevel scroll) {
 		session.saveOrUpdate(scroll);

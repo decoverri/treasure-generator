@@ -2,21 +2,17 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.model.treasure.Staff;
 
+@Component
 public class StaffDao {
 
-	private final Session session;
-
-	public StaffDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Staff staff) {
-		session.save(staff);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Staff staff) {
 		session.saveOrUpdate(staff);

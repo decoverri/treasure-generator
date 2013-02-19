@@ -6,20 +6,16 @@ import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 
+@Component
 public class GemstoneDao {
 
-	private final Session session;
-
-	public GemstoneDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Gemstone gem) {
-		session.save(gem);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Gemstone gem) {
 		session.saveOrUpdate(gem);

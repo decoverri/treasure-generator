@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsDao;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitMagicWeaponStats {
 
-	private Session session;
-
-	public FitMagicWeaponStats(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private MagicWeaponStatsDao statsDao;
 
 	public void fit() throws IOException {
 
@@ -28,7 +25,6 @@ public class FitMagicWeaponStats {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponStats.txt"));
 		while (scanner.hasNextLine()) {
 			MagicWeaponStats stats = (MagicWeaponStats) xstream.fromXML(scanner.nextLine());
-			MagicWeaponStatsDao statsDao = new MagicWeaponStatsDao(session);
 			statsDao.saveOrUpdate(stats);
 		}
 		scanner.close();

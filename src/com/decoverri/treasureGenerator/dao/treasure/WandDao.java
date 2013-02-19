@@ -2,21 +2,17 @@ package com.decoverri.treasureGenerator.dao.treasure;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
 
+@Component
 public class WandDao {
 
-	private final Session session;
-
-	public WandDao(Session session) {
-		this.session = session;
-	}
-
-	public void save(Wand wand) {
-		session.save(wand);
-	}
+	@Autowired
+	private Session session;
 
 	public void saveOrUpdate(Wand wand) {
 		session.saveOrUpdate(wand);

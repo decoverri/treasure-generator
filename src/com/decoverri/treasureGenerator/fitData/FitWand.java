@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.decoverri.treasureGenerator.dao.treasure.WandDao;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
@@ -13,11 +13,8 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitWand {
 
-	private Session session;
-
-	public FitWand(Session session) {
-		this.session = session;
-	}
+	@Autowired
+	private WandDao wandDao;
 
 	public void fit() throws IOException {
 
@@ -27,7 +24,6 @@ public class FitWand {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wands.txt"));
 		while (scanner.hasNextLine()) {
 			Wand wand = (Wand) xstream.fromXML(scanner.nextLine());
-			WandDao wandDao = new WandDao(session);
 			wandDao.saveOrUpdate(wand);
 		}
 		scanner.close();

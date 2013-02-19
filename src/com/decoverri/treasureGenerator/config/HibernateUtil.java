@@ -5,7 +5,12 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
+@Component
+@Scope("application")
 public class HibernateUtil {
 
 	private static SessionFactory sessionFactory;
@@ -72,8 +77,9 @@ public class HibernateUtil {
 		return sessionFactory;
 	}
 
+	@Bean(destroyMethod="close")
 	public static SessionFactory getSessionFactory() {
 		return configureSessionFactory();
 	}
-
+	
 }
