@@ -103,6 +103,11 @@ public class Scroll implements Treasure {
 	}
 
 	@Override
+	public String getName() {
+		return "Scroll of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (" + type + ", CL: " + casterLevel + ")";
+	};
+	
+	@Override
 	public String toString() {
 		return "Scroll of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (" + type + ", CL: " + casterLevel + ", " + price + "gp)";
 	}

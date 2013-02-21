@@ -62,7 +62,12 @@ public class Coins implements Treasure {
 	}
 
 	@Override
-	public String toString() {
+	public String getName() {
 		return (amount + " " + currency).toLowerCase();
+	}
+	
+	@Override
+	public String toString() {
+		return getName();
 	}
 }

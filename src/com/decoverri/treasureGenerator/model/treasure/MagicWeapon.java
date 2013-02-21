@@ -42,7 +42,7 @@ public class MagicWeapon implements Treasure {
 	}
 
 	@Override
-	public String toString() {
+	public String getName() {
 		StringBuilder builder = new StringBuilder();
 
 		builder.append("+" + this.bonus + " ");
@@ -62,8 +62,13 @@ public class MagicWeapon implements Treasure {
 			}
 		}
 		
-		builder.append(this.baseWeapon.getName() + " (" + calculatePrice() + "gp)");
+		builder.append(this.baseWeapon.getName());
 		return builder.toString().toLowerCase();
+	}
+	
+	@Override
+	public String toString() {
+		return getName() + " (" + calculatePrice() + "gp)";
 	}
 
 	private double calculatePrice() {

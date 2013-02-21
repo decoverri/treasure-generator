@@ -4,9 +4,18 @@ import java.util.List;
 
 public class TreasureTypeInfo {
 
+	private char type;
 	private String name;
 	private String description;
 	private List<Integer> values;
+
+	public char getType() {
+		return type;
+	}
+
+	public void setType(char type) {
+		this.type = type;
+	}
 
 	public String getName() {
 		return name;

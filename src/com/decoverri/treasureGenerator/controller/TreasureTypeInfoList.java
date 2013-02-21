@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.decoverri.treasureGenerator.model.view.TreasureTypeInfo;
 
-public class TreasureTypeInfos {
+public class TreasureTypeInfoList {
 
 	private List<TreasureTypeInfo> infos;
 

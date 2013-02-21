@@ -15,26 +15,24 @@
 	<header class="page-header">
 		<div class="container">
 			<h1>Treasure Generator <small> Pathfinder RPG (<a href="http://www.paizo.com">www.paizo.com</a>)</small></h1>
+			<p>by Deco Verri</p>
 		</div>
 	</header>
-	<br/>
 
 	<div class="container">
 		<form action="generate" method="post" class="form-horizontal" >
-
 			<button class="btn btn-primary pull-right" type="submit">Generate</button>
-			<br/>
-			<hr>
+			<br/><br/>
 
 			<div class="row">
 				<c:forEach items="${treasureTypesInfo}" var="generatorInfo" varStatus="s1">
 					<div class="span1AndABit">
-						<h4>Type ${generatorInfo.name}</h4>
-						<input type="hidden" name="information.infos[${s1.index}].name" value="${generatorInfo.name}" />
+						<h4>Type ${generatorInfo.type}</h4>
+						<input type="hidden" name="infos[${s1.index}].type" value="${generatorInfo.type}" />
 	
 						<c:forEach items="${generatorInfo.values}" var="value" varStatus="s2">
 							<label class="checkbox">
-								<input type="checkbox" name="information.infos[${s1.index}].values[${s2.index}]" value="${value}"/>
+								<input type="checkbox" name="infos[${s1.index}].values[${s2.index}]" value="${value}"/>
 								<fmt:formatNumber type="number" value="${value}" /> gp
 							</label>
 						</c:forEach>
@@ -43,12 +41,35 @@
 				</c:forEach><br/>
 			</div>
 
-			<hr>
-			<button class="btn btn-primary pull-right" type="submit">Generate</button>
-
-			<br/>
 		</form>
 	</div>
 
+	<c:if test="${not empty treasures}">
+	<hr>
+	<div class="container">
+		<h3>Result</h3>
+		<table class="table table-striped table-bordered" >
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<c:forEach items="${treasures}" var="treasure" >
+					<tr>
+						<td>${treasure.name}</td>
+						<td><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
+					</tr>
+				</c:forEach>
+					<tr>
+						<td><strong>Total price generated</strong></td>
+						<td><strong><fmt:formatNumber type="number" value="${totalPrice}" /> gp</strong></td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+	</c:if>
+	<br/><br/><br/><br/>
 </body>
 </html>

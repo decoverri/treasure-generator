@@ -6,11 +6,15 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import com.decoverri.treasureGenerator.controller.TreasureTypeInfoList;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.TreasureReward;
+import com.decoverri.treasureGenerator.model.view.TreasureTypeInfo;
 
+@Component
 public class TreasureGenerator {
 
 	@Autowired
@@ -36,7 +40,7 @@ public class TreasureGenerator {
 
 	@Autowired
 	private RodGenerator rodGenerator;
-	
+
 	@Autowired
 	private WondrousItemGenerator wondrousItemGenerator;
 
@@ -57,6 +61,26 @@ public class TreasureGenerator {
 
 	@Autowired
 	private TreasureRewardDao dao;
+
+	public List<Treasure> genarate(TreasureTypeInfoList list) {
+		List<Treasure> treasures = new ArrayList<Treasure>();
+		for (TreasureTypeInfo info : list.getInfos()) {
+			if (info.getValues() != null) {
+				treasures.addAll(genarate(info));
+			}
+		}
+		return treasures;
+	}
+
+	private List<Treasure> genarate(TreasureTypeInfo info) {
+		List<Treasure> treasures = new ArrayList<Treasure>();
+		for (Integer value : info.getValues()) {
+			if (value != null) {
+				treasures.addAll(genarate(value, info.getType()));
+			}
+		}
+		return treasures;
+	}
 
 	public List<Treasure> genarate(int value, char type) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
@@ -85,4 +109,5 @@ public class TreasureGenerator {
 		System.out.println("Finished!\n");
 		return treasures;
 	}
+
 }
