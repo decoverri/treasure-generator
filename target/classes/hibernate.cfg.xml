@@ -8,10 +8,10 @@
     <session-factory>
 
         <!-- Database connection settings -->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost/treasure_generator</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password"></property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://ec2-174-129-204-172.compute-1.amazonaws.com:5432/d1qef9ekojm9hg</property>
+        <property name="connection.username">ffzfoxdrdendja</property>
+        <property name="connection.password">WYM0ilx5qWhJk7_Q1sKIY8jaeO</property>
         <property name="hibernate.archive.autodetection">false</property>
         
         <!-- SQL dialect -->
