@@ -11,7 +11,7 @@
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://us-cdbr-east-03.cleardb.com/heroku_ddb1c51fc7e9511?reconnect=true</property>
         <property name="connection.username">b0a620a8ae076d</property>
-        <property name="connection.password">no, really this time</property>
+        <property name="connection.password">d074cf95</property>
         <property name="hibernate.archive.autodetection">false</property>
         
         <!-- SQL dialect -->
