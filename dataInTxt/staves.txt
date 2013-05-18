@@ -26,7 +26,7 @@
 {"staff":{"name":"Staff of the master","price":30000,"strength":"LESSER_MAJOR","interval":{"bottomValue":25,"topValue":28}}}
 {"staff":{"name":"Staff of spiders","price":30200,"strength":"LESSER_MAJOR","interval":{"bottomValue":29,"topValue":32}}}
 {"staff":{"name":"Staff of electricity","price":31900,"strength":"LESSER_MAJOR","interval":{"bottomValue":33,"topValue":36}}}
-{"staff":{"name":"Heretic’s bane","price":32000,"strength":"LESSER_MAJOR","interval":{"bottomValue":37,"topValue":39}}}
+{"staff":{"name":"Heretic's bane","price":32000,"strength":"LESSER_MAJOR","interval":{"bottomValue":37,"topValue":39}}}
 {"staff":{"name":"Musical staff","price":32000,"strength":"LESSER_MAJOR","interval":{"bottomValue":40,"topValue":42}}}
 {"staff":{"name":"Staff of souls","price":32800,"strength":"LESSER_MAJOR","interval":{"bottomValue":43,"topValue":46}}}
 {"staff":{"name":"Staff of toxins","price":34200,"strength":"LESSER_MAJOR","interval":{"bottomValue":47,"topValue":50}}}

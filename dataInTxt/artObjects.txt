@@ -101,14 +101,14 @@
 {"art":{"name":"Book of lost songs by a famous bard","grade":5,"price":3000,"chanceInterval":{"bottomValue":1,"topValue":8}}}
 {"art":{"name":"Darkwood and platinum music box","grade":5,"price":4000,"chanceInterval":{"bottomValue":9,"topValue":16}}}
 {"art":{"name":"Mithral hourglass with diamond dust","grade":5,"price":4000,"chanceInterval":{"bottomValue":17,"topValue":26}}}
-{"art":{"name":"Jeweled egg with epic sorcerer’s blood","grade":5,"price":4500,"chanceInterval":{"bottomValue":27,"topValue":34}}}
-{"art":{"name":"Gold urn containing hero’s ashes","grade":5,"price":5000,"chanceInterval":{"bottomValue":35,"topValue":37}}}
+{"art":{"name":"Jeweled egg with epic sorcerer's blood","grade":5,"price":4500,"chanceInterval":{"bottomValue":27,"topValue":34}}}
+{"art":{"name":"Gold urn containing hero's ashes","grade":5,"price":5000,"chanceInterval":{"bottomValue":35,"topValue":37}}}
 {"art":{"name":"Helm carved from a pit fiend skull","grade":5,"price":5000,"chanceInterval":{"bottomValue":38,"topValue":45}}}
 {"art":{"name":"Holy text penned by a saint","grade":5,"price":5000,"chanceInterval":{"bottomValue":46,"topValue":55}}}
 {"art":{"name":"Painting of a beloved queen by a master","grade":5,"price":5000,"chanceInterval":{"bottomValue":56,"topValue":65}}}
 {"art":{"name":"Platinum idol with mysterious markings","grade":5,"price":5000,"chanceInterval":{"bottomValue":66,"topValue":74}}}
 {"art":{"name":"Bejeweled sword of state","grade":5,"price":6000,"chanceInterval":{"bottomValue":75,"topValue":77}}}
-{"art":{"name":"Carved saint’s femur","grade":5,"price":6000,"chanceInterval":{"bottomValue":78,"topValue":83}}}
+{"art":{"name":"Carved saint's femur","grade":5,"price":6000,"chanceInterval":{"bottomValue":78,"topValue":83}}}
 {"art":{"name":"Platinum chalice blessed by a saint","grade":5,"price":6000,"chanceInterval":{"bottomValue":84,"topValue":88}}}
 {"art":{"name":"Glowing metallic meteor","grade":5,"price":6500,"chanceInterval":{"bottomValue":89,"topValue":91}}}
 {"art":{"name":"Gold bejeweled royal orb","grade":5,"price":7000,"chanceInterval":{"bottomValue":92,"topValue":97}}}
@@ -125,6 +125,6 @@
 {"art":{"name":"Unmelting ice","grade":6,"price":10000,"chanceInterval":{"bottomValue":65,"topValue":72}}}
 {"art":{"name":"Time jewel","grade":6,"price":11000,"chanceInterval":{"bottomValue":73,"topValue":79}}}
 {"art":{"name":"Adamantine poiuyt","grade":6,"price":12000,"chanceInterval":{"bottomValue":80,"topValue":83}}}
-{"art":{"name":"Holy text written in saint’s blood","grade":6,"price":12000,"chanceInterval":{"bottomValue":84,"topValue":89}}}
+{"art":{"name":"Holy text written in saint's blood","grade":6,"price":12000,"chanceInterval":{"bottomValue":84,"topValue":89}}}
 {"art":{"name":"Mithral tribar","grade":6,"price":12000,"chanceInterval":{"bottomValue":90,"topValue":93}}}
 {"art":{"name":"Ethereal tapestry","grade":6,"price":13000,"chanceInterval":{"bottomValue":94,"topValue":100}}}
