@@ -8,14 +8,14 @@
     <session-factory>
 
         <!-- Database connection settings -->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://us-cdbr-east-03.cleardb.com/heroku_ddb1c51fc7e9511?reconnect=true</property>
-        <property name="connection.username">b0a620a8ae076d</property>
-        <property name="connection.password">d074cf95</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgres://ec2-174-129-204-172.compute-1.amazonaws.com:5432/ddkdef3deqd6rr</property>
+        <property name="connection.username">sdgaqpolrnjfuq</property>
+        <property name="connection.password">XQFeGiP8LKqVqxQBwecREpgIbH</property>
         <property name="hibernate.archive.autodetection">false</property>
         
         <!-- SQL dialect -->
-        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
         <!-- JDBC connection pool (use the built-in) -->
         <property name="connection.pool_size">1</property>
