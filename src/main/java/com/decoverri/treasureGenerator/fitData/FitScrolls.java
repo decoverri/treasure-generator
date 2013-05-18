@@ -21,7 +21,7 @@ public class FitScrolls {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("scroll", Scroll.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrolls.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrolls.json"));
 		while (scanner.hasNextLine()) {
 			Scroll scroll = (Scroll) xstream.fromXML(scanner.nextLine());
 			scrollDao.saveOrUpdate(scroll);

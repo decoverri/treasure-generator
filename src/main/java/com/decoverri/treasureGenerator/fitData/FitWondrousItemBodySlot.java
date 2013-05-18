@@ -21,7 +21,7 @@ public class FitWondrousItemBodySlot {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("wondrousitemslot", WondrousItemBodySlot.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItemBodySlots.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItemBodySlots.json"));
 		while (scanner.hasNextLine()) {
 			WondrousItemBodySlot wondrousItemSlot = (WondrousItemBodySlot) xstream.fromXML(scanner.nextLine());
 			slotDao.saveOrUpdate(wondrousItemSlot);

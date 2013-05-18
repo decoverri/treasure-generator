@@ -21,7 +21,7 @@ public class FitStaff {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("staff", Staff.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/staves.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/staves.json"));
 		while (scanner.hasNextLine()) {
 			Staff staff = (Staff) xstream.fromXML(scanner.nextLine());
 			staffDao.saveOrUpdate(staff);

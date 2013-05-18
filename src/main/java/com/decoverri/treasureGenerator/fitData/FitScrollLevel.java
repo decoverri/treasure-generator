@@ -21,7 +21,7 @@ public class FitScrollLevel {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("scrolllevel", ScrollLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrollLevel.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrollLevel.json"));
 		while (scanner.hasNextLine()) {
 			ScrollLevel scrollLevel = (ScrollLevel) xstream.fromXML(scanner.nextLine());
 			scrollDao.saveOrUpdate(scrollLevel);

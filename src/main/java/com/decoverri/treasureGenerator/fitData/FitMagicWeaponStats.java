@@ -22,7 +22,7 @@ public class FitMagicWeaponStats {
 		xstream.alias("stats", MagicWeaponStats.class);
 		xstream.alias("int", Integer.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponStats.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponStats.json"));
 		while (scanner.hasNextLine()) {
 			MagicWeaponStats stats = (MagicWeaponStats) xstream.fromXML(scanner.nextLine());
 			statsDao.saveOrUpdate(stats);

@@ -25,7 +25,7 @@ public class FitGems {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("gem", Gemstone.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/gems.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/gems.json"));
 		while (scanner.hasNextLine()) {
 			Gemstone gem = (Gemstone) xstream.fromXML(scanner.nextLine());
 			if (!gemDao.exists(gem.getName())) {

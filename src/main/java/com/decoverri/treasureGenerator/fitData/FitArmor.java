@@ -21,7 +21,7 @@ public class FitArmor {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("armor", Armor.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/armors.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/armors.json"));
 		while (scanner.hasNextLine()) {
 			Armor armor = (Armor) xstream.fromXML(scanner.nextLine());
 			armorDao.saveOrUpdate(armor);

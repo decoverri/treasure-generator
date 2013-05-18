@@ -21,7 +21,7 @@ public class FitPotions {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("potion", Potion.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potions.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potions.json"));
 		while (scanner.hasNextLine()) {
 			Potion potion = (Potion) xstream.fromXML(scanner.nextLine());
 			potionDao.saveOrUpdate(potion);

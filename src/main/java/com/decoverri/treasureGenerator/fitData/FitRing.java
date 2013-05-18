@@ -21,7 +21,7 @@ public class FitRing {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("ring", Ring.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rings.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rings.json"));
 		while (scanner.hasNextLine()) {
 			Ring ring = (Ring) xstream.fromXML(scanner.nextLine());
 			ringDao.saveOrUpdate(ring);

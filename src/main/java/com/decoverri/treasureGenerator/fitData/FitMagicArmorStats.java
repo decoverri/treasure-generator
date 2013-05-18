@@ -21,7 +21,7 @@ public class FitMagicArmorStats {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("stats", MagicArmorStats.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorStats.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorStats.json"));
 		while (scanner.hasNextLine()) {
 			MagicArmorStats stats = (MagicArmorStats) xstream.fromXML(scanner.nextLine());
 			statsDao.saveOrUpdate(stats);

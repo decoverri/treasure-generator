@@ -21,7 +21,7 @@ public class FitWeapon {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("weapon", Weapon.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/weapons.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/weapons.json"));
 		while (scanner.hasNextLine()) {
 			Weapon weapon = (Weapon) xstream.fromXML(scanner.nextLine());
 			weaponDao.saveOrUpdate(weapon);

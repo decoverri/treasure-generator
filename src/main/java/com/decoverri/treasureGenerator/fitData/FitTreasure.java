@@ -52,7 +52,7 @@ public class FitTreasure {
 		xstream.alias("gemgenerator", GemstoneGeneratorData.class);
 		xstream.alias("artgenerator", ArtObjectGeneratorData.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/treasureReward.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/treasureReward.json"));
 		while (scanner.hasNextLine()) {
 			TreasureReward reward = (TreasureReward) xstream.fromXML(scanner.nextLine());
 

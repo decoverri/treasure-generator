@@ -21,7 +21,7 @@ public class FitWand {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("wand", Wand.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wands.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wands.json"));
 		while (scanner.hasNextLine()) {
 			Wand wand = (Wand) xstream.fromXML(scanner.nextLine());
 			wandDao.saveOrUpdate(wand);

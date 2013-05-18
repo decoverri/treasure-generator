@@ -21,7 +21,7 @@ public class FitFoe {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("foe", Foe.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/foes.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/foes.json"));
 		while (scanner.hasNextLine()) {
 			Foe foe = (Foe) xstream.fromXML(scanner.nextLine());
 			foeDao.saveOrUpdate(foe);

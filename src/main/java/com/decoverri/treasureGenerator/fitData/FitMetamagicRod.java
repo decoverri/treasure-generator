@@ -21,7 +21,7 @@ public class FitMetamagicRod {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("metamagic", MetamagicRod.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/metamagicRods.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/metamagicRods.json"));
 		while (scanner.hasNextLine()) {
 			MetamagicRod metamagic = (MetamagicRod) xstream.fromXML(scanner.nextLine());
 			metamagicDao.saveOrUpdate(metamagic);

@@ -21,7 +21,7 @@ public class FitWandLevel {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("wandlevel", WandLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wandLevel.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wandLevel.json"));
 		while (scanner.hasNextLine()) {
 			WandLevel wandLevel = (WandLevel) xstream.fromXML(scanner.nextLine());
 			wandDao.saveOrUpdate(wandLevel);

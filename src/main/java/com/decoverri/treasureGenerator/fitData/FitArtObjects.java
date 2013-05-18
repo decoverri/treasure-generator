@@ -21,7 +21,7 @@ public class FitArtObjects {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("art", ArtObject.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/artObjects.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/artObjects.json"));
 		while (scanner.hasNextLine()) {
 			ArtObject art = (ArtObject) xstream.fromXML(scanner.nextLine());
 			if (!artDao.exists(art.getName())) {

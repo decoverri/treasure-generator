@@ -21,7 +21,7 @@ public class FitRod {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("rod", Rod.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rods.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rods.json"));
 		while (scanner.hasNextLine()) {
 			Rod rod = (Rod) xstream.fromXML(scanner.nextLine());
 			rodDao.saveOrUpdate(rod);

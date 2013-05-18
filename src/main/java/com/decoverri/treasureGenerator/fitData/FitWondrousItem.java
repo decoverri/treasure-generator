@@ -21,7 +21,7 @@ public class FitWondrousItem {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("item", WondrousItem.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItems.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItems.json"));
 		while (scanner.hasNextLine()) {
 			WondrousItem item = (WondrousItem) xstream.fromXML(scanner.nextLine());
 			itemDao.saveOrUpdate(item);

@@ -21,7 +21,7 @@ public class FitPotionLevel {
 		XStream xstream = new XStream(new JettisonMappedXmlDriver());
 		xstream.alias("potionlevel", PotionLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potionLevel.txt"));
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potionLevel.json"));
 		while (scanner.hasNextLine()) {
 			PotionLevel potionLevel = (PotionLevel) xstream.fromXML(scanner.nextLine());
 			potionDao.saveOrUpdate(potionLevel);
