@@ -37,11 +37,11 @@ public class TreasureRewardDao {
 
 	@SuppressWarnings("unchecked")
 	public List<Integer> getValuesOfType(char type) {
-		return session.createQuery("select distinct r.value from TreasureReward r where r.type = :type").setParameter("type", type).list();
+		return session.createQuery("select distinct r.value from TreasureReward r where r.type = :type order by r.value").setParameter("type", type).list();
 	}
 
 	@SuppressWarnings("unchecked")
 	public List<Character> getTypes() {
-		return session.createQuery("select distinct r.type from TreasureReward r").list();
+		return session.createQuery("select distinct r.type from TreasureReward r order by r.type").list();
 	}
 }
