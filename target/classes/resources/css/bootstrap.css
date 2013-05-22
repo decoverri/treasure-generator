@@ -273,6 +273,10 @@ a:hover {
   width: 86px;
 }
 
+.span1AndABit .checkbox{
+  font-size: 13px;
+}
+
 .span1 {
   width: 60px;
 }
