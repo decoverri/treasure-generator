@@ -2,6 +2,9 @@ package com.decoverri.treasureGenerator.model.treasure;
 
 import static com.decoverri.treasureGenerator.enums.Currency.GP;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 import javax.persistence.Embeddable;
 
 import com.decoverri.treasureGenerator.enums.Currency;
@@ -63,7 +66,7 @@ public class Coins implements Treasure {
 
 	@Override
 	public String getName() {
-		return (amount + " " + currency).toLowerCase();
+		return (NumberFormat.getInstance(Locale.ENGLISH).format(amount) + " " + currency).toLowerCase();
 	}
 	
 	@Override
