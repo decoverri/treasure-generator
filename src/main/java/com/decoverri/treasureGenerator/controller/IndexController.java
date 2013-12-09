@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
@@ -25,13 +24,11 @@ public class IndexController {
 	private TreasureGenerator generator;
 
 	@RequestMapping("/")
-	public ModelAndView execute() {
-
+	public String execute(Model model) {
 		ArrayList<TreasureTypeInfo> treasuresInfo = new ArrayList<TreasureTypeInfo>();
 		TreasureTypeInfo info;
 
 		List<Character> types = rewardDao.getTypes();
-
 		for (Character character : types) {
 			info = new TreasureTypeInfo();
 			info.setType(character);
@@ -39,10 +36,8 @@ public class IndexController {
 			treasuresInfo.add(info);
 		}
 
-		ModelAndView mv = new ModelAndView("index");
-		mv.addObject("treasureTypesInfo", treasuresInfo);
-
-		return mv;
+		model.addAttribute("treasureTypesInfo", treasuresInfo);
+		return "index";
 	}
 
 	@RequestMapping("/generate")
