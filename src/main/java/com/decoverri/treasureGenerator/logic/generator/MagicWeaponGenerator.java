@@ -66,7 +66,7 @@ public class MagicWeaponGenerator {
 	private Treasure generate(MagicItemStrength strength) {
 		Treasure weapon;
 
-		System.out.println("Generating " + strength + " armor or shield");
+		System.out.println("Generating " + strength + " weapon");
 		int abilityRoll = roller.roll(d100);
 
 		if (abilityRoll > 80) {
