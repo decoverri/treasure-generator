@@ -1,4 +1,4 @@
-package com.decoverri.treasureGenerator.model.data;
+package com.decoverri.treasureGenerator.model.treasure.data;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

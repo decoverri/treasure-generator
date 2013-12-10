@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.controller;
 
 import java.util.List;
 
-import com.decoverri.treasureGenerator.model.view.TreasureType;
+import com.decoverri.treasureGenerator.model.TreasureType;
 
 public class TreasureTypes {
 

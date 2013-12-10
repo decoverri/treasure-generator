@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.GemstoneGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemValue;
+import com.decoverri.treasureGenerator.model.treasure.data.GemstoneGeneratorData;
 
 @Component
 public class GemGenerator {

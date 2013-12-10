@@ -10,8 +10,8 @@ import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
 import com.decoverri.treasureGenerator.enums.ArmorType;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Armor;
+import com.decoverri.treasureGenerator.model.treasure.data.ArmorGeneratorData;
 
 @Component
 public class ArmorGenerator {

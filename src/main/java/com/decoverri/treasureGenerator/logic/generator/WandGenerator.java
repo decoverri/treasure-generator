@@ -15,8 +15,8 @@ import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.WandGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
+import com.decoverri.treasureGenerator.model.treasure.data.WandGeneratorData;
 
 @Component
 public class WandGenerator {

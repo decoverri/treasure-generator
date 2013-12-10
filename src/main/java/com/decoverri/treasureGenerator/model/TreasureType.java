@@ -1,7 +1,10 @@
-package com.decoverri.treasureGenerator.model.view;
+package com.decoverri.treasureGenerator.model;
 
 import java.util.List;
 
+import javax.persistence.Entity;
+
+@Entity
 public class TreasureType {
 
 	private char letter;

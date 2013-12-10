@@ -10,8 +10,8 @@ import com.decoverri.treasureGenerator.dao.treasure.RingDao;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.RingGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Ring;
+import com.decoverri.treasureGenerator.model.treasure.data.RingGeneratorData;
 
 @Component
 public class RingGenerator {

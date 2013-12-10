@@ -18,8 +18,8 @@ import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.enums.MagicType;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.ScrollGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
+import com.decoverri.treasureGenerator.model.treasure.data.ScrollGeneratorData;
 
 @Component
 public class ScrollGenerator {

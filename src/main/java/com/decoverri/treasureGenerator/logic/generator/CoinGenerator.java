@@ -6,8 +6,8 @@ import java.util.List;
 import com.decoverri.treasureGenerator.enums.Currency;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.CoinGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Coins;
+import com.decoverri.treasureGenerator.model.treasure.data.CoinGeneratorData;
 
 public class CoinGenerator {
 

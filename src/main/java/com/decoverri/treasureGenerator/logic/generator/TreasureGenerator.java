@@ -12,7 +12,7 @@ import com.decoverri.treasureGenerator.controller.TreasureTypes;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.TreasureReward;
-import com.decoverri.treasureGenerator.model.view.TreasureType;
+import com.decoverri.treasureGenerator.model.TreasureType;
 
 @Component
 public class TreasureGenerator {

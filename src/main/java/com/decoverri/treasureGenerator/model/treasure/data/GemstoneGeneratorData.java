@@ -1,4 +1,4 @@
-package com.decoverri.treasureGenerator.model.data;
+package com.decoverri.treasureGenerator.model.treasure.data;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,12 +7,12 @@ import javax.persistence.Id;
 import com.decoverri.treasureGenerator.interfaces.GeneratorData;
 
 @Entity
-public class ArtObjectGeneratorData implements GeneratorData {
+public class GemstoneGeneratorData implements GeneratorData {
 
 	@Id
 	@GeneratedValue
 	private long id;
-	
+
 	private int quantity;
 	private int grade;
 
@@ -39,4 +39,5 @@ public class ArtObjectGeneratorData implements GeneratorData {
 	public void setGrade(int grade) {
 		this.grade = grade;
 	}
+
 }

@@ -14,8 +14,8 @@ import com.decoverri.treasureGenerator.enums.BodySlot;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
+import com.decoverri.treasureGenerator.model.treasure.data.WondrousItemGeneratorData;
 
 @Component
 public class WondrousItemGenerator {

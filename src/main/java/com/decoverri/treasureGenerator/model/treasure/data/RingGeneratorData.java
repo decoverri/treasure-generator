@@ -1,4 +1,4 @@
-package com.decoverri.treasureGenerator.model.data;
+package com.decoverri.treasureGenerator.model.treasure.data;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -10,7 +10,7 @@ import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.GeneratorData;
 
 @Entity
-public class WondrousItemGeneratorData implements GeneratorData {
+public class RingGeneratorData implements GeneratorData {
 
 	@Id
 	@GeneratedValue

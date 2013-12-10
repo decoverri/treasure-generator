@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
-import com.decoverri.treasureGenerator.model.view.TreasureType;
+import com.decoverri.treasureGenerator.model.TreasureType;
 
 @Controller
 @Scope("request")

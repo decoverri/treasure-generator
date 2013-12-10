@@ -13,12 +13,12 @@ import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.MagicWeaponGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.MagicWeapon;
 import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
 import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
+import com.decoverri.treasureGenerator.model.treasure.data.MagicWeaponGeneratorData;
 
 @Component
 public class MagicWeaponGenerator {

@@ -16,11 +16,11 @@ import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.MagicArmorGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.MagicArmor;
 import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorStats;
+import com.decoverri.treasureGenerator.model.treasure.data.MagicArmorGeneratorData;
 
 @Component
 public class MagicArmorGenerator {

@@ -15,8 +15,8 @@ import com.decoverri.treasureGenerator.enums.MagicItemRarity;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.PotionGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
+import com.decoverri.treasureGenerator.model.treasure.data.PotionGeneratorData;
 
 @Component
 public class PotionGenerator {

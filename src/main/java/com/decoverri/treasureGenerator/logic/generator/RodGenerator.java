@@ -11,9 +11,9 @@ import com.decoverri.treasureGenerator.dao.treasure.complement.MetamagicRodDao;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.RodGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Rod;
 import com.decoverri.treasureGenerator.model.treasure.complement.MetamagicRod;
+import com.decoverri.treasureGenerator.model.treasure.data.RodGeneratorData;
 
 @Component
 public class RodGenerator {

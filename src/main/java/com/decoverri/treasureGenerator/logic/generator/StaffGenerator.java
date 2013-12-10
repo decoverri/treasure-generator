@@ -10,8 +10,8 @@ import com.decoverri.treasureGenerator.dao.treasure.StaffDao;
 import com.decoverri.treasureGenerator.enums.MagicItemStrength;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
-import com.decoverri.treasureGenerator.model.data.StaffGeneratorData;
 import com.decoverri.treasureGenerator.model.treasure.Staff;
+import com.decoverri.treasureGenerator.model.treasure.data.StaffGeneratorData;
 
 @Component
 public class StaffGenerator {

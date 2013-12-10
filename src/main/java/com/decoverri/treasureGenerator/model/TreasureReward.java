@@ -7,19 +7,19 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.decoverri.treasureGenerator.model.data.ArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.data.ArtObjectGeneratorData;
-import com.decoverri.treasureGenerator.model.data.CoinGeneratorData;
-import com.decoverri.treasureGenerator.model.data.GemstoneGeneratorData;
-import com.decoverri.treasureGenerator.model.data.MagicArmorGeneratorData;
-import com.decoverri.treasureGenerator.model.data.MagicWeaponGeneratorData;
-import com.decoverri.treasureGenerator.model.data.PotionGeneratorData;
-import com.decoverri.treasureGenerator.model.data.RingGeneratorData;
-import com.decoverri.treasureGenerator.model.data.RodGeneratorData;
-import com.decoverri.treasureGenerator.model.data.ScrollGeneratorData;
-import com.decoverri.treasureGenerator.model.data.StaffGeneratorData;
-import com.decoverri.treasureGenerator.model.data.WandGeneratorData;
-import com.decoverri.treasureGenerator.model.data.WondrousItemGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.ArtObjectGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.RodGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.StaffGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.WondrousItemGeneratorData;
 
 @Entity
 public class TreasureReward {
