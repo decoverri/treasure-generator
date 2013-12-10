@@ -8,11 +8,11 @@ import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.decoverri.treasureGenerator.controller.TreasureTypeInfoList;
+import com.decoverri.treasureGenerator.controller.TreasureTypes;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.TreasureReward;
-import com.decoverri.treasureGenerator.model.view.TreasureTypeInfo;
+import com.decoverri.treasureGenerator.model.view.TreasureType;
 
 @Component
 public class TreasureGenerator {
@@ -62,27 +62,27 @@ public class TreasureGenerator {
 	@Autowired
 	private TreasureRewardDao dao;
 
-	public List<Treasure> genarate(TreasureTypeInfoList list) {
+	public List<Treasure> generate(TreasureTypes types) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
-		for (TreasureTypeInfo info : list.getInfos()) {
-			if (info.getValues() != null) {
-				treasures.addAll(genarate(info));
+		for (TreasureType treasureType : types.getTreasureTypes()) {
+			if (treasureType.getValues() != null) {
+				treasures.addAll(generate(treasureType));
 			}
 		}
 		return treasures;
 	}
 
-	private List<Treasure> genarate(TreasureTypeInfo info) {
+	private List<Treasure> generate(TreasureType treasureType) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
-		for (Integer value : info.getValues()) {
+		for (Integer value : treasureType.getValues()) {
 			if (value != null) {
-				treasures.addAll(genarate(value, info.getType()));
+				treasures.addAll(generate(value, treasureType.getLetter()));
 			}
 		}
 		return treasures;
 	}
 
-	public List<Treasure> genarate(int value, char type) {
+	public List<Treasure> generate(int value, char type) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 		System.out.println("Generating " + value + "gp worth of Type " + type + " treasure:\n");
 

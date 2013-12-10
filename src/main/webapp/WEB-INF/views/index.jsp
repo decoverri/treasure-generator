@@ -25,14 +25,14 @@
 			<br/><br/>
 
 			<div class="row">
-				<c:forEach items="${treasureTypesInfo}" var="generatorInfo" varStatus="s1">
+				<c:forEach items="${treasureTypes}" var="treasureType" varStatus="s1">
 					<div class="span1AndABit">
-						<h4>Type ${generatorInfo.type}</h4>
-						<input type="hidden" name="infos[${s1.index}].type" value="${generatorInfo.type}" />
+						<h4>Type ${treasureType.letter}</h4>
+						<input type="hidden" name="treasureTypes[${s1.index}].letter" value="${treasureType.letter}" />
 	
-						<c:forEach items="${generatorInfo.values}" var="value" varStatus="s2">
+						<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
 							<label class="checkbox">
-								<input type="checkbox" name="infos[${s1.index}].values[${s2.index}]" value="${value}"/>
+								<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}]" value="${value}"/>
 								<fmt:formatNumber type="number" value="${value}" /> gp
 							</label>
 						</c:forEach>

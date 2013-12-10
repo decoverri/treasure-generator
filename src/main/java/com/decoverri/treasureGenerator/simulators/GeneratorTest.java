@@ -15,7 +15,7 @@ public class GeneratorTest {
 		char type = 'I';
 
 		TreasureGenerator generator = new TreasureGenerator();
-		List<Treasure> treasures = generator.genarate(worth, type);
+		List<Treasure> treasures = generator.generate(worth, type);
 
 		System.out.println("Treasure List:");
 		double totalPrice = 0;

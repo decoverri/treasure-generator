@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
-import com.decoverri.treasureGenerator.model.view.TreasureTypeInfo;
+import com.decoverri.treasureGenerator.model.view.TreasureType;
 
 @Controller
 @Scope("request")
@@ -25,24 +25,27 @@ public class IndexController {
 
 	@RequestMapping("/")
 	public String execute(Model model) {
-		ArrayList<TreasureTypeInfo> treasuresInfo = new ArrayList<TreasureTypeInfo>();
-		TreasureTypeInfo info;
+		List<TreasureType> treasureTypes = new ArrayList<TreasureType>();
+		TreasureType treasureType;
 
 		List<Character> types = rewardDao.getTypes();
 		for (Character character : types) {
-			info = new TreasureTypeInfo();
-			info.setType(character);
-			info.setValues(rewardDao.getValuesOfType(character));
-			treasuresInfo.add(info);
+			treasureType = new TreasureType();
+			treasureType.setLetter(character);
+			treasureType.setValues(rewardDao.getValuesOfType(character));
+			treasureTypes.add(treasureType);
 		}
+		
+//TODO: fazer TreasureType virar uma Entity, criar um dao para ele e substituir gtodas as linhas de cima pela de baixo :D		
+//		List<TreasureType> types = treasureTypeDao.getTreasureTypes();
 
-		model.addAttribute("treasureTypesInfo", treasuresInfo);
+		model.addAttribute("treasureTypes", treasureTypes);
 		return "index";
 	}
 
 	@RequestMapping("/generate")
-	public String generate(TreasureTypeInfoList infos, Model model) {
-		List<Treasure> treasures = generator.genarate(infos);
+	public String generate(TreasureTypes treasureTypes, Model model) {
+		List<Treasure> treasures = generator.generate(treasureTypes);
 		double totalPrice = 0;
 		for (Treasure treasure : treasures) {
 			totalPrice += treasure.getTreasureValue();

@@ -2,19 +2,19 @@ package com.decoverri.treasureGenerator.model.view;
 
 import java.util.List;
 
-public class TreasureTypeInfo {
+public class TreasureType {
 
-	private char type;
+	private char letter;
 	private String name;
 	private String description;
 	private List<Integer> values;
 
-	public char getType() {
-		return type;
+	public char getLetter() {
+		return letter;
 	}
 
-	public void setType(char type) {
-		this.type = type;
+	public void setLetter(char typeLetter) {
+		this.letter = typeLetter;
 	}
 
 	public String getName() {
