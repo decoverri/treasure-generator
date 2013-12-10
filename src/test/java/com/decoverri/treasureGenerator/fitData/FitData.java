@@ -14,11 +14,13 @@ import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
+import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
+import com.decoverri.treasureGenerator.model.treasure.Potion;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
@@ -98,9 +100,20 @@ public class FitData {
 		scanner.close();
 	}
 	
-//		new FitArtObjects(session).fit();
-//
-//		new FitPotions(session).fit();
+	@Test
+	public void fitPotions() throws Exception {
+		PotionDao potionDao = new PotionDao(session);
+
+		xstream.alias("potion", Potion.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potions.json"));
+		while (scanner.hasNextLine()) {
+			Potion potion = (Potion) xstream.fromXML(scanner.nextLine());
+			potionDao.saveOrUpdate(potion);
+		}
+		scanner.close();
+	}
+	
 //		new FitPotionLevel(session).fit();
 //
 //		new FitScrolls(session).fit();

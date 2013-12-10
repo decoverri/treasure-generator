@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.Potion;
 @Component
 public class PotionDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public PotionDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Potion potion) {
 		session.saveOrUpdate(potion);
