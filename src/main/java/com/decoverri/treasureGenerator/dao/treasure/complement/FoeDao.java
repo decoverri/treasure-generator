@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 @Component
 public class FoeDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public FoeDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Foe foe) {
 		session.saveOrUpdate(foe);

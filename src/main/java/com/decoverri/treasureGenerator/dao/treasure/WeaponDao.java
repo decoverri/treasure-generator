@@ -10,8 +10,12 @@ import com.decoverri.treasureGenerator.model.treasure.Weapon;
 @Component
 public class WeaponDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public WeaponDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Weapon weapon) {
 		session.saveOrUpdate(weapon);

@@ -18,10 +18,15 @@ import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
 import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
 import com.decoverri.treasureGenerator.dao.treasure.SpecificArmorDao;
+import com.decoverri.treasureGenerator.dao.treasure.SpecificWeaponDao;
 import com.decoverri.treasureGenerator.dao.treasure.WandDao;
+import com.decoverri.treasureGenerator.dao.treasure.WeaponDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.FoeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorAbilityDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorStatsDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponAbilityDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
@@ -33,10 +38,15 @@ import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
 import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
+import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
+import com.decoverri.treasureGenerator.model.treasure.Weapon;
+import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorStats;
+import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
+import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
 import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
@@ -258,12 +268,77 @@ public class FitData {
 		scanner.close();
 	}
 	
-//		new FitWeapon(session).fit();
-//		new FitSpecificWeapon(session).fit();
-//		new FitMagicWeaponAbility(session).fit();
-//		new FitFoe(session).fit();
-//		new FitMagicWeaponStats(session).fit();
-//
+	@Test
+	public void fitWeapons() throws Exception {
+		WeaponDao weaponDao = new WeaponDao(session);
+		
+		xstream.alias("weapon", Weapon.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/weapons.json"));
+		while (scanner.hasNextLine()) {
+			Weapon weapon = (Weapon) xstream.fromXML(scanner.nextLine());
+			weaponDao.saveOrUpdate(weapon);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitSpecificWeapons() throws Exception {
+		SpecificWeaponDao weaponDao = new SpecificWeaponDao(session);
+		
+		xstream.alias("weapon", SpecificWeapon.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/specificWeapons.json"));
+		while (scanner.hasNextLine()) {
+			SpecificWeapon weapon = (SpecificWeapon) xstream.fromXML(scanner.nextLine());
+			weaponDao.saveOrUpdate(weapon);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitMagicWeaponAbilities() throws Exception {
+		MagicWeaponAbilityDao abilityDao = new MagicWeaponAbilityDao(session);
+		
+		xstream.alias("ability", MagicWeaponAbility.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponAbilities.json"));
+		while (scanner.hasNextLine()) {
+			MagicWeaponAbility ability = (MagicWeaponAbility) xstream.fromXML(scanner.nextLine());
+			abilityDao.saveOrUpdate(ability);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitFoes() throws Exception {
+		FoeDao foeDao = new FoeDao(session);
+		
+		xstream.alias("foe", Foe.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/foes.json"));
+		while (scanner.hasNextLine()) {
+			Foe foe = (Foe) xstream.fromXML(scanner.nextLine());
+			foeDao.saveOrUpdate(foe);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitMagicWeaponStats() throws Exception {
+		MagicWeaponStatsDao statsDao = new MagicWeaponStatsDao(session);
+		
+		xstream.alias("stats", MagicWeaponStats.class);
+		xstream.alias("int", Integer.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponStats.json"));
+		while (scanner.hasNextLine()) {
+			MagicWeaponStats stats = (MagicWeaponStats) xstream.fromXML(scanner.nextLine());
+			statsDao.saveOrUpdate(stats);
+		}
+		scanner.close();
+	}
+
 //		new FitWondrousItem(session).fit();
 //		new FitWondrousItemBodySlot(session).fit();
 //
