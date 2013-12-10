@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.WondrousItemBod
 @Component
 public class WondrousItemBodySlotDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public WondrousItemBodySlotDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(WondrousItemBodySlot slot) {
 		session.saveOrUpdate(slot);

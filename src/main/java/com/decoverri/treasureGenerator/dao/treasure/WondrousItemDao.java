@@ -12,8 +12,12 @@ import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 @Component
 public class WondrousItemDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public WondrousItemDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(WondrousItem item) {
 		session.saveOrUpdate(item);

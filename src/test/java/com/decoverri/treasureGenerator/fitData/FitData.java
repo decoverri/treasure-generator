@@ -21,6 +21,7 @@ import com.decoverri.treasureGenerator.dao.treasure.SpecificArmorDao;
 import com.decoverri.treasureGenerator.dao.treasure.SpecificWeaponDao;
 import com.decoverri.treasureGenerator.dao.treasure.WandDao;
 import com.decoverri.treasureGenerator.dao.treasure.WeaponDao;
+import com.decoverri.treasureGenerator.dao.treasure.WondrousItemDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.FoeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorAbilityDao;
@@ -30,6 +31,7 @@ import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsD
 import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.WondrousItemBodySlotDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 import com.decoverri.treasureGenerator.model.treasure.Armor;
@@ -41,6 +43,7 @@ import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
 import com.decoverri.treasureGenerator.model.treasure.Weapon;
+import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
 import com.decoverri.treasureGenerator.model.treasure.complement.Foe;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbility;
@@ -50,6 +53,7 @@ import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStat
 import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
+import com.decoverri.treasureGenerator.model.treasure.complement.WondrousItemBodySlot;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -338,10 +342,35 @@ public class FitData {
 		}
 		scanner.close();
 	}
+	
+	@Test
+	public void fitWondrousItems() throws Exception {
+		WondrousItemDao itemDao = new WondrousItemDao(session);
+		
+		xstream.alias("item", WondrousItem.class);
 
-//		new FitWondrousItem(session).fit();
-//		new FitWondrousItemBodySlot(session).fit();
-//
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItems.json"));
+		while (scanner.hasNextLine()) {
+			WondrousItem item = (WondrousItem) xstream.fromXML(scanner.nextLine());
+			itemDao.saveOrUpdate(item);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitWondrousItemBodySlots() throws Exception {
+		WondrousItemBodySlotDao slotDao = new WondrousItemBodySlotDao(session);
+		
+		xstream.alias("wondrousitemslot", WondrousItemBodySlot.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItemBodySlots.json"));
+		while (scanner.hasNextLine()) {
+			WondrousItemBodySlot wondrousItemSlot = (WondrousItemBodySlot) xstream.fromXML(scanner.nextLine());
+			slotDao.saveOrUpdate(wondrousItemSlot);
+		}
+		scanner.close();
+	}
+
 //		new FitRing(session).fit();
 //
 //		new FitRod(session).fit();
