@@ -3,15 +3,22 @@ package com.decoverri.treasureGenerator.logic.generator;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.decoverri.treasureGenerator.enums.Currency;
 import com.decoverri.treasureGenerator.logic.DiceRoller;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.treasure.Coins;
 import com.decoverri.treasureGenerator.model.treasure.data.CoinGeneratorData;
 
+@Component
 public class CoinGenerator {
 
-	private DiceRoller roller = new DiceRoller();
+	private DiceRoller roller;
+
+	public CoinGenerator() {
+		this.roller = new DiceRoller();
+	}
 
 	public List<Coins> generate(List<CoinGeneratorData> datas) {
 		List<Coins> coins = new ArrayList<Coins>();

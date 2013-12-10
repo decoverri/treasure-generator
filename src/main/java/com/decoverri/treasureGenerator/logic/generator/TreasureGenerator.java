@@ -21,6 +21,9 @@ public class TreasureGenerator {
 	private Session session;
 
 	@Autowired
+	CoinGenerator coinGenerator;
+
+	@Autowired
 	private ArmorGenerator armorGenerator;
 
 	@Autowired
@@ -89,7 +92,7 @@ public class TreasureGenerator {
 		Transaction transaction = session.beginTransaction();
 		TreasureReward reward = dao.findByValue(type, value);
 
-		treasures.addAll(new CoinGenerator().generate(reward.getCoins()));
+		treasures.addAll(coinGenerator.generate(reward.getCoins()));
 		treasures.addAll(armorGenerator.generate(reward.getNonmagicalArmors()));
 		treasures.addAll(magicArmorGenerator.generate(reward.getArmors()));
 		treasures.addAll(weaponGenerator.generate(reward.getNonmagicalWeapons()));
