@@ -11,10 +11,12 @@ public class FitData {
 
 	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
-//	public static void main(String[] args) throws IOException {
-//		long inicio = System.currentTimeMillis();
-//
-//		Transaction transaction = session.beginTransaction();
+	public static void main(String[] args) throws IOException {
+		long inicio = System.currentTimeMillis();
+
+		Transaction transaction = session.beginTransaction();
+		
+		new FitTreasureTypes(session).fit();
 //
 //		new FitGems(session).fit();
 //
@@ -52,9 +54,9 @@ public class FitData {
 //		
 //		new FitTreasure(session).fit();
 //
-//		transaction.commit();
+		transaction.commit();
 //
-//		long fim = System.currentTimeMillis();
-//		System.out.println("Total time: " + (fim - inicio)/1000.0 + "s");
-//	}
+		long fim = System.currentTimeMillis();
+		System.out.println("Total time: " + (fim - inicio)/1000.0 + "s");
+	}
 }
