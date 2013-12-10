@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.Rod;
 @Component
 public class RodDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public RodDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Rod rod) {
 		session.saveOrUpdate(rod);

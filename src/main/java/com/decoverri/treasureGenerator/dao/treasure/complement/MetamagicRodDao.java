@@ -10,8 +10,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.MetamagicRod;
 @Component
 public class MetamagicRodDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public MetamagicRodDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(MetamagicRod metamagic) {
 		session.saveOrUpdate(metamagic);

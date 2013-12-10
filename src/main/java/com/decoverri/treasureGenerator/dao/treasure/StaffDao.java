@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.Staff;
 @Component
 public class StaffDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public StaffDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Staff staff) {
 		session.saveOrUpdate(staff);

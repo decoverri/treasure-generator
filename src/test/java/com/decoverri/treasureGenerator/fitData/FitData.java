@@ -16,9 +16,12 @@ import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
 import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
+import com.decoverri.treasureGenerator.dao.treasure.RingDao;
+import com.decoverri.treasureGenerator.dao.treasure.RodDao;
 import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
 import com.decoverri.treasureGenerator.dao.treasure.SpecificArmorDao;
 import com.decoverri.treasureGenerator.dao.treasure.SpecificWeaponDao;
+import com.decoverri.treasureGenerator.dao.treasure.StaffDao;
 import com.decoverri.treasureGenerator.dao.treasure.WandDao;
 import com.decoverri.treasureGenerator.dao.treasure.WeaponDao;
 import com.decoverri.treasureGenerator.dao.treasure.WondrousItemDao;
@@ -28,6 +31,7 @@ import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorAbility
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorStatsDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponAbilityDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.MagicWeaponStatsDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MetamagicRodDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
@@ -38,9 +42,12 @@ import com.decoverri.treasureGenerator.model.treasure.Armor;
 import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
+import com.decoverri.treasureGenerator.model.treasure.Ring;
+import com.decoverri.treasureGenerator.model.treasure.Rod;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
 import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 import com.decoverri.treasureGenerator.model.treasure.SpecificWeapon;
+import com.decoverri.treasureGenerator.model.treasure.Staff;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
 import com.decoverri.treasureGenerator.model.treasure.Weapon;
 import com.decoverri.treasureGenerator.model.treasure.WondrousItem;
@@ -50,6 +57,7 @@ import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbili
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorStats;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponAbility;
 import com.decoverri.treasureGenerator.model.treasure.complement.MagicWeaponStats;
+import com.decoverri.treasureGenerator.model.treasure.complement.MetamagicRod;
 import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
@@ -370,14 +378,63 @@ public class FitData {
 		}
 		scanner.close();
 	}
+	
+	@Test
+	public void fitRings() throws Exception {
+		RingDao ringDao = new RingDao(session);
+		
+		xstream.alias("ring", Ring.class);
 
-//		new FitRing(session).fit();
-//
-//		new FitRod(session).fit();
-//		new FitMetamagicRod(session).fit();
-//
-//		new FitStaff(session).fit();
-//		
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rings.json"));
+		while (scanner.hasNextLine()) {
+			Ring ring = (Ring) xstream.fromXML(scanner.nextLine());
+			ringDao.saveOrUpdate(ring);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitRods() throws Exception {
+		RodDao rodDao = new RodDao(session);
+		
+		xstream.alias("rod", Rod.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rods.json"));
+		while (scanner.hasNextLine()) {
+			Rod rod = (Rod) xstream.fromXML(scanner.nextLine());
+			rodDao.saveOrUpdate(rod);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitMetamagicRods() throws Exception {
+		MetamagicRodDao metamagicDao = new MetamagicRodDao(session);
+		
+		xstream.alias("metamagic", MetamagicRod.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/metamagicRods.json"));
+		while (scanner.hasNextLine()) {
+			MetamagicRod metamagic = (MetamagicRod) xstream.fromXML(scanner.nextLine());
+			metamagicDao.saveOrUpdate(metamagic);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitStaves() throws Exception {
+		StaffDao staffDao = new StaffDao(session);
+		
+		xstream.alias("staff", Staff.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/staves.json"));
+		while (scanner.hasNextLine()) {
+			Staff staff = (Staff) xstream.fromXML(scanner.nextLine());
+			staffDao.saveOrUpdate(staff);
+		}
+		scanner.close();
+	}
+
 //		new FitTreasure(session).fit();
 //
 }

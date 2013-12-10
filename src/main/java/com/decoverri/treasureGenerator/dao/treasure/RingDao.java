@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.Ring;
 @Component
 public class RingDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public RingDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Ring ring) {
 		session.saveOrUpdate(ring);
