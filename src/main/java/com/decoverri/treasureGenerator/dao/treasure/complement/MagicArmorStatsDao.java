@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorStats
 @Component
 public class MagicArmorStatsDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public MagicArmorStatsDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(MagicArmorStats stats) {
 		session.saveOrUpdate(stats);

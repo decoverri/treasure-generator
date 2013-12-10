@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbili
 @Component
 public class MagicArmorAbilityDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public MagicArmorAbilityDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(MagicArmorAbility ablility) {
 		session.saveOrUpdate(ablility);

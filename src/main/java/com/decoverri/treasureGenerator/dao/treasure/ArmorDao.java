@@ -10,8 +10,12 @@ import com.decoverri.treasureGenerator.model.treasure.Armor;
 @Component
 public class ArmorDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public ArmorDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Armor armor) {
 		session.saveOrUpdate(armor);

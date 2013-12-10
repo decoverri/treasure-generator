@@ -12,23 +12,31 @@ import org.junit.Test;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
+import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
 import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
 import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
+import com.decoverri.treasureGenerator.dao.treasure.SpecificArmorDao;
 import com.decoverri.treasureGenerator.dao.treasure.WandDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorAbilityDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.MagicArmorStatsDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
+import com.decoverri.treasureGenerator.model.treasure.Armor;
 import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
+import com.decoverri.treasureGenerator.model.treasure.SpecificArmor;
 import com.decoverri.treasureGenerator.model.treasure.Wand;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
+import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorAbility;
+import com.decoverri.treasureGenerator.model.treasure.complement.MagicArmorStats;
 import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
@@ -194,11 +202,62 @@ public class FitData {
 		scanner.close();
 	}
 	
-//		new FitArmor(session).fit();
-//		new FitSpecificArmor(session).fit();
-//		new FitMagicArmorAbility(session).fit();
-//		new FitMagicArmorStats(session).fit();
-//
+	@Test
+	public void fitArmor() throws Exception {
+		ArmorDao armorDao = new ArmorDao(session);
+		
+		xstream.alias("armor", Armor.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/armors.json"));
+		while (scanner.hasNextLine()) {
+			Armor armor = (Armor) xstream.fromXML(scanner.nextLine());
+			armorDao.saveOrUpdate(armor);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitSpecficArmor() throws Exception {
+		SpecificArmorDao armorDao = new SpecificArmorDao(session);
+		
+		xstream.alias("armor", SpecificArmor.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/specificArmors.json"));
+		while (scanner.hasNextLine()) {
+			SpecificArmor armor = (SpecificArmor) xstream.fromXML(scanner.nextLine());
+			armorDao.saveOrUpdate(armor);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitMagicArmorAbilities() throws Exception {
+		MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(session);
+		
+		xstream.alias("ability", MagicArmorAbility.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorAbilities.json"));
+		while (scanner.hasNextLine()) {
+			MagicArmorAbility ability = (MagicArmorAbility) xstream.fromXML(scanner.nextLine());
+			abilityDao.saveOrUpdate(ability);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitMagicArmorStats() throws Exception {
+		MagicArmorStatsDao statsDao = new MagicArmorStatsDao(session);
+		
+		xstream.alias("stats", MagicArmorStats.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorStats.json"));
+		while (scanner.hasNextLine()) {
+			MagicArmorStats stats = (MagicArmorStats) xstream.fromXML(scanner.nextLine());
+			statsDao.saveOrUpdate(stats);
+		}
+		scanner.close();
+	}
+	
 //		new FitWeapon(session).fit();
 //		new FitSpecificWeapon(session).fit();
 //		new FitMagicWeaponAbility(session).fit();
