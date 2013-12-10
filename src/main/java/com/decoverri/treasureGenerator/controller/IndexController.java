@@ -19,6 +19,7 @@ public class IndexController {
 	@Autowired
 	private TreasureGenerator generator;
 
+	@Autowired
 	private TreasureTypeDao treasureTypeDao;
 
 	@RequestMapping("/")

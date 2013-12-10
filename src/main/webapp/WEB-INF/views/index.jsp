@@ -32,8 +32,8 @@
 	
 						<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
 							<label class="checkbox">
-								<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}]" value="${value}"/>
-								<fmt:formatNumber type="number" value="${value}" /> gp
+								<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}].value" value="${value.value}"/>
+								<fmt:formatNumber type="number" value="${value.value}" /> gp
 							</label>
 						</c:forEach>
 					</div>

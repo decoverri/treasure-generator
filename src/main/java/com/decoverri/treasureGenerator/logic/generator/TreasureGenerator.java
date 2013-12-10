@@ -22,7 +22,7 @@ public class TreasureGenerator {
 	private Session session;
 
 	@Autowired
-	CoinGenerator coinGenerator;
+	private CoinGenerator coinGenerator;
 
 	@Autowired
 	private ArmorGenerator armorGenerator;
@@ -79,7 +79,7 @@ public class TreasureGenerator {
 	private List<Treasure> generate(TreasureType treasureType) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 		for (TreasureTypeValue treasureTypeValue : treasureType.getValues()) {
-			if (treasureTypeValue != null) {
+			if (treasureTypeValue != null && treasureTypeValue.getValue() != 0) {
 				treasures.addAll(generate(treasureTypeValue.getValue(), treasureType.getLetter()));
 			}
 		}

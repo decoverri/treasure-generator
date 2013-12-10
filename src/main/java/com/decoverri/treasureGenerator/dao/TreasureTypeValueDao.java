@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import ch.lambdaj.Lambda;
 import ch.lambdaj.function.convert.Converter;
 
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
@@ -30,6 +29,7 @@ public class TreasureTypeValueDao {
 			}
 		});
 
+		@SuppressWarnings("unchecked")
 		List<TreasureTypeValue> treasureTypeValues = session.createQuery("select v from TreasureTypeValue v where value in (:values)").setParameterList("values", ints).list();
 		
 		for (TreasureTypeValue value : values) {
