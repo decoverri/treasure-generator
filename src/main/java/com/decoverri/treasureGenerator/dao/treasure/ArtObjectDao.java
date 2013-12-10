@@ -14,8 +14,12 @@ import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 @Component
 public class ArtObjectDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public ArtObjectDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(ArtObject art) {
 		session.saveOrUpdate(art);

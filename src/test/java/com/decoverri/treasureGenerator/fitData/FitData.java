@@ -12,10 +12,12 @@ import org.junit.Test;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
+import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
+import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 import com.thoughtworks.xstream.XStream;
@@ -75,6 +77,22 @@ public class FitData {
 					gem.setGrade(gradeSearch);
 				}
 				gemDao.saveOrUpdate(gem);
+			}
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitArtObjects() throws Exception {
+		ArtObjectDao artDao = new ArtObjectDao(session);
+		
+		xstream.alias("art", ArtObject.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/artObjects.json"));
+		while (scanner.hasNextLine()) {
+			ArtObject art = (ArtObject) xstream.fromXML(scanner.nextLine());
+			if (!artDao.exists(art.getName())) {
+				artDao.saveOrUpdate(art);
 			}
 		}
 		scanner.close();
