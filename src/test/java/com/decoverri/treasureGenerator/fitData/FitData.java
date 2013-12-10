@@ -16,18 +16,22 @@ import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
 import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
+import com.decoverri.treasureGenerator.dao.treasure.WandDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
 import com.decoverri.treasureGenerator.model.treasure.Scroll;
+import com.decoverri.treasureGenerator.model.treasure.Wand;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
+import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -162,9 +166,34 @@ public class FitData {
 		scanner.close();
 	}
 	
-//		new FitWand(session).fit();
-//		new FitWandLevel(session).fit();
-//
+	@Test
+	public void fitWands() throws Exception {
+		WandDao wandDao = new WandDao(session);
+		
+		xstream.alias("wand", Wand.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wands.json"));
+		while (scanner.hasNextLine()) {
+			Wand wand = (Wand) xstream.fromXML(scanner.nextLine());
+			wandDao.saveOrUpdate(wand);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitWandLevel() throws Exception {
+		WandLevelDao wandDao = new WandLevelDao(session);
+		
+		xstream.alias("wandlevel", WandLevel.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wandLevel.json"));
+		while (scanner.hasNextLine()) {
+			WandLevel wandLevel = (WandLevel) xstream.fromXML(scanner.nextLine());
+			wandDao.saveOrUpdate(wandLevel);
+		}
+		scanner.close();
+	}
+	
 //		new FitArmor(session).fit();
 //		new FitSpecificArmor(session).fit();
 //		new FitMagicArmorAbility(session).fit();

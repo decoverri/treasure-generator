@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.Wand;
 @Component
 public class WandDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public WandDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Wand wand) {
 		session.saveOrUpdate(wand);

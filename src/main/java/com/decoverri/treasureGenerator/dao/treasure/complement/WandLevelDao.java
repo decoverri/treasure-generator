@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
 @Component
 public class WandLevelDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public WandLevelDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(WandLevel wand) {
 		session.saveOrUpdate(wand);
