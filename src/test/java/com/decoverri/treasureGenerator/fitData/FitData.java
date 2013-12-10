@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.junit.After;
-import org.junit.Before;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
@@ -84,18 +84,17 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 public class FitData {
 
 	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-
-	private Transaction transaction;
+	private static Transaction transaction;
 	
 	private XStream xstream = new XStream(new JettisonMappedXmlDriver());
 
-	@Before
-	public void before() {
+	@BeforeClass
+	public static void before() {
 		transaction = session.beginTransaction();
 	}
 
-	@After
-	public void after() {
+	@AfterClass
+	public static void after() {
 		transaction.commit();
 	}
 	
