@@ -1,9 +1,8 @@
 package com.decoverri.treasureGenerator.fitData;
 
-import java.io.IOException;
-
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.junit.Test;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 
@@ -11,12 +10,17 @@ public class FitData {
 
 	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
-	public static void main(String[] args) throws IOException {
-		long inicio = System.currentTimeMillis();
-
+	@Test
+	public void fitTreasureTypes() throws Exception {
 		Transaction transaction = session.beginTransaction();
-		
 		new FitTreasureTypes(session).fit();
+		transaction.commit();
+	}
+	
+//	public static void main(String[] args) throws IOException {
+//		long inicio = System.currentTimeMillis();
+//
+//		
 //
 //		new FitGems(session).fit();
 //
@@ -54,9 +58,8 @@ public class FitData {
 //		
 //		new FitTreasure(session).fit();
 //
-		transaction.commit();
 //
-		long fim = System.currentTimeMillis();
-		System.out.println("Total time: " + (fim - inicio)/1000.0 + "s");
-	}
+//		long fim = System.currentTimeMillis();
+//		System.out.println("Total time: " + (fim - inicio)/1000.0 + "s");
+//	}
 }

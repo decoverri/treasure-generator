@@ -20,7 +20,7 @@ public class TreasureTypeDao {
 
 	@SuppressWarnings("unchecked")
 	public List<TreasureType> getTreasureTypes() {
-		return session.createQuery("select * from TreasureType").list();
+		return session.createQuery("select t from TreasureType t").list();
 	}
 
 }

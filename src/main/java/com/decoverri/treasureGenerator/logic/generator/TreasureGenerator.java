@@ -13,6 +13,7 @@ import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.TreasureReward;
 import com.decoverri.treasureGenerator.model.TreasureType;
+import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 
 @Component
 public class TreasureGenerator {
@@ -77,9 +78,9 @@ public class TreasureGenerator {
 
 	private List<Treasure> generate(TreasureType treasureType) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
-		for (Integer value : treasureType.getValues()) {
-			if (value != null) {
-				treasures.addAll(generate(value, treasureType.getLetter()));
+		for (TreasureTypeValue treasureTypeValue : treasureType.getValues()) {
+			if (treasureTypeValue != null) {
+				treasures.addAll(generate(treasureTypeValue.getValue(), treasureType.getLetter()));
 			}
 		}
 		return treasures;

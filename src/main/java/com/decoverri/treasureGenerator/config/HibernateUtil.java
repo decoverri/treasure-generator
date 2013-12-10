@@ -19,6 +19,7 @@ public class HibernateUtil {
 	private static SessionFactory configureSessionFactory() throws HibernateException {
 		Configuration cfg = new Configuration();
 
+		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.TreasureTypeValue.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.TreasureType.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.TreasureReward.class);
 
