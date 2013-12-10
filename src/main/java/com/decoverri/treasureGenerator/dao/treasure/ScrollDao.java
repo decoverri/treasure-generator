@@ -18,8 +18,12 @@ import com.decoverri.treasureGenerator.model.treasure.Scroll;
 @Component
 public class ScrollDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public ScrollDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Scroll scroll) {
 		session.saveOrUpdate(scroll);

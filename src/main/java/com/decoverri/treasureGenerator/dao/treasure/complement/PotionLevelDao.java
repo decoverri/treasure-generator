@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 @Component
 public class PotionLevelDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public PotionLevelDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(PotionLevel potion) {
 		session.saveOrUpdate(potion);

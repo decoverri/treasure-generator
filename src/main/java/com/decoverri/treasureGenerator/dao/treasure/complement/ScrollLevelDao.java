@@ -11,8 +11,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 @Component
 public class ScrollLevelDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public ScrollLevelDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(ScrollLevel scroll) {
 		session.saveOrUpdate(scroll);

@@ -15,13 +15,19 @@ import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.dao.treasure.ArtObjectDao;
 import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
 import com.decoverri.treasureGenerator.dao.treasure.PotionDao;
+import com.decoverri.treasureGenerator.dao.treasure.ScrollDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 import com.decoverri.treasureGenerator.model.treasure.ArtObject;
 import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 import com.decoverri.treasureGenerator.model.treasure.Potion;
+import com.decoverri.treasureGenerator.model.treasure.Scroll;
 import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
+import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
+import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -114,11 +120,48 @@ public class FitData {
 		scanner.close();
 	}
 	
-//		new FitPotionLevel(session).fit();
-//
-//		new FitScrolls(session).fit();
-//		new FitScrollLevel(session).fit();
-//
+	@Test
+	public void fitPotionLevel() throws Exception {
+		PotionLevelDao potionDao = new PotionLevelDao(session);
+
+		xstream.alias("potionlevel", PotionLevel.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potionLevel.json"));
+		while (scanner.hasNextLine()) {
+			PotionLevel potionLevel = (PotionLevel) xstream.fromXML(scanner.nextLine());
+			potionDao.saveOrUpdate(potionLevel);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitScrolls() throws Exception {
+		ScrollDao scrollDao = new ScrollDao(session);
+
+		xstream.alias("scroll", Scroll.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrolls.json"));
+		while (scanner.hasNextLine()) {
+			Scroll scroll = (Scroll) xstream.fromXML(scanner.nextLine());
+			scrollDao.saveOrUpdate(scroll);
+		}
+		scanner.close();
+	}
+	
+	@Test
+	public void fitScrollLevel() throws Exception {
+		ScrollLevelDao scrollDao = new ScrollLevelDao(session);
+
+		xstream.alias("scrolllevel", ScrollLevel.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrollLevel.json"));
+		while (scanner.hasNextLine()) {
+			ScrollLevel scrollLevel = (ScrollLevel) xstream.fromXML(scanner.nextLine());
+			scrollDao.saveOrUpdate(scrollLevel);
+		}
+		scanner.close();
+	}
+	
 //		new FitWand(session).fit();
 //		new FitWandLevel(session).fit();
 //
