@@ -12,8 +12,12 @@ import org.junit.Test;
 import com.decoverri.treasureGenerator.config.HibernateUtil;
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
+import com.decoverri.treasureGenerator.dao.treasure.GemstoneDao;
+import com.decoverri.treasureGenerator.dao.treasure.complement.GemGradeDao;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
+import com.decoverri.treasureGenerator.model.treasure.Gemstone;
+import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -53,8 +57,29 @@ public class FitData {
 
 	}
 	
-//		new FitGems(session).fit();
-//
+	@Test
+	public void fitGems() throws Exception {
+		GemstoneDao gemDao = new GemstoneDao(session);
+		GemGradeDao gradeDao = new GemGradeDao(session);
+
+		xstream.alias("gem", Gemstone.class);
+
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/gems.json"));
+		while (scanner.hasNextLine()) {
+			Gemstone gem = (Gemstone) xstream.fromXML(scanner.nextLine());
+			if (!gemDao.exists(gem.getName())) {
+				GemGrade gradeSearch = gradeDao.searchByGradeNumber(gem.getGrade());
+				if (gradeSearch == null) {
+					gradeDao.save(gem.getGrade());
+				} else {
+					gem.setGrade(gradeSearch);
+				}
+				gemDao.saveOrUpdate(gem);
+			}
+		}
+		scanner.close();
+	}
+	
 //		new FitArtObjects(session).fit();
 //
 //		new FitPotions(session).fit();

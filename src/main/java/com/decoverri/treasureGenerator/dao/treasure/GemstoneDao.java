@@ -14,8 +14,12 @@ import com.decoverri.treasureGenerator.model.treasure.Gemstone;
 @Component
 public class GemstoneDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public GemstoneDao(Session session) {
+		this.session = session;
+	}
 
 	public void saveOrUpdate(Gemstone gem) {
 		session.saveOrUpdate(gem);

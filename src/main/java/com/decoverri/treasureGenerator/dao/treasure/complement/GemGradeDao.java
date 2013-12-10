@@ -13,8 +13,12 @@ import com.decoverri.treasureGenerator.model.treasure.complement.GemGrade;
 @Component
 public class GemGradeDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public GemGradeDao(Session session) {
+		this.session = session;
+	}
 
 	public void save(GemGrade grade) {
 		session.save(grade);
