@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Treasure Generator</title>
+	<fmt:setLocale value="en_US" scope="session"/>
 </head>
 
 <body>

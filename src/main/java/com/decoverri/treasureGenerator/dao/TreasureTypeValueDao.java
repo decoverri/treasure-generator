@@ -2,6 +2,7 @@ package com.decoverri.treasureGenerator.dao;
 
 import static ch.lambdaj.Lambda.convert;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -19,7 +20,7 @@ public class TreasureTypeValueDao {
 		this.session = session;
 	}
 
-	public void saveOrUpdate(List<TreasureTypeValue> values) {
+	public void saveOrLoad(List<TreasureTypeValue> values) {
 
 		List<Integer> ints = convert(values, new Converter<TreasureTypeValue, Integer>() {
 
@@ -32,9 +33,9 @@ public class TreasureTypeValueDao {
 		@SuppressWarnings("unchecked")
 		List<TreasureTypeValue> treasureTypeValues = session.createQuery("select v from TreasureTypeValue v where value in (:values)").setParameterList("values", ints).list();
 		
-		for (TreasureTypeValue value : values) {
+		for (TreasureTypeValue value : new ArrayList<TreasureTypeValue>(values)) {
 			if(!treasureTypeValues.contains(value)){
-				session.save(value);
+				session.saveOrUpdate(value);
 			}else{
 				values.remove(value);
 			}

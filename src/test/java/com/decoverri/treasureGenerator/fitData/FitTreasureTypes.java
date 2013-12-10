@@ -2,7 +2,6 @@ package com.decoverri.treasureGenerator.fitData;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 import org.hibernate.Session;
@@ -33,7 +32,7 @@ public class FitTreasureTypes {
 		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/treasureTypes.json"));
 		while (scanner.hasNextLine()) {
 			TreasureType type = (TreasureType) xstream.fromXML(scanner.nextLine());
-			treasureTypeValueDao.saveOrUpdate(type.getValues());
+			treasureTypeValueDao.saveOrLoad(type.getValues());
 			treasureTypesDao.saveOrUpdate(type);
 		}
 		scanner.close();

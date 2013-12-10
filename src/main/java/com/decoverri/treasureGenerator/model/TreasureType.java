@@ -5,7 +5,8 @@ import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToMany;
+import javax.persistence.OrderBy;
 
 @Entity
 public class TreasureType {
@@ -18,7 +19,8 @@ public class TreasureType {
 	private String name;
 	private String description;
 	
-	@OneToMany
+	@ManyToMany
+	@OrderBy("value")
 	private List<TreasureTypeValue> values;
 	
 	public long getId() {
