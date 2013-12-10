@@ -48,7 +48,7 @@ public class StaffGenerator {
 	}
 
 	private Staff generate(MagicItemStrength strength) {
-		System.out.println("Generating " + strength + " ring");
+		System.out.println("Generating " + strength + " staff");
 
 		Staff staff = staffDao.getStaff(strength, roller.roll(d100));
 
