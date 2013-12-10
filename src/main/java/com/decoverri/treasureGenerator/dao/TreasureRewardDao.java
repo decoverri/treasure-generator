@@ -14,8 +14,12 @@ import com.decoverri.treasureGenerator.model.TreasureReward;
 @Component
 public class TreasureRewardDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public TreasureRewardDao(Session session) {
+		this.session = session;
+	}
 
 	public void save(TreasureReward reward) {
 		session.save(reward);

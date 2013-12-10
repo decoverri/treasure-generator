@@ -10,6 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.decoverri.treasureGenerator.config.HibernateUtil;
+import com.decoverri.treasureGenerator.dao.GeneratorDataDao;
+import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.dao.treasure.ArmorDao;
@@ -36,6 +38,7 @@ import com.decoverri.treasureGenerator.dao.treasure.complement.PotionLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.ScrollLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WandLevelDao;
 import com.decoverri.treasureGenerator.dao.treasure.complement.WondrousItemBodySlotDao;
+import com.decoverri.treasureGenerator.model.TreasureReward;
 import com.decoverri.treasureGenerator.model.TreasureType;
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 import com.decoverri.treasureGenerator.model.treasure.Armor;
@@ -62,6 +65,19 @@ import com.decoverri.treasureGenerator.model.treasure.complement.PotionLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.ScrollLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.WandLevel;
 import com.decoverri.treasureGenerator.model.treasure.complement.WondrousItemBodySlot;
+import com.decoverri.treasureGenerator.model.treasure.data.ArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.ArtObjectGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.CoinGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.GemstoneGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.MagicArmorGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.MagicWeaponGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.PotionGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.RingGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.RodGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.ScrollGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.StaffGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.WandGeneratorData;
+import com.decoverri.treasureGenerator.model.treasure.data.WondrousItemGeneratorData;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -434,7 +450,75 @@ public class FitData {
 		}
 		scanner.close();
 	}
+	
+	@Test
+	public void fitTreasures() throws Exception {
+		TreasureRewardDao rewardDao = new TreasureRewardDao(session);
+		GeneratorDataDao genDao = new GeneratorDataDao(session);
+		
+		
+		xstream.alias("reward", TreasureReward.class);
+		xstream.alias("coingenerator", CoinGeneratorData.class);
+		xstream.alias("mundanearmorgen", ArmorGeneratorData.class);
+		xstream.alias("armorgenerator", MagicArmorGeneratorData.class);
+		xstream.alias("weapongenerator", MagicWeaponGeneratorData.class);
+		xstream.alias("ringgenerator", RingGeneratorData.class);
+		xstream.alias("staffgenerator", StaffGeneratorData.class);
+		xstream.alias("rodgenerator", RodGeneratorData.class);
+		xstream.alias("wondrousgenerator", WondrousItemGeneratorData.class);
+		xstream.alias("potiongenerator", PotionGeneratorData.class);
+		xstream.alias("scrollgenerator", ScrollGeneratorData.class);
+		xstream.alias("wandgenerator", WandGeneratorData.class);
+		xstream.alias("gemgenerator", GemstoneGeneratorData.class);
+		xstream.alias("artgenerator", ArtObjectGeneratorData.class);
 
-//		new FitTreasure(session).fit();
-//
+		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/treasureReward.json"));
+		while (scanner.hasNextLine()) {
+			TreasureReward reward = (TreasureReward) xstream.fromXML(scanner.nextLine());
+
+			for (CoinGeneratorData coinGen : reward.getCoins()) {
+				genDao.save(coinGen);
+			}
+			for (ArmorGeneratorData armorGen : reward.getNonmagicalArmors()) {
+				genDao.save(armorGen);
+			}
+			for (MagicArmorGeneratorData magicArmorGen : reward.getArmors()) {
+				genDao.save(magicArmorGen);
+			}
+			for (MagicWeaponGeneratorData magicWeaponGen : reward.getWeapons()) {
+				genDao.save(magicWeaponGen);
+			}
+			for (RingGeneratorData ringGen : reward.getRings()) {
+				genDao.save(ringGen);
+			}
+			for (StaffGeneratorData staffGen : reward.getStaves()) {
+				genDao.save(staffGen);
+			}
+			for (RodGeneratorData rodGen : reward.getRods()) {
+				genDao.save(rodGen);
+			}
+			for (WondrousItemGeneratorData wondrousGen : reward.getWondrousItems()) {
+				genDao.save(wondrousGen);
+			}
+			for (PotionGeneratorData potionGen : reward.getPotions()) {
+				genDao.save(potionGen);
+			}
+			for (ScrollGeneratorData scrollGen : reward.getScrolls()) {
+				genDao.save(scrollGen);
+			}
+			for (WandGeneratorData wandGen : reward.getWands()) {
+				genDao.save(wandGen);
+			}
+			for (GemstoneGeneratorData gemGen : reward.getGems()) {
+				genDao.save(gemGen);
+			}
+			for (ArtObjectGeneratorData artGen : reward.getArts()) {
+				genDao.save(artGen);
+			}
+			rewardDao.save(reward);
+
+		}
+		scanner.close();
+	}
+
 }

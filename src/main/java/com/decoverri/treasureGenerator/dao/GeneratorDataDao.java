@@ -9,8 +9,12 @@ import com.decoverri.treasureGenerator.interfaces.GeneratorData;
 @Component
 public class GeneratorDataDao {
 
-	@Autowired
 	private Session session;
+
+	@Autowired
+	public GeneratorDataDao(Session session) {
+		this.session = session;
+	}
 
 	public void save(GeneratorData genData) {
 		session.save(genData);
