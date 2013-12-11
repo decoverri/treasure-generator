@@ -15,22 +15,22 @@ import com.decoverri.treasureGenerator.model.TreasureTypes;
 
 @Controller
 @Scope("request")
-public class IndexController {
+public class MassGeneratorController {
 
 	@Autowired
 	private TreasureGenerator generator;
 
 	@Autowired
 	private TreasureTypeDao treasureTypeDao;
-
-	@RequestMapping("/")
-	public String execute(Model model) {
+	
+	@RequestMapping("/massGenerator")
+	public String massGenerator(Model model) {
 		model.addAttribute("treasureTypes", treasureTypeDao.getTreasureTypes());
-		return "index";
+		return "mass";
 	}
 
-	@RequestMapping("/generate")
-	public String generate(TreasureTypes treasureTypes, Model model) {
+	@RequestMapping("/massGenerate")
+	public String massGenerate(TreasureTypes treasureTypes, Model model) {
 		List<Treasure> treasures = generator.generate(treasureTypes);
 		double totalPrice = 0;
 		for (Treasure treasure : treasures) {
@@ -38,6 +38,7 @@ public class IndexController {
 		}
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
-		return "forward:/";
+		return "forward:/massGenerator";
 	}
+
 }

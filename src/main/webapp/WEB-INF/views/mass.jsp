@@ -21,7 +21,15 @@
 	</header>
 
 	<div class="container">
-		<form action="generate" method="post" class="form-horizontal" >
+		<ul class="nav nav-tabs">
+			<li><a href="home">Home</a></li>
+			<li class="active"><a href="massGenerator">Mass Generation</a></li>
+			<li><a href="about">About</a></li>
+		</ul>
+	</div>
+	
+	<div class="container">
+		<form action="massGenerate" method="post" class="form-horizontal" >
 			<button class="btn btn-primary pull-right" type="submit">Generate</button>
 			<br/><br/>
 
