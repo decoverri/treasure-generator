@@ -6,16 +6,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import ch.lambdaj.function.convert.Converter;
 
 import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 
-
+@Component
 public class TreasureTypeValueDao {
 
 	private Session session;
 	
+	@Autowired
 	public TreasureTypeValueDao(Session session) {
 		this.session = session;
 	}
@@ -42,6 +45,11 @@ public class TreasureTypeValueDao {
 		}
 		values.addAll(treasureTypeValues);
 		
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<Integer> getValuesForLetter(char letter) {
+		return session.createQuery("select v.value from TreasureType t join t.values v where t.letter=:letter order by v.value").setParameter("letter", letter).list();
 	}
 
 }

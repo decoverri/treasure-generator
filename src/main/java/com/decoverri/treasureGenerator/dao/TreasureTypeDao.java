@@ -26,5 +26,4 @@ public class TreasureTypeDao {
 	public List<TreasureType> getTreasureTypes() {
 		return session.createQuery("select t from TreasureType t order by t.letter").list();
 	}
-
 }

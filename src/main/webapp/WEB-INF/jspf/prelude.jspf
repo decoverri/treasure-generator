@@ -4,10 +4,14 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Treasure Generator</title>
 	<fmt:setLocale value="en_US" scope="session"/>
+
+	<script type="text/javascript" src="resources/js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="resources/js/home.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+
+	<title>Treasure Generator</title>
 </head>
 
 <body>
