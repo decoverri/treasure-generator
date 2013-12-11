@@ -1,8 +1,7 @@
-package com.decoverri.treasureGenerator.controller;
+package com.decoverri.treasureGenerator.model;
 
 import java.util.List;
 
-import com.decoverri.treasureGenerator.model.TreasureType;
 
 public class TreasureTypes {
 
