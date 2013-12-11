@@ -26,6 +26,7 @@ public class MassGeneratorController {
 	@RequestMapping("/massGenerator")
 	public String massGenerator(Model model) {
 		model.addAttribute("treasureTypes", treasureTypeDao.getTreasureTypes());
+		model.addAttribute("massIsActive", "active");
 		return "mass";
 	}
 

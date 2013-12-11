@@ -26,4 +26,12 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<include-prelude>/WEB-INF/jspf/prelude.jspf</include-prelude>
+			<include-coda>/WEB-INF/jspf/coda.jspf</include-coda>
+		</jsp-property-group>
+	</jsp-config>
+	
 </web-app>
