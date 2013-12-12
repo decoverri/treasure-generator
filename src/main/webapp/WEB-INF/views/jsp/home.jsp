@@ -23,7 +23,9 @@
 	</form>
 </div>
 
-<br/><br/>
+<c:import url="../import/treasureTable.jsp" />
+
+<br/><hr><br/>
 
 <div class="container">
 	<h4>Description of the treasure types:</h4><br/>
