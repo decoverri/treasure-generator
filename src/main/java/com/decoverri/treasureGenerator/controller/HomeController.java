@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
+import com.decoverri.treasureGenerator.logic.GeneratorCalculator;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
@@ -31,10 +32,14 @@ public class HomeController {
 	@Autowired
 	private TreasureGenerator generator;
 	
+	@Autowired
+	GeneratorCalculator generatorCalculator;
+	
 	@RequestMapping("/")
 	public String index(Model model) {
 		model.addAttribute("types", treasureTypeDao.getTreasureTypes());
 		model.addAttribute("homeIsActive", "active");
+
 		return "home";
 	}
 
@@ -46,20 +51,22 @@ public class HomeController {
 	@RequestMapping("/getListOfValues")
 	public @ResponseBody String getListOfValuesOfTrasureType(Model model, char letter, HttpServletResponse response){
 		List<Integer> values = treasureTypeValueDao.getValuesForLetter(letter);
+
 		XStream stream = new XStream(new JettisonMappedXmlDriver());
+		String json = stream.toXML(values);
+
 		response.setStatus(200);
-		return stream.toXML(values);
+		return json;
 	}
 
 	@RequestMapping("/generate")
 	public String generate(int value, char letter, Model model){
 		List<Treasure> treasures = generator.generate(value, letter);
-		double totalPrice = 0;
-		for (Treasure treasure : treasures) {
-			totalPrice += treasure.getTreasureValue();
-		}
+		double totalPrice = generatorCalculator.calculateTotalValue(treasures);
+
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
+
 		return "forward:/";
 	}
 }

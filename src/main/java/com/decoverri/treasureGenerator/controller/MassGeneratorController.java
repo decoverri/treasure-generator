@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
+import com.decoverri.treasureGenerator.logic.GeneratorCalculator;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
 import com.decoverri.treasureGenerator.model.TreasureTypes;
 
@@ -23,22 +24,25 @@ public class MassGeneratorController {
 	@Autowired
 	private TreasureTypeDao treasureTypeDao;
 	
+	@Autowired
+	GeneratorCalculator generatorCalculator;
+	
 	@RequestMapping("/massGenerator")
 	public String massGenerator(Model model) {
 		model.addAttribute("treasureTypes", treasureTypeDao.getTreasureTypes());
 		model.addAttribute("massIsActive", "active");
+
 		return "mass";
 	}
 
 	@RequestMapping("/massGenerate")
 	public String massGenerate(TreasureTypes treasureTypes, Model model) {
 		List<Treasure> treasures = generator.generate(treasureTypes);
-		double totalPrice = 0;
-		for (Treasure treasure : treasures) {
-			totalPrice += treasure.getTreasureValue();
-		}
+		double totalPrice = generatorCalculator.calculateTotalValue(treasures);
+
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
+		
 		return "forward:/massGenerator";
 	}
 
