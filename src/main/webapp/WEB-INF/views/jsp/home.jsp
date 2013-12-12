@@ -4,7 +4,7 @@
 	<form action="generate">
 		<div class="form-group">
 			<label for="type">Choose the treasure type:</label>
-			<select id="type" name="treasureType.letter" onchange="getTypeValues()">
+			<select id="type" name="letter" onchange="getTypeValues()">
 				<option></option>
 				<c:forEach items="${types}" var="type">
 					<option value="${type.letter}">Type ${type.letter} - ${type.name}</option>
@@ -14,7 +14,8 @@
 		
 		<div class="form-group">
 			<label for="value">Choose the treasure value:</label>
-			<select id="value" name="treasureType.value[0].value">
+			<select id="value" name="value">
+				<option></option>
 			</select>
 		</div><br/>
 

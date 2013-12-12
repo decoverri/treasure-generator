@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
+import com.decoverri.treasureGenerator.interfaces.Treasure;
+import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -25,6 +27,9 @@ public class HomeController {
 
 	@Autowired
 	private TreasureTypeValueDao treasureTypeValueDao;
+	
+	@Autowired
+	private TreasureGenerator generator;
 	
 	@RequestMapping("/")
 	public String index(Model model) {
@@ -44,5 +49,17 @@ public class HomeController {
 		XStream stream = new XStream(new JettisonMappedXmlDriver());
 		response.setStatus(200);
 		return stream.toXML(values);
+	}
+
+	@RequestMapping("/generate")
+	public String generate(int value, char letter, Model model){
+		List<Treasure> treasures = generator.generate(value, letter);
+		double totalPrice = 0;
+		for (Treasure treasure : treasures) {
+			totalPrice += treasure.getTreasureValue();
+		}
+		model.addAttribute("treasures", treasures);
+		model.addAttribute("totalPrice", totalPrice);
+		return "forward:/";
 	}
 }
