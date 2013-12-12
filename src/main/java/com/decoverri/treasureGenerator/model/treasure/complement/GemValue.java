@@ -3,12 +3,11 @@ package com.decoverri.treasureGenerator.model.treasure.complement;
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
 
-import com.decoverri.treasureGenerator.interfaces.DiceGenerated;
 import com.decoverri.treasureGenerator.model.Dice;
 import com.decoverri.treasureGenerator.model.treasure.Coins;
 
 @Embeddable
-public class GemValue implements DiceGenerated {
+public class GemValue {
 
 	@Embedded
 	private Coins base;
@@ -18,12 +17,10 @@ public class GemValue implements DiceGenerated {
 
 	private int multiplier;
 
-	@Override
 	public Dice getDice() {
 		return dice;
 	}
 
-	@Override
 	public double getBaseValue() {
 		return base.getAmount();
 	}
