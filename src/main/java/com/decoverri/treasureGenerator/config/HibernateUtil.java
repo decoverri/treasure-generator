@@ -76,15 +76,18 @@ public class HibernateUtil {
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Staff.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.data.StaffGeneratorData.class);
 		
+		String databaseUrl = System.getenv("DATABASE_URL");
 		Properties dbProperties = new Properties();
-		if (System.getenv("DATABASE_URL")==null) {
-			dbProperties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
+		if (databaseUrl == null) {
 			dbProperties.put("hibernate.connection.url", "jdbc:mysql://localhost/treasure_generator");
 			dbProperties.put("hibernate.connection.username", "root");
 			dbProperties.put("hibernate.connection.password", "");
+			dbProperties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
 			dbProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
 		} else {
-			//TODO Joga aqui as do heroku
+			dbProperties = new HerokuDatabaseInformation(databaseUrl).exportToProperties();
+			dbProperties.put("hibernate.connection.driver_class", "org.postgresql.Driver");
+			dbProperties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
 		}
 		cfg.addProperties(dbProperties);
 
