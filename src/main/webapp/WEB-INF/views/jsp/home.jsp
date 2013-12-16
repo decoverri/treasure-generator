@@ -15,7 +15,7 @@
 			<label for="value">Choose the treasure value:</label>
 			<select id="value" name="value">
 				<c:forEach items="${types[0].values}" var="value">
-					<option value="${value.value}" >${value.value} gp</option>
+					<option value="${value.value}" >${value.fomattedValue} gp</option>
 				</c:forEach>
 			</select><img id="loader" src="resources/img/loading-icon.gif" />
 		</div><br/>
