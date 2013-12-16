@@ -25,7 +25,7 @@
 	</form>
 </div>
 
-<c:import url="../import/treasureTable.jsp" />
+<c:import url="/WEB-INF/views/import/treasureTable.jsp" />
 
 <br/><hr><br/>
 
