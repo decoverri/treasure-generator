@@ -1,5 +1,7 @@
 package com.decoverri.treasureGenerator.config;
 
+import java.util.Properties;
+
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -17,6 +19,7 @@ public class HibernateUtil {
 	private static ServiceRegistry serviceRegistry;
 
 	private static SessionFactory configureSessionFactory() throws HibernateException {
+
 		Configuration cfg = new Configuration();
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.TreasureTypeValue.class);
@@ -72,6 +75,18 @@ public class HibernateUtil {
 
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.Staff.class);
 		cfg.addAnnotatedClass(com.decoverri.treasureGenerator.model.treasure.data.StaffGeneratorData.class);
+		
+		Properties dbProperties = new Properties();
+		if (System.getenv("DATABASE_URL")==null) {
+			dbProperties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
+			dbProperties.put("hibernate.connection.url", "jdbc:mysql://localhost/treasure_generator");
+			dbProperties.put("hibernate.connection.username", "root");
+			dbProperties.put("hibernate.connection.password", "");
+			dbProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
+		} else {
+			//TODO Joga aqui as do heroku
+		}
+		cfg.addProperties(dbProperties);
 
 		cfg.configure();
 		serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();

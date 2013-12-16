@@ -3,4 +3,3 @@
 *.class
 build/
 target/
-hibernate.cfg.xml
