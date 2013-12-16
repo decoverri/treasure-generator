@@ -17,10 +17,10 @@
 				<c:forEach items="${types[0].values}" var="value">
 					<option value="${value.value}" >${value.value} gp</option>
 				</c:forEach>
-			</select>
+			</select><img id="loader" src="resources/img/loading-icon.gif" />
 		</div><br/>
 
-		<button class="btn btn-primary" type="submit">Generate</button>
+		<button id="generateBtn" class="btn btn-primary" type="submit">Generate</button>
 
 	</form>
 </div>
