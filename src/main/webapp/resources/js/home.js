@@ -12,7 +12,7 @@ function getTypeValues(){
 
 		var values = json.list[0].int;
 		for (var i=0;i<values.length;i++){
-			$("#value").append('<option value="' + values[i] + '">' + values[i] + ' gp</option>');
+			$("#value").append('<option value="' + values[i] + '">' + values[i].toLocaleString("en-US") + ' gp</option>');
 		}
 
 		$('#loader').hide();

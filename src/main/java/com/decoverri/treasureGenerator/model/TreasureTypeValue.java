@@ -1,8 +1,5 @@
 package com.decoverri.treasureGenerator.model;
 
-import java.text.NumberFormat;
-import java.util.Locale;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -26,10 +23,6 @@ public class TreasureTypeValue {
 
 	public int getValue() {
 		return value;
-	}
-
-	public String getFomattedValue() {
-		return NumberFormat.getInstance(Locale.ENGLISH).format(value);
 	}
 
 	public void setValue(int value) {
