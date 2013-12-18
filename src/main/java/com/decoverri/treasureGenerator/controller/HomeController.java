@@ -3,6 +3,7 @@ package com.decoverri.treasureGenerator.controller;
 import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -61,7 +62,7 @@ public class HomeController {
 	}
 
 	@RequestMapping("/generate")
-	public String generate(int value, char letter, Model model){
+	public String generate(int value, char letter, Model model, HttpSession session){
 		List<Treasure> treasures = generator.generate(value, letter);
 		double totalPrice = generatorCalculator.calculateTotalValue(treasures);
 
@@ -69,9 +70,9 @@ public class HomeController {
 
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
-		model.addAttribute("selectedLetter", letter);
-		model.addAttribute("selectedValue", value);
-		model.addAttribute("selectedValues", valuesOfSelectedType);
+		session.setAttribute("selectedLetter", letter);
+		session.setAttribute("selectedValue", value);
+		session.setAttribute("selectedValues", valuesOfSelectedType);
 
 		return "forward:/";
 	}
