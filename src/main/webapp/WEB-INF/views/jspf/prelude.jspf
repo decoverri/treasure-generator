@@ -9,6 +9,7 @@
 
 	<script type="text/javascript" src="resources/js/jquery-2.0.3.min.js"></script>
 	<script type="text/javascript" src="resources/js/home.js"></script>
+	<script type="text/javascript" src="resources/js/mass.js"></script>
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/loader.css">
 

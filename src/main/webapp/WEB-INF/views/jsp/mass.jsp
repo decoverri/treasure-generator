@@ -1,7 +1,14 @@
 <div class="container">
 	<form action="massGenerate" method="post" class="form-horizontal" >
-		<button class="btn btn-primary pull-right" type="submit">Generate</button>
-		<br/><br/>
+
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li><a><strong>Total selected: <span id="selectedTotal">0</span> gp</a></strong></li>
+			    </ul>
+				<button class="btn btn-primary pull-right" type="submit">Generate</button>
+			</div>
+		</div>
 
 		<div class="row">
 			<c:forEach items="${treasureTypes}" var="treasureType" varStatus="s1">
@@ -11,7 +18,8 @@
 
 					<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
 						<label class="checkbox">
-							<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}].value" value="${value.value}"/>
+							<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}].value"
+									value="${value.value}" onchange="calculateSum()"/>
 							<fmt:formatNumber type="number" value="${value.value}" /> gp
 						</label>
 					</c:forEach>
