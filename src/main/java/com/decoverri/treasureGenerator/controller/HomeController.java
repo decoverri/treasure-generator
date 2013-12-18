@@ -16,6 +16,7 @@ import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.GeneratorCalculator;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
+import com.decoverri.treasureGenerator.model.TreasureTypeValue;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
@@ -64,8 +65,13 @@ public class HomeController {
 		List<Treasure> treasures = generator.generate(value, letter);
 		double totalPrice = generatorCalculator.calculateTotalValue(treasures);
 
+		List<TreasureTypeValue> valuesOfSelectedType = treasureTypeValueDao.getTypeValuesForLetter(letter);
+
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
+		model.addAttribute("selectedLetter", letter);
+		model.addAttribute("selectedValue", value);
+		model.addAttribute("selectedValues", valuesOfSelectedType);
 
 		return "forward:/";
 	}

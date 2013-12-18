@@ -6,7 +6,7 @@
 			<label for="type">Choose the treasure type:</label>
 			<select id="type" name="letter" onchange="getTypeValues()">
 				<c:forEach items="${types}" var="type">
-					<option value="${type.letter}">Type ${type.letter} - ${type.name}</option>
+					<option value="${type.letter}" ${type.letter == selectedLetter ? "selected" : "" } >Type ${type.letter} - ${type.name}</option>
 				</c:forEach>
 			</select>
 		</div><br/>
@@ -14,8 +14,8 @@
 		<div class="form-group">
 			<label for="value">Choose the treasure value:</label>
 			<select id="value" name="value">
-				<c:forEach items="${types[0].values}" var="value">
-					<option value="${value.value}" ><fmt:formatNumber value="${value.value}" /> gp</option>
+				<c:forEach items="${empty selectedValues ? types[0].values : selectedValues}" var="typeValue">
+					<option value="${typeValue.value}" ${typeValue.value == selectedValue ? "selected" : "" }><fmt:formatNumber value="${typeValue.value}" /> gp</option>
 				</c:forEach>
 			</select><img id="loader" src="resources/img/loading-icon.gif" />
 		</div><br/>
