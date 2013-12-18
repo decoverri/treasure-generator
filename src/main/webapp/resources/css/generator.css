@@ -1,0 +1,36 @@
+#loader {
+	display: none;
+	height: 25px;
+	margin-left: 15px;
+}
+
+.col-md-1-to-2 {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 11%;
+}
+
+.well-btn {
+	margin-top: -6px;
+}
+
+label.checkbox {
+	font-weight: normal;
+}
+
+.form-control {
+	width: 85%;
+	display: inline-block;
+}
+
+.dont-float {
+	clear: left;
+}
+
+.active a{
+	pointer-events: none;
+	cursor: default;	
+}

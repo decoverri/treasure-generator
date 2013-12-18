@@ -1,19 +1,15 @@
-<div class="container">
+<div class="container"><br/>
 	<form action="massGenerate" method="post" class="form-horizontal" >
-
-		<div class="navbar">
-			<div class="navbar-inner">
-				<ul class="nav">
-					<li><a><strong>Total selected: <span id="selectedTotal">0</span> gp</a></strong></li>
-			    </ul>
-				<button class="btn btn-primary pull-right" type="submit">Generate</button>
-			</div>
+		
+		<div class="well">
+			<strong>Total selected: <span id="selectedTotal">0</span> gp</strong>
+			<button class="btn btn-primary pull-right well-btn" type="submit">Generate</button>
 		</div>
 
 		<div class="row">
 			<c:forEach items="${treasureTypes}" var="treasureType" varStatus="s1">
-				<div class="span1AndABit">
-					<h4>Type ${treasureType.letter}</h4>
+				<div class="col-md-1-to-2">
+					<h3>Type ${treasureType.letter}</h3>
 					<input type="hidden" name="treasureTypes[${s1.index}].letter" value="${treasureType.letter}" />
 
 					<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
@@ -29,8 +25,8 @@
 		</div>
 
 	</form>
-</div>
 
-<c:import url="/WEB-INF/views/import/treasureTable.jsp" />
+	<c:import url="/WEB-INF/views/import/treasureTable.jsp" />
+</div>
 
 <br/><br/><br/><br/>

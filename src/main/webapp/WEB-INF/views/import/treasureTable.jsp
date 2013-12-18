@@ -2,8 +2,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 <c:if test="${not empty treasures}">
-<hr>
-<div class="container">
+<div class="dont-float">
+	<br/>
+	<hr>
 	<h3>Result</h3>
 	<table class="table table-striped table-bordered" >
 		<thead>
@@ -19,11 +20,13 @@
 					<td><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
 				</tr>
 			</c:forEach>
-				<tr>
-					<td><strong>Total price generated</strong></td>
-					<td><strong><fmt:formatNumber type="number" value="${totalPrice}" /> gp</strong></td>
-				</tr>
 		</tbody>
+		<tfoot>		
+			<tr>
+				<td><strong>Total price generated</strong></td>
+				<td><strong><fmt:formatNumber type="number" value="${totalPrice}" /> gp</strong></td>
+			</tr>
+		</tfoot>
 	</table>
 </div>
 </c:if>
