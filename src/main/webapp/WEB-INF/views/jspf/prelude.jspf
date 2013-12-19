@@ -34,7 +34,7 @@
 <%-- 			<li class="${aboutIsActive}"><a href="about">About</a></li> --%>
 		</ul>
 	    <form class="navbar-form navbar-left">
-			<button class="btn btn-default" data-toggle="modal" data-target="#descriptions">Show Descriptions</button>
+			<button class="btn btn-info" data-toggle="modal" data-target="#descriptions">Show Descriptions</button>
 	    </form>
 	</nav>
 </div>

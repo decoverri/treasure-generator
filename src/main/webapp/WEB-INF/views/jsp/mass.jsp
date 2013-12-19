@@ -1,9 +1,12 @@
 <div class="container"><br/>
 	<form action="massGenerate" method="post" class="form-horizontal" >
-		
-		<div class="well">
-			<strong>Total selected: <span id="selectedTotal">0</span> gp</strong>
-			<button class="btn btn-primary pull-right well-btn" type="submit">Generate</button>
+
+		<div class="well">		
+			<div class="row">
+				<div class="col-md-2-to-3"><strong>Total selected: <span id="selectedTotal">0</span> gp</strong></div>
+				<div class="col-md-8"><button class="btn btn-default well-btn" type="button" onclick="clearSelection()" >clear selection</button></div>
+				<div class="col-md-1"><button class="btn btn-primary well-btn" type="submit">Generate</button></div>
+			</div>
 		</div>
 
 		<div class="row">

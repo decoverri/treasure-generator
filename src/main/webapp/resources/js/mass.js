@@ -8,3 +8,8 @@ function calculateSum(){
 	
 	$("#selectedTotal").html(sum.toLocaleString("en-US"));
 }
+
+function clearSelection(){
+	$(".checkbox input[type=checkbox]:checked").removeAttr('checked');
+	$("#selectedTotal").html(0);
+}

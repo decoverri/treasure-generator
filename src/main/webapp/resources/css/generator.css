@@ -5,12 +5,24 @@
 }
 
 .col-md-1-to-2 {
+	width: 11%;
+}
+
+.col-md-2-to-3 {
+	width: 22.666667%;
+}
+
+.col-md-1-to-2, .col-md-2-to-3 {
 	float: left;
 	position: relative;
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
-	width: 11%;
+	
+}
+
+.well {
+	padding-bottom: 13px;
 }
 
 .well-btn {
@@ -33,4 +45,12 @@ label.checkbox {
 .active a{
 	pointer-events: none;
 	cursor: default;	
+}
+
+.well a {
+	cursor: pointer;
+}
+
+#total {
+	width: 200px;
 }
