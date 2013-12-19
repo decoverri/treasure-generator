@@ -1,5 +1,6 @@
 package com.decoverri.treasureGenerator.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -21,7 +22,7 @@ public class TreasureType {
 	
 	@ManyToMany
 	@OrderBy("value")
-	private List<TreasureTypeValue> values;
+	private List<TreasureTypeValue> values = new ArrayList<TreasureTypeValue>();
 	
 	public long getId() {
 		return id;

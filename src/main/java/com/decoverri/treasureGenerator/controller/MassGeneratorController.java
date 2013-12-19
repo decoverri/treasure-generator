@@ -2,6 +2,8 @@ package com.decoverri.treasureGenerator.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -36,12 +38,14 @@ public class MassGeneratorController {
 	}
 
 	@RequestMapping("/massGenerate")
-	public String massGenerate(TreasureTypes treasureTypes, Model model) {
+	public String massGenerate(TreasureTypes treasureTypes, Model model, HttpSession session) {
 		List<Treasure> treasures = generator.generate(treasureTypes);
 		double totalPrice = generatorCalculator.calculateTotalValue(treasures);
 
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
+		session.setAttribute("massSelectedTypes", treasureTypes.getTreasureTypes());
+		session.setAttribute("massSelectedTotal", treasureTypes.getFomattedSumOfValues());
 		
 		return "forward:/massGenerator";
 	}

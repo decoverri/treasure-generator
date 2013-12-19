@@ -3,7 +3,7 @@
 
 		<div class="well">		
 			<div class="row">
-				<div class="col-md-2-to-3"><strong>Total selected: <span id="selectedTotal">0</span> gp</strong></div>
+				<div class="col-md-2-to-3"><strong>Total selected: <span id="selectedTotal">${empty massSelectedTotal ? 0 : massSelectedTotal}</span> gp</strong></div>
 				<div class="col-md-8"><button class="btn btn-default well-btn" type="button" onclick="clearSelection()" >clear selection</button></div>
 				<div class="col-md-1"><button class="btn btn-primary well-btn" type="submit">Generate</button></div>
 			</div>
@@ -18,7 +18,9 @@
 					<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
 						<label class="checkbox">
 							<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}].value"
-									value="${value.value}" onchange="calculateSum()"/>
+									value="${value.value}" onchange="calculateSum()"
+									${treasureTypes[s1.index].letter == massSelectedTypes[s1.index].letter and
+									treasureTypes[s1.index].values[s2.index].value == massSelectedTypes[s1.index].values[s2.index].value ? "checked" : "" } />
 							<fmt:formatNumber type="number" value="${value.value}" /> gp
 						</label>
 					</c:forEach>
