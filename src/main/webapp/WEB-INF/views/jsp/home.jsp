@@ -2,7 +2,7 @@
 	<br/><br/>
 
 		<div class="col-lg-4">
-			<form action="generate" method="post">
+			<form action="generate#result" method="post">
 			<div class="form-group">
 					<label for="type">Choose the treasure type:</label>
 					<select id="type" class="form-control" name="letter" onchange="getTypeValues()">

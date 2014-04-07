@@ -1,5 +1,5 @@
 <div class="container"><br/>
-	<form action="massGenerate" method="post" class="form-horizontal" >
+	<form action="massGenerate#result" method="post" class="form-horizontal" >
 
 		<div class="well">		
 			<div class="row">

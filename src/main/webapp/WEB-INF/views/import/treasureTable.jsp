@@ -4,7 +4,7 @@
 <c:if test="${not empty treasures}">
 <div class="dont-float">
 	<br/>
-	<hr>
+	<hr id="result" >
 	<h3>Result</h3>
 	<table class="table table-striped table-bordered" >
 		<thead>
