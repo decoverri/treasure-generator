@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
+
+	<!-- FILE Appender -->
+	<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="generation.log" />
+		<param name="Append" value="false" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%c{1}] %m%n" />
+		</layout>
+	</appender>
+
+	<!-- Limit Category and Specify Priority -->
+	<category name="com.decoverri">
+		<priority value="GENERATION" class="com.decoverri.treasureGenerator.config.GenerationLevel" />
+		<appender-ref ref="FILE" />
+	</category>
+
+</log4j:configuration>

@@ -1,8 +1,11 @@
 package com.decoverri.treasureGenerator.logic.generator;
 
+import static com.decoverri.treasureGenerator.config.GenerationLevel.GENERATION;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +20,8 @@ import com.decoverri.treasureGenerator.model.TreasureTypes;
 
 @Component
 public class TreasureGenerator {
+	
+	private static final Logger LOGGER = Logger.getLogger(TreasureGenerator.class);
 
 	@Autowired
 	private Session session;
@@ -65,7 +70,7 @@ public class TreasureGenerator {
 
 	@Autowired
 	private TreasureRewardDao dao;
-
+	
 	public List<Treasure> generate(TreasureTypes types) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 		for (TreasureType treasureType : types.getTreasureTypes()) {
@@ -89,6 +94,7 @@ public class TreasureGenerator {
 	public List<Treasure> generate(int value, char type) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
 		System.out.println("Generating " + value + "gp worth of Type " + type + " treasure:\n");
+		LOGGER.log(GENERATION,"Generating " + value + "gp worth of Type " + type + " treasure:\n");
 
 		Transaction transaction = session.beginTransaction();
 		TreasureReward reward = dao.findByValue(type, value);
@@ -111,6 +117,7 @@ public class TreasureGenerator {
 		transaction.commit();
 
 		System.out.println("Finished!\n");
+		LOGGER.log(GENERATION,"Finished!\n");
 		return treasures;
 	}
 
