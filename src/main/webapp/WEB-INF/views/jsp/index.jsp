@@ -7,9 +7,10 @@
 	<meta charset="UTF-8">
 	<fmt:setLocale value="en_US" scope="session"/>
 
-	<script type="text/javascript" src="resources/js/jquery-2.0.3.min.js"></script>
-	<script type="text/javascript" src="resources/js/home.js"></script>
+	<script src="resources/js/jquery-2.0.3.min.js"></script>
+	<script src="resources/js/home.js"></script>
 
+	<link rel="stylesheet" href="resources/css/style.css" >
 	<title>Treasure Generator</title>
 </head>
 
@@ -22,12 +23,12 @@
 
 <nav>
 	<ul>
-		<li><a href="#main-generator">Home</a></li>
-		<li><a href="#description">Descriptions</a></li>
+		<li><a href="#main-generator">Generator</a></li>
+		<li><a href="#descriptions">Descriptions</a></li>
 	</ul>
 </nav>
 
-<section id="main-generator">
+<section id="main-generator" class="tab-content">
 	<form action="generate" method="post">
 		<label for="type">Choose the treasure type:</label>
 		<select id="type" name="letter" onchange="getTypeValues()">
@@ -49,7 +50,7 @@
 	<c:import url="/WEB-INF/views/import/treasureTable.jsp" />
 </section>
 
-<section id="descriptions">
+<section id="descriptions" class="tab-content">
 	<h1>Description of the treasure types:</h1>
 	<ol>
 		<li><b>Type A - Coins :</b> Treasure of this type consists entirely of coins. Coins can be found in nearly any encounter</li>
