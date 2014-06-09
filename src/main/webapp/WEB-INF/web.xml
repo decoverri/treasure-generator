@@ -25,13 +25,5 @@
 		<servlet-name>Spring MVC Dispatcher Servlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-
-	<jsp-config>
-		<jsp-property-group>
-			<url-pattern>/WEB-INF/views/jsp/*</url-pattern>
-			<include-prelude>/WEB-INF/views/jspf/prelude.jspf</include-prelude>
-			<include-coda>/WEB-INF/views/jspf/coda.jspf</include-coda>
-		</jsp-property-group>
-	</jsp-config>
 	
 </web-app>

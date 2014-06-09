@@ -1,37 +1,27 @@
-<div class="container"><br/>
-	<form action="massGenerate#result" method="post" class="form-horizontal" >
+<form action="massGenerate#result" method="post">
 
-		<div class="well">		
-			<div class="row">
-				<div class="col-md-2-to-3"><strong>Total selected: <span id="selectedTotal">${empty massSelectedTotal ? 0 : massSelectedTotal}</span> gp</strong></div>
-				<div class="col-md-8"><button class="btn btn-default well-btn" type="button" onclick="clearSelection()" >clear selection</button></div>
-				<div class="col-md-1"><button class="btn btn-primary well-btn" type="submit">Generate</button></div>
-			</div>
-		</div>
+	<header>
+		<span>Total selected: <output id="selectedTotal">${empty massSelectedTotal ? 0 : massSelectedTotal}</output> gp</span>
+		<button type="button" onclick="clearSelection()" >clear selection</button>
+		<button type="submit">Generate</button>
+	</header>
 
-		<div class="row">
-			<c:forEach items="${treasureTypes}" var="treasureType" varStatus="s1">
-				<div class="col-md-1-to-2">
-					<h3>Type ${treasureType.letter}</h3>
-					<input type="hidden" name="treasureTypes[${s1.index}].letter" value="${treasureType.letter}" />
+	<c:forEach items="${treasureTypes}" var="treasureType" varStatus="s1">
+		<h3>Type ${treasureType.letter}</h3>
+		<input type="hidden" name="treasureTypes[${s1.index}].letter" value="${treasureType.letter}" />
 
-					<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
-						<label class="checkbox">
-							<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}].value"
-									value="${value.value}" onchange="calculateSum()"
-									${treasureTypes[s1.index].letter == massSelectedTypes[s1.index].letter and
-									treasureTypes[s1.index].values[s2.index].value == massSelectedTypes[s1.index].values[s2.index].value ? "checked" : "" } />
-							<fmt:formatNumber type="number" value="${value.value}" /> gp
-						</label>
-					</c:forEach>
-				</div>
-			
-			</c:forEach><br/>
-		</div>
+		<c:forEach items="${treasureType.values}" var="value" varStatus="s2">
+			<label>
+				<input type="checkbox" name="treasureTypes[${s1.index}].values[${s2.index}].value"
+						value="${value.value}" onchange="calculateSum()"
+						${treasureTypes[s1.index].letter == massSelectedTypes[s1.index].letter and
+						treasureTypes[s1.index].values[s2.index].value == massSelectedTypes[s1.index].values[s2.index].value ? "checked" : "" } />
+				<fmt:formatNumber type="number" value="${value.value}" /> gp
+			</label>
+		</c:forEach>
+	
+	</c:forEach><br/>
 
-	</form>
+</form>
 
-	<c:import url="/WEB-INF/views/import/treasureTable.jsp" />
-</div>
-
-<br/><br/><br/><br/>
+<c:import url="/WEB-INF/views/import/treasureTable.jsp" />

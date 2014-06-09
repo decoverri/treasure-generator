@@ -40,9 +40,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String index(Model model) {
 		model.addAttribute("types", treasureTypeDao.getTreasureTypes());
-		model.addAttribute("homeIsActive", "active");
-
-		return "home";
+		return "index";
 	}
 
 	@RequestMapping("/home")
