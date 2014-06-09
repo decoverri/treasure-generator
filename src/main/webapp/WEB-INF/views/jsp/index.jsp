@@ -10,6 +10,7 @@
 	<script src="resources/js/jquery-2.0.3.min.js"></script>
 	<script src="resources/js/home.js"></script>
 
+	<link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="resources/css/style.css" >
 	<title>Treasure Generator</title>
 </head>
