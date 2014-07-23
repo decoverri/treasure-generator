@@ -1,0 +1,33 @@
+/* Reset */
+/* General */
+/* Tab Behavior */
+
+/* Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Alegreya", "Georgia", serif;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+/* General */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "MedievalSharp", "Georgia", cursive;
+	font-variant: small-caps;
+}
+
+/* Tab Behavior */
+.tab-content {
+	display: none;
+}
+
+.show {
+	display: block;
+}

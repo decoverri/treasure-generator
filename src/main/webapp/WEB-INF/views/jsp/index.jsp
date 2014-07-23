@@ -7,9 +7,6 @@
 	<meta charset="UTF-8">
 	<fmt:setLocale value="en_US" scope="session"/>
 
-	<script src="resources/js/jquery-2.0.3.min.js"></script>
-	<script src="resources/js/home.js"></script>
-
 	<link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="resources/css/style.css" >
 	<title>Treasure Generator</title>
@@ -17,19 +14,18 @@
 
 <body>
 
-<header class="page-header">
+<header>
 	<h1>Treasure Generator <small> Pathfinder RPG</small></h1>
 	<p>by Deco Verri</p>
+	<nav>
+		<ul data-id="tabs">
+			<li><a href="#main-generator">Generator</a></li>
+			<li><a href="#descriptions">Descriptions</a></li>
+		</ul>
+	</nav>
 </header>
 
-<nav>
-	<ul>
-		<li><a href="#main-generator">Generator</a></li>
-		<li><a href="#descriptions">Descriptions</a></li>
-	</ul>
-</nav>
-
-<section id="main-generator" class="tab-content">
+<section id="main-generator" class="tab-content show">
 	<form action="generate" method="post">
 		<label for="type">Choose the treasure type:</label>
 		<select id="type" name="letter" onchange="getTypeValues()">
@@ -65,6 +61,9 @@
 		<li><b>Type I - Treasure Hoard :</b> Truly the greatest of the treasure types, this can contain virtually any type of item. It usually serves as the reward for many challenging encounters, saved up and placed in one location.</li>
 	</ol>
 </section>
+
+
+<script src="resources/js/index.js"></script>
 
 </body>
 </html>
