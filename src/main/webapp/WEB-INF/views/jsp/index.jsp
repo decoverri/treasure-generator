@@ -8,6 +8,7 @@
 	<fmt:setLocale value="en_US" scope="session"/>
 
 	<link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="resources/css/reset.css" >
 	<link rel="stylesheet" href="resources/css/style.css" >
 	<title>Treasure Generator</title>
 </head>
