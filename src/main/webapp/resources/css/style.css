@@ -1,4 +1,6 @@
 body {
+	display: flex;
+	flex-direction: column;
 	font-family: "Alegreya", "Georgia", serif;
 }
 
@@ -8,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 12vw;
+	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 0.1em;
 	padding-top: 0.2em;
@@ -17,9 +19,38 @@ h1 {
 
 h2 {
 	text-align: right;
-	font-size: 6vw;
+	font-size: 0.5em;
+}
+
+header {
+	font-size: 12vw;
+	height: 2.5em;
 }
 
 .container {
 	padding: 0 3%;
 }
+
+.types {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.types li {
+	background-color: #22AA22;
+	text-align: center;
+	height: 28vw;
+	width: 28vw;
+}
+
+.types li:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 0;
+}
+
