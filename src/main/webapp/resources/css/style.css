@@ -1,25 +1,25 @@
-/* General */
-/* Tab Behavior */
-
 body {
 	font-family: "Alegreya", "Georgia", serif;
 }
 
-ol, ul{
-	list-style: none;
-}
-
-/* General */
 h1, h2, h3, h4, h5, h6 {
 	font-family: "MedievalSharp", "Georgia", cursive;
 	font-variant: small-caps;
 }
 
-/* Tab Behavior */
-.tab-content {
-	display: none;
+h1 {
+	font-size: 12vw;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	padding-top: 0.2em;
+	text-align: center;
 }
 
-.show {
-	display: block;
+h2 {
+	text-align: right;
+	font-size: 6vw;
+}
+
+.container {
+	padding: 0 3%;
 }
