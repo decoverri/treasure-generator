@@ -28,6 +28,10 @@
 			<li>Type H</li>
 			<li>Type I</li>
 		</ol>
+		
+		<footer class=container>
+			<p>@Copyright 2014</p>
+		</footer>
 
 	</body>
 </html>

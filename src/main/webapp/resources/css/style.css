@@ -37,6 +37,7 @@ header {
 	align-content: space-between;
 	flex-wrap: wrap;
 	height: 100%;
+	margin: 5% 0;
 }
 
 .types li {
@@ -54,3 +55,14 @@ header {
 	width: 0;
 }
 
+footer {
+	height: 3em;
+}
+
+footer:before {
+	content: "";
+	display: inline-block;
+	text-align: middle;
+	heigth: 100%;
+	width: 0;
+}
