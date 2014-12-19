@@ -18,15 +18,15 @@
 		</header>
 		
 		<ol class="container types">
-			<li id="coins">Type A</li>
-			<li id="gems">Type B</li>
-			<li id="art">Type C</li>
-			<li id="objects">Type D</li>
-			<li id="weapon">Type E</li>
-			<li id="combatant">Type F</li>
-			<li id="spellcaster">Type G</li>
-			<li id="lair">Type H</li>
-			<li id="hoard">Type I</li>
+			<li id="coins"><a>Type A</a></li>
+			<li id="gems"><a>Type B</a></li>
+			<li id="art"><a>Type C</a></li>
+			<li id="objects"><a>Type D</a></li>
+			<li id="weapon"><a>Type E</a></li>
+			<li id="combatant"><a>Type F</a></li>
+			<li id="spellcaster"><a>Type G</a></li>
+			<li id="lair"><a>Type H</a></li>
+			<li id="hoard"><a>Type I</a></li>
 		</ol>
 		
 		<footer class=container>

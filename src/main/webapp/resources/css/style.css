@@ -43,12 +43,16 @@ header.container {
 	box-shadow: 3px 3px 5px 2px #CCCCCC;
 	border-radius: 5%;
 	text-align: center;
-	height: 28vw;
-	width: 28vw;
 	margin: 2.5vw 0;
 }
 
-.types li:before {
+.types li a {
+	display: block;
+	height: 28vw;
+	width: 28vw;
+}
+
+.types li a:before {
 	content: "";
 	display: inline-block;
 	height: 100%;
