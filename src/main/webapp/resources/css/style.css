@@ -56,18 +56,6 @@ header.container {
 	width: 0;
 }
 
-#coins {
-	text-indent: -9999px;
-	background-image: url("../img/coins.svg");
-	background-size: 100%;
-}
-
-#gems {
-	text-indent: -9999px;
-	background-image: url("../img/gems.svg");
-	background-size: 100%;
-}
-
 footer {
 	background-color: #999999;
 	height: 3em;
