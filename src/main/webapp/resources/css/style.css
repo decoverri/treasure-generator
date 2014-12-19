@@ -17,6 +17,14 @@ section {
 	vertical-align: top;
 }
 
+.type h2 {
+	text-transform: uppercase;
+}
+
+.type h2:before {
+	content: "- ";
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "MedievalSharp", "Georgia", cursive;
 	font-variant: small-caps;
@@ -89,6 +97,20 @@ header .voltar:active {
 	height: 100%;
 	vertical-align: middle;
 	width: 0;
+}
+
+.values li {
+	background-color: #D0D0FE;
+	margin: 1em 0;
+	text-align: center;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.values a {
+	height: 5em;
+	width: 100%;
+	font-size: 10vw;
 }
 
 footer {

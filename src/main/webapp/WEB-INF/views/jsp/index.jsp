@@ -31,7 +31,7 @@
 			</ol>
 		</section>
 
-	<section id="type-a" class="values">
+	<section id="type-a" class="type">
 			<header class="container">
 				<a href="#main" class="voltar">Back</a>
 				<h1>Type A</h1>
