@@ -1,7 +1,6 @@
 body {
-	display: flex;
-	flex-direction: column;
 	font-family: "Alegreya", "Georgia", serif;
+	background-color: #DFDFDF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +12,6 @@ h1 {
 	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 0.1em;
-	padding-top: 0.2em;
 	text-align: center;
 }
 
@@ -22,9 +20,11 @@ h2 {
 	font-size: 0.5em;
 }
 
-header {
+header.container {
+	background-color: #FFFF66;
 	font-size: 12vw;
-	height: 2.5em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
 }
 
 .container {
@@ -34,17 +34,18 @@ header {
 .types {
 	display: flex;
 	justify-content: space-between;
-	align-content: space-between;
 	flex-wrap: wrap;
-	height: 100%;
-	margin: 5% 0;
+	margin: 2.5vw 0;
 }
 
 .types li {
-	background-color: #22AA22;
+	background-color: #D0D0FE;
+	box-shadow: 3px 3px 5px 2px #CCCCCC;
+	border-radius: 5%;
 	text-align: center;
 	height: 28vw;
 	width: 28vw;
+	margin: 2.5vw 0;
 }
 
 .types li:before {
@@ -55,14 +56,27 @@ header {
 	width: 0;
 }
 
+#coins {
+	text-indent: -9999px;
+	background-image: url("../img/coins.svg");
+	background-size: 100%;
+}
+
+#gems {
+	text-indent: -9999px;
+	background-image: url("../img/gems.svg");
+	background-size: 100%;
+}
+
 footer {
+	background-color: #999999;
 	height: 3em;
 }
 
 footer:before {
 	content: "";
 	display: inline-block;
-	text-align: middle;
-	heigth: 100%;
+	height: 100%;
+	vertical-align: middle;
 	width: 0;
 }

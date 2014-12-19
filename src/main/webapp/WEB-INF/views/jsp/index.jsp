@@ -18,19 +18,19 @@
 		</header>
 		
 		<ol class="container types">
-			<li>Type A</li>
-			<li>Type B</li>
-			<li>Type C</li>
-			<li>Type D</li>
-			<li>Type E</li>
-			<li>Type F</li>
-			<li>Type G</li>
-			<li>Type H</li>
-			<li>Type I</li>
+			<li id="coins">Coins</li>
+			<li id="gems">Coins and Gems</li>
+			<li id="art">Art Objects</li>
+			<li id="objects">Small Objects</li>
+			<li id="weapon">Weapons and Armors</li>
+			<li id="combatant">Combatant Gear</li>
+			<li id="spellcaster">Spellcaster Gear</li>
+			<li id="lair">Lair Treasure</li>
+			<li id="hoard">Treasure Hoard</li>
 		</ol>
 		
 		<footer class=container>
-			<p>@Copyright 2014</p>
+			<small>@Copyright 2014</small>
 		</footer>
 
 	</body>
