@@ -14,7 +14,7 @@
 		
 		<header class="container">
 			<h1>Treasure Generator</h1>
-			<h2>Pathfinder RPG</h2>
+			<h2>for Pathfinder RPG</h2>
 		</header>
 		
 		<ol class="container types">
