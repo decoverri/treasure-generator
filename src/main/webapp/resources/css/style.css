@@ -1,6 +1,20 @@
+html {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 body {
 	font-family: "Alegreya", "Georgia", serif;
 	background-color: #DFDFDF;
+	white-space: nowrap;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+section {
+	display: inline-block;
+	width: 100vw;
+	vertical-align: top;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,10 +35,27 @@ h2 {
 }
 
 header.container {
+	position: relative;
 	background-color: #FFFF66;
 	font-size: 12vw;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
+}
+
+header .voltar {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	border-top: 0.5em solid transparent;
+	border-bottom: 0.5em solid transparent;
+	border-right: 0.5em solid rgba(0,0,0,0.4);
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+header .voltar:active {
+	border-right: 0.5em solid rgba(0,0,0,1);
 }
 
 .container {
