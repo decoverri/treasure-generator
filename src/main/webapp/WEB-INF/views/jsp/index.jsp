@@ -11,7 +11,17 @@
 		<link rel="stylesheet" href="resources/css/style.css" >
 	</head>
 	<body>
+	
+		<input type="radio" name="type" id="showB" value="B" />
+		<input type="radio" name="type" id="showC" value="C" />
+		<input type="radio" name="type" id="showD" value="D" />
+		<input type="radio" name="type" id="showE" value="E" />
+		<input type="radio" name="type" id="showF" value="F" />
+		<input type="radio" name="type" id="showG" value="G" />
+		<input type="radio" name="type" id="showH" value="H" />
+		<input type="radio" name="type" id="showI" value="I" />
 		
+		<input type="radio" name="type" id="showMain" value="main" checked />
 		<section id="main">
 			<header class="container">
 				<h1>Treasure Generator</h1>
@@ -19,21 +29,22 @@
 			</header>
 			
 			<ol class="container types">
-				<li id="coins"><a href="#type-a">Type A</a></li>
-				<li id="gems"><a>Type B</a></li>
-				<li id="art"><a>Type C</a></li>
-				<li id="objects"><a>Type D</a></li>
-				<li id="weapon"><a>Type E</a></li>
-				<li id="combatant"><a>Type F</a></li>
-				<li id="spellcaster"><a>Type G</a></li>
-				<li id="lair"><a>Type H</a></li>
-				<li id="hoard"><a>Type I</a></li>
+				<li id="coins"><label for="showA">Type A</label></li>
+				<li id="gems"><label for="showB">Type B</label></li>
+				<li id="art"><label for="showC">Type C</label></li>
+				<li id="objects"><label for="showD">Type D</label></li>
+				<li id="weapon"><label for="showE">Type E</label></li>
+				<li id="combatant"><label for="showF">Type F</label></li>
+				<li id="spellcaster"><label for="showG">Type G</label></li>
+				<li id="lair"><label for="showH">Type H</label></li>
+				<li id="hoard"><label for="showI">Type I</label></li>
 			</ol>
 		</section>
 
-	<section id="type-a" class="type">
+		<input type="radio" name="type" id="showA" value="A" />
+		<section id="type-a" class="type">
 			<header class="container">
-				<a href="#main" class="voltar">Back</a>
+				<label for="showMain" class="voltar">Back</label>
 				<h1>Type A</h1>
 				<h2>coins</h2>
 			</header>
