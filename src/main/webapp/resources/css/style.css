@@ -71,7 +71,7 @@ header .voltar:active {
 
 .types {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 2.5vw 0;
 }
@@ -79,13 +79,13 @@ header .voltar:active {
 .types li {
 	border-radius: 5%;
 	text-align: center;
-	margin: 2.5vw 0;
+	margin: 3vw 0;
 }
 
 .types li a {
 	display: block;
-	height: 28vw;
-	width: 28vw;
+	height: 25vw;
+	width: 25vw;
 	font-size: 8vw;
 }
 
