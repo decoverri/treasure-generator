@@ -11,16 +11,7 @@
 		<link rel="stylesheet" href="resources/css/style.css" >
 	</head>
 	<body>
-	
-		<input type="radio" name="type" id="showB" value="B" />
-		<input type="radio" name="type" id="showC" value="C" />
-		<input type="radio" name="type" id="showD" value="D" />
-		<input type="radio" name="type" id="showE" value="E" />
-		<input type="radio" name="type" id="showF" value="F" />
-		<input type="radio" name="type" id="showG" value="G" />
-		<input type="radio" name="type" id="showH" value="H" />
-		<input type="radio" name="type" id="showI" value="I" />
-		
+			
 		<input type="radio" name="type" id="showMain" value="main" checked />
 		<section id="main">
 			<header class="container">
@@ -65,6 +56,199 @@
 			</ol>
 		</section>
 		
+		<input type="radio" name="type" id="showB" value="B" />
+		<section id="type-b" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type B</h1>
+				<h2>coins and gems</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showC" value="C" />
+		<section id="type-c" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type C</h1>
+				<h2>art objects</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showD" value="D" />
+		<section id="type-d" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type D</h1>
+				<h2>coins and small objects</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showE" value="E" />
+		<section id="type-e" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type E</h1>
+				<h2>armor and weapons</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showF" value="F" />
+		<section id="type-f" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type F</h1>
+				<h2>combatant gear</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showG" value="G" />
+		<section id="type-g" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type G</h1>
+				<h2>spellcaster gear</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showH" value="H" />
+		<section id="type-h" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type H</h1>
+				<h2>lair treasure</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+		<input type="radio" name="type" id="showI" value="I" />
+		<section id="type-i" class="type">
+			<header class="container">
+				<label for="showMain" class="voltar">Back</label>
+				<h1>Type H</h1>
+				<h2>treasure hoard</h2>
+			</header>
+			
+			<ol class="container values">
+				<li><a>1 gp</a></li>
+				<li><a>5 gp</a></li>
+				<li><a>10 gp</a></li>
+				<li><a>25 gp</a></li>
+				<li><a>50 gp</a></li>
+				<li><a>100 gp</a></li>
+				<li><a>200 gp</a></li>
+				<li><a>500 gp</a></li>
+				<li><a>1,000 gp</a></li>
+				<li><a>5,000 gp</a></li>
+				<li><a>10,000 gp</a></li>
+				<li><a>50,000 gp</a></li>
+			</ol>
+		</section>
+		
+
 		<footer class=container>
 			<small>@Copyright 2014</small>
 		</footer>

@@ -3,6 +3,23 @@ body {
 	background-color: #DFDFDF;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "MedievalSharp", "Georgia", cursive;
+	font-variant: small-caps;
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	text-align: center;
+}
+
+h2 {
+	text-align: right;
+	font-size: 0.5em;
+}
+
 input[name=type] {
 	display: none;
 }
@@ -20,37 +37,12 @@ section {
 	width: 100%;
 }
 
-section.type {
-	display: none;
-}
-
-section.type:target {
-	display: block;
-}
-
 .type h2 {
 	text-transform: uppercase;
 }
 
 .type h2:before {
 	content: "- ";
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: "MedievalSharp", "Georgia", cursive;
-	font-variant: small-caps;
-}
-
-h1 {
-	font-size: 1em;
-	font-weight: bold;
-	margin-bottom: 0.1em;
-	text-align: center;
-}
-
-h2 {
-	text-align: right;
-	font-size: 0.5em;
 }
 
 header.container {
