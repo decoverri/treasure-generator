@@ -33,7 +33,7 @@
 		</section>
 
 		<input type="radio" name="type" id="showA" value="A" />
-		<section id="type-a" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type A</h1>
@@ -57,7 +57,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showB" value="B" />
-		<section id="type-b" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type B</h1>
@@ -81,7 +81,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showC" value="C" />
-		<section id="type-c" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type C</h1>
@@ -105,7 +105,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showD" value="D" />
-		<section id="type-d" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type D</h1>
@@ -129,7 +129,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showE" value="E" />
-		<section id="type-e" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type E</h1>
@@ -153,7 +153,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showF" value="F" />
-		<section id="type-f" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type F</h1>
@@ -177,7 +177,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showG" value="G" />
-		<section id="type-g" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type G</h1>
@@ -201,7 +201,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showH" value="H" />
-		<section id="type-h" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type H</h1>
@@ -225,7 +225,7 @@
 		</section>
 		
 		<input type="radio" name="type" id="showI" value="I" />
-		<section id="type-i" class="type">
+		<section class="type">
 			<header class="container">
 				<label for="showMain" class="voltar">Back</label>
 				<h1>Type H</h1>
