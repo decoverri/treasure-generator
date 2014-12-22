@@ -48,17 +48,6 @@ public class HomeController {
 		return "redirect:/";
 	}
 
-	@RequestMapping("/getListOfValues")
-	public @ResponseBody String getListOfValuesOfTrasureType(Model model, char letter, HttpServletResponse response){
-		List<Integer> values = treasureTypeValueDao.getValuesForLetter(letter);
-
-		XStream stream = new XStream(new JettisonMappedXmlDriver());
-		String json = stream.toXML(values);
-
-		response.setStatus(200);
-		return json;
-	}
-
 	@RequestMapping("/generate")
 	public String generate(int value, char letter, Model model, HttpSession session){
 		List<Treasure> treasures = generator.generate(value, letter);
