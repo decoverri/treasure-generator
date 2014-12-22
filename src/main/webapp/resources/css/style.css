@@ -8,44 +8,28 @@ h1, h2, h3, h4, h5, h6 {
 	font-variant: small-caps;
 }
 
-h1 {
-	font-size: 1em;
-	font-weight: bold;
-	margin-bottom: 0.1em;
-	text-align: center;
+.container {
+	padding: 0 3%;
 }
 
-h2 {
-	text-align: right;
-	font-size: 0.5em;
-}
-
-input[name=letter] {
+.radio-hack[name=letter] {
 	display: none;
 }
 
-input[name=letter]:checked + section {
+.radio-hack[name=letter]:checked + .view {
 	display: block;
 }
 
-input[name=letter]:not(:checked) + section {
+.radio-hack[name=letter]:not(:checked) + .view {
 	display: none;
 }
 
-section {
+.view {
 	display: inline-block;
 	width: 100%;
 }
 
-.type h2 {
-	text-transform: uppercase;
-}
-
-.type h2:before {
-	content: "- ";
-}
-
-header.container {
+.header {
 	position: relative;
 	background-color: #FFFF66;
 	font-size: 12vw;
@@ -53,7 +37,19 @@ header.container {
 	padding-bottom: 0.2em;
 }
 
-header .voltar {
+.header-title {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	text-align: center;
+}
+
+.header-subtitle {
+	text-align: right;
+	font-size: 0.5em;
+}
+
+.header-voltar {
 	position: absolute;
 	top: 0.5em;
 	left: 0.5em;
@@ -65,35 +61,42 @@ header .voltar {
 	overflow: hidden;
 }
 
-header .voltar:active {
+.header-voltar:active {
 	border-right: 0.5em solid rgba(0,0,0,1);
 }
 
-.container {
-	padding: 0 3%;
+.type .subtitle {
+	text-transform: uppercase;
 }
 
-.types {
+.type .subtitle::before {
+	content: "- ";
+}
+
+.typeList {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 2.5vw 0;
 }
 
-.types li {
+.wrap-typeList-item {
 	border-radius: 10%;
 	text-align: center;
 	margin: 3vw 0;
+
+	background-color: #D0D0FE;
+	box-shadow: 3px 3px 5px 2px #CCCCCC;
 }
 
-.types li label {
+.typeList-item {
 	display: block;
 	height: 25vw;
 	width: 25vw;
 	font-size: 8vw;
 }
 
-.types li label:before {
+.typeList-item::before {
 	content: "";
 	display: inline-block;
 	height: 100%;
@@ -101,28 +104,23 @@ header .voltar:active {
 	width: 0;
 }
 
-.values li {
+.valueList-item {
 	margin: 1em 0;
 	text-align: center;
 	padding: 0.5em;
 	border-radius: 0.5em;
-}
-
-.values button {
 	font-size: 8vw;
-}
 
-ol li {
 	background-color: #D0D0FE;
-	box-shadow: 3px 3px 5px 2px #CCCCCC;	
+	box-shadow: 3px 3px 5px 2px #CCCCCC;
 }
 
-footer {
+.footer {
 	background-color: #999999;
 	height: 4em;
 }
 
-footer:before {
+.footer::before {
 	content: "";
 	display: inline-block;
 	height: 100%;

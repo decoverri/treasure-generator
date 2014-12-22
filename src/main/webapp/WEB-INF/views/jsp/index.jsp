@@ -21,16 +21,16 @@
 		
 		<form action="generate">
 
-			<input type="radio" name="letter" id="showMain" checked />
-			<section>
-				<header class="container">
-					<h1>Treasure Generator</h1>
-					<h2>for Pathfinder RPG</h2>
+			<input type="radio" name="letter" id="showMain" class="radio-hack" checked />
+			<section class="view" >
+				<header class="container header">
+					<h1 class="header-title">Treasure Generator</h1>
+					<h2 class="header-subtitle">for Pathfinder RPG</h2>
 				</header>
 				
-				<ol class="container types">
+				<ol class="container typeList">
 					<c:forEach items="${types}" var="type" >
-						<li><label for="show${type.letter}">Type ${type.letter}</label></li>
+						<li class="wrap-typeList-item"><label class="typeList-item" for="show${type.letter}">Type ${type.letter}</label></li>
 					</c:forEach>
 				</ol>
 			</section>
@@ -41,7 +41,7 @@
 
 		</form>
 
-		<footer class=container>
+		<footer class="container footer">
 			<small>by @decoverri</small>
 		</footer>
 
