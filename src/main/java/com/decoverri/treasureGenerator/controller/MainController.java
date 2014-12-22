@@ -18,7 +18,7 @@ import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
 
 @Controller
 @Scope("request")
-public class HomeController {
+public class MainController {
 
 	@Autowired
 	private TreasureTypeDao treasureTypeDao;

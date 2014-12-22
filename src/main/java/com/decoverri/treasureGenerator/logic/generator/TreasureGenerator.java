@@ -11,9 +11,6 @@ import org.springframework.stereotype.Component;
 import com.decoverri.treasureGenerator.dao.TreasureRewardDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.model.TreasureReward;
-import com.decoverri.treasureGenerator.model.TreasureType;
-import com.decoverri.treasureGenerator.model.TreasureTypeValue;
-import com.decoverri.treasureGenerator.model.TreasureTypes;
 
 @Component
 public class TreasureGenerator {
@@ -66,26 +63,6 @@ public class TreasureGenerator {
 
 	@Autowired
 	private TreasureRewardDao dao;
-	
-	public List<Treasure> generate(TreasureTypes types) {
-		List<Treasure> treasures = new ArrayList<Treasure>();
-		for (TreasureType treasureType : types.getTreasureTypes()) {
-			if (treasureType.getValues() != null) {
-				treasures.addAll(generate(treasureType));
-			}
-		}
-		return treasures;
-	}
-
-	private List<Treasure> generate(TreasureType treasureType) {
-		List<Treasure> treasures = new ArrayList<Treasure>();
-		for (TreasureTypeValue treasureTypeValue : treasureType.getValues()) {
-			if (treasureTypeValue != null && treasureTypeValue.getValue() != 0) {
-				treasures.addAll(generate(treasureTypeValue.getValue(), treasureType.getLetter()));
-			}
-		}
-		return treasures;
-	}
 
 	public List<Treasure> generate(int value, char type) {
 		List<Treasure> treasures = new ArrayList<Treasure>();
