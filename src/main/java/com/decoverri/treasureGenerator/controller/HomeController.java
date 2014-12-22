@@ -2,7 +2,6 @@ package com.decoverri.treasureGenerator.controller;
 
 import java.util.List;
 
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,16 +9,12 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
 import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.GeneratorCalculator;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
-import com.decoverri.treasureGenerator.model.TreasureTypeValue;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 @Controller
 @Scope("request")
@@ -53,14 +48,11 @@ public class HomeController {
 		List<Treasure> treasures = generator.generate(value, letter);
 		double totalPrice = generatorCalculator.calculateTotalValue(treasures);
 
-		List<TreasureTypeValue> valuesOfSelectedType = treasureTypeValueDao.getTypeValuesForLetter(letter);
-
 		model.addAttribute("treasures", treasures);
 		model.addAttribute("totalPrice", totalPrice);
-		session.setAttribute("selectedLetter", letter);
-		session.setAttribute("selectedValue", value);
-		session.setAttribute("selectedValues", valuesOfSelectedType);
+		model.addAttribute("selectedLetter", letter);
+		model.addAttribute("selectedValue", value);
 
-		return "forward:/";
+		return "generate";
 	}
 }

@@ -47,14 +47,4 @@ public class TreasureTypeValueDao {
 		
 	}
 
-	@SuppressWarnings("unchecked")
-	public List<Integer> getValuesForLetter(char letter) {
-		return session.createQuery("select v.value from TreasureType t join t.values v where t.letter=:letter order by v.value").setParameter("letter", letter).list();
-	}
-
-	@SuppressWarnings("unchecked")
-	public List<TreasureTypeValue> getTypeValuesForLetter(char letter) {
-		return session.createQuery("select v from TreasureType t join t.values v where t.letter=:letter order by v.value").setParameter("letter", letter).list();
-	}
-
 }
