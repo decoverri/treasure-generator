@@ -14,7 +14,7 @@
 	
 	<ol class="container valueList">
 		<c:forEach items="${type.values}" var="value" >
-			<li><button type="submit" name="value" value="${value.value}" class="valueList-item" ><fmt:formatNumber value="${value.value}" /> gp</button></li>
+			<li class="wrap-valueList-item" ><button type="submit" name="value" value="${value.value}" class="valueList-item" ><fmt:formatNumber value="${value.value}" /> gp</button></li>
 		</c:forEach>
 	</ol>
 </section>
