@@ -20,15 +20,15 @@ h2 {
 	font-size: 0.5em;
 }
 
-input[name=type] {
+input[name=letter] {
 	display: none;
 }
 
-input[name=type]:checked + section {
+input[name=letter]:checked + section {
 	display: block;
 }
 
-input[name=type]:not(:checked) + section {
+input[name=letter]:not(:checked) + section {
 	display: none;
 }
 
@@ -108,7 +108,7 @@ header .voltar:active {
 	border-radius: 0.5em;
 }
 
-.values a {
+.values button {
 	font-size: 8vw;
 }
 
