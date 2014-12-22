@@ -1,0 +1,13 @@
+body {
+	font-family: "Alegreya", "Georgia", serif;
+	background-color: #DFDFDF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "MedievalSharp", "Georgia", cursive;
+	font-variant: small-caps;
+}
+
+.container {
+	padding: 0 3%;
+}

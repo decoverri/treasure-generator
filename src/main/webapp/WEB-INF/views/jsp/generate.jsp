@@ -4,42 +4,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
+		<link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="resources/css/reset.css" >
+		<link rel="stylesheet" href="resources/css/base.css" >
+		<link rel="stylesheet" href="resources/css/generate.css" >
+		<link rel="stylesheet" href="resources/css/footer.css" >
+		
+		<fmt:setLocale value="en_US" scope="session"/>
+
+		<title>Treasure Generator - Result</title>
 	</head>
 	<body>
 	
-		<nav>
-			<ul>
-				<li><a>Back</a></li>
-				<li><a>Home</a></li>
-				<li><a>Regenerate</a></li>
+		<nav class="container">
+			<ul class="menu">
+				<li class="wrap-menu-item"><a class="menu-item" >Back</a></li>
+				<li class="wrap-menu-item"><a class="menu-item" >Home</a></li>
+				<li class="wrap-menu-item"><a class="menu-item" >Regenerate</a></li>
 			</ul>
 		</nav>
-	
-		<h3>Result for <fmt:formatNumber value="${selectedValue}" /> gp of Treasure Type ${selectedLetter}</h3>
 		
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Price</th>
-				</tr>
-			</thead>
-			<tbody>
-				<c:forEach items="${treasures}" var="treasure" >
+		<section class="container result">
+			<h3 class="result-title">Result for <fmt:formatNumber value="${selectedValue}" /> gp of Treasure Type ${selectedLetter}</h3>
+			
+			<table class="container">
+				<thead>
 					<tr>
-						<td>${treasure.name}</td>
-						<td><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
+						<th>Name</th>
+						<th>Price</th>
 					</tr>
-				</c:forEach>
-			</tbody>
-			<tfoot>		
-				<tr>
-					<td>Total price generated</td>
-					<td><fmt:formatNumber value="${totalPrice}" /> gp</td>
-				</tr>
-			</tfoot>
-		</table>
+				</thead>
+				<tbody>
+					<c:forEach items="${treasures}" var="treasure" >
+						<tr>
+							<td>${treasure.name}</td>
+							<td><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
+						</tr>
+					</c:forEach>
+				</tbody>
+				<tfoot>		
+					<tr>
+						<td>Total price generated</td>
+						<td><fmt:formatNumber value="${totalPrice}" /> gp</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+		
+		<footer class="container footer">
+			<small>by @decoverri</small>
+		</footer>
+		
 	</body>
 </html>

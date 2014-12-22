@@ -8,14 +8,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
-
-		<title>Treasure Generator</title>
 	
 		<link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="resources/css/reset.css" >
-		<link rel="stylesheet" href="resources/css/style.css" >
+		<link rel="stylesheet" href="resources/css/base.css" >
+		<link rel="stylesheet" href="resources/css/index.css" >
+		<link rel="stylesheet" href="resources/css/footer.css" >
 		
 		<fmt:setLocale value="en_US" scope="session"/>
+
+		<title>Treasure Generator</title>
 	</head>
 	<body>
 		

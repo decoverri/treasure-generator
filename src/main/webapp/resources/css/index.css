@@ -1,17 +1,3 @@
-body {
-	font-family: "Alegreya", "Georgia", serif;
-	background-color: #DFDFDF;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: "MedievalSharp", "Georgia", cursive;
-	font-variant: small-caps;
-}
-
-.container {
-	padding: 0 3%;
-}
-
 .radio-hack[name=letter] {
 	display: none;
 }
@@ -117,17 +103,4 @@ h1, h2, h3, h4, h5, h6 {
 
 	background-color: #D0D0FE;
 	box-shadow: 3px 3px 5px 2px #CCCCCC;
-}
-
-.footer {
-	background-color: #999999;
-	height: 4em;
-}
-
-.footer::before {
-	content: "";
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-	width: 0;
 }

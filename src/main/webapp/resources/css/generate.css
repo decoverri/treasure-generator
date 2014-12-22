@@ -1,0 +1,12 @@
+.menu {
+	display: flex;
+	justify-content: space-between;
+	font-size: 5vw;
+}
+
+.wrap-menu-item {
+	padding: 1em;	
+}
+
+.menu-item {
+}
