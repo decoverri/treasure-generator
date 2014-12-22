@@ -12,7 +12,7 @@
 	</head>
 	<body>
 			
-		<input type="radio" name="type" id="showMain" value="main" checked />
+		<input type="radio" name="type" id="showMain" checked />
 		<section id="main">
 			<header class="container">
 				<h1>Treasure Generator</h1>
@@ -250,7 +250,7 @@
 		
 
 		<footer class=container>
-			<small>@Copyright 2014</small>
+			<small>by @decoverri</small>
 		</footer>
 
 	</body>
