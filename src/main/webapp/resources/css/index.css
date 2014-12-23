@@ -68,7 +68,7 @@
 	margin: 3vw 0;
 
 	background-color: #D0D0FE;
-	box-shadow: 3px 3px 5px 2px #CCCCCC;
+	border: 1px solid;
 }
 
 .typeList-item {
@@ -98,5 +98,5 @@
 	width: 100%;
 
 	background-color: #D0D0FE;
-	box-shadow: 3px 3px 5px 2px #CCCCCC;
+	border: 1px solid;
 }
