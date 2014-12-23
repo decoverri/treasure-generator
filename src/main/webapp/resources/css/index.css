@@ -79,6 +79,9 @@
 	height: 25vw;
 	width: 25vw;
 	font-size: 8vw;
+
+	text-indent: -9999px;
+	background-size: 100%;
 }
 
 .typeList-item::before {
@@ -87,6 +90,42 @@
 	height: 100%;
 	vertical-align: middle;
 	width: 0;
+}
+
+.typeA{
+	background-image: url("../img/coins.svg");
+}
+
+.typeB{
+	background-image: url("../img/gems.svg");
+}
+
+.typeC{
+	background-image: url("../img/art.svg");
+}
+
+.typeD{
+	background-image: url("../img/small-objects.svg");
+}
+
+.typeE{
+	background-image: url("../img/weapon-armor.svg");
+}
+
+.typeF{
+	background-image: url("../img/combatant.svg");
+}
+
+.typeG{
+	background-image: url("../img/spellcaster.svg");
+}
+
+.typeH{
+	background-image: url("../img/lair.svg");
+}
+
+.typeI{
+	background-image: url("../img/hoard.svg");
 }
 
 .wrap-valueList-item {
