@@ -1,3 +1,7 @@
+.wrap-menu {
+	background-color: #FFFF66;
+}
+
 .menu {
 	display: flex;
 	justify-content: space-between;
@@ -5,8 +9,30 @@
 }
 
 .wrap-menu-item {
-	padding: 1em;	
 }
 
 .menu-item {
+	display: block;
+	text-indent: -9999px;
+	width: 5em;
+	height: 3em;
+	background-size: 60% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#back {
+	background-image: url("../img/back.svg");
+}
+
+#home {
+	background-image: url("../img/home.svg");
+}
+
+#regen {
+	background-image: url("../img/regen.svg");
+}
+
+.result {
+	margin: 1em 0;
 }

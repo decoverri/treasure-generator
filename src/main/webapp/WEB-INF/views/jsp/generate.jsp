@@ -19,11 +19,11 @@
 	</head>
 	<body>
 	
-		<nav class="container">
+		<nav class="wrap-menu container">
 			<ul class="menu">
-				<li class="wrap-menu-item"><a class="menu-item" >Back</a></li>
-				<li class="wrap-menu-item"><a class="menu-item" >Home</a></li>
-				<li class="wrap-menu-item"><a class="menu-item" >Regenerate</a></li>
+				<li class="wrap-menu-item"><a href="javascript:window.history.go(-1)" class="menu-item" id="back">Back</a></li>
+				<li class="wrap-menu-item"><a href="home" class="menu-item" id="home">Home</a></li>
+				<li class="wrap-menu-item"><a href="" class="menu-item" id="regen">Regenerate</a></li>
 			</ul>
 		</nav>
 		
