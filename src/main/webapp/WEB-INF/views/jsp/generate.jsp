@@ -30,25 +30,25 @@
 		<section class="container result">
 			<h3 class="result-title">Result for <fmt:formatNumber value="${selectedValue}" /> gp of Treasure Type ${selectedLetter}</h3>
 			
-			<table class="container">
+			<table class="container result-list">
 				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Price</th>
+					<tr class="result-list-header">
+						<th class="result-list-name">Name</th>
+						<th class="result-list-price">Price</th>
 					</tr>
 				</thead>
 				<tbody>
 					<c:forEach items="${treasures}" var="treasure" >
-						<tr>
-							<td>${treasure.name}</td>
-							<td><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
+						<tr class="result-list-item" >
+							<td class="result-list-name">${treasure.name}</td>
+							<td class="result-list-price"><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
 						</tr>
 					</c:forEach>
 				</tbody>
-				<tfoot>		
-					<tr>
-						<td>Total price generated</td>
-						<td><fmt:formatNumber value="${totalPrice}" /> gp</td>
+				<tfoot>
+					<tr class="result-list-footer">
+						<td class="result-list-name">Total</td>
+						<td class="result-list-price"><fmt:formatNumber value="${totalPrice}" /> gp</td>
 					</tr>
 				</tfoot>
 			</table>

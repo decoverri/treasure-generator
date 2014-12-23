@@ -34,5 +34,48 @@
 }
 
 .result {
-	margin: 1em 0;
+	margin: 0.5em 0;
+	font-size: 8vw;
+}
+
+.result-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.result-list {
+	margin: 0.5em 0;
+	width: 100%;
+}
+
+.result-list-header {
+	background-color: #D0D0FE;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: left;
+	padding: 0.2em 0;
+}
+
+.result-list-item {
+	background-color: #FFF;
+	font-size: 0.8em;
+}
+
+.result-list-footer {
+	background-color: #D0D0FE;
+	font-size: 0.8em;
+	font-style: italic;
+	padding: 0.2em 0;
+}
+
+.result-list-name {
+	border: 1px solid;
+	padding: 0.5em;
+}
+
+.result-list-price {
+	width: 40%;
+	text-align: right;
+	border: 1px solid;
+	padding: 0.5em;
 }
