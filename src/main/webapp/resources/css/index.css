@@ -44,6 +44,7 @@
 	background-size: 100% 100%;
 	width: 1em;
 	height: 0.7em;
+	overflow: hidden;
 }
 
 .type .subtitle {
