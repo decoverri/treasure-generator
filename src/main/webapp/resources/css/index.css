@@ -30,9 +30,16 @@
 	text-align: center;
 }
 
+.header-typeTitle {
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	text-align: center;
+}
+
 .header-subtitle {
 	text-align: right;
-	font-size: 0.5em;
+	font-size: 0.6em;
 }
 
 .header-back {
@@ -47,11 +54,7 @@
 	overflow: hidden;
 }
 
-.type .subtitle {
-	text-transform: uppercase;
-}
-
-.type .subtitle::before {
+.type .header-subtitle::before {
 	content: "- ";
 }
 
