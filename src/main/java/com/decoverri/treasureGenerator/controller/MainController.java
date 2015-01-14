@@ -52,7 +52,8 @@ public class MainController {
 		model.addAttribute("totalPrice", totalPrice);
 		model.addAttribute("selectedLetter", letter);
 		model.addAttribute("selectedValue", value);
-
+		model.addAttribute("typeName", treasureTypeDao.getName(letter));
+		
 		return "generate";
 	}
 }

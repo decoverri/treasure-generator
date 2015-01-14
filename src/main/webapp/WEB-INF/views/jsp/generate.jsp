@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="resources/css/reset.css" >
 		<link rel="stylesheet" href="resources/css/base.css" >
 		<link rel="stylesheet" href="resources/css/generate.css" >
+		<link rel="stylesheet" href="resources/css/typeColors.css" >
 		<link rel="stylesheet" href="resources/css/footer.css" >
 		
 		<fmt:setLocale value="en_US" scope="session"/>
@@ -19,7 +20,7 @@
 	</head>
 	<body>
 	
-		<nav class="wrap-menu container">
+		<nav class="header-type${selectedLetter} container">
 			<ul class="menu">
 				<li class="wrap-menu-item"><a href="javascript:window.history.go(-1)" class="menu-item" id="back">Back</a></li>
 				<li class="wrap-menu-item"><a href="home" class="menu-item" id="home">Home</a></li>
@@ -28,7 +29,7 @@
 		</nav>
 		
 		<section class="container result">
-			<h3 class="result-title">Result for <fmt:formatNumber value="${selectedValue}" /> gp of Treasure Type ${selectedLetter}</h3>
+			<h3 class="result-title">Result for <fmt:formatNumber value="${selectedValue}" /> gp of ${typeName}</h3>
 			
 			<table class="container result-list">
 				<thead>

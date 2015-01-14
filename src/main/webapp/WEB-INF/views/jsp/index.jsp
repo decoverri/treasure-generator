@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="resources/css/reset.css" >
 		<link rel="stylesheet" href="resources/css/base.css" >
 		<link rel="stylesheet" href="resources/css/index.css" >
+		<link rel="stylesheet" href="resources/css/typeColors.css" >
 		<link rel="stylesheet" href="resources/css/footer.css" >
 		
 		<fmt:setLocale value="en_US" scope="session"/>

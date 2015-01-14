@@ -6,10 +6,10 @@
 
 <input type="radio" name="letter" id="show${type.letter}" value="${type.letter}" class="radio-hack" />
 <section class="view type">
-	<header class="container header">
+	<header class="container header header-type${type.letter}">
 		<label for="showMain" class="header-back">Back</label>
-		<h2 class="header-typeTitle">Type ${type.letter}</h2>
-		<h3 class="header-subtitle">${type.name}</h3>
+		<h2 class="header-typeTitle">${type.name}</h2>
+		<h3 class="header-typeSubtitle">Type ${type.letter}</h3>
 	</header>
 	
 	<ol class="container valueList">

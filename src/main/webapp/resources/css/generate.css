@@ -8,9 +8,6 @@
 	font-size: 5vw;
 }
 
-.wrap-menu-item {
-}
-
 .menu-item {
 	display: block;
 	text-indent: -9999px;
@@ -49,7 +46,7 @@
 }
 
 .result-list-header {
-	background-color: #D0D0FE;
+	background-color: #f2d495;
 	font-size: 0.8em;
 	font-weight: bold;
 	text-align: left;
@@ -62,7 +59,7 @@
 }
 
 .result-list-footer {
-	background-color: #D0D0FE;
+	background-color: #ccc;
 	font-size: 0.8em;
 	font-style: italic;
 	padding: 0.2em 0;
