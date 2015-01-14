@@ -17,7 +17,7 @@
 
 .header {
 	position: relative;
-	background-color: #FFFF66;
+	background-color: #0a2232;
 	font-size: 12vw;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
@@ -28,6 +28,7 @@
 	font-weight: bold;
 	margin-bottom: 0.1em;
 	text-align: center;
+	color: #ea6e29;
 }
 
 .header-typeTitle {
@@ -40,6 +41,7 @@
 .header-subtitle {
 	text-align: right;
 	font-size: 0.6em;
+	color: #dbcc8d;
 }
 
 .header-back {
@@ -70,7 +72,7 @@
 	text-align: center;
 	margin: 3vw 0;
 
-	background-color: #D0D0FE;
+	background-color: #FFF;
 	border: 1px solid;
 }
 
