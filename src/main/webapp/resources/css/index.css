@@ -68,11 +68,10 @@
 }
 
 .wrap-typeList-item {
-	border-radius: 10%;
 	text-align: center;
 	margin: 3vw 0;
 
-	background-color: #FFF;
+	background-color: #fff;
 }
 
 .typeList-item {
@@ -83,6 +82,7 @@
 
 	text-indent: -9999px;
 	background-size: 100%;
+	border-bottom: 0.7vw #e1e0e1 solid;
 }
 
 .typeList-item::before {
