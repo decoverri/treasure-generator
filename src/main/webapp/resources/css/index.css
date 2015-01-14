@@ -41,7 +41,7 @@
 .header-subtitle {
 	text-align: right;
 	font-size: 0.6em;
-	color: #dbcc8d;
+	color: #f2d495;
 }
 
 .header-back {
@@ -73,7 +73,6 @@
 	margin: 3vw 0;
 
 	background-color: #FFF;
-	border: 1px solid;
 }
 
 .typeList-item {
