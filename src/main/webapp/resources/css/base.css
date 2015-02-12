@@ -1,6 +1,10 @@
 body {
 	font-family: "Alegreya", "Georgia", serif;
 	background-color: #efefe8;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,12 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-variant: small-caps;
 }
 
-.container {
-	padding: 0 3%;
+button {
+	font-family: "Alegreya", "Georgia", serif;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+.container {
+	padding: 0 3%;
 }
