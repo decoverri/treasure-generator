@@ -28,7 +28,7 @@
 			<section class="view" >
 				<header class="container header">
 					<h1 class="header-title">Treasure Generator</h1>
-					<h3 class="header-subtitle">for Pathfinder RPG</h3>
+					<h2 class="header-subtitle">for Pathfinder RPG</h2>
 				</header>
 				
 				<ol class="container typeList">
