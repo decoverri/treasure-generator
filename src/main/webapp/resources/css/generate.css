@@ -1,3 +1,7 @@
+.view {
+	display: none;
+}
+
 .wrap-menu {
 	background-color: #0a2232;
 }
@@ -75,4 +79,32 @@
 	text-align: right;
 	border: 1px solid;
 	padding: 0.5em;
+}
+
+@media (min-width: 650px){
+	.header {
+		display: block;
+	}
+
+	.result{
+		font-size: 4vw;
+	}
+	
+	.result-title {
+		margin: 0.6em;
+	}
+	
+	.result-list {
+		width: 70%;
+		margin: auto;
+		font-size: 0.5em;
+	}
+	
+	.result-list-item:nth-child(even) {
+		background-color: #f9f9f9;
+	}
+
+	.result-list-price {
+		width: 30%;
+	}
 }

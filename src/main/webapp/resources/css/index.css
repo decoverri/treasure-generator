@@ -31,7 +31,13 @@
 	color: #ea6e29;
 }
 
-.header-typeTitle {
+.header-subtitle {
+	text-align: right;
+	font-size: 0.6em;
+	color: #f2d495;
+}
+
+.type-header-title {
 	color: #FFF;
 	font-size: 0.8em;
 	font-weight: bold;
@@ -39,13 +45,7 @@
 	text-align: center;
 }
 
-.header-subtitle {
-	text-align: right;
-	font-size: 0.6em;
-	color: #f2d495;
-}
-
-.header-typeSubtitle {
+.type-header-subtitle {
 	text-align: right;
 	font-size: 0.6em;
 	color: #cccccc;
@@ -160,7 +160,8 @@
 		font-size: 6vw;
 		display: flex;
 		justify-content: space-between;
-		padding-top: 0.3em;
+		padding-top: 0.2em;
+		padding-bottom: 0.1em;
 	}
 	
 	.type-header {
@@ -177,12 +178,12 @@
 		align-self: flex-end;
 	}
 	
-	.header-typeTitle {
+	.type-header-title {
 		align-self: flex-end;
 		margin: 0;
 	}
 
-	.header-typeSubtitle {
+	.type-header-subtitle {
 		align-self: center;
 	}
 	

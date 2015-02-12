@@ -8,8 +8,8 @@
 <section class="view type">
 	<header class="container header type-header header-type${type.letter}">
 		<label for="showMain" class="header-back">Back</label>
-		<h2 class="header-typeTitle">${type.name}</h2>
-		<h3 class="header-typeSubtitle">Type ${type.letter}</h3>
+		<h2 class="type-header-title">${type.name}</h2>
+		<h3 class="type-header-subtitle">Type ${type.letter}</h3>
 	</header>
 	
 	<ol class="container valueList">

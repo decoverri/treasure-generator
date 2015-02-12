@@ -20,6 +20,11 @@
 	</head>
 	<body>
 	
+		<header class="container header">
+			<h1 class="header-title">Treasure Generator</h1>
+			<h2 class="header-subtitle">for Pathfinder RPG</h2>
+		</header>
+			
 		<nav class="header-type${selectedLetter} container">
 			<ul class="menu">
 				<li class="wrap-menu-item"><a href="javascript:window.history.go(-1)" class="menu-item" id="back">Back</a></li>
