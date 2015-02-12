@@ -13,8 +13,9 @@
 		<link rel="stylesheet" href="resources/css/reset.css" >
 		<link rel="stylesheet" href="resources/css/base.css" >
 		<link rel="stylesheet" href="resources/css/index.css" >
-		<link rel="stylesheet" href="resources/css/typeColors.css" >
+		<link rel="stylesheet" href="resources/css/header.css" >
 		<link rel="stylesheet" href="resources/css/footer.css" >
+		<link rel="stylesheet" href="resources/css/typeColors.css" >
 		
 		<fmt:setLocale value="en_US" scope="session"/>
 

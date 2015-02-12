@@ -6,7 +6,7 @@
 
 <input type="radio" name="letter" id="show${type.letter}" value="${type.letter}" class="radio-hack" />
 <section class="view type">
-	<header class="container header type-header header-type${type.letter}">
+	<header class="container type-header header-type${type.letter}">
 		<label for="showMain" class="header-back">Back</label>
 		<h2 class="type-header-title">${type.name}</h2>
 		<h3 class="type-header-subtitle">Type ${type.letter}</h3>
