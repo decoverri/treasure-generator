@@ -188,11 +188,10 @@
 		cursor: pointer;
 	}
 
-	.valueList-item:focus {
-		background-color: lightgrey;
-	}
-
-	.wrap-typeList-item:focus {
+	.wrap-typeList-item:focus,
+	.wrap-typeList-item:hover,
+	.valueList-item:focus,
+	.valueList-item:hover {
 		background-color: lightgrey;
 	}
 	
