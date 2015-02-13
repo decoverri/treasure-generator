@@ -1,16 +1,12 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-
-		<link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="resources/css/reset.css" >
-		<link rel="stylesheet" href="resources/css/base.css" >
+		<c:import url="main-config.jsp" />
+		<link rel="stylesheet" href="resources/css/error.css" >
 		<link rel="stylesheet" href="resources/css/header.css" >
 		<link rel="stylesheet" href="resources/css/footer.css" >
-		<link rel="stylesheet" href="resources/css/error.css" >
 
 		<title>Treasure Generator - Page not Found</title>
 	</head>
