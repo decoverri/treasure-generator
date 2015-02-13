@@ -52,6 +52,13 @@ button {
 	outline: none;
 	border: none;
 }
+a {
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+	text-decoration: inherit;
+}
 object {
 	display: none;
 }
