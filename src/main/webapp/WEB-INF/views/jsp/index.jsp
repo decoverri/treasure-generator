@@ -34,7 +34,7 @@
 				
 				<ol class="container typeList">
 					<c:forEach items="${types}" var="type" >
-						<li class="wrap-typeList-item"><label class="typeList-item type${type.letter}" for="show${type.letter}">Type ${type.letter}</label></li>
+						<li tabindex="0" class="wrap-typeList-item" ><label class="typeList-item type${type.letter}" for="show${type.letter}">Type ${type.letter}</label></li>
 					</c:forEach>
 				</ol>
 			</section>

@@ -185,5 +185,13 @@
 		padding: 0.2em;
 		width: 6em;
 	}
+
+	.valueList-item:focus {
+		background-color: lightgrey;
+	}
+
+	.wrap-typeList-item:focus {
+		background-color: lightgrey;
+	}
 	
 }
