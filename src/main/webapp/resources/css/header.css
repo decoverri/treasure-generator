@@ -1,0 +1,39 @@
+.header {
+	position: relative;
+	background-color: #0a2232;
+	font-size: 12vw;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.header-title {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	text-align: center;
+	color: #ea6e29;
+}
+
+.header-subtitle {
+	text-align: right;
+	font-size: 0.6em;
+	color: #f2d495;
+}
+
+@media (min-width: 650px){
+	.header {
+		font-size: 6vw;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 0.2em;
+		padding-bottom: 0.1em;
+	}
+	
+	.header-title {
+		margin: 0;
+	}
+
+	.header-subtitle {
+		align-self: flex-end;
+	}
+}
