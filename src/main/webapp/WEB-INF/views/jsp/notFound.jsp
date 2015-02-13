@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -15,18 +16,13 @@
 	</head>
 	<body>
 
-		<header class="container header">
-			<h1 class="header-title"><a href="home">Treasure Generator</a></h1>
-			<h2 class="header-subtitle">for Pathfinder RPG</h2>
-		</header>
+		<c:import url="header.jsp" />
 
 		<section>
 			<p class="container error" >Sorry, but it appears that there are no treasures here.</p>
 		</section>
 		
-		<footer class="container footer">
-			<small>by @decoverri</small>
-		</footer>
+		<c:import url="footer.jsp" />
 	
 	</body>
 </html>

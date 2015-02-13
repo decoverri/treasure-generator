@@ -21,10 +21,7 @@
 	</head>
 	<body>
 	
-		<header class="container header">
-			<h1 class="header-title"><a href="home">Treasure Generator</a></h1>
-			<h2 class="header-subtitle">for Pathfinder RPG</h2>
-		</header>
+		<c:import url="header.jsp" />
 			
 		<nav class="nav-header header-type${selectedLetter} container">
 			<ul class="menu">
@@ -61,9 +58,7 @@
 			</table>
 		</section>
 		
-		<footer class="container footer">
-			<small>by @decoverri</small>
-		</footer>
+		<c:import url="footer.jsp" />
 		
 	</body>
 </html>

@@ -27,10 +27,7 @@
 
 			<input type="radio" name="letter" id="showMain" class="radio-hack" checked />
 			<section class="view" >
-				<header class="container header">
-					<h1 class="header-title">Treasure Generator</h1>
-					<h2 class="header-subtitle">for Pathfinder RPG</h2>
-				</header>
+				<c:import url="header.jsp" />
 				
 				<ol class="container typeList">
 					<c:forEach items="${types}" var="type" >
@@ -45,9 +42,7 @@
 
 		</form>
 
-		<footer class="container footer">
-			<small>by @decoverri</small>
-		</footer>
+		<c:import url="footer.jsp" />
 
 	</body>
 </html>

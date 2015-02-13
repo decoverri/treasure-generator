@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,22 +12,17 @@
 		<link rel="stylesheet" href="resources/css/footer.css" >
 		<link rel="stylesheet" href="resources/css/error.css" >
 
-		<title>Treasure Generator - Page not Found</title>
+		<title>Treasure Generator - Error</title>
 	</head>
 	<body>
 
-		<header class="container header">
-			<h1 class="header-title"><a href="home">Treasure Generator</a></h1>
-			<h2 class="header-subtitle">for Pathfinder RPG</h2>
-		</header>
+		<c:import url="header.jsp" />
 
 		<section>
 			<p class="container error" >Sorry, but something just went terribly wrong.</p>
 		</section>
 		
-		<footer class="container footer">
-			<small>by @decoverri</small>
-		</footer>
+		<c:import url="footer.jsp" />
 	
 	</body>
 </html>
