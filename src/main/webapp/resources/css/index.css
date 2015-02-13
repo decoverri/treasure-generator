@@ -166,6 +166,7 @@
 		height: 8vw;
 		width: 8vw;
 		border-bottom-width: 0.3vw;
+		cursor: pointer;
 	}
 	
 	.valueList {
@@ -184,6 +185,7 @@
 		font-size: 2vw;
 		padding: 0.2em;
 		width: 6em;
+		cursor: pointer;
 	}
 
 	.valueList-item:focus {
