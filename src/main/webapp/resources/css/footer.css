@@ -28,6 +28,19 @@
 	background-size: 100%;
 }
 
+.me {
+	text-decoration: underline;
+	color: #88c;
+}
+
+.me:hover {
+	color: #c8f;
+}
+
+.me:visited {
+	color: #969;
+}
+
 .github {
 	background-image: url("../img/GitHub-Mark-Light-120px-plus.png");
 }
