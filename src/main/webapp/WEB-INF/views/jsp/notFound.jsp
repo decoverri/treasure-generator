@@ -15,7 +15,7 @@
 		<c:import url="header.jsp" />
 
 		<section>
-			<p class="container error" >Sorry, but it appears that there are no treasures here.</p>
+			<p class="container error" >Sorry, but it seems that there are no treasures here.</p>
 		</section>
 		
 		<c:import url="footer.jsp" />

@@ -3,18 +3,43 @@
 	background-color: #33444b;
 	color: #ccc;
 	height: 6em;
+	display: flex;
+	justify-content: space-between;
 }
 
-.footer::before {
-	content: "";
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-	width: 0;
+.footer-content {
+	align-self: center;
+	display: flex;
+}
+
+.footer-item {
+	margin: 0.4em;
+	align-self: center;
+}
+
+.footer-icon {
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	height: 1.5em;
+	width: 1.5em;
+
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.github {
+	background-image: url("../img/GitHub-Mark-Light-120px-plus.png");
+}
+
+.twitter {
+	background-image: url("../img/Twitter_logo_white.png");
 }
 
 @media (min-width: 650px){
 	.footer {
-		font-size: 1vw;
+		font-size: 2vw;
+		height: 3em;
+		padding: 0 10%;
 	}
 }
