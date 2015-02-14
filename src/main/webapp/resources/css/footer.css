@@ -28,13 +28,13 @@
 	background-size: 100%;
 }
 
+.about, .credits {
+	text-decoration: underline;
+}
+
 .me {
 	text-decoration: underline;
 	color: #88c;
-}
-
-.me:hover {
-	color: #c8f;
 }
 
 .me:visited {
@@ -54,5 +54,9 @@
 		font-size: 2vw;
 		height: 3em;
 		padding: 0 10%;
+	}
+	
+	.me:hover {
+		color: #c8f;
 	}
 }

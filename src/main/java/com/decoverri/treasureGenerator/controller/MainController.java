@@ -56,4 +56,9 @@ public class MainController {
 		
 		return "generate";
 	}
+	
+	@RequestMapping("/credits")
+	private String credits() {
+		return "credits";
+	}
 }
