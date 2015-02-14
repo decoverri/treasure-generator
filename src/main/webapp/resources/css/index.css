@@ -194,5 +194,9 @@
 	.valueList-item:hover {
 		background-color: lightgrey;
 	}
-	
+
+	.wrap-typeList-item:hover,
+	.valueList-item:hover {
+		transition: 0.2s;
+	}
 }
