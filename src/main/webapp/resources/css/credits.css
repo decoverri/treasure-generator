@@ -1,0 +1,52 @@
+.credit {
+	margin: 1em 0;
+}
+
+.credit-title {
+	font-size: 2em;
+	text-align: center;
+}
+
+.credit-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.credit-list-item {
+	text-indent: -9999px;
+	overflow: hidden;
+	height: 25vw;
+	width: 25vw;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.number1161 {
+	background-image: url("../img/noun_1161_cc.svg");
+}
+.number14861 {
+	background-image: url("../img/noun_14861_cc.svg");
+}
+.number19127 {
+	background-image: url("../img/noun_19127_cc.svg");
+}
+.number20254 {
+	background-image: url("../img/noun_20254_cc.svg");
+}
+.number26864 {
+	background-image: url("../img/noun_26864_cc.svg");
+}
+.number32440 {
+	background-image: url("../img/noun_32440_cc.svg");
+}
+.number32509 {
+	background-image: url("../img/noun_32509_cc.svg");
+}
+.number80356 {
+	background-image: url("../img/noun_80356_cc.svg");
+}
+.number89722 {
+	background-image: url("../img/noun_89722_cc.svg");
+}
