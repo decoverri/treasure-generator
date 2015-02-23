@@ -56,6 +56,11 @@ public class MainController {
 		
 		return "generate";
 	}
+
+	@RequestMapping("/about")
+	private String about() {
+		return "about";
+	}
 	
 	@RequestMapping("/credits")
 	private String credits() {
