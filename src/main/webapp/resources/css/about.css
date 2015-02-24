@@ -1,0 +1,33 @@
+.about {
+	margin: 1em 0.5em;
+	font-size: 1.2em;
+}
+
+.about-title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.about-content {
+	margin: 0.4em 0;
+}
+
+.link {
+	text-decoration: underline;
+	color: #88c;
+}
+
+.link:hover {
+	color: #c8f;
+}
+
+.link:visited {
+	color: #969;
+}
+
+@media (min-width: 650px){
+	.about {
+		margin: 1em 3em;
+		font-size: 0.7em;
+	}
+}

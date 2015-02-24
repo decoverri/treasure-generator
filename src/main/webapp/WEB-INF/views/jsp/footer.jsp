@@ -1,7 +1,7 @@
 <footer class="container footer">
 	<ul class="footer-content" >
-		<li class="footer-item about"><a href="about" >About</a></li>
-		<li class="footer-item credits"><a href="credits" >Credits</a></li>
+		<li class="footer-item footer-about"><a href="about" >About</a></li>
+		<li class="footer-item footer-credits"><a href="credits" >Credits</a></li>
 	</ul>
 		
 	<ul class="footer-content contacts" >
