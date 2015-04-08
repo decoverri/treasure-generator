@@ -27,7 +27,7 @@
 					<a class="link" href="https://github.com/decoverri/treasure-generator" >github repository</a>
 				</p>
 				<p class="about-content">
-					There's also a list of features that I would like to add in the future. If you have ideas too, or something you want so say 
+					There's also a list of features that I would like to add in the future. If you have ideas too, or something you want to say 
 					just get in contact with me.
 				</p>
 			</section>
