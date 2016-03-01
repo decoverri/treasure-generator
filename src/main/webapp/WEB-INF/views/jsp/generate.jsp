@@ -5,10 +5,10 @@
 <html>
 	<head>
 		<c:import url="main-config.jsp" />
-		<link rel="stylesheet" href="resources/css/generate.css" >
-		<link rel="stylesheet" href="resources/css/header.css" >
-		<link rel="stylesheet" href="resources/css/footer.css" >
-		<link rel="stylesheet" href="resources/css/typeColors.css" >
+		<link rel="stylesheet" href="<c:url value="/resources/css/generate.css" />" >
+		<link rel="stylesheet" href="<c:url value="/resources/css/header.css" />" >
+		<link rel="stylesheet" href="<c:url value="/resources/css/footer.css" />" >
+		<link rel="stylesheet" href="<c:url value="/resources/css/typeColors.css" />" >
 		
 		<fmt:setLocale value="en_US" scope="session"/>
 
