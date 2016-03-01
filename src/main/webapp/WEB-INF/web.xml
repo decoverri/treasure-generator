@@ -7,10 +7,6 @@
 
 	<display-name>treasure-generator</display-name>
 
-	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
-	</welcome-file-list>
-
 	<servlet>
 		<servlet-name>Spring MVC Dispatcher Servlet</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -28,6 +24,11 @@
 	
 	<error-page>
 		<error-code>404</error-code>
+		<location>/WEB-INF/views/jsp/notFound.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>405</error-code>
 		<location>/WEB-INF/views/jsp/notFound.jsp</location>
 	</error-page>
 

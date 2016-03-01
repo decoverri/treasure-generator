@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.decoverri.treasureGenerator.converter.JsonConverter;
@@ -21,11 +22,11 @@ public class AndroidController {
 	@Autowired
 	private TreasureGenerator generator;
 
-	@RequestMapping("/ping")
+	@RequestMapping(value="/ping", method=RequestMethod.POST)
 	public void ping(){
 	}
 	
-	@RequestMapping("/generate")
+	@RequestMapping(value="/generate", method=RequestMethod.POST)
 	@ResponseBody
 	public String generate(int value, char letter) throws JSONException{
 		List<Treasure> treasures = generator.generate(value, letter);
