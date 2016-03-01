@@ -22,11 +22,11 @@ public class AndroidController {
 	@Autowired
 	private TreasureGenerator generator;
 
-	@RequestMapping(value="/ping")
+	@RequestMapping(value="/ping", method=RequestMethod.POST)
 	public void ping(){
 	}
 	
-	@RequestMapping(value="/generate")
+	@RequestMapping(value="/generate", method=RequestMethod.POST)
 	@ResponseBody
 	public String generate(int value, char letter) throws JSONException{
 		List<Treasure> treasures = generator.generate(value, letter);
