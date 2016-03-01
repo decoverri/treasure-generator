@@ -11,7 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.decoverri.treasureGenerator.dao.TreasureTypeDao;
-import com.decoverri.treasureGenerator.dao.TreasureTypeValueDao;
 import com.decoverri.treasureGenerator.interfaces.Treasure;
 import com.decoverri.treasureGenerator.logic.GeneratorCalculator;
 import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
@@ -22,9 +21,6 @@ public class MainController {
 
 	@Autowired
 	private TreasureTypeDao treasureTypeDao;
-
-	@Autowired
-	private TreasureTypeValueDao treasureTypeValueDao;
 	
 	@Autowired
 	private TreasureGenerator generator;
