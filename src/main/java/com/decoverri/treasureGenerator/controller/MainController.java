@@ -26,7 +26,7 @@ public class MainController {
 	private TreasureGenerator generator;
 	
 	@Autowired
-	GeneratorCalculator generatorCalculator;
+	private GeneratorCalculator generatorCalculator;
 	
 	@RequestMapping("/")
 	public String index(Model model) {
