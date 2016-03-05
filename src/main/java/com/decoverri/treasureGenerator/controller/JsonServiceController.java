@@ -16,8 +16,8 @@ import com.decoverri.treasureGenerator.logic.generator.TreasureGenerator;
 
 @Controller
 @Scope("request")
-@RequestMapping("/android")
-public class AndroidController {
+@RequestMapping("/json")
+public class JsonServiceController {
 	
 	@Autowired
 	private TreasureGenerator generator;
