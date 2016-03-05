@@ -83,14 +83,16 @@ import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 public class FitData {
 
-	private static final Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	private static final Session SESSION = HibernateUtil.getSessionFactory().getCurrentSession();
+	private static final String DATA_FOLDER = "jsonData/";
+	private static final String DATA_EXTENSION = ".json";
 	private static Transaction transaction;
 	
 	private XStream xstream = new XStream(new JettisonMappedXmlDriver());
 
 	@BeforeClass
 	public static void before() {
-		transaction = session.beginTransaction();
+		transaction = SESSION.beginTransaction();
 	}
 
 	@AfterClass
@@ -98,15 +100,19 @@ public class FitData {
 		transaction.commit();
 	}
 	
+	private String formatFileName(String fileName){
+		return DATA_FOLDER + fileName + DATA_EXTENSION;
+	}
+	
 	@Test
 	public void fitTreasureTypes() throws Exception {
-		TreasureTypeDao treasureTypesDao = new TreasureTypeDao(session);
-		TreasureTypeValueDao treasureTypeValueDao = new TreasureTypeValueDao(session);
+		TreasureTypeDao treasureTypesDao = new TreasureTypeDao(SESSION);
+		TreasureTypeValueDao treasureTypeValueDao = new TreasureTypeValueDao(SESSION);
 
 		xstream.alias("type", TreasureType.class);
 		xstream.alias("value", TreasureTypeValue.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/treasureTypes.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("treasureTypes")));
 		while (scanner.hasNextLine()) {
 			TreasureType type = (TreasureType) xstream.fromXML(scanner.nextLine());
 			treasureTypeValueDao.saveOrLoad(type.getValues());
@@ -118,12 +124,12 @@ public class FitData {
 	
 	@Test
 	public void fitGems() throws Exception {
-		GemstoneDao gemDao = new GemstoneDao(session);
-		GemGradeDao gradeDao = new GemGradeDao(session);
+		GemstoneDao gemDao = new GemstoneDao(SESSION);
+		GemGradeDao gradeDao = new GemGradeDao(SESSION);
 
 		xstream.alias("gem", Gemstone.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/gems.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("gems")));
 		while (scanner.hasNextLine()) {
 			Gemstone gem = (Gemstone) xstream.fromXML(scanner.nextLine());
 			if (!gemDao.exists(gem.getName())) {
@@ -141,11 +147,11 @@ public class FitData {
 	
 	@Test
 	public void fitArtObjects() throws Exception {
-		ArtObjectDao artDao = new ArtObjectDao(session);
+		ArtObjectDao artDao = new ArtObjectDao(SESSION);
 		
 		xstream.alias("art", ArtObject.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/artObjects.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("artObjects")));
 		while (scanner.hasNextLine()) {
 			ArtObject art = (ArtObject) xstream.fromXML(scanner.nextLine());
 			if (!artDao.exists(art.getName())) {
@@ -157,11 +163,11 @@ public class FitData {
 	
 	@Test
 	public void fitPotions() throws Exception {
-		PotionDao potionDao = new PotionDao(session);
+		PotionDao potionDao = new PotionDao(SESSION);
 
 		xstream.alias("potion", Potion.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potions.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("potions")));
 		while (scanner.hasNextLine()) {
 			Potion potion = (Potion) xstream.fromXML(scanner.nextLine());
 			potionDao.saveOrUpdate(potion);
@@ -171,11 +177,11 @@ public class FitData {
 	
 	@Test
 	public void fitPotionLevel() throws Exception {
-		PotionLevelDao potionDao = new PotionLevelDao(session);
+		PotionLevelDao potionDao = new PotionLevelDao(SESSION);
 
 		xstream.alias("potionlevel", PotionLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/potionLevel.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("potionLevel")));
 		while (scanner.hasNextLine()) {
 			PotionLevel potionLevel = (PotionLevel) xstream.fromXML(scanner.nextLine());
 			potionDao.saveOrUpdate(potionLevel);
@@ -185,11 +191,11 @@ public class FitData {
 	
 	@Test
 	public void fitScrolls() throws Exception {
-		ScrollDao scrollDao = new ScrollDao(session);
+		ScrollDao scrollDao = new ScrollDao(SESSION);
 
 		xstream.alias("scroll", Scroll.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrolls.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("scrolls")));
 		while (scanner.hasNextLine()) {
 			Scroll scroll = (Scroll) xstream.fromXML(scanner.nextLine());
 			scrollDao.saveOrUpdate(scroll);
@@ -199,11 +205,11 @@ public class FitData {
 	
 	@Test
 	public void fitScrollLevel() throws Exception {
-		ScrollLevelDao scrollDao = new ScrollLevelDao(session);
+		ScrollLevelDao scrollDao = new ScrollLevelDao(SESSION);
 
 		xstream.alias("scrolllevel", ScrollLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/scrollLevel.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("scrollLevel")));
 		while (scanner.hasNextLine()) {
 			ScrollLevel scrollLevel = (ScrollLevel) xstream.fromXML(scanner.nextLine());
 			scrollDao.saveOrUpdate(scrollLevel);
@@ -213,11 +219,11 @@ public class FitData {
 	
 	@Test
 	public void fitWands() throws Exception {
-		WandDao wandDao = new WandDao(session);
+		WandDao wandDao = new WandDao(SESSION);
 		
 		xstream.alias("wand", Wand.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wands.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("wands")));
 		while (scanner.hasNextLine()) {
 			Wand wand = (Wand) xstream.fromXML(scanner.nextLine());
 			wandDao.saveOrUpdate(wand);
@@ -227,11 +233,11 @@ public class FitData {
 	
 	@Test
 	public void fitWandLevel() throws Exception {
-		WandLevelDao wandDao = new WandLevelDao(session);
+		WandLevelDao wandDao = new WandLevelDao(SESSION);
 		
 		xstream.alias("wandlevel", WandLevel.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wandLevel.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("wandLevel")));
 		while (scanner.hasNextLine()) {
 			WandLevel wandLevel = (WandLevel) xstream.fromXML(scanner.nextLine());
 			wandDao.saveOrUpdate(wandLevel);
@@ -241,11 +247,11 @@ public class FitData {
 	
 	@Test
 	public void fitArmor() throws Exception {
-		ArmorDao armorDao = new ArmorDao(session);
+		ArmorDao armorDao = new ArmorDao(SESSION);
 		
 		xstream.alias("armor", Armor.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/armors.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("armors")));
 		while (scanner.hasNextLine()) {
 			Armor armor = (Armor) xstream.fromXML(scanner.nextLine());
 			armorDao.saveOrUpdate(armor);
@@ -255,11 +261,11 @@ public class FitData {
 	
 	@Test
 	public void fitSpecficArmor() throws Exception {
-		SpecificArmorDao armorDao = new SpecificArmorDao(session);
+		SpecificArmorDao armorDao = new SpecificArmorDao(SESSION);
 		
 		xstream.alias("armor", SpecificArmor.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/specificArmors.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("specificArmors")));
 		while (scanner.hasNextLine()) {
 			SpecificArmor armor = (SpecificArmor) xstream.fromXML(scanner.nextLine());
 			armorDao.saveOrUpdate(armor);
@@ -269,11 +275,11 @@ public class FitData {
 	
 	@Test
 	public void fitMagicArmorAbilities() throws Exception {
-		MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(session);
+		MagicArmorAbilityDao abilityDao = new MagicArmorAbilityDao(SESSION);
 		
 		xstream.alias("ability", MagicArmorAbility.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorAbilities.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("magicArmorAbilities")));
 		while (scanner.hasNextLine()) {
 			MagicArmorAbility ability = (MagicArmorAbility) xstream.fromXML(scanner.nextLine());
 			abilityDao.saveOrUpdate(ability);
@@ -283,11 +289,11 @@ public class FitData {
 	
 	@Test
 	public void fitMagicArmorStats() throws Exception {
-		MagicArmorStatsDao statsDao = new MagicArmorStatsDao(session);
+		MagicArmorStatsDao statsDao = new MagicArmorStatsDao(SESSION);
 		
 		xstream.alias("stats", MagicArmorStats.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicArmorStats.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("magicArmorStats")));
 		while (scanner.hasNextLine()) {
 			MagicArmorStats stats = (MagicArmorStats) xstream.fromXML(scanner.nextLine());
 			statsDao.saveOrUpdate(stats);
@@ -297,11 +303,11 @@ public class FitData {
 	
 	@Test
 	public void fitWeapons() throws Exception {
-		WeaponDao weaponDao = new WeaponDao(session);
+		WeaponDao weaponDao = new WeaponDao(SESSION);
 		
 		xstream.alias("weapon", Weapon.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/weapons.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("weapons")));
 		while (scanner.hasNextLine()) {
 			Weapon weapon = (Weapon) xstream.fromXML(scanner.nextLine());
 			weaponDao.saveOrUpdate(weapon);
@@ -311,11 +317,11 @@ public class FitData {
 	
 	@Test
 	public void fitSpecificWeapons() throws Exception {
-		SpecificWeaponDao weaponDao = new SpecificWeaponDao(session);
+		SpecificWeaponDao weaponDao = new SpecificWeaponDao(SESSION);
 		
 		xstream.alias("weapon", SpecificWeapon.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/specificWeapons.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("specificWeapons")));
 		while (scanner.hasNextLine()) {
 			SpecificWeapon weapon = (SpecificWeapon) xstream.fromXML(scanner.nextLine());
 			weaponDao.saveOrUpdate(weapon);
@@ -325,11 +331,11 @@ public class FitData {
 	
 	@Test
 	public void fitMagicWeaponAbilities() throws Exception {
-		MagicWeaponAbilityDao abilityDao = new MagicWeaponAbilityDao(session);
+		MagicWeaponAbilityDao abilityDao = new MagicWeaponAbilityDao(SESSION);
 		
 		xstream.alias("ability", MagicWeaponAbility.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponAbilities.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("magicWeaponAbilities")));
 		while (scanner.hasNextLine()) {
 			MagicWeaponAbility ability = (MagicWeaponAbility) xstream.fromXML(scanner.nextLine());
 			abilityDao.saveOrUpdate(ability);
@@ -339,11 +345,11 @@ public class FitData {
 	
 	@Test
 	public void fitFoes() throws Exception {
-		FoeDao foeDao = new FoeDao(session);
+		FoeDao foeDao = new FoeDao(SESSION);
 		
 		xstream.alias("foe", Foe.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/foes.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("foes")));
 		while (scanner.hasNextLine()) {
 			Foe foe = (Foe) xstream.fromXML(scanner.nextLine());
 			foeDao.saveOrUpdate(foe);
@@ -353,12 +359,12 @@ public class FitData {
 	
 	@Test
 	public void fitMagicWeaponStats() throws Exception {
-		MagicWeaponStatsDao statsDao = new MagicWeaponStatsDao(session);
+		MagicWeaponStatsDao statsDao = new MagicWeaponStatsDao(SESSION);
 		
 		xstream.alias("stats", MagicWeaponStats.class);
 		xstream.alias("int", Integer.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/magicWeaponStats.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("magicWeaponStats")));
 		while (scanner.hasNextLine()) {
 			MagicWeaponStats stats = (MagicWeaponStats) xstream.fromXML(scanner.nextLine());
 			statsDao.saveOrUpdate(stats);
@@ -368,11 +374,11 @@ public class FitData {
 	
 	@Test
 	public void fitWondrousItems() throws Exception {
-		WondrousItemDao itemDao = new WondrousItemDao(session);
+		WondrousItemDao itemDao = new WondrousItemDao(SESSION);
 		
 		xstream.alias("item", WondrousItem.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItems.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("wondrousItems")));
 		while (scanner.hasNextLine()) {
 			WondrousItem item = (WondrousItem) xstream.fromXML(scanner.nextLine());
 			itemDao.saveOrUpdate(item);
@@ -382,11 +388,11 @@ public class FitData {
 	
 	@Test
 	public void fitWondrousItemBodySlots() throws Exception {
-		WondrousItemBodySlotDao slotDao = new WondrousItemBodySlotDao(session);
+		WondrousItemBodySlotDao slotDao = new WondrousItemBodySlotDao(SESSION);
 		
 		xstream.alias("wondrousitemslot", WondrousItemBodySlot.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/wondrousItemBodySlots.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("wondrousItemBodySlots")));
 		while (scanner.hasNextLine()) {
 			WondrousItemBodySlot wondrousItemSlot = (WondrousItemBodySlot) xstream.fromXML(scanner.nextLine());
 			slotDao.saveOrUpdate(wondrousItemSlot);
@@ -396,11 +402,11 @@ public class FitData {
 	
 	@Test
 	public void fitRings() throws Exception {
-		RingDao ringDao = new RingDao(session);
+		RingDao ringDao = new RingDao(SESSION);
 		
 		xstream.alias("ring", Ring.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rings.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("rings")));
 		while (scanner.hasNextLine()) {
 			Ring ring = (Ring) xstream.fromXML(scanner.nextLine());
 			ringDao.saveOrUpdate(ring);
@@ -410,11 +416,11 @@ public class FitData {
 	
 	@Test
 	public void fitRods() throws Exception {
-		RodDao rodDao = new RodDao(session);
+		RodDao rodDao = new RodDao(SESSION);
 		
 		xstream.alias("rod", Rod.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/rods.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("rods")));
 		while (scanner.hasNextLine()) {
 			Rod rod = (Rod) xstream.fromXML(scanner.nextLine());
 			rodDao.saveOrUpdate(rod);
@@ -424,11 +430,11 @@ public class FitData {
 	
 	@Test
 	public void fitMetamagicRods() throws Exception {
-		MetamagicRodDao metamagicDao = new MetamagicRodDao(session);
+		MetamagicRodDao metamagicDao = new MetamagicRodDao(SESSION);
 		
 		xstream.alias("metamagic", MetamagicRod.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/metamagicRods.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("metamagicRods")));
 		while (scanner.hasNextLine()) {
 			MetamagicRod metamagic = (MetamagicRod) xstream.fromXML(scanner.nextLine());
 			metamagicDao.saveOrUpdate(metamagic);
@@ -438,11 +444,11 @@ public class FitData {
 	
 	@Test
 	public void fitStaves() throws Exception {
-		StaffDao staffDao = new StaffDao(session);
+		StaffDao staffDao = new StaffDao(SESSION);
 		
 		xstream.alias("staff", Staff.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/staves.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("staves")));
 		while (scanner.hasNextLine()) {
 			Staff staff = (Staff) xstream.fromXML(scanner.nextLine());
 			staffDao.saveOrUpdate(staff);
@@ -452,8 +458,8 @@ public class FitData {
 	
 	@Test
 	public void fitTreasures() throws Exception {
-		TreasureRewardDao rewardDao = new TreasureRewardDao(session);
-		GeneratorDataDao genDao = new GeneratorDataDao(session);
+		TreasureRewardDao rewardDao = new TreasureRewardDao(SESSION);
+		GeneratorDataDao genDao = new GeneratorDataDao(SESSION);
 		
 		
 		xstream.alias("reward", TreasureReward.class);
@@ -471,7 +477,7 @@ public class FitData {
 		xstream.alias("gemgenerator", GemstoneGeneratorData.class);
 		xstream.alias("artgenerator", ArtObjectGeneratorData.class);
 
-		Scanner scanner = new Scanner(new FileInputStream("dataInTxt/treasureReward.json"));
+		Scanner scanner = new Scanner(new FileInputStream(formatFileName("treasureReward")));
 		while (scanner.hasNextLine()) {
 			TreasureReward reward = (TreasureReward) xstream.fromXML(scanner.nextLine());
 
