@@ -23,6 +23,7 @@ public class JsonServiceController {
 	private TreasureGenerator generator;
 
 	@RequestMapping(value="/ping", method=RequestMethod.POST)
+	@ResponseBody
 	public void ping(){
 	}
 	
