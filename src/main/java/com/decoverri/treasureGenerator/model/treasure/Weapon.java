@@ -50,7 +50,7 @@ public class Weapon implements Treasure {
 	}
 
 	public String getName() {
-		return name;
+		return "Masterwork " + name;
 	}
 
 	public void setName(String name) {

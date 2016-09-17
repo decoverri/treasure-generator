@@ -46,7 +46,7 @@ public class Armor implements Treasure {
 	}
 
 	public String getName() {
-		return name;
+		return "Masterwork " + name;
 	}
 
 	public void setName(String name) {
