@@ -39,7 +39,7 @@
 				<tbody>
 					<c:forEach items="${treasures}" var="treasure" >
 						<tr class="result-list-item" >
-							<td class="result-list-name">${treasure.name}</td>
+							<td class="result-list-name">${treasure.treasureName}</td>
 							<td class="result-list-price"><fmt:formatNumber type="number" value="${treasure.treasureValue}" /> gp</td>
 						</tr>
 					</c:forEach>

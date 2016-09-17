@@ -2,7 +2,7 @@ package com.decoverri.treasureGenerator.interfaces;
 
 public interface Treasure {
 
-	public String getName();
+	public String getTreasureName();
 	
 	public double getTreasureValue();
 }

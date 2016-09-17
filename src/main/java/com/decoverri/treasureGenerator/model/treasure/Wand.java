@@ -90,7 +90,6 @@ public class Wand implements Treasure {
 		this.interval = interval;
 	}
 
-	@Override
 	public String getName() {
 		return "Wand of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (CL: " + casterLevel + ", 50 charges)";
 	};
@@ -99,4 +98,10 @@ public class Wand implements Treasure {
 	public String toString() {
 		return "Wand of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (CL: " + casterLevel + ", 50 charges, " + price + "gp)";
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

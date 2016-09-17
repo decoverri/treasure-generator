@@ -98,4 +98,10 @@ public class Rod implements Treasure, Cloneable {
 		rod.setStrength(strength);
 		return rod;
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

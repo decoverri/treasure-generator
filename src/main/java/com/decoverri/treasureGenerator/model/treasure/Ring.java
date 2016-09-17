@@ -76,4 +76,10 @@ public class Ring implements Treasure {
 	public String toString() {
 		return name + " (price: " + price + ")";
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

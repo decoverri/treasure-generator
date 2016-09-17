@@ -41,7 +41,6 @@ public class MagicWeapon implements Treasure {
 		this.magicalAbilities = magicalAbilities;
 	}
 
-	@Override
 	public String getName() {
 		StringBuilder builder = new StringBuilder();
 
@@ -87,5 +86,11 @@ public class MagicWeapon implements Treasure {
 
 		return result;
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 
 }

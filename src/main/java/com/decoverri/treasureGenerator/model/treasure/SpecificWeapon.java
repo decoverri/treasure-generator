@@ -87,4 +87,10 @@ public class SpecificWeapon implements Treasure, Cloneable {
 		specificWeapon.setInterval(interval);
 		return specificWeapon;
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

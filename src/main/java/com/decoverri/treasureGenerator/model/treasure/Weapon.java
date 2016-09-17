@@ -50,7 +50,7 @@ public class Weapon implements Treasure {
 	}
 
 	public String getName() {
-		return "Masterwork " + name;
+		return name;
 	}
 
 	public void setName(String name) {
@@ -113,4 +113,10 @@ public class Weapon implements Treasure {
 		String string = builder.toString();
 		return string.toUpperCase().substring(0, 1) + string.toLowerCase().substring(1);
 	}
+	
+	@Override
+	public String getTreasureName() {
+		return "Masterwork " + name.toLowerCase();
+	}
+
 }

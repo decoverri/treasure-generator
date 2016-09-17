@@ -64,7 +64,6 @@ public class Coins implements Treasure {
 		return currency;
 	}
 
-	@Override
 	public String getName() {
 		return (NumberFormat.getInstance(Locale.ENGLISH).format(amount) + " " + currency).toLowerCase();
 	}
@@ -73,4 +72,10 @@ public class Coins implements Treasure {
 	public String toString() {
 		return getName();
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

@@ -90,4 +90,9 @@ public class SpecificArmor implements Treasure {
 		return this.name + " (price " + this.price + "gp)";
 	}
 
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

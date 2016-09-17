@@ -41,7 +41,6 @@ public class MagicArmor implements Treasure {
 		this.magicalAbilities = magicalAbilities;
 	}
 
-	@Override
 	public String getName() {
 		StringBuilder builder = new StringBuilder();
 
@@ -80,6 +79,11 @@ public class MagicArmor implements Treasure {
 		result += (bonusForPrice * bonusForPrice * 1000.0);
 
 		return result;
+	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
 	}
 
 }

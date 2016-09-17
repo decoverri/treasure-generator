@@ -14,7 +14,7 @@ public class JsonConverter {
 		jsonStringer.object().key("treasures").array();
 		for (Treasure treasure : treasures) {
 			jsonStringer.object()
-						.key("name").value(treasure.getName())
+						.key("name").value(treasure.getTreasureName())
 						.key("value").value(treasure.getTreasureValue())
 						.endObject();
 		}

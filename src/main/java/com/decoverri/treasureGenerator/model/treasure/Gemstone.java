@@ -81,4 +81,10 @@ public class Gemstone implements Treasure {
 		return name + " (worth " + value + "gp)";
 	}
 
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
+
 }

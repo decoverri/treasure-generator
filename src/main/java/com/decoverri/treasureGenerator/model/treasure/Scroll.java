@@ -102,7 +102,6 @@ public class Scroll implements Treasure {
 		this.interval = interval;
 	}
 
-	@Override
 	public String getName() {
 		return "Scroll of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (" + type + ", CL: " + casterLevel + ")";
 	};
@@ -111,5 +110,11 @@ public class Scroll implements Treasure {
 	public String toString() {
 		return "Scroll of " + spell.toLowerCase().substring(0,1) + spell.substring(1) + " (" + type + ", CL: " + casterLevel + ", " + price + "gp)";
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 	
 }

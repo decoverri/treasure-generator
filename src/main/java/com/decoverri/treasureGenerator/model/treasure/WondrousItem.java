@@ -98,4 +98,10 @@ public class WondrousItem implements Treasure {
 		builder.append("price " + price + "gp)");
 		return builder.toString();
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

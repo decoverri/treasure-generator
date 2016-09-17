@@ -76,4 +76,10 @@ public class Staff implements Treasure {
 	public String toString() {
 		return name + " (" + price + "gp)";
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }

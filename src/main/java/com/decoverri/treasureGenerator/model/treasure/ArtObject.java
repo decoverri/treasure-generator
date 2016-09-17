@@ -75,4 +75,10 @@ public class ArtObject implements Treasure {
 	public String toString() {
 		return name + " (worth " + price + "gp)";
 	}
+
+	@Override
+	public String getTreasureName() {
+		return getName();
+	}
+
 }
