@@ -119,13 +119,13 @@
 								<artifactItem>
 									<groupId>com.github.jsimone</groupId>
 									<artifactId>webapp-runner</artifactId>
-									<version>7.0.34.0</version>
+									<version>9.0.8.1</version>
 									<destFileName>webapp-runner.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.mortbay.jetty</groupId>
 									<artifactId>jetty-runner</artifactId>
-									<version>7.4.5.v20110725</version>
+									<version>9.4.11.v20180605</version>
 									<destFileName>jetty-runner.jar</destFileName>
 								</artifactItem>
 							</artifactItems>
