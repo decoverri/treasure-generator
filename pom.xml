@@ -125,7 +125,7 @@
 								<artifactItem>
 									<groupId>org.mortbay.jetty</groupId>
 									<artifactId>jetty-runner</artifactId>
-									<version>9.4.11.v20180605</version>
+									<version>7.6.21.v20160908</version>
 									<destFileName>jetty-runner.jar</destFileName>
 								</artifactItem>
 							</artifactItems>
