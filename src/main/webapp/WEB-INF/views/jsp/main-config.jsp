@@ -5,4 +5,4 @@
 
 <link href='http://fonts.googleapis.com/css?family=MedievalSharp|Alegreya:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<c:url value="/resources/css/reset.css"/>">
-<link rel="stylesheet" href="<c:url value="/resources/css/base.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/base.css"/>" >
